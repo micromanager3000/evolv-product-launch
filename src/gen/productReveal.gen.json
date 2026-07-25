@@ -4,7 +4,10 @@
   "model": "seedance-2.0",
   "prompt": "@Image1 is the exact first frame: a matte graphite neckband wearable floating over a deep navy studio gradient with a teal rim light and faint concentric teal wave rings. Animate it as one continuous, silent, weightless 8-second product shot. The product's shape, finish, and position stay EXACT — no morphing, no redesign. Motion, precisely: the neckband drifts with imperceptible slow float, at most a few pixels; the concentric teal rings pulse outward calmly, one new ring every 2 seconds, fading as they travel; between 00:02.0 and 00:05.0 a single thin light sweep travels along the collar's inner edge from left paddle to right paddle; the camera pushes in about 8 percent across the full 8 seconds, perfectly smooth. Nothing else moves; the background stays a still navy gradient. Premium, minimal, precise. No hands, no people, no text, no flares, no particles, no cuts.",
   "refs": [
-    { "kind": "image", "src": "comp://productStill" }
+    {
+      "kind": "image",
+      "src": "comp://productStill"
+    }
   ],
   "tier": "fast",
   "resolution": "720p",
@@ -12,5 +15,5 @@
   "aspect": "16:9",
   "audio": false,
   "fps": 30,
-  "take": 0
+  "take": 1
 }

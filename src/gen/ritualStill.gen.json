@@ -4,9 +4,12 @@
   "model": "seedream-5.0-pro",
   "prompt": "@Image1 is the exact product: a matte graphite neckband wearable with two flat paddles and a thin teal light line. Create a photoreal 16:9 live-action frame: a woman seen from behind and slightly to the side, framed from shoulder blades to the back of her head — her face is never visible, not even in profile. Both hands are raised, lifting the exact graphite neckband to settle it around the base of her neck, the paddles coming to rest on her collarbones. Focus on the nape, wisps of hair tucked away, the collar just touching skin. Calm morning bedroom: soft window daylight from the left, linen and warm-white tones softly out of focus behind. 85mm lens, shallow depth of field, natural skin texture, quiet color, fine 35mm grain. The product's design must match @Image1 exactly. No face, no mirror reflection of a face, no text, no jewelry, no second person.",
   "refs": [
-    { "kind": "image", "src": "asset://device-render" }
+    {
+      "kind": "image",
+      "src": "asset://device-render"
+    }
   ],
   "aspect": "16:9",
   "fps": 30,
-  "take": 0
+  "take": 1
 }
