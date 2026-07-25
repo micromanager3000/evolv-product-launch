@@ -1,0 +1,615 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "s1-drift",
+      "name": "S1 \u00b7 savannah drift",
+      "from": 0,
+      "durationInFrames": 300,
+      "layer": 0,
+      "trimStart": 0,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "savannahDrift"
+      }
+    },
+    {
+      "id": "s1-threat",
+      "name": "S1 \u00b7 the burst (punch-in)",
+      "from": 216,
+      "durationInFrames": 84,
+      "layer": 1,
+      "trimStart": 0,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "savannahThreat"
+      }
+    },
+    {
+      "id": "kicker-origin",
+      "name": "Kicker \u00b7 where you evolved",
+      "from": 24,
+      "durationInFrames": 252,
+      "layer": 3,
+      "layout": {
+        "rect": [
+          96,
+          84,
+          520,
+          74
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "layers",
+        "label": "Kicker \u00b7 where you evolved"
+      }
+    },
+    {
+      "id": "s2-city",
+      "name": "S2 \u00b7 city overload",
+      "from": 300,
+      "durationInFrames": 360,
+      "layer": 0,
+      "trimStart": 0,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "cityOverload"
+      }
+    },
+    {
+      "id": "s2-storm",
+      "name": "S2 \u00b7 notification storm overlay",
+      "from": 390,
+      "durationInFrames": 270,
+      "layer": 2,
+      "trimStart": 0,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "notification-storm"
+      }
+    },
+    {
+      "id": "kicker-now",
+      "name": "Kicker \u00b7 where you live",
+      "from": 312,
+      "durationInFrames": 324,
+      "layer": 3,
+      "layout": {
+        "rect": [
+          96,
+          84,
+          520,
+          74
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "layers",
+        "label": "Kicker \u00b7 where you live"
+      }
+    },
+    {
+      "id": "s3-brain",
+      "name": "S3 \u00b7 same alarm (brain scene)",
+      "from": 660,
+      "durationInFrames": 360,
+      "layer": 0,
+      "trimStart": 0,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "brain-loop"
+      }
+    },
+    {
+      "id": "s4-product",
+      "name": "S4 \u00b7 product reveal",
+      "from": 1020,
+      "durationInFrames": 450,
+      "layer": 0,
+      "trimStart": 0,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "productReveal"
+      }
+    },
+    {
+      "id": "s4-waves",
+      "name": "S4 \u00b7 beta\u2192alpha wave overlay",
+      "from": 1080,
+      "durationInFrames": 390,
+      "layer": 2,
+      "trimStart": 0,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "alpha-waves"
+      }
+    },
+    {
+      "id": "vcmf-chip",
+      "name": "VCMF claim chip",
+      "from": 1050,
+      "durationInFrames": 240,
+      "layer": 3,
+      "layout": {
+        "rect": [
+          612,
+          92,
+          696,
+          56
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "layers",
+        "label": "VCMF claim chip"
+      }
+    },
+    {
+      "id": "stat-chips",
+      "name": "Trial stat chips",
+      "from": 1290,
+      "durationInFrames": 180,
+      "layer": 3,
+      "layout": {
+        "rect": [
+          330,
+          84,
+          1260,
+          140
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "layers",
+        "label": "Trial stat chips"
+      }
+    },
+    {
+      "id": "s5-ritual",
+      "name": "S5 \u00b7 collar on (nape)",
+      "from": 1470,
+      "durationInFrames": 120,
+      "layer": 0,
+      "trimStart": 0,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "ritualOn"
+      }
+    },
+    {
+      "id": "s5-desk",
+      "name": "S5 \u00b7 desk arc",
+      "from": 1590,
+      "durationInFrames": 120,
+      "layer": 0,
+      "trimStart": 0,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "deskFocus"
+      }
+    },
+    {
+      "id": "ritual-steps",
+      "name": "Routine steps",
+      "from": 1494,
+      "durationInFrames": 216,
+      "layer": 3,
+      "layout": {
+        "rect": [
+          360,
+          924,
+          1200,
+          64
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "layers",
+        "label": "Routine steps"
+      }
+    },
+    {
+      "id": "proof-kicker",
+      "name": "Kicker \u00b7 real people",
+      "from": 1710,
+      "durationInFrames": 240,
+      "layer": 3,
+      "layout": {
+        "rect": [
+          615,
+          96,
+          690,
+          48
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "layers",
+        "label": "Kicker \u00b7 real people"
+      }
+    },
+    {
+      "id": "s6-valerie-still",
+      "name": "S6 \u00b7 Valerie (real still)",
+      "from": 1710,
+      "durationInFrames": 120,
+      "layer": 1,
+      "layout": {
+        "rect": [
+          180,
+          330,
+          590,
+          310
+        ],
+        "fit": "cover",
+        "cornerRadius": 16,
+        "opacity": 1
+      },
+      "content": {
+        "type": "image",
+        "src": "asset://valerie-still"
+      }
+    },
+    {
+      "id": "quote-valerie",
+      "name": "Quote \u00b7 Valerie",
+      "from": 1710,
+      "durationInFrames": 120,
+      "layer": 3,
+      "layout": {
+        "rect": [
+          1000,
+          330,
+          780,
+          340
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "layers",
+        "label": "Quote \u00b7 Valerie"
+      }
+    },
+    {
+      "id": "s6-fredrik-still",
+      "name": "S6 \u00b7 Fredrik (real still)",
+      "from": 1830,
+      "durationInFrames": 120,
+      "layer": 1,
+      "layout": {
+        "rect": [
+          180,
+          330,
+          570,
+          310
+        ],
+        "fit": "cover",
+        "cornerRadius": 16,
+        "opacity": 1
+      },
+      "content": {
+        "type": "image",
+        "src": "asset://fredrik-still"
+      }
+    },
+    {
+      "id": "quote-fredrik",
+      "name": "Quote \u00b7 Fredrik",
+      "from": 1830,
+      "durationInFrames": 120,
+      "layer": 3,
+      "layout": {
+        "rect": [
+          1000,
+          330,
+          780,
+          340
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "layers",
+        "label": "Quote \u00b7 Fredrik"
+      }
+    },
+    {
+      "id": "s7-endcard",
+      "name": "S7 \u00b7 end card",
+      "from": 1950,
+      "durationInFrames": 150,
+      "layer": 0,
+      "trimStart": 0,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "end-card"
+      }
+    },
+    {
+      "id": "s7-logo",
+      "name": "S7 \u00b7 wordmark (real asset)",
+      "from": 1974,
+      "durationInFrames": 126,
+      "layer": 2,
+      "layout": {
+        "rect": [
+          660,
+          462,
+          600,
+          139
+        ],
+        "fit": "contain",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "image",
+        "src": "asset://logo-white"
+      }
+    },
+    {
+      "id": "vo-origin",
+      "name": "VO \u00b7 origin",
+      "from": 0,
+      "durationInFrames": 300,
+      "layer": 0,
+      "volume": 1,
+      "content": {
+        "type": "nested",
+        "composition": "voOrigin"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "vo-now",
+      "name": "VO \u00b7 now",
+      "from": 300,
+      "durationInFrames": 360,
+      "layer": 0,
+      "volume": 1,
+      "content": {
+        "type": "nested",
+        "composition": "voNow"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "vo-brain",
+      "name": "VO \u00b7 brain",
+      "from": 660,
+      "durationInFrames": 360,
+      "layer": 0,
+      "volume": 1,
+      "content": {
+        "type": "nested",
+        "composition": "voBrain"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "vo-solution",
+      "name": "VO \u00b7 solution",
+      "from": 1020,
+      "durationInFrames": 450,
+      "layer": 0,
+      "volume": 1,
+      "content": {
+        "type": "nested",
+        "composition": "voSolution"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "vo-ritual",
+      "name": "VO \u00b7 ritual",
+      "from": 1470,
+      "durationInFrames": 210,
+      "layer": 0,
+      "volume": 1,
+      "content": {
+        "type": "nested",
+        "composition": "voRitual"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "vo-close",
+      "name": "VO \u00b7 close",
+      "from": 1950,
+      "durationInFrames": 150,
+      "layer": 0,
+      "volume": 1,
+      "content": {
+        "type": "nested",
+        "composition": "voClose"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    }
+  ]
+}

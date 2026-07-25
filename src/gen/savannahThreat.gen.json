@@ -1,0 +1,14 @@
+{
+  "provider": "fal",
+  "output": "video",
+  "model": "seedance-2.0",
+  "prompt": "One 4-second live-action wildlife shot on the same golden-dawn African savannah as a preceding aerial: dry gold grass, low warm sun, thin haze. Ground level, 400mm long-lens compression, shallow depth. TWO BEATS, EXACT TIMING: 00:00.0–00:01.2 — total stillness; a gazelle stands alert in tall backlit grass, ears up, one held breath. 00:01.2–00:04.0 — a lioness explodes from the grass camera-left and the gazelle herd scatters right in a burst of dust and pounding legs; the camera whip-pans a few degrees to follow, motion blur on limbs, dust hanging gold in the rim light. Raw documentary energy, natural exposure, fine 35mm grain. No kill shown, no blood, no people, no text, no slow motion, no animation look.",
+  "refs": [],
+  "tier": "fast",
+  "resolution": "720p",
+  "duration": 4,
+  "aspect": "16:9",
+  "audio": false,
+  "fps": 30,
+  "take": 0
+}

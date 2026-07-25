@@ -1,0 +1,49 @@
+<!doctype html><html><head><style>
+ [data-fd-composition]{position:relative;overflow:hidden;background:transparent;color:#F5F2EE;font-family:-apple-system,"SF Pro Display","Segoe UI",sans-serif}
+ .band{position:absolute;left:0;right:0;top:660px;height:340px}
+ .band svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+ .lbl{position:absolute;top:24px;font:800 12.5px ui-monospace;letter-spacing:2px;padding:6px 12px;border-radius:999px;background:rgba(13,27,42,.72);border:1px solid rgba(245,242,238,.16)}
+ .lbl.beta{left:120px;color:#F59E0B;border-color:rgba(245,158,11,.45)}
+ .lbl.alpha{right:120px;color:#00B4B4;border-color:rgba(0,180,180,.5)}
+ .hz{position:absolute;left:50%;transform:translateX(-50%);top:24px;font:800 11px ui-monospace;letter-spacing:2px;color:#9CA3AF;background:rgba(13,27,42,.72);border:1px solid rgba(245,242,238,.14);border-radius:999px;padding:6px 12px}
+</style></head><body>
+<!-- Alpha overlay: composites over the product reveal in launch-edit. One polyline morphs from
+     jagged beta to a smooth 10 Hz alpha sine as the field "takes"; everything is a pure
+     function of the frame, so scrub/preview/export agree exactly. -->
+<main data-fd-composition data-fd-id="AlphaWaves" data-fd-name="Beta→alpha wave overlay" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="450" data-fd-kind="custom" data-fd-library="true" data-fd-alpha="true" data-fd-timeline="hidden" data-fd-transport="always" data-fd-source="src/compositions/AlphaWaves.html" data-fd-module="src/compositions/AlphaWaves.ts" data-fd-export="alphaWavesComp">
+ <div class="band">
+  <svg viewBox="0 0 1920 340">
+   <line x1="0" y1="170" x2="1920" y2="170" stroke="rgba(245,242,238,.14)" stroke-width="1.5" stroke-dasharray="4 8"/>
+   <polyline id="trace" points="" fill="none" stroke="#F59E0B" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+   <polyline id="ghost" points="" fill="none" stroke="#F59E0B" stroke-width="2" opacity=".28" stroke-linejoin="round"/>
+  </svg>
+  <span class="lbl beta" data-fd-id="wave-beta-label">BETA · 22 Hz · ON ALERT</span>
+  <span class="lbl alpha" data-fd-id="wave-alpha-label">ALPHA · 10 Hz · CALM</span>
+  <span class="hz" data-fd-id="wave-field-label">VCMF™ FIELD ACTIVE · 8–30 Hz · NEVER-REPEATING</span>
+ </div>
+ <script>
+  const trace=query("#trace"),ghost=query("#ghost"),beta=query(".lbl.beta"),alpha=query(".lbl.alpha"),hz=query(".hz");
+  const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+  onFrame(({frame})=>{
+   // settle progress: hold beta 0–60, morph 60–330, hold alpha to the end
+   const p=ease(Math.max(0,Math.min(1,(frame-60)/270)));
+   const pts=[],ghostPts=[];
+   for(let x=0;x<=1920;x+=8){
+    // beta: fast, cluttered with harmonics · alpha: one slow clean sine — blended by p
+    const betaY=Math.sin(x*.085+frame*.62)*30+Math.sin(x*.19+frame*.94)*16+Math.sin(x*.042-frame*.37)*12;
+    const alphaY=Math.sin(x*.0165-frame*.21)*62;
+    const y=170+betaY*(1-p)+alphaY*p;
+    pts.push(x+","+y.toFixed(1));
+    ghostPts.push(x+","+(170+(betaY*(1-p)+alphaY*p)*1.35).toFixed(1));
+   }
+   trace.setAttribute("points",pts.join(" "));
+   ghost.setAttribute("points",ghostPts.join(" "));
+   // amber → teal as the rhythm settles
+   const r=Math.round(245-245*p),g=Math.round(158+22*p),b=Math.round(11+169*p);
+   trace.setAttribute("stroke",`rgb(${r},${g},${b})`);ghost.setAttribute("stroke",`rgb(${r},${g},${b})`);
+   beta.style.opacity=String(1-p*.85);
+   alpha.style.opacity=String(.15+p*.85);
+   hz.style.opacity=String(Math.max(0,Math.min(1,(frame-20)/25)));
+  });
+ </script>
+</main></body></html>

@@ -1,0 +1,71 @@
+<!doctype html><html><head><style>
+ [data-fd-composition]{position:relative;overflow:hidden;background:#0D1B2A;color:#F5F2EE;font-family:-apple-system,"SF Pro Display","Segoe UI",sans-serif}
+ /* --- scene kickers ------------------------------------------------------------------ */
+ .kicker{position:absolute;left:96px;top:84px;width:520px;height:74px}
+ .kicker small{display:block;font:800 13px ui-monospace;letter-spacing:3px;color:#F5F2EE;text-shadow:0 2px 14px rgba(0,0,0,.7)}
+ .kicker .rule{width:64px;height:3px;margin-top:10px;background:#00B4B4}
+ .kicker.warm .rule{background:#F59E0B}
+ /* --- S4 claim chips ----------------------------------------------------------------- */
+ .vcmf{position:absolute;left:612px;top:92px;width:696px;height:56px;display:grid;place-items:center;font:800 12.5px ui-monospace;letter-spacing:2px;color:#00B4B4;background:rgba(13,27,42,.72);border:1px solid rgba(0,180,180,.5);border-radius:999px}
+ .stats{position:absolute;left:330px;top:84px;width:1260px;height:140px;text-align:center}
+ .stats .row{display:flex;justify-content:center;gap:18px}
+ .stat{background:rgba(13,27,42,.78);border:1px solid rgba(245,242,238,.18);border-radius:14px;padding:14px 26px}
+ .stat b{display:block;font-family:Georgia,"Times New Roman",serif;font-size:30px;color:#00B4B4}
+ .stat small{display:block;font:800 10px ui-monospace;letter-spacing:1.6px;color:#9CA3AF;margin-top:3px}
+ .stats .src{margin-top:9px;font:10.5px ui-monospace;letter-spacing:1px;color:#9CA3AF;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+ /* --- S5 routine steps --------------------------------------------------------------- */
+ .steps{position:absolute;left:360px;top:924px;width:1200px;height:64px;display:flex;justify-content:center;gap:14px}
+ .step{display:flex;align-items:center;gap:10px;background:rgba(13,27,42,.78);border:1px solid rgba(245,242,238,.18);border-radius:999px;padding:12px 22px;font-size:14.5px;font-weight:600}
+ .step i{font:800 11px ui-monospace;color:#00B4B4;font-style:normal}
+ /* --- S6 testimonial cards ----------------------------------------------------------- */
+ .proofk{position:absolute;left:615px;top:96px;width:690px;height:48px;text-align:center;font:800 13px ui-monospace;letter-spacing:3px;color:#00B4B4}
+ .quote{position:absolute;left:1000px;top:330px;width:780px;height:340px}
+ .quote blockquote{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:33px;line-height:1.32;font-weight:500}
+ .quote blockquote:before{content:"“";color:#00B4B4}
+ .quote blockquote:after{content:"”";color:#00B4B4}
+ .quote .who{margin-top:18px;font-size:15px;font-weight:700}
+ .quote .role{font-size:12.5px;color:#9CA3AF;margin-top:2px}
+ .quote .delta{display:inline-block;margin-top:14px;font:800 12px ui-monospace;letter-spacing:1px;color:#F59E0B;border:1px solid rgba(245,158,11,.45);border-radius:999px;padding:5px 12px}
+</style></head><body>
+<!-- The film itself: every visual is a timeline item (nested gen clips, authored overlay
+     comps, real testimonial stills, the wordmark). This HTML carries only the in-film
+     typography — kickers, claim chips, quotes — as `layers` items placed by the timeline. -->
+<main data-fd-composition data-fd-id="LaunchEdit" data-fd-name="Evolv28 — launch film" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="2100" data-fd-kind="edit" data-fd-source="src/compositions/LaunchEdit.html" data-fd-module="src/compositions/LaunchEdit.ts" data-fd-export="launchEditComp" data-fd-timeline-source="src/compositions/LaunchEdit.timeline.json">
+
+ <div class="kicker" data-fd-clip data-fd-id="kicker-origin" data-fd-name="Kicker · where you evolved" data-fd-type="layers"><small>WHERE YOU EVOLVED</small><div class="rule"></div></div>
+ <div class="kicker warm" data-fd-clip data-fd-id="kicker-now" data-fd-name="Kicker · where you live" data-fd-type="layers"><small>WHERE YOU LIVE NOW</small><div class="rule"></div></div>
+
+ <div class="vcmf" data-fd-clip data-fd-id="vcmf-chip" data-fd-name="VCMF claim chip" data-fd-type="layers">PATENTED VCMF™ · UNDER 1 μT · NO SENSATION · DAYTIME WEAR</div>
+
+ <div class="stats" data-fd-clip data-fd-id="stat-chips" data-fd-name="Trial stat chips" data-fd-type="layers">
+  <div class="row">
+   <div class="stat"><b>HRV ↑</b><small>HEART-RATE VARIABILITY</small></div>
+   <div class="stat"><b>−7.2 pts</b><small>INSOMNIA SEVERITY (ISI)</small></div>
+   <div class="stat"><b>+45 min</b><small>SLEEP · EVERY NIGHT</small></div>
+  </div>
+  <div class="src">PLACEBO-CONTROLLED, PEER-REVIEWED RCT · PUBMED PMC10307909</div>
+ </div>
+
+ <div class="steps" data-fd-clip data-fd-id="ritual-steps" data-fd-name="Routine steps" data-fd-type="layers">
+  <span class="step"><i>01</i> Put it on</span>
+  <span class="step"><i>02</i> Press the button</span>
+  <span class="step"><i>03</i> Go live your day</span>
+ </div>
+
+ <div class="proofk" data-fd-clip data-fd-id="proof-kicker" data-fd-name="Kicker · real people" data-fd-type="layers">REAL PEOPLE · REAL NIGHTS</div>
+
+ <div class="quote" data-fd-clip data-fd-id="quote-valerie" data-fd-name="Quote · Valerie" data-fd-type="layers">
+  <blockquote>My sleep increased by more than two hours a night. This device changed my life.</blockquote>
+  <div class="who">Valerie Cartonio</div>
+  <div class="role">Mental Health Correctional Counselor · insomnia since childhood</div>
+  <span class="delta">5h 34m → 7h 56m · +2h 22m EVERY NIGHT</span>
+ </div>
+
+ <div class="quote" data-fd-clip data-fd-id="quote-fredrik" data-fd-name="Quote · Fredrik" data-fd-type="layers">
+  <blockquote>I haven't slept 8 hours in 20 years. Getting my sleep back gave me my day back.</blockquote>
+  <div class="who">Fredrik Regnell</div>
+  <div class="role">Sales &amp; Access Manager · 20-year insomnia · Sweden</div>
+  <span class="delta">DAYTIME WEAR · 4+ HOURS</span>
+ </div>
+
+</main></body></html>

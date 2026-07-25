@@ -1,0 +1,16 @@
+{
+  "provider": "fal",
+  "output": "video",
+  "model": "seedance-2.0",
+  "prompt": "@Image1 is the exact first frame: a man works at his desk in a bright office, wearing a matte graphite neckband with a thin teal light line, seen from front-left of him. Animate one continuous, calm 6-second shot: the camera arcs slowly around toward his back-right shoulder, ending slightly behind and above it so his screen and the neckband on the back of his neck are both visible — a gentle over-the-shoulder reveal. He types unhurried, pauses once to read, breathes easily; his posture is relaxed, not slumped. The neckband's teal line glows steadily. Soft daylight from the windows, monitor glow subtle, shallow depth. The product, his clothing, and the room must match @Image1 exactly. Settled, focused, quietly confident. No cuts, no text, no other people in focus, no camera shake.",
+  "refs": [
+    { "kind": "image", "src": "asset://lifestyle-desk" }
+  ],
+  "tier": "fast",
+  "resolution": "720p",
+  "duration": 6,
+  "aspect": "16:9",
+  "audio": false,
+  "fps": 30,
+  "take": 0
+}

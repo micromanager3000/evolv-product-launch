@@ -1,0 +1,194 @@
+{
+  "camera": { "x": 40, "y": 20, "zoom": 0.5 },
+  "items": [
+    {
+      "id": "note-brief",
+      "type": "note",
+      "x": 110,
+      "y": 130,
+      "rotation": -1.1,
+      "width": 340,
+      "text": "BRIEF — 70s launch film for Evolv28, 1920×1080 @ 30. One message: your alarm system is ancient; Evolv28 switches it off at the source. Arc: CALM → CHAOS → CAUSE → CALM, BY DESIGN."
+    },
+    {
+      "id": "savannah-reference",
+      "type": "image",
+      "x": 520,
+      "y": 110,
+      "rotation": -0.6,
+      "width": 640,
+      "height": 358,
+      "src": "asset://savannah-dawn",
+      "mime": "image/png",
+      "alt": "Pristine savannah at golden dawn, river and acacias",
+      "text": "ORIGIN WORLD — imported key frame; savannahDrift animates exactly this. Gold, haze, patience."
+    },
+    {
+      "id": "device-reference",
+      "type": "image",
+      "x": 1230,
+      "y": 150,
+      "rotation": 0.8,
+      "width": 480,
+      "height": 270,
+      "src": "asset://device-render",
+      "mime": "image/webp",
+      "alt": "Evolv28 matte graphite neckband render",
+      "text": "THE PRODUCT — matte graphite collar, thin teal light line. Every gen recipe stages THIS design."
+    },
+    {
+      "id": "logo-reference",
+      "type": "image",
+      "x": 1790,
+      "y": 210,
+      "rotation": -0.9,
+      "width": 470,
+      "height": 109,
+      "src": "asset://logo-white",
+      "mime": "image/png",
+      "alt": "evolv28 wordmark with coral smile",
+      "text": "WORDMARK — white on navy, coral smile. Real asset lands in the end card; never redrawn."
+    },
+    {
+      "id": "note-palette",
+      "type": "note",
+      "x": 110,
+      "y": 480,
+      "rotation": 0.9,
+      "width": 340,
+      "text": "PALETTE (site tokens) — navy #0D1B2A · navy-mid #122436 · teal #00B4B4 · offwhite #F5F2EE · amber #F59E0B · coral #EE6C4D. Savannah scenes run warm gold; city runs cold cyan; product scenes own the navy + teal."
+    },
+    {
+      "id": "onbody-reference",
+      "type": "image",
+      "x": 520,
+      "y": 540,
+      "rotation": 0.7,
+      "width": 300,
+      "height": 400,
+      "src": "asset://portrait-profile",
+      "mime": "image/png",
+      "alt": "Profile of a man wearing the Evolv28 collar",
+      "text": "ON-BODY — sits like headphones, disappears into the day."
+    },
+    {
+      "id": "desk-reference",
+      "type": "image",
+      "x": 860,
+      "y": 540,
+      "rotation": -0.8,
+      "width": 300,
+      "height": 400,
+      "src": "asset://lifestyle-desk",
+      "mime": "image/png",
+      "alt": "Man working at a desk wearing the collar",
+      "text": "S5 PLATE — deskFocus animates this exact site photo (over-shoulder arc)."
+    },
+    {
+      "id": "guide-reference",
+      "type": "image",
+      "x": 1200,
+      "y": 540,
+      "rotation": 0.6,
+      "width": 300,
+      "height": 480,
+      "src": "asset://lifestyle-guide",
+      "mime": "image/png",
+      "alt": "Woman at a bright desk wearing the collar",
+      "text": "DAY-IN-LIFE — bright, linen, unhurried. The ritual scene borrows this light."
+    },
+    {
+      "id": "calm-reference",
+      "type": "image",
+      "x": 1540,
+      "y": 540,
+      "rotation": -0.5,
+      "width": 300,
+      "height": 468,
+      "src": "asset://lifestyle-calm",
+      "mime": "image/png",
+      "alt": "Older man reading calmly wearing the collar",
+      "text": "TONE — calm is the product. Nobody performs wellness at the camera."
+    },
+    {
+      "id": "note-voice",
+      "type": "note",
+      "x": 1900,
+      "y": 520,
+      "rotation": 1.2,
+      "width": 330,
+      "text": "VOICE — one narrator, woman mid-40s, low and warm, close-mic, unhurried, quietly wry. Documentary calm, never salesy. Pin voOrigin first; voNow→voClose clone it via comp://voOrigin."
+    },
+    {
+      "id": "note-sound",
+      "type": "note",
+      "x": 1900,
+      "y": 860,
+      "rotation": -0.8,
+      "width": 330,
+      "text": "SOUND — savannah air → city clatter piling with the storm overlay → near-silence on the button press → soft low alpha hum to the end card. Music bed: TODO, drop as asset://music-bed and add the timeline row."
+    },
+    {
+      "id": "note-type",
+      "type": "note",
+      "x": 110,
+      "y": 950,
+      "rotation": -0.7,
+      "width": 340,
+      "text": "TYPE — site sets Fraunces (display serif) + Inter (sans). Comps approximate with Georgia + system sans until licensed woff2s land in public/fonts. Chips and timecodes: ui-monospace."
+    },
+    {
+      "id": "note-structure",
+      "type": "note",
+      "x": 490,
+      "y": 1010,
+      "rotation": 0.8,
+      "width": 300,
+      "text": "STRUCTURE — 1 origin (10s) · 2 overload (12s) · 3 same alarm (12s) · 4 calm, engineered (15s) · 5 routine (8s) · 6 real people (8s) · 7 get yours (5s)."
+    },
+    {
+      "id": "valerie-reference",
+      "type": "image",
+      "x": 830,
+      "y": 1010,
+      "rotation": -1,
+      "width": 320,
+      "height": 168,
+      "src": "asset://valerie-still",
+      "mime": "image/jpeg",
+      "alt": "Valerie Cartonio webcam still",
+      "text": "VALERIE — “My sleep increased by more than two hours a night.”"
+    },
+    {
+      "id": "fredrik-reference",
+      "type": "image",
+      "x": 1190,
+      "y": 1010,
+      "rotation": 0.9,
+      "width": 320,
+      "height": 174,
+      "src": "asset://fredrik-still",
+      "mime": "image/jpeg",
+      "alt": "Fredrik Regnell webcam still",
+      "text": "FREDRIK — “Getting my sleep back gave me my day back.”"
+    },
+    {
+      "id": "note-claims",
+      "type": "note",
+      "x": 1550,
+      "y": 1060,
+      "rotation": -1.2,
+      "width": 330,
+      "text": "CLAIMS DISCIPLINE — trial numbers verbatim from the site (+45 min sleep, HRV up, placebo-controlled). Wellness framing, no medical promises. Testimonials stay REAL: stills + verbatim quotes, never synthesized faces or voices."
+    },
+    {
+      "id": "note-rule",
+      "type": "note",
+      "x": 110,
+      "y": 380,
+      "rotation": 1.3,
+      "width": 340,
+      "text": "REFERENCE RULE — this board organizes research. Generation recipes point to the original asset:// media, never to this moodboard composition."
+    }
+  ]
+}

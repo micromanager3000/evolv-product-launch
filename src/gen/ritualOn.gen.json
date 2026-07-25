@@ -1,0 +1,16 @@
+{
+  "provider": "fal",
+  "output": "video",
+  "model": "seedance-2.0",
+  "prompt": "@Image1 is the exact first frame: a woman seen from behind, face never visible, lifting a matte graphite neckband to the base of her neck in soft morning bedroom light. One continuous, intimate 6-second shot, camera locked with imperceptible handheld drift. Motion, precisely: 00:00.0–00:02.5 — her hands seat the collar gently onto her collarbones and smooth it once. 00:02.5–00:03.5 — one thumb presses the hidden button on the right paddle; a single small teal LED breathes on, softly reflected on her skin. 00:03.5–00:06.0 — her hands lower out of frame and she takes an easy breath, shoulders dropping as she relaxes; focus stays on the nape and collar. Her face must never enter the frame — no turn, no profile, no mirror. Natural morning light, shallow 85mm depth, quiet color, fine 35mm grain. No cuts, no text, no second person.",
+  "refs": [
+    { "kind": "image", "src": "comp://ritualStill" }
+  ],
+  "tier": "fast",
+  "resolution": "720p",
+  "duration": 6,
+  "aspect": "16:9",
+  "audio": false,
+  "fps": 30,
+  "take": 0
+}

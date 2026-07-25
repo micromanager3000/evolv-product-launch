@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "assets": {
+    "savannah-dawn": {
+      "name": "savannah-dawn.png",
+      "contentHash": "sha256:3e39fba8af61f648d27d58e69781f0455b3bd6ae3ad1bf56e62930016eb48345",
+      "mime": "image/png",
+      "bytes": 2322391,
+      "sources": [
+        "/__framediff-cache/sha256%3A3e39fba8af61f648d27d58e69781f0455b3bd6ae3ad1bf56e62930016eb48345"
+      ]
+    },
+    "device-render": {
+      "name": "device-render.webp",
+      "contentHash": "sha256:ff44c956c585b47e1b4af753e40756eb00b42361433a48897082afa7972935c3",
+      "mime": "image/webp",
+      "bytes": 1851162,
+      "sources": [
+        "/__framediff-cache/sha256%3Aff44c956c585b47e1b4af753e40756eb00b42361433a48897082afa7972935c3"
+      ]
+    },
+    "lifestyle-desk": {
+      "name": "lifestyle-desk.png",
+      "contentHash": "sha256:ddd7946b24a2a0f1e276b2d8a0c4d5d95f77db8fd9cedbc203825fc6cbb6dda9",
+      "mime": "image/png",
+      "bytes": 291194,
+      "sources": [
+        "/__framediff-cache/sha256%3Addd7946b24a2a0f1e276b2d8a0c4d5d95f77db8fd9cedbc203825fc6cbb6dda9"
+      ]
+    },
+    "lifestyle-guide": {
+      "name": "lifestyle-guide.png",
+      "contentHash": "sha256:778a0530068ff6a8b42fa038a26e7ed20e8df2b3f5a95d94871235916fe8665e",
+      "mime": "image/png",
+      "bytes": 253911,
+      "sources": [
+        "/__framediff-cache/sha256%3A778a0530068ff6a8b42fa038a26e7ed20e8df2b3f5a95d94871235916fe8665e"
+      ]
+    },
+    "lifestyle-calm": {
+      "name": "lifestyle-calm.png",
+      "contentHash": "sha256:f10f37afeba682649a22273e9e7821deac7e5f015a45b2d4f2b0a17a0f54cef2",
+      "mime": "image/png",
+      "bytes": 274009,
+      "sources": [
+        "/__framediff-cache/sha256%3Af10f37afeba682649a22273e9e7821deac7e5f015a45b2d4f2b0a17a0f54cef2"
+      ]
+    },
+    "portrait-profile": {
+      "name": "portrait-profile.png",
+      "contentHash": "sha256:e963d8d9453088f0e2bfb889f459369f3e309b41c16385cf528cbc635505f695",
+      "mime": "image/png",
+      "bytes": 263810,
+      "sources": [
+        "/__framediff-cache/sha256%3Ae963d8d9453088f0e2bfb889f459369f3e309b41c16385cf528cbc635505f695"
+      ]
+    },
+    "valerie-still": {
+      "name": "valerie-still.jpg",
+      "contentHash": "sha256:1e92fcbbf4525dbedcdec81419cd1acb9035cc2bfae18deae73c049c4567c756",
+      "mime": "image/jpeg",
+      "bytes": 45310,
+      "sources": [
+        "/__framediff-cache/sha256%3A1e92fcbbf4525dbedcdec81419cd1acb9035cc2bfae18deae73c049c4567c756"
+      ]
+    },
+    "fredrik-still": {
+      "name": "fredrik-still.jpg",
+      "contentHash": "sha256:1b86f60f8c671382862cf507a336379dce18e914325285d6876269dcdc297854",
+      "mime": "image/jpeg",
+      "bytes": 19139,
+      "sources": [
+        "/__framediff-cache/sha256%3A1b86f60f8c671382862cf507a336379dce18e914325285d6876269dcdc297854"
+      ]
+    },
+    "logo-white": {
+      "name": "logo-white.png",
+      "contentHash": "sha256:37179f4467c723c66498e76850e91d5ff7dbb89f0be1b003138c0c39b9aca695",
+      "mime": "image/png",
+      "bytes": 117860,
+      "sources": [
+        "/__framediff-cache/sha256%3A37179f4467c723c66498e76850e91d5ff7dbb89f0be1b003138c0c39b9aca695"
+      ]
+    }
+  }
+}
