@@ -4,11 +4,14 @@
   "model": "seed-audio-1.0",
   "prompt": "Create exactly a 12-second English voice-over read and nothing else. No music, no sound effects, no second voice. The narrator is the same woman as the reference audio: mid-forties, low warm register, close-mic, unhurried, quietly confident documentary calm. Match her voice exactly. Preserve the exact words. Timing: 00:00.0–00:02.2, flat and matter-of-fact: \"This is where it lives now.\" 00:02.2–00:06.4, the pace tightening slightly with the list: \"We rebuilt the whole world — concrete, engines, deadlines, feeds.\" 00:06.4–00:09.0, clipped, each word its own hit: \"Texts. Calls. Alerts. Rage bait.\" 00:09.0–00:11.6, dry, almost tired: \"A hundred small alarms an hour — and none of them ever stop.\" End clean at twelve seconds. Dry studio VO booth sound.",
   "refs": [
-    { "kind": "audio", "src": "comp://voOrigin" }
+    {
+      "kind": "audio",
+      "src": "comp://voOrigin"
+    }
   ],
   "duration": 12,
   "speed": 1,
   "pitch": 0,
   "fps": 30,
-  "take": 0
+  "take": 1
 }

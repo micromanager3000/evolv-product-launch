@@ -81,6 +81,619 @@
       "sources": [
         "/__framediff-cache/sha256%3A37179f4467c723c66498e76850e91d5ff7dbb89f0be1b003138c0c39b9aca695"
       ]
+    },
+    "29b8abcc-d7a2-4775-a094-c3a98d965b40": {
+      "name": "savannahDrift.take1.mp4",
+      "contentHash": "sha256:ab3cfefbedec91a6d457bcc1a1d673d2f2c86a8f43204f39148f18c3e42caa81",
+      "mime": "video/mp4",
+      "bytes": 11416817,
+      "sources": [
+        "/__framediff-cache/sha256%3Aab3cfefbedec91a6d457bcc1a1d673d2f2c86a8f43204f39148f18c3e42caa81"
+      ],
+      "generator": {
+        "gen": "savannahDrift",
+        "take": 1,
+        "recipeHash": "sha256:8e3d677aaf0e907667690baf9c8382cfbe16d85b2c61b4dcb8380ee226ae0e11",
+        "endpoint": "bytedance/seedance-2.0/fast/image-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "@Image1 is the exact first frame: a wide aerial view of a pristine African savannah at golden dawn — a winding river, scattered acacia trees, dry gold grass, hazy blue mountains. Animate it as one continuous, unhurried 10-second documentary aerial: the camera drifts forward and very slightly right at walking pace, no cuts, no speed changes. Long grass moves in a slow wind; the river glitters; a distant herd of wildebeest grazes near the far bank, barely moving; two birds cross frame high and slow. Light stays low and golden with long soft shadows; thin dawn haze in the valleys. Absolutely calm — nothing startles, nothing chases. Photoreal live-action wildlife-documentary cinematography, natural exposure, gentle atmospheric parallax, fine 35mm grain. No people, no vehicles, no text, no animation look, no color shifts.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://savannah-dawn"
+            }
+          ],
+          "tier": "fast",
+          "resolution": "720p",
+          "duration": 10,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://savannah-dawn",
+            "contentHash": "sha256:3e39fba8af61f648d27d58e69781f0455b3bd6ae3ad1bf56e62930016eb48345"
+          }
+        ],
+        "requestId": "5fedb922-c48b-4862-9968-eeb33d5521ea",
+        "seed": 857328462,
+        "outputKind": "video",
+        "at": "2026-07-25T05:53:43.566Z"
+      }
+    },
+    "7a3880e0-5774-4b53-8bd2-f67ab520ca1c": {
+      "name": "voOrigin.take1.mp3",
+      "contentHash": "sha256:52fafe8b25b139986dfa31d694f78c97c6616f0353c8125013d91eac2f7327ed",
+      "mime": "audio/mpeg",
+      "bytes": 80636,
+      "sources": [
+        "/__framediff-cache/sha256%3A52fafe8b25b139986dfa31d694f78c97c6616f0353c8125013d91eac2f7327ed"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 1,
+        "recipeHash": "sha256:bf361ef2e070bed2da202f15b65e76a33cf53807c6c7186f13d62a776359692d",
+        "endpoint": "bytedance/seed-audio-1.0",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "seed-audio-1.0",
+          "prompt": "Create exactly a 10-second English voice-over read and nothing else. No music, no sound effects, no second voice, no introduction. One narrator: a woman in her mid-forties, low warm register, close-mic and intimate, unhurried, quietly confident, a documentary calm with the faintest wry edge — never salesy, never breathy ASMR. Preserve the exact words. Timing: 00:00.0–00:03.2, measured and settled: \"This is where your brain was built.\" 00:03.2–00:05.8, even slower, letting the images breathe: \"Wide horizons. Deep calm.\" 00:05.8–00:09.6, a controlled lift of tension, then release: \"And once in a while — real danger. Total focus. Then gone.\" End clean at ten seconds with a natural room-tone tail. Dry studio VO booth sound, no reverb wash.",
+          "refs": [],
+          "duration": 10,
+          "speed": 1,
+          "pitch": 0,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "f8091917-cb20-4349-ae3a-f29f4fcfcd7b",
+        "outputKind": "audio",
+        "at": "2026-07-25T05:58:45.873Z"
+      }
+    },
+    "d21b876d-7951-452b-a9e0-989467e9f0f0": {
+      "name": "productStill.take1.jpg",
+      "contentHash": "sha256:70c81d19d0c0c68b1d9f0bbbd76715880c4fa2d6a03add9a19c8f8d68bb34901",
+      "mime": "image/jpeg",
+      "bytes": 133610,
+      "sources": [
+        "/__framediff-cache/sha256%3A70c81d19d0c0c68b1d9f0bbbd76715880c4fa2d6a03add9a19c8f8d68bb34901"
+      ],
+      "generator": {
+        "gen": "productStill",
+        "take": 1,
+        "recipeHash": "sha256:c1a8ad16870bff8b81039c45555270437ff91183707baa054405b403cf141e35",
+        "endpoint": "bytedance/seedream/v5/pro/edit",
+        "recipe": {
+          "provider": "fal",
+          "output": "image",
+          "model": "seedream-5.0-pro",
+          "prompt": "@Image1 is the exact product: a matte graphite neckband wearable with two flat paddles and a thin teal light line on the inner collar. Reproduce this exact industrial design — same proportions, same matte graphite finish, same paddle shape — as a premium studio hero photograph: the neckband floats centered against a deep navy (#0D1B2A) seamless gradient backdrop, lit by one soft teal (#00B4B4) rim light tracing the collar's inner edge and a broad cool key from upper left. Three faint concentric rings of teal light ripple outward from the band into the dark, like calm radio waves, fading before the frame edge. Micro-texture visible in the matte surface, one restrained specular highlight along the top curve, gentle reflection pool beneath. 85mm product photography, f/8 crispness, true blacks, no dust. No hands, no people, no text, no logo, no extra objects.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://device-render"
+            }
+          ],
+          "aspect": "16:9",
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://device-render",
+            "contentHash": "sha256:ff44c956c585b47e1b4af753e40756eb00b42361433a48897082afa7972935c3"
+          }
+        ],
+        "requestId": "1f962fcc-0ecf-4540-beee-52dab53818e4",
+        "outputKind": "image",
+        "at": "2026-07-25T05:59:29.570Z"
+      }
+    },
+    "bfa76e20-208f-4d9b-b9d5-f265e3574426": {
+      "name": "cityOverload.take1.mp4",
+      "contentHash": "sha256:a62efa688bb5f36f55097e587211648754e776a08c86bbf034bef38dee4580f5",
+      "mime": "video/mp4",
+      "bytes": 4899282,
+      "sources": [
+        "/__framediff-cache/sha256%3Aa62efa688bb5f36f55097e587211648754e776a08c86bbf034bef38dee4580f5"
+      ],
+      "generator": {
+        "gen": "cityOverload",
+        "take": 1,
+        "recipeHash": "sha256:7be0cd03f0510b4a0d0b7445da6a5989a4df88f82033837c735ed5b7887f24a0",
+        "endpoint": "bytedance/seedance-2.0/fast/text-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "A 12-second live-action montage of modern sensory overload. EDIT STRUCTURE IS HIGHEST PRIORITY: instantaneous hard cuts at exactly 00:02.0, 00:04.0, 00:05.5, 00:07.0, 00:08.5 and 00:10.0 — no dissolves, no morphs, no continuous camera path across any cut. 00:00.0–00:02.0 — night city timelapse from a rooftop, headlight streaks and glass towers. 00:02.0–00:04.0 — packed subway platform, doors slide open, a crowd surges, everyone lit by phone screens. 00:04.0–00:05.5 — fluorescent open-plan office, dozens of monitors, keyboards clattering. 00:05.5–00:07.0 — macro of a thumb doomscrolling, feed light strobing on skin. 00:07.0–00:08.5 — a phone face-up on a desk buzzing and skittering with stacked banner notifications. 00:08.5–00:10.0 — driver's view in stop-and-go traffic, brake lights smearing in rain. 00:10.0–00:12.0 — a face in a dark bedroom lit only by a phone held too close, eyes tired and awake. Cold fluorescent and screen-glow palette — cyan, sodium, LCD white — deliberately opposing a warm golden savannah. Handheld urgency, slight overexposure on screens, fine 35mm grain. Photoreal live-action only; no text overlays, no UI graphics, no animation look.",
+          "refs": [],
+          "tier": "fast",
+          "resolution": "720p",
+          "duration": 12,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "0f145932-b7a5-495c-9a85-c5532e8cbcac",
+        "seed": 238460682,
+        "outputKind": "video",
+        "at": "2026-07-25T06:04:42.489Z"
+      }
+    },
+    "b4223654-2a06-465d-896e-3919eca3b220": {
+      "name": "voNow.take1.mp3",
+      "contentHash": "sha256:bc1006e5806ddcacc03bf72141f8c40f54c94b38be6af7b29c4f2b0944e043cb",
+      "mime": "audio/mpeg",
+      "bytes": 95612,
+      "sources": [
+        "/__framediff-cache/sha256%3Abc1006e5806ddcacc03bf72141f8c40f54c94b38be6af7b29c4f2b0944e043cb"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 1,
+        "recipeHash": "sha256:bb4212fd7bf9e17656cac07c7678f7842138b552170d846f98d3babd4fc81605",
+        "endpoint": "bytedance/seed-audio-1.0",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "seed-audio-1.0",
+          "prompt": "Create exactly a 12-second English voice-over read and nothing else. No music, no sound effects, no second voice. The narrator is the same woman as the reference audio: mid-forties, low warm register, close-mic, unhurried, quietly confident documentary calm. Match her voice exactly. Preserve the exact words. Timing: 00:00.0–00:02.2, flat and matter-of-fact: \"This is where it lives now.\" 00:02.2–00:06.4, the pace tightening slightly with the list: \"We rebuilt the whole world — concrete, engines, deadlines, feeds.\" 00:06.4–00:09.0, clipped, each word its own hit: \"Texts. Calls. Alerts. Rage bait.\" 00:09.0–00:11.6, dry, almost tired: \"A hundred small alarms an hour — and none of them ever stop.\" End clean at twelve seconds. Dry studio VO booth sound.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voOrigin"
+            }
+          ],
+          "duration": 12,
+          "speed": 1,
+          "pitch": 0,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voOrigin",
+            "contentHash": "sha256:52fafe8b25b139986dfa31d694f78c97c6616f0353c8125013d91eac2f7327ed"
+          }
+        ],
+        "requestId": "b61b3b44-0365-4253-91c6-fbdd3eb46b32",
+        "outputKind": "audio",
+        "at": "2026-07-25T06:05:44.611Z"
+      }
+    },
+    "4643d39c-5265-4a39-ad58-cac6ea2e4870": {
+      "name": "voBrain.take1.mp3",
+      "contentHash": "sha256:7a56babb1348ca766b759d762337818c2b13533bdb2b86a9faab182d485c5ee0",
+      "mime": "audio/mpeg",
+      "bytes": 93116,
+      "sources": [
+        "/__framediff-cache/sha256%3A7a56babb1348ca766b759d762337818c2b13533bdb2b86a9faab182d485c5ee0"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 1,
+        "recipeHash": "sha256:581b1cf4c02f1cc785cd41321a0e8c0d4d02c00f47880f48e4fc1bb7e0b6b596",
+        "endpoint": "bytedance/seed-audio-1.0",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "seed-audio-1.0",
+          "prompt": "Create exactly a 12-second English voice-over read and nothing else. No music, no sound effects, no second voice. The narrator is the same woman as the reference audio: mid-forties, low warm register, close-mic, unhurried documentary calm. Match her voice exactly. Preserve the exact words. Timing: 00:00.0–00:03.4, the thesis, gently emphatic: \"But your brain still thinks it's on the savannah.\" 00:03.4–00:08.0, patient, explaining: \"It can't tell an urgent email from a predator — so it answers both the same way.\" 00:08.0–00:11.6, three hard beats, low and final: \"Fight or flight. All day. Every day.\" End clean at twelve seconds. Dry studio VO booth sound.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voOrigin"
+            }
+          ],
+          "duration": 12,
+          "speed": 1,
+          "pitch": 0,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voOrigin",
+            "contentHash": "sha256:52fafe8b25b139986dfa31d694f78c97c6616f0353c8125013d91eac2f7327ed"
+          }
+        ],
+        "requestId": "ed3f633c-538f-4ba1-9f27-f9da0c7857e3",
+        "outputKind": "audio",
+        "at": "2026-07-25T06:07:20.662Z"
+      }
+    },
+    "124fdb33-e44a-4aaf-ba3b-229760287064": {
+      "name": "savannahThreat.take1.mp4",
+      "contentHash": "sha256:899980bdfed044f08b451fb166eb1d7b2b357d88e7f6178a16bb70e1913e5aa0",
+      "mime": "video/mp4",
+      "bytes": 2047677,
+      "sources": [
+        "/__framediff-cache/sha256%3A899980bdfed044f08b451fb166eb1d7b2b357d88e7f6178a16bb70e1913e5aa0"
+      ],
+      "generator": {
+        "gen": "savannahThreat",
+        "take": 1,
+        "recipeHash": "sha256:6651f53ce31c450744fdc5b3fe3926d0fab2d0c93f035f69e65268044e69b538",
+        "endpoint": "bytedance/seedance-2.0/fast/text-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "One 4-second live-action wildlife shot on the same golden-dawn African savannah as a preceding aerial: dry gold grass, low warm sun, thin haze. Ground level, 400mm long-lens compression, shallow depth. TWO BEATS, EXACT TIMING: 00:00.0–00:01.2 — total stillness; a gazelle stands alert in tall backlit grass, ears up, one held breath. 00:01.2–00:04.0 — a lioness explodes from the grass camera-left and the gazelle herd scatters right in a burst of dust and pounding legs; the camera whip-pans a few degrees to follow, motion blur on limbs, dust hanging gold in the rim light. Raw documentary energy, natural exposure, fine 35mm grain. No kill shown, no blood, no people, no text, no slow motion, no animation look.",
+          "refs": [],
+          "tier": "fast",
+          "resolution": "720p",
+          "duration": 4,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "a8974a6d-7b57-4ac7-86ff-68c42922c6bc",
+        "seed": 1665007187,
+        "outputKind": "video",
+        "at": "2026-07-25T06:14:16.862Z"
+      }
+    },
+    "3ced9061-5f7c-4431-a275-998a3d375def": {
+      "name": "hyenaChase.take1.jpg",
+      "contentHash": "sha256:ccba210bd6eb7a94426971f3e580524dc5bd22c42ad9ea2d3f4ce5f4e13790fc",
+      "mime": "image/jpeg",
+      "bytes": 329878,
+      "sources": [
+        "/__framediff-cache/sha256%3Accba210bd6eb7a94426971f3e580524dc5bd22c42ad9ea2d3f4ce5f4e13790fc"
+      ],
+      "generator": {
+        "gen": "hyenaChase",
+        "take": 1,
+        "recipeHash": "sha256:7ceb042cd4d58d96e594ca11b6f38b9981287c7502834f00e05ba8f09a5be15f",
+        "endpoint": "bytedance/seedream/v5/pro/text-to-image",
+        "recipe": {
+          "provider": "fal",
+          "output": "image",
+          "model": "seedream-5.0-pro",
+          "prompt": "Photoreal 16:9 live-action wildlife-documentary frame, 400mm long-lens compression, low to the ground on a golden-dawn African savannah: a lean runner in simple earth-toned hide clothing sprints flat out through dry gold grass, seen side-on, body pitched forward mid-stride — and one spotted hyena is three strides behind at full gallop, head low, locked on. Kicked-up dust hangs backlit in the low sun; motion blur on legs and grass; the runner's face is turned away from camera, unrecognizable. Shallow depth of field, warm rim light, natural exposure, fine 35mm grain. The mood is pure primal alarm — urgent, not gory. No blood, no contact, no text, no modern clothing, no illustration or painting look.",
+          "refs": [],
+          "aspect": "16:9",
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "4b4de2b8-3311-4443-9871-996f217ddb62",
+        "outputKind": "image",
+        "at": "2026-07-25T06:14:20.117Z"
+      }
+    },
+    "e64ce2f9-4224-49e1-bbb4-572f2d7c8cc3": {
+      "name": "ritualStill.take1.jpg",
+      "contentHash": "sha256:1e137bc6b4455d7a94f8bf659947335493b7ba27c596a173edbd431c163f293f",
+      "mime": "image/jpeg",
+      "bytes": 306285,
+      "sources": [
+        "/__framediff-cache/sha256%3A1e137bc6b4455d7a94f8bf659947335493b7ba27c596a173edbd431c163f293f"
+      ],
+      "generator": {
+        "gen": "ritualStill",
+        "take": 1,
+        "recipeHash": "sha256:51a8d163893fc94835d7aa26c7c327fadf4c1e29bae6d0eb855693dee04cbe77",
+        "endpoint": "bytedance/seedream/v5/pro/edit",
+        "recipe": {
+          "provider": "fal",
+          "output": "image",
+          "model": "seedream-5.0-pro",
+          "prompt": "@Image1 is the exact product: a matte graphite neckband wearable with two flat paddles and a thin teal light line. Create a photoreal 16:9 live-action frame: a woman seen from behind and slightly to the side, framed from shoulder blades to the back of her head — her face is never visible, not even in profile. Both hands are raised, lifting the exact graphite neckband to settle it around the base of her neck, the paddles coming to rest on her collarbones. Focus on the nape, wisps of hair tucked away, the collar just touching skin. Calm morning bedroom: soft window daylight from the left, linen and warm-white tones softly out of focus behind. 85mm lens, shallow depth of field, natural skin texture, quiet color, fine 35mm grain. The product's design must match @Image1 exactly. No face, no mirror reflection of a face, no text, no jewelry, no second person.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://device-render"
+            }
+          ],
+          "aspect": "16:9",
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://device-render",
+            "contentHash": "sha256:ff44c956c585b47e1b4af753e40756eb00b42361433a48897082afa7972935c3"
+          }
+        ],
+        "requestId": "a41aa9a7-581e-42e8-bf53-3bfc8479dc79",
+        "outputKind": "image",
+        "at": "2026-07-25T06:14:23.600Z"
+      }
+    },
+    "3e9a79cb-9340-4e08-9975-e47e9f0cc88b": {
+      "name": "productReveal.take1.mp4",
+      "contentHash": "sha256:ee492c46744502cf5a3f8452987ae0daa8d1cbc2769d9ad3aec0ed729b95412c",
+      "mime": "video/mp4",
+      "bytes": 2506671,
+      "sources": [
+        "/__framediff-cache/sha256%3Aee492c46744502cf5a3f8452987ae0daa8d1cbc2769d9ad3aec0ed729b95412c"
+      ],
+      "generator": {
+        "gen": "productReveal",
+        "take": 1,
+        "recipeHash": "sha256:0606522b9b8c6689443124d99788e6d3bf03bf75168cb24044ac4192b2f380ca",
+        "endpoint": "bytedance/seedance-2.0/fast/image-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "@Image1 is the exact first frame: a matte graphite neckband wearable floating over a deep navy studio gradient with a teal rim light and faint concentric teal wave rings. Animate it as one continuous, silent, weightless 8-second product shot. The product's shape, finish, and position stay EXACT — no morphing, no redesign. Motion, precisely: the neckband drifts with imperceptible slow float, at most a few pixels; the concentric teal rings pulse outward calmly, one new ring every 2 seconds, fading as they travel; between 00:02.0 and 00:05.0 a single thin light sweep travels along the collar's inner edge from left paddle to right paddle; the camera pushes in about 8 percent across the full 8 seconds, perfectly smooth. Nothing else moves; the background stays a still navy gradient. Premium, minimal, precise. No hands, no people, no text, no flares, no particles, no cuts.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "comp://productStill"
+            }
+          ],
+          "tier": "fast",
+          "resolution": "720p",
+          "duration": 8,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "comp://productStill",
+            "contentHash": "sha256:70c81d19d0c0c68b1d9f0bbbd76715880c4fa2d6a03add9a19c8f8d68bb34901"
+          }
+        ],
+        "requestId": "918a592e-b57e-478f-b526-663edb572879",
+        "seed": 1184409472,
+        "outputKind": "video",
+        "at": "2026-07-25T06:15:38.074Z"
+      }
+    },
+    "abdadb3f-c813-4c7d-ad10-f28ff44a8d6b": {
+      "name": "voSolution.take1.mp3",
+      "contentHash": "sha256:9054aa36015bff89b7f876aed91f00bc345dcc69f0278119d9a5c2b7f978fb99",
+      "mime": "audio/mpeg",
+      "bytes": 117116,
+      "sources": [
+        "/__framediff-cache/sha256%3A9054aa36015bff89b7f876aed91f00bc345dcc69f0278119d9a5c2b7f978fb99"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 1,
+        "recipeHash": "sha256:2566d2a04dca1b9b736cd94e7de3e64d2525d38eda1afb8f05f26488cd35ceba",
+        "endpoint": "bytedance/seed-audio-1.0",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "seed-audio-1.0",
+          "prompt": "Create exactly a 15-second English voice-over read and nothing else. No music, no sound effects, no second voice. The narrator is the same woman as the reference audio: mid-forties, low warm register, close-mic, unhurried documentary calm. Match her voice exactly. Preserve the exact words. Timing: 00:00.0–00:03.0, warmer now, the turn: \"Evolv28 switches the alarm off at the source.\" 00:03.0–00:08.6, precise but effortless, no jargon-pride: \"Patented, precision-controlled magnetic fields guide your brain back to its natural alpha rhythm — the calm it was built on.\" 00:08.6–00:14.4, each result its own clause, quietly proud: \"In placebo-controlled trials: heart-rate variability up. Stress down. Forty-five more minutes of sleep, every night.\" End clean at fifteen seconds. Dry studio VO booth sound.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voOrigin"
+            }
+          ],
+          "duration": 15,
+          "speed": 1,
+          "pitch": 0,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voOrigin",
+            "contentHash": "sha256:52fafe8b25b139986dfa31d694f78c97c6616f0353c8125013d91eac2f7327ed"
+          }
+        ],
+        "requestId": "5867dff2-e1d0-44f7-95e2-21a30c2d2b93",
+        "outputKind": "audio",
+        "at": "2026-07-25T06:18:08.510Z"
+      }
+    },
+    "fb499233-d792-4913-9bb3-246e15bc10f3": {
+      "name": "voRitual.take1.mp3",
+      "contentHash": "sha256:da2d4ac2e9df6c4f1450c0fae4bc01c1da18728e6e23bf316548a531a9d5edb2",
+      "mime": "audio/mpeg",
+      "bytes": 53180,
+      "sources": [
+        "/__framediff-cache/sha256%3Ada2d4ac2e9df6c4f1450c0fae4bc01c1da18728e6e23bf316548a531a9d5edb2"
+      ],
+      "generator": {
+        "gen": "voRitual",
+        "take": 1,
+        "recipeHash": "sha256:85214e44df8f91da7ee53ba669a17b19ccdb4ba7173a400a7910c3420a7fd92a",
+        "endpoint": "bytedance/seed-audio-1.0",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "seed-audio-1.0",
+          "prompt": "Create exactly a 7-second English voice-over read and nothing else. No music, no sound effects, no second voice. The narrator is the same woman as the reference audio: mid-forties, low warm register, close-mic, unhurried documentary calm. Match her voice exactly. Preserve the exact words. Timing: 00:00.0–00:04.2, three simple instructions, one small pause between each, zero effort: \"Put it on. Press the button. And go live your day.\" 00:04.2–00:06.6, a faint smile in the voice: \"That's the whole routine.\" End clean at seven seconds. Dry studio VO booth sound.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voOrigin"
+            }
+          ],
+          "duration": 7,
+          "speed": 1,
+          "pitch": 0,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voOrigin",
+            "contentHash": "sha256:52fafe8b25b139986dfa31d694f78c97c6616f0353c8125013d91eac2f7327ed"
+          }
+        ],
+        "requestId": "9834c217-afe8-48e9-9454-35c564dcaf90",
+        "outputKind": "audio",
+        "at": "2026-07-25T06:18:08.897Z"
+      }
+    },
+    "d8824a1a-3d7a-4092-af5a-e18ac1f417fe": {
+      "name": "voClose.take1.mp3",
+      "contentHash": "sha256:7157be80864071154661358e336c0919b89feb73bbc987c0112e2406deb8a3c1",
+      "mime": "audio/mpeg",
+      "bytes": 38780,
+      "sources": [
+        "/__framediff-cache/sha256%3A7157be80864071154661358e336c0919b89feb73bbc987c0112e2406deb8a3c1"
+      ],
+      "generator": {
+        "gen": "voClose",
+        "take": 1,
+        "recipeHash": "sha256:c6c04862c9ebf5cdf08dc8579fc146696007fcdfae7ab8934390b37fbf9105c9",
+        "endpoint": "bytedance/seed-audio-1.0",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "seed-audio-1.0",
+          "prompt": "Create exactly a 5-second English voice-over read and nothing else. No music, no sound effects, no second voice. The narrator is the same woman as the reference audio: mid-forties, low warm register, close-mic, unhurried documentary calm. Match her voice exactly. Preserve the exact words. Timing: 00:00.0–00:01.6, the name, plain and certain: \"Evolv28.\" 00:01.6–00:03.2, almost an exhale: \"Calm, by design.\" 00:03.2–00:04.6, simple, no hard sell: \"Get yours today.\" End clean at five seconds. Dry studio VO booth sound.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voOrigin"
+            }
+          ],
+          "duration": 5,
+          "speed": 1,
+          "pitch": 0,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voOrigin",
+            "contentHash": "sha256:52fafe8b25b139986dfa31d694f78c97c6616f0353c8125013d91eac2f7327ed"
+          }
+        ],
+        "requestId": "6ec14d3a-36b0-4939-a155-f9a69b48875a",
+        "outputKind": "audio",
+        "at": "2026-07-25T06:18:09.271Z"
+      }
+    },
+    "e240bfcc-28dc-4603-954e-ccf2f6849429": {
+      "name": "ritualOn.take1.mp4",
+      "contentHash": "sha256:74b0e162cacffb4557c2c3a3473cc2d3d289251d10d94e3da91f94043edab9fa",
+      "mime": "video/mp4",
+      "bytes": 2947827,
+      "sources": [
+        "/__framediff-cache/sha256%3A74b0e162cacffb4557c2c3a3473cc2d3d289251d10d94e3da91f94043edab9fa"
+      ],
+      "generator": {
+        "gen": "ritualOn",
+        "take": 1,
+        "recipeHash": "sha256:e04ed6790750d3475292d3fc1be37924eff5c934c849960bff36487c6f450931",
+        "endpoint": "bytedance/seedance-2.0/fast/image-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "@Image1 is the exact first frame: a woman seen from behind, face never visible, lifting a matte graphite neckband to the base of her neck in soft morning bedroom light. One continuous, intimate 6-second shot, camera locked with imperceptible handheld drift. Motion, precisely: 00:00.0–00:02.5 — her hands seat the collar gently onto her collarbones and smooth it once. 00:02.5–00:03.5 — one thumb presses the hidden button on the right paddle; a single small teal LED breathes on, softly reflected on her skin. 00:03.5–00:06.0 — her hands lower out of frame and she takes an easy breath, shoulders dropping as she relaxes; focus stays on the nape and collar. Her face must never enter the frame — no turn, no profile, no mirror. Natural morning light, shallow 85mm depth, quiet color, fine 35mm grain. No cuts, no text, no second person.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "comp://ritualStill"
+            }
+          ],
+          "tier": "fast",
+          "resolution": "720p",
+          "duration": 6,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "comp://ritualStill",
+            "contentHash": "sha256:1e137bc6b4455d7a94f8bf659947335493b7ba27c596a173edbd431c163f293f"
+          }
+        ],
+        "requestId": "542c612a-4b70-4bfa-a27b-8660123141cf",
+        "seed": 385302283,
+        "outputKind": "video",
+        "at": "2026-07-25T06:23:26.379Z"
+      }
+    },
+    "b5ba032e-e8ee-4614-a006-d663664043e2": {
+      "name": "voSolution.take2.mp3",
+      "contentHash": "sha256:6561273356a87581254f6a8143156a752164c7bc91fabcc966de20648765ff97",
+      "mime": "audio/mpeg",
+      "bytes": 117500,
+      "sources": [
+        "/__framediff-cache/sha256%3A6561273356a87581254f6a8143156a752164c7bc91fabcc966de20648765ff97"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 2,
+        "recipeHash": "sha256:2566d2a04dca1b9b736cd94e7de3e64d2525d38eda1afb8f05f26488cd35ceba",
+        "endpoint": "bytedance/seed-audio-1.0",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "seed-audio-1.0",
+          "prompt": "Create exactly a 15-second English voice-over read and nothing else. No music, no sound effects, no second voice. The narrator is the same woman as the reference audio: mid-forties, low warm register, close-mic, unhurried documentary calm. Match her voice exactly. Preserve the exact words. Timing: 00:00.0–00:03.0, warmer now, the turn: \"Evolv28 switches the alarm off at the source.\" 00:03.0–00:08.6, precise but effortless, no jargon-pride: \"Patented, precision-controlled magnetic fields guide your brain back to its natural alpha rhythm — the calm it was built on.\" 00:08.6–00:14.4, each result its own clause, quietly proud: \"In placebo-controlled trials: heart-rate variability up. Stress down. Forty-five more minutes of sleep, every night.\" End clean at fifteen seconds. Dry studio VO booth sound.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voOrigin"
+            }
+          ],
+          "duration": 15,
+          "speed": 1,
+          "pitch": 0,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voOrigin",
+            "contentHash": "sha256:52fafe8b25b139986dfa31d694f78c97c6616f0353c8125013d91eac2f7327ed"
+          }
+        ],
+        "requestId": "d88cd295-0f2b-4aaf-918f-0ebf3373d650",
+        "outputKind": "audio",
+        "at": "2026-07-25T06:26:05.632Z"
+      }
+    },
+    "a8a594ac-48a3-49e9-90d9-5215953dc11e": {
+      "name": "deskFocus.take2.mp4",
+      "contentHash": "sha256:f8227139ec6b35ac38e37040370d97dedcb154b77f778042e01db39954e0a30b",
+      "mime": "video/mp4",
+      "bytes": 2289106,
+      "sources": [
+        "/__framediff-cache/sha256%3Af8227139ec6b35ac38e37040370d97dedcb154b77f778042e01db39954e0a30b"
+      ],
+      "generator": {
+        "gen": "deskFocus",
+        "take": 2,
+        "recipeHash": "sha256:248aeadffedce966ce5468941245b29fae45b64a27b997ade1aea580251df73e",
+        "endpoint": "bytedance/seedance-2.0/fast/text-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "@Image1 is the exact first frame: a man works at his desk in a bright office, wearing a matte graphite neckband with a thin teal light line, seen from front-left of him. Animate one continuous, calm 6-second shot: the camera arcs slowly around toward his back-right shoulder, ending slightly behind and above it so his screen and the neckband on the back of his neck are both visible — a gentle over-the-shoulder reveal. He types unhurried, pauses once to read, breathes easily; his posture is relaxed, not slumped. The neckband's teal line glows steadily. Soft daylight from the windows, monitor glow subtle, shallow depth. The product, his clothing, and the room must match @Image1 exactly. Settled, focused, quietly confident. No cuts, no text, no other people in focus, no camera shake.",
+          "refs": [],
+          "tier": "fast",
+          "resolution": "720p",
+          "duration": 6,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "563b04ef-9196-4d2e-90d1-a5bc68086d3c",
+        "seed": 1611699407,
+        "outputKind": "video",
+        "at": "2026-07-25T06:34:35.771Z"
+      }
     }
   }
 }
