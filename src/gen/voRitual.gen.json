@@ -1,0 +1,14 @@
+{
+  "provider": "fal",
+  "output": "audio",
+  "model": "seed-audio-1.0",
+  "prompt": "Create exactly a 7-second English voice-over read and nothing else. No music, no sound effects, no second voice. The narrator is the same woman as the reference audio: mid-forties, low warm register, close-mic, unhurried documentary calm. Match her voice exactly. Preserve the exact words. Timing: 00:00.0–00:04.2, three simple instructions, one small pause between each, zero effort: \"Put it on. Press the button. And go live your day.\" 00:04.2–00:06.6, a faint smile in the voice: \"That's the whole routine.\" End clean at seven seconds. Dry studio VO booth sound.",
+  "refs": [
+    { "kind": "audio", "src": "comp://voOrigin" }
+  ],
+  "duration": 7,
+  "speed": 1,
+  "pitch": 0,
+  "fps": 30,
+  "take": 0
+}

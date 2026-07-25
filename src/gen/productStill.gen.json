@@ -1,0 +1,12 @@
+{
+  "provider": "fal",
+  "output": "image",
+  "model": "seedream-5.0-pro",
+  "prompt": "@Image1 is the exact product: a matte graphite neckband wearable with two flat paddles and a thin teal light line on the inner collar. Reproduce this exact industrial design — same proportions, same matte graphite finish, same paddle shape — as a premium studio hero photograph: the neckband floats centered against a deep navy (#0D1B2A) seamless gradient backdrop, lit by one soft teal (#00B4B4) rim light tracing the collar's inner edge and a broad cool key from upper left. Three faint concentric rings of teal light ripple outward from the band into the dark, like calm radio waves, fading before the frame edge. Micro-texture visible in the matte surface, one restrained specular highlight along the top curve, gentle reflection pool beneath. 85mm product photography, f/8 crispness, true blacks, no dust. No hands, no people, no text, no logo, no extra objects.",
+  "refs": [
+    { "kind": "image", "src": "asset://device-render" }
+  ],
+  "aspect": "16:9",
+  "fps": 30,
+  "take": 0
+}
