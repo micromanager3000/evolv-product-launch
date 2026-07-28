@@ -4,16 +4,13 @@
  .headline{position:absolute;left:0;right:0;top:84px;text-align:center;font-family:Georgia,"Times New Roman",serif;font-size:44px;font-weight:600}
  .panel{position:absolute;top:250px;width:520px;height:600px;border:1px solid rgba(245,242,238,.12);border-radius:16px;background:rgba(10,18,30,.55);box-sizing:border-box;padding:18px}
  .panel .tag{font:800 11px ui-monospace;letter-spacing:2px;color:#9CA3AF;margin-bottom:12px}
- .panel.left{left:110px}.panel.right{right:110px}
- .cards{display:flex;flex-direction:column;gap:12px}
- .card{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;background:#F5F2EE;color:#1A1A2E;border-radius:12px;padding:12px 14px;box-shadow:0 10px 24px rgba(0,0,0,.35);opacity:0;transform:translateX(-40px)}
+ .panel.left{left:110px}
+ .cards{display:flex;flex-direction:column;gap:9px}
+ .card{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;background:#F5F2EE;color:#1A1A2E;border-radius:12px;padding:11px 14px;box-shadow:0 10px 24px rgba(0,0,0,.35);opacity:0;transform:translateX(-60px)}
  .card .dot{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;font-size:15px;color:#fff}
- .card b{display:block;font-size:14px}.card small{display:block;font-size:11.5px;color:#6B7280;margin-top:1px}
+ .card b{display:block;font-size:13.5px}.card small{display:block;font-size:11px;color:#6B7280;margin-top:1px}
  .card .now{font:10px ui-monospace;color:#9CA3AF}
- .hyena{position:relative;width:484px;height:272px;border-radius:10px;overflow:hidden;background:#0a1522}
- .hyena .lbl{position:absolute;left:10px;bottom:8px;z-index:3;font:800 9.5px ui-monospace;letter-spacing:1px;color:#F5F2EE;background:rgba(10,21,34,.8);border-radius:5px;padding:3px 7px}
- .panel .capn{font-size:13px;line-height:1.5;color:#C6CED4;margin-top:14px}
- .brainwrap{position:absolute;left:50%;top:300px;width:560px;margin-left:-280px;height:460px}
+ .brainwrap{position:absolute;left:640px;top:250px;width:860px;height:560px}
  .brainwrap svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
  .same{position:absolute;left:0;right:0;top:770px;text-align:center}
  .same .word{font-family:Georgia,serif;font-size:30px;color:#F59E0B}
@@ -23,8 +20,11 @@
  .meter .bar i{position:absolute;inset:0;transform-origin:left;background:linear-gradient(90deg,#F59E0B,#EE6C4D);border-radius:inherit}
  .meter .state{position:absolute;right:12px;top:8px;font:800 10px ui-monospace;color:#EE6C4D}
 </style></head><body>
+<!-- Scene 3 redesign: one agitated brain with radiating alarm spokes; the modern noise
+     arrives as a messy pile of notifications on the left. (The old hyena comparison panel
+     is gone — hyenaChase stays registered in the project as an unused backup comp.) -->
 <main data-fd-composition data-fd-id="BrainLoop" data-fd-name="Same alarm — brain scene" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="360" data-fd-kind="scene" data-fd-library="true" data-fd-source="src/compositions/BrainLoop.html" data-fd-module="src/compositions/BrainLoop.ts" data-fd-export="brainLoopComp">
- <div class="kicker" data-fd-id="brain-kicker">ONE ALARM SYSTEM · TWO WORLDS</div>
+ <div class="kicker" data-fd-id="brain-kicker">ONE ALARM SYSTEM</div>
  <h1 class="headline" data-fd-id="brain-headline">Your brain can't tell the difference.</h1>
 
  <section class="panel left" data-fd-id="brain-panel-today">
@@ -35,75 +35,85 @@
    <div class="card"><span class="dot" style="background:#8B5CF6">＠</span><span><b>@channel</b><small>quick ping — got a sec?</small></span><span class="now">now</span></div>
    <div class="card"><span class="dot" style="background:#0EA5E9">✉</span><span><b>Inbox (47)</b><small>46 of these are nothing</small></span><span class="now">now</span></div>
    <div class="card"><span class="dot" style="background:#F59E0B">▲</span><span><b>BREAKING</b><small>everything, all at once, again</small></span><span class="now">now</span></div>
+   <div class="card"><span class="dot" style="background:#6366F1">▤</span><span><b>Storage almost full</b><small>so is your attention</small></span><span class="now">now</span></div>
+   <div class="card"><span class="dot" style="background:#14B8A6">☏</span><span><b>1 new voicemail</b><small>probably nothing. probably.</small></span><span class="now">now</span></div>
    <div class="card"><span class="dot" style="background:#10B981">⌁</span><span><b>Battery low</b><small>you, not the phone</small></span><span class="now">now</span></div>
   </div>
  </section>
 
- <section class="panel right" data-fd-id="brain-panel-then">
-  <div class="tag">50,000 YEARS AGO · DAWN</div>
-  <div class="hyena" data-fd-clip data-fd-id="brain-hyena-ref" data-fd-name="ancient threat · pinned still" data-fd-from="0" data-fd-duration="360" data-fd-type="nested" data-fd-comp="hyenaChase" data-fd-nested-scale="0.378125"><span class="lbl">ACTUAL PREDATOR</span></div>
-  <p class="capn">This alarm earned its keep for fifty thousand years. It has exactly one setting — everything, right now — and it treats a Tuesday inbox like a hyena at full gallop.</p>
- </section>
-
  <div class="brainwrap" data-fd-id="brain-figure">
-  <svg viewBox="0 0 560 460">
-   <g id="pulses-left"><circle r="5"/><circle r="5"/><circle r="5"/></g>
-   <g id="pulses-right"><circle r="5"/><circle r="5"/><circle r="5"/></g>
-   <g id="brain-g" transform="translate(280,220)">
+  <svg viewBox="0 0 860 560">
+   <g id="pulses-left"><circle r="5"/><circle r="5"/><circle r="5"/><circle r="5"/></g>
+   <g id="agit" stroke-linecap="round">
+    <line stroke="#F59E0B" stroke-width="4"/><line stroke="#EE6C4D" stroke-width="3"/><line stroke="#F59E0B" stroke-width="3"/><line stroke="#EE6C4D" stroke-width="4"/>
+    <line stroke="#F59E0B" stroke-width="3"/><line stroke="#EE6C4D" stroke-width="3"/><line stroke="#F59E0B" stroke-width="4"/><line stroke="#EE6C4D" stroke-width="3"/>
+    <line stroke="#F59E0B" stroke-width="3"/><line stroke="#EE6C4D" stroke-width="4"/><line stroke="#F59E0B" stroke-width="3"/><line stroke="#EE6C4D" stroke-width="3"/>
+    <line stroke="#F59E0B" stroke-width="4"/><line stroke="#EE6C4D" stroke-width="3"/>
+   </g>
+   <g id="brain-g" transform="translate(530,260)">
     <path id="brain-outline" d="M-118 24 C-150 8 -148 -52 -108 -66 C-96 -104 -40 -116 -6 -100 C30 -118 92 -108 110 -74 C146 -66 156 -18 132 8 C140 40 108 66 76 60 C62 84 18 92 -2 76 C-30 94 -72 86 -84 62 C-108 62 -122 44 -118 24 Z" fill="rgba(18,36,54,.9)" stroke="#F5F2EE" stroke-width="3.5" stroke-linejoin="round"/>
     <path id="brain-folds" d="M-92 -34 q20 -18 44 -6 M-56 -70 q22 -10 40 6 M-6 -84 q18 -6 34 8 M48 -78 q22 -2 32 16 M84 -44 q16 6 18 24 M-96 10 q18 12 40 6 M-44 34 q20 14 44 6 M22 44 q20 8 38 -6" fill="none" stroke="rgba(245,242,238,.35)" stroke-width="2.5" stroke-linecap="round"/>
     <polyline id="stress-wave" points="" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
     <circle id="amygdala" cx="14" cy="18" r="12" fill="#EE6C4D"/>
     <circle id="amygdala-halo" cx="14" cy="18" r="18" fill="none" stroke="#EE6C4D" stroke-width="2.5" opacity=".5"/>
-    <g id="alarm-arcs" stroke="#EE6C4D" fill="none" stroke-width="3" stroke-linecap="round">
-     <path d="M-158 -96 l-22 -18 M-140 -128 l-14 -24 M158 -96 l22 -18 M140 -128 l14 -24 M-170 40 l-26 10 M170 40 l26 10"/>
-    </g>
    </g>
   </svg>
  </div>
 
- <div class="same"><span class="word" data-fd-id="brain-same-word">Same alarm. Different century.</span></div>
+ <div class="same"><span class="word" data-fd-id="brain-same-word">Same alarm. All day long.</span></div>
  <div class="meter" data-fd-id="brain-meter"><small>THREAT RESPONSE</small><span class="state">ENGAGED</span><div class="bar"><i></i></div></div>
 
  <script>
   const cards=queryAll(".card"),wave=query("#stress-wave"),amyg=query("#amygdala"),halo=query("#amygdala-halo"),
-        arcs=query("#alarm-arcs"),brainG=query("#brain-g"),bar=query(".meter .bar i"),
-        pulsesL=query("#pulses-left"),pulsesR=query("#pulses-right");
-  const CARD_AT=[20,70,120,170,220,270];               // frame each notification lands
-  const dotsL=Array.from(pulsesL.children),dotsR=Array.from(pulsesR.children);
+        brainG=query("#brain-g"),bar=query(".meter .bar i"),pulsesL=query("#pulses-left"),agit=query("#agit");
+  // messy arrivals: uneven rhythm, each card lands with its own skew + drift
+  const CARD_AT=[18,52,86,124,158,200,238,278];
+  const MESS=[[9,-2.6],[-6,1.8],[14,-1.2],[-10,2.8],[6,-2.2],[-14,1.4],[10,2.2],[-8,-1.6]]; // [dx, rot°]
+  const dotsL=Array.from(pulsesL.children);
+  // 14 agitation spokes radiating from the brain — static markup, driven per frame
+  const spokes=Array.from(agit.children),SPOKES=spokes.length;
   onFrame(({frame})=>{
-   // notification cards pop in and stay; each landing kicks the alarm envelope
+   // notifications pile in messily and stay; each landing kicks the alarm envelope
    let kick=0;
    for(let i=0;i<cards.length;i++){
     const t=frame-CARD_AT[i];
-    const p=Math.max(0,Math.min(1,t/9));
-    const ease=1-Math.pow(1-p,3);
-    cards[i].style.opacity=String(ease);
-    cards[i].style.transform=`translateX(${-40*(1-ease)}px)`;
+    const p=Math.max(0,Math.min(1,t/8));
+    const e=1-Math.pow(1-p,3);
+    const over=1+.12*Math.sin(Math.min(1,t/14)*Math.PI);           // little overshoot past rest
+    const [dx,rot]=MESS[i];
+    cards[i].style.opacity=String(e);
+    cards[i].style.transform=`translateX(${(-60*(1-e)+dx*e).toFixed(1)}px) rotate(${(rot*e).toFixed(2)}deg) scale(${(e?over:1).toFixed(3)})`;
     if(t>=0)kick+=Math.exp(-t/22);
    }
    const agitation=Math.min(1,.45+kick*.6+.1*Math.sin(frame*.21));
-   // jagged stress wave through the cortex — pure function of frame
+   // jagged stress wave through the cortex
    const pts=[];
    for(let x=-120;x<=132;x+=6){
     const y=-8+Math.sin(x*.31+frame*.55)*10*agitation+Math.sin(x*.87+frame*.93)*7*agitation+Math.sin(x*.13-frame*.31)*5;
     pts.push(x+","+y.toFixed(1));
    }
    wave.setAttribute("points",pts.join(" "));
-   // amygdala pulse + brain flinch on every kick
+   // agitation spokes: jittery lines radiating from the brain rim, longer as agitation climbs
+   for(let i=0;i<SPOKES;i++){
+    const a=(i/SPOKES)*Math.PI*2+.13*Math.sin(frame*.11+i*2.1);
+    const r0=182+6*Math.sin(frame*.35+i*1.7);
+    const len=(26+44*agitation)*(0.6+0.4*Math.abs(Math.sin(frame*.47+i*2.63)));
+    const cx=530+Math.cos(a)*r0*.92, cy=260+Math.sin(a)*r0*.72;
+    spokes[i].setAttribute("x1",cx.toFixed(1));spokes[i].setAttribute("y1",cy.toFixed(1));
+    spokes[i].setAttribute("x2",(cx+Math.cos(a)*len).toFixed(1));spokes[i].setAttribute("y2",(cy+Math.sin(a)*len*.8).toFixed(1));
+    spokes[i].setAttribute("opacity",String(.25+.65*agitation*Math.abs(Math.sin(frame*.53+i*1.31))));
+   }
+   // amygdala pulse + flinch
    const beat=1+.22*agitation*Math.abs(Math.sin(frame*.42));
    amyg.setAttribute("r",String(12*beat));
    halo.setAttribute("r",String(18+10*agitation*Math.abs(Math.sin(frame*.42+1.2))));
    halo.setAttribute("opacity",String(.25+.4*agitation));
-   arcs.setAttribute("opacity",String(.2+.75*Math.min(1,kick)));
-   brainG.setAttribute("transform",`translate(280,220) scale(${1+.03*kick*Math.sin(frame*1.9)}) rotate(${.6*kick*Math.sin(frame*1.3)})`);
-   // pulses traveling into the brain from both worlds
-   for(let i=0;i<3;i++){
-    const ph=((frame*.011)+i/3)%1;
-    dotsL[i].setAttribute("cx",String(20+ph*180));dotsL[i].setAttribute("cy",String(220-30*Math.sin(ph*Math.PI)));
+   brainG.setAttribute("transform",`translate(530,260) scale(${(1.18*(1+.03*kick*Math.sin(frame*1.9))).toFixed(4)}) rotate(${(.6*kick*Math.sin(frame*1.3)).toFixed(2)})`);
+   // pings streaming from the pile into the brain
+   for(let i=0;i<4;i++){
+    const ph=((frame*.012)+i/4)%1;
+    dotsL[i].setAttribute("cx",String(10+ph*330));dotsL[i].setAttribute("cy",String(260-44*Math.sin(ph*Math.PI)));
     dotsL[i].setAttribute("fill","#3B82F6");dotsL[i].setAttribute("opacity",String(.85*Math.sin(ph*Math.PI)));
-    dotsR[i].setAttribute("cx",String(540-ph*180));dotsR[i].setAttribute("cy",String(220-30*Math.sin(ph*Math.PI)));
-    dotsR[i].setAttribute("fill","#EE6C4D");dotsR[i].setAttribute("opacity",String(.85*Math.sin(ph*Math.PI)));
    }
    bar.style.transform=`scaleX(${.55+.42*agitation*Math.abs(Math.sin(frame*.17+.6))})`;
   });

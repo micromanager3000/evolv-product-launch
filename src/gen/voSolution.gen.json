@@ -1,17 +1,15 @@
 {
   "provider": "fal",
   "output": "audio",
-  "model": "seed-audio-1.0",
-  "prompt": "Create exactly a 15-second English voice-over read and nothing else. No music, no sound effects, no second voice. The narrator is the same woman as the reference audio: mid-forties, low warm register, close-mic, unhurried documentary calm. Match her voice exactly. Preserve the exact words. Timing: 00:00.0–00:03.0, warmer now, the turn: \"Evolv28 switches the alarm off at the source.\" 00:03.0–00:08.6, precise but effortless, no jargon-pride: \"Patented, precision-controlled magnetic fields guide your brain back to its natural alpha rhythm — the calm it was built on.\" 00:08.6–00:14.4, each result its own clause, quietly proud: \"In placebo-controlled trials: heart-rate variability up. Stress down. Forty-five more minutes of sleep, every night.\" End clean at fifteen seconds. Dry studio VO booth sound.",
+  "model": "elevenlabs-v3",
+  "prompt": "Introducing Evolv28. Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.",
   "refs": [
     {
       "kind": "audio",
-      "src": "/__framediff-cache/sha256%3A52fafe8b25b139986dfa31d694f78c97c6616f0353c8125013d91eac2f7327ed"
+      "src": "comp://voiceRef"
     }
   ],
   "duration": 15,
-  "speed": 1,
-  "pitch": 0,
   "fps": 30,
-  "take": 2
+  "take": 11
 }

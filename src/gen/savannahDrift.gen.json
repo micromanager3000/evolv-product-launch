@@ -2,18 +2,13 @@
   "provider": "fal",
   "output": "video",
   "model": "seedance-2.0",
-  "prompt": "@Image1 is the exact first frame: a wide aerial view of a pristine African savannah at golden dawn — a winding river, scattered acacia trees, dry gold grass, hazy blue mountains. Animate it as one continuous, unhurried 10-second documentary aerial: the camera drifts forward and very slightly right at walking pace, no cuts, no speed changes. Long grass moves in a slow wind; the river glitters; a distant herd of wildebeest grazes near the far bank, barely moving; two birds cross frame high and slow. Light stays low and golden with long soft shadows; thin dawn haze in the valleys. Absolutely calm — nothing startles, nothing chases. Photoreal live-action wildlife-documentary cinematography, natural exposure, gentle atmospheric parallax, fine 35mm grain. No people, no vehicles, no text, no animation look, no color shifts.",
-  "refs": [
-    {
-      "kind": "image",
-      "src": "asset://savannah-dawn"
-    }
-  ],
+  "prompt": "Real helicopter aerial footage over an African savannah at golden dawn, shot on a gyro-stabilized long lens for a wildlife documentary. The camera drifts forward at walking pace over dry gold grassland: a winding river catching the low sun, scattered flat-top acacia trees, thin morning haze in the far valleys, a distant herd of wildebeest grazing near the riverbank. Natural, slightly muted color; true-to-life exposure with soft highlight rolloff; gentle atmospheric perspective; fine 35mm grain; subtle stabilized-gimbal micro-drift. Absolutely calm — nothing startles, nothing chases. Documentary realism only: real-world lighting and texture, no oversaturated golds, no dreamy glow, no painterly or CGI look, no people, no vehicles, no text, no cuts.",
+  "refs": [],
   "tier": "fast",
   "resolution": "720p",
   "duration": 10,
   "aspect": "16:9",
   "audio": false,
   "fps": 30,
-  "take": 1
+  "take": 2
 }

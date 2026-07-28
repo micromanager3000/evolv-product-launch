@@ -1,5 +1,9 @@
 {
-  "camera": { "x": 40, "y": 20, "zoom": 0.5 },
+  "camera": {
+    "x": 40,
+    "y": 20,
+    "zoom": 0.5
+  },
   "items": [
     {
       "id": "note-brief",
@@ -117,7 +121,7 @@
       "y": 520,
       "rotation": 1.2,
       "width": 330,
-      "text": "VOICE — one narrator, woman mid-40s, low and warm, close-mic, unhurried, quietly wry. Documentary calm, never salesy. Pin voOrigin first; voNow→voClose clone it via comp://voOrigin."
+      "text": "VOICE — one narrator, woman mid-40s, low and warm, close-mic, unhurried, quietly wry. Documentary calm, never salesy. Six independent ElevenLabs Multilingual v2 reads via fal, shared Aria preset — the recipe prompt is the spoken line, sized ~1.5s under its slot so no read clips."
     },
     {
       "id": "note-sound",
@@ -126,7 +130,7 @@
       "y": 860,
       "rotation": -0.8,
       "width": 330,
-      "text": "SOUND — savannah air → city clatter piling with the storm overlay → near-silence on the button press → soft low alpha hum to the end card. Music bed: TODO, drop as asset://music-bed and add the timeline row."
+      "text": "SOUND — Serengeti bed under the savannah (asset://music-serengeti, ducked at 0.28 under VO, cut dead at the city smash) → notification SFX piling with the storm overlay → near-silence on the button press → soft low alpha hum to the end card (TODO)."
     },
     {
       "id": "note-type",

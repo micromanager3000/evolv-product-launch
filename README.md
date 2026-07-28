@@ -1,7 +1,7 @@
 # Evolv28 product launch — plan → generate → edit
 
 A full launch-film pipeline in one FrameDiff project: a **moodboard**, a timed **script**, and a
-**storyboard** plan the piece; **15 generative comps** (Seedream stills, Seedance clips, Seed Audio
+**storyboard** plan the piece; **16 generative comps** (Seedream stills, Seedance clips, Seed Audio
 VO) realize each scene; and a root **edit** cuts the pinned takes together under authored overlay
 comps — a notification storm, a beta→alpha wave morph, testimonial cards, and the end card.
 
@@ -14,11 +14,11 @@ product site into the Git LFS-backed `assets/` store.
 ```
 moodboard · script · storyboard          (the plan — comps in the same graph)
         │
-        ├─ savannah-dawn (imported MJ frame) ──▶ savannahDrift ─┐   savannahThreat · cityOverload
+        ├─ savannah-stock (Envato drone; savannahDrift = backup) ─┐   savannahThreat · cityOverload
         ├─ device-render ──▶ productStill ──▶ productReveal ────┤
-        ├─ device-render ──▶ ritualStill ──▶ ritualOn ──────────┤   brain-loop ◀── hyenaChase
-        ├─ lifestyle-desk ──▶ deskFocus ────────────────────────┤   alpha-waves · notification-storm
-        └─ voOrigin (voice anchor) ──▶ voNow…voClose ───────────┤   end-card ◀── productStill
+        ├─ device-render ──▶ ritualStill ──▶ ritualOn ──────────┤   brain-loop (hyenaChase retired to backup)
+        ├─ device-render + lifestyle-desk ──▶ deskStill ──▶ deskFocus ─┤   alpha-waves · notification-storm
+        └─ voiceRef ─▶ voOrigin…voClose (ElevenLabs v3 anchor) ────┤   end-card ◀── productStill
                                                                 ▼
                                                           launch-edit (70s · 1920×1080)
 ```
@@ -27,11 +27,11 @@ moodboard · script · storyboard          (the plan — comps in the same graph
 
 | # | scene | time | picture |
 | --- | --- | --- | --- |
-| 1 | Where you evolved | 0:00–0:10 | savannah drift + 2.8s lioness punch-in |
-| 2 | Where you live now | 0:10–0:22 | 7-hard-cut overload montage + notification storm overlay |
-| 3 | Same alarm | 0:22–0:34 | authored brain scene — inbox vs. hyena, one agitated brain |
-| 4 | Calm, engineered | 0:34–0:49 | hero float + beta→alpha wave overlay + trial stat chips |
-| 5 | The whole routine | 0:49–0:57 | nape close-up (no face) → over-shoulder desk arc |
+| 1 | Where you evolved | 0:00–0:10 | real stock drone savannah + 2s lioness punch-in — the calm drift returns on “Then gone.”; Serengeti music bed cut dead at the city |
+| 2 | Where you live now | 0:10–0:22 | 7-hard-cut overload montage (no faces; ends over-the-shoulder at a drowning desk) + notification storm + ding SFX |
+| 3 | Same alarm | 0:22–0:34 | authored brain scene — messy notification pile, one agitated brain radiating alarm; slack pings per card |
+| 4 | Calm, engineered | 0:34–0:47 | hero float + beta→alpha wave overlay + trial stat chips |
+| 5 | The whole routine | 0:47–0:55 | nape close-up (no face) → locked over-shoulder desk push; step chips pop word-synced |
 | 6 | Real people | 0:57–1:05 | **real** webcam stills + verbatim quotes — never synthesized |
 | 7 | Get yours | 1:05–1:10 | end card; the real wordmark lands as an image item |
 
@@ -53,16 +53,21 @@ honest slates — the edit, overlays, script, storyboard, and moodboard all work
 Add a fal key (⚿ SERVICES in the topbar, or `FAL_KEY` in the env). Generation is the only paid
 action; nothing regenerates implicitly.
 
-1. **`voOrigin`** — the voice anchor. Listen, re-roll until the narrator is right, pin. Every
-   other VO segment clones this voice via a `comp://voOrigin` audio ref, so approve it first.
-2. **`voNow` → `voClose`** — the remaining five segments, each ≤15s (Seed Audio's ceiling), each
-   a few cents.
-3. **Stills** — `productStill` and `ritualStill` stage the exact `asset://device-render`;
-   `hyenaChase` feeds the brain scene. Pin one take each.
+1. **VO** — generate and pin `voiceRef` (the narrator anchor), then the six segments: each
+   references `comp://voiceRef` as an audio ref and borrows its voice settings at submit —
+   one comp defines the narrator. All on ElevenLabs v3 via fal (inline audio tags like
+   [pause]/[whispers] supported; fal offers preset voices, so the anchor is reference-level
+   consistency, not audio cloning). The recipe prompt IS the spoken line,
+   written to land ~1.5s short of its slot so no read ever clips. Cents for the whole set.
+   (`elevenlabs-v3` is also wired if a segment wants a more theatrical read — its dramatic
+   pause style runs ~40% longer than v2 for the same text, so re-check slot fit.)
+3. **Stills** — `productStill`, `ritualStill`, and `deskStill` stage the exact
+   `asset://device-render` (the worn shots also reference the site's own worn photos for
+   placement); `hyenaChase` feeds the brain scene. Pin one take each.
 4. **Clips** — `savannahDrift` (i2v from the imported key frame), `savannahThreat`,
-   `cityOverload`, `deskFocus` (i2v from the site's own desk photo). `productReveal` and
-   `ritualOn` stay deliberately blocked until their upstream stills are pinned — the `comp://`
-   ref resolves to the approved bytes.
+   `cityOverload`. `productReveal`, `ritualOn`, and `deskFocus` stay deliberately blocked
+   until their upstream stills are pinned — the `comp://` ref resolves to the approved bytes,
+   which is what keeps the device's industrial design exact in every worn shot.
 5. Export `launch-edit` from the Studio like any comp.
 
 Recipes default to Seedance `fast` @ 720p for cheap iteration; flip `tier`/`resolution` in the
@@ -75,12 +80,14 @@ Recipes default to Seedance `fast` @ 720p for cheap iteration; flip `tier`/`reso
   person's face or voice here.
 - **Claims discipline.** Trial numbers are copied verbatim from the site (+45 min, −7.2 ISI,
   PMC10307909); wellness framing, no medical promises.
-- **The ritual shot shows no face** — a content rule restated inside both `ritualStill` and
-  `ritualOn` prompts.
+- **No generated shot shows a face.** A content rule restated inside every prompt that
+  contains a person: the ritual shots are framed nape-only, the desk shots strictly from
+  behind, montage crowds appear as backs and silhouettes — and no faces in reflections.
 - **Type** — the site uses Fraunces + Inter; comps approximate with Georgia + the system sans
   stack until licensed woff2s land in `public/fonts/`.
-- **Music bed** — TODO: drop a track as `asset://music-bed` and add an audio item to
-  `LaunchEdit.timeline.json` (see the moodboard's SOUND note for the intended shape).
+- **Sound** — the Serengeti bed (`asset://music-serengeti`, licensed) plays under scene 1 at
+  0.28 and is cut dead by the city smash; a licensed city-ambience bed runs under scene 2, and notification SFX land with the storm overlay and
+  the VO list in scene 2. Remaining from the moodboard's SOUND arc: The Violins carry the reveal (f1020) through the end card; city ambience under scene 2; slack pings in scene 3.
 
 ## Files
 
@@ -94,6 +101,6 @@ Recipes default to Seedance `fast` @ 720p for cheap iteration; flip `tier`/`reso
 | `src/compositions/NotificationStorm.html` | toast storm overlay (`kind: "custom"`, alpha) |
 | `src/compositions/EndCard.html` | the closer; nests the pinned hero still (`kind: "scene"`) |
 | `src/compositions/LaunchEdit.html` + `.timeline.json` | the film — v2 timeline owns every placement (`kind: "edit"`) |
-| `src/gen/*.gen.ts` + `.gen.json` | 15 recipes: 6 VO, 3 stills, 6 clips — takes pin in the manifest |
+| `src/gen/*.gen.ts` + `.gen.json` | 16 recipes: 6 VO, 4 stills, 6 clips — takes pin in the manifest |
 | `framediff.assets.json` | asset manifest — site imports + generated takes with full provenance |
 | `framediff.config.json` | selects the project-local, Git LFS-backed `assets/` store |

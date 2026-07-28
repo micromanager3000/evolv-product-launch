@@ -2,7 +2,7 @@
   "provider": "fal",
   "output": "video",
   "model": "seedance-2.0",
-  "prompt": "@Image1 is the exact first frame: a woman seen from behind, face never visible, lifting a matte graphite neckband to the base of her neck in soft morning bedroom light. One continuous, intimate 6-second shot, camera locked with imperceptible handheld drift. Motion, precisely: 00:00.0–00:02.5 — her hands seat the collar gently onto her collarbones and smooth it once. 00:02.5–00:03.5 — one thumb presses the hidden button on the right paddle; a single small teal LED breathes on, softly reflected on her skin. 00:03.5–00:06.0 — her hands lower out of frame and she takes an easy breath, shoulders dropping as she relaxes; focus stays on the nape and collar. Her face must never enter the frame — no turn, no profile, no mirror. Natural morning light, shallow 85mm depth, quiet color, fine 35mm grain. No cuts, no text, no second person.",
+  "prompt": "@Image1 is the exact first frame: a tight neck-area close-up — a woman from behind, cropped from shoulder blades to just below her hairline, face never visible, seating a matte graphite neckband at the base of her neck in soft morning bedroom light. One continuous, intimate 6-second shot, camera locked with imperceptible handheld drift, never tilting up past her hairline. The product keeps the exact geometry and finish of the first frame — no morphing, no redesign, nothing added. The collar is RIGID: a solid molded piece that never bends, flexes, twists, or splays — it slides on as one fixed shape. Motion, precisely: 00:00.0–00:02.5 — her hands slide the rigid collar forward onto her neck from behind in one smooth glide until it seats at the base of her neck; the paddles arrive at her collarbones without the band ever deforming. 00:02.5–00:03.5 — one thumb presses the flat inner face of the right paddle once; the small indicator wakes as a single soft teal LED breathing on, faintly reflected on her skin. 00:03.5–00:06.0 — her hands lower out of frame and she takes one easy breath, shoulders dropping as she relaxes; focus stays on the nape and collar. Her face must never enter the frame — no turn, no profile, no mirror, no reflection. Natural morning light, shallow 85mm depth, quiet color, fine 35mm grain. No cuts, no text, no second person.",
   "refs": [
     {
       "kind": "image",
@@ -15,5 +15,5 @@
   "aspect": "16:9",
   "audio": false,
   "fps": 30,
-  "take": 1
+  "take": 3
 }

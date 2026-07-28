@@ -1,17 +1,16 @@
 {
   "provider": "fal",
   "output": "audio",
-  "model": "seed-audio-1.0",
-  "prompt": "Create exactly a 12-second English voice-over read and nothing else. No music, no sound effects, no second voice. The narrator is the same woman as the reference audio: mid-forties, low warm register, close-mic, unhurried documentary calm. Match her voice exactly. Preserve the exact words. Timing: 00:00.0–00:03.4, the thesis, gently emphatic: \"But your brain still thinks it's on the savannah.\" 00:03.4–00:08.0, patient, explaining: \"It can't tell an urgent email from a predator — so it answers both the same way.\" 00:08.0–00:11.6, three hard beats, low and final: \"Fight or flight. All day. Every day.\" End clean at twelve seconds. Dry studio VO booth sound.",
+  "model": "elevenlabs-multilingual-v2",
+  "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. Your brain stays in an agitated state all day.",
   "refs": [
     {
       "kind": "audio",
-      "src": "comp://voOrigin"
+      "src": "comp://voiceRef"
     }
   ],
   "duration": 12,
-  "speed": 1,
-  "pitch": 0,
   "fps": 30,
-  "take": 1
+  "take": 10,
+  "speed": 1.1
 }

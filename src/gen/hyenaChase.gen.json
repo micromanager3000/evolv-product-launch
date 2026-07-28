@@ -2,9 +2,9 @@
   "provider": "fal",
   "output": "image",
   "model": "seedream-5.0-pro",
-  "prompt": "Photoreal 16:9 live-action wildlife-documentary frame, 400mm long-lens compression, low to the ground on a golden-dawn African savannah: a lean runner in simple earth-toned hide clothing sprints flat out through dry gold grass, seen side-on, body pitched forward mid-stride — and one spotted hyena is three strides behind at full gallop, head low, locked on. Kicked-up dust hangs backlit in the low sun; motion blur on legs and grass; the runner's face is turned away from camera, unrecognizable. Shallow depth of field, warm rim light, natural exposure, fine 35mm grain. The mood is pure primal alarm — urgent, not gory. No blood, no contact, no text, no modern clothing, no illustration or painting look.",
+  "prompt": "Photoreal 16:9 live-action wildlife-documentary frame, 400mm long-lens compression, low to the ground on a golden-dawn African savannah: a lean adult runner in simple earth-toned hide clothing sprints flat out through dry gold grass, seen side-on and slightly from behind, body pitched forward mid-stride — and one spotted hyena is three strides behind at full gallop, head low, locked on. Kicked-up dust hangs backlit in the low sun; motion blur on legs and grass; the runner's head is fully turned away from camera, face never visible. Shallow depth of field, warm rim light, natural exposure, fine 35mm grain. The mood is pure primal alarm — urgent, not gory. No blood, no contact, no text, no modern clothing, no illustration or painting look.",
   "refs": [],
   "aspect": "16:9",
   "fps": 30,
-  "take": 1
+  "take": 2
 }

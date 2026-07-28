@@ -3,7 +3,7 @@
   "items": [
     {
       "id": "s1-drift",
-      "name": "S1 \u00b7 savannah drift",
+      "name": "S1 · savannah (stock drone; savannahDrift comp is the backup)",
       "from": 0,
       "durationInFrames": 300,
       "layer": 0,
@@ -20,17 +20,18 @@
         "opacity": 1
       },
       "content": {
-        "type": "nested",
-        "composition": "savannahDrift"
-      }
+        "type": "video",
+        "src": "asset://savannah-stock"
+      },
+      "muted": true
     },
     {
       "id": "s1-threat",
-      "name": "S1 \u00b7 the burst (punch-in)",
-      "from": 216,
-      "durationInFrames": 84,
+      "name": "S1 · the burst (snaps in on 'real danger.', out before 'Then...')",
+      "from": 172,
+      "durationInFrames": 38,
       "layer": 1,
-      "trimStart": 0,
+      "trimStart": 1.2,
       "layout": {
         "rect": [
           0,
@@ -48,30 +49,8 @@
       }
     },
     {
-      "id": "kicker-origin",
-      "name": "Kicker \u00b7 where you evolved",
-      "from": 24,
-      "durationInFrames": 252,
-      "layer": 3,
-      "layout": {
-        "rect": [
-          96,
-          84,
-          520,
-          74
-        ],
-        "fit": "cover",
-        "cornerRadius": 0,
-        "opacity": 1
-      },
-      "content": {
-        "type": "layers",
-        "label": "Kicker \u00b7 where you evolved"
-      }
-    },
-    {
       "id": "s2-city",
-      "name": "S2 \u00b7 city overload",
+      "name": "S2 · city overload",
       "from": 300,
       "durationInFrames": 360,
       "layer": 0,
@@ -94,7 +73,7 @@
     },
     {
       "id": "s2-storm",
-      "name": "S2 \u00b7 notification storm overlay",
+      "name": "S2 · notification storm overlay",
       "from": 390,
       "durationInFrames": 270,
       "layer": 2,
@@ -116,32 +95,10 @@
       }
     },
     {
-      "id": "kicker-now",
-      "name": "Kicker \u00b7 where you live",
-      "from": 312,
-      "durationInFrames": 324,
-      "layer": 3,
-      "layout": {
-        "rect": [
-          96,
-          84,
-          520,
-          74
-        ],
-        "fit": "cover",
-        "cornerRadius": 0,
-        "opacity": 1
-      },
-      "content": {
-        "type": "layers",
-        "label": "Kicker \u00b7 where you live"
-      }
-    },
-    {
       "id": "s3-brain",
-      "name": "S3 \u00b7 same alarm (brain scene)",
+      "name": "S3 · same alarm (brain scene)",
       "from": 660,
-      "durationInFrames": 360,
+      "durationInFrames": 340,
       "layer": 0,
       "trimStart": 0,
       "layout": {
@@ -162,9 +119,9 @@
     },
     {
       "id": "s4-product",
-      "name": "S4 \u00b7 product reveal",
-      "from": 1020,
-      "durationInFrames": 450,
+      "name": "S4 · product reveal",
+      "from": 1000,
+      "durationInFrames": 468,
       "layer": 0,
       "trimStart": 0,
       "layout": {
@@ -185,9 +142,9 @@
     },
     {
       "id": "s4-waves",
-      "name": "S4 \u00b7 beta\u2192alpha wave overlay",
+      "name": "S4 · beta→alpha wave overlay",
       "from": 1080,
-      "durationInFrames": 390,
+      "durationInFrames": 330,
       "layer": 2,
       "trimStart": 0,
       "layout": {
@@ -232,7 +189,7 @@
       "id": "stat-chips",
       "name": "Trial stat chips",
       "from": 1290,
-      "durationInFrames": 180,
+      "durationInFrames": 120,
       "layer": 3,
       "layout": {
         "rect": [
@@ -252,7 +209,7 @@
     },
     {
       "id": "s5-ritual",
-      "name": "S5 \u00b7 collar on (nape)",
+      "name": "S5 · collar on (nape)",
       "from": 1470,
       "durationInFrames": 120,
       "layer": 0,
@@ -275,7 +232,7 @@
     },
     {
       "id": "s5-desk",
-      "name": "S5 \u00b7 desk arc",
+      "name": "S5 · desk arc",
       "from": 1590,
       "durationInFrames": 120,
       "layer": 0,
@@ -298,9 +255,9 @@
     },
     {
       "id": "ritual-steps",
-      "name": "Routine steps",
-      "from": 1494,
-      "durationInFrames": 216,
+      "name": "Routine steps (word-synced pops)",
+      "from": 1470,
+      "durationInFrames": 234,
       "layer": 3,
       "layout": {
         "rect": [
@@ -320,7 +277,7 @@
     },
     {
       "id": "proof-kicker",
-      "name": "Kicker \u00b7 real people",
+      "name": "Kicker · real people",
       "from": 1710,
       "durationInFrames": 240,
       "layer": 3,
@@ -337,12 +294,12 @@
       },
       "content": {
         "type": "layers",
-        "label": "Kicker \u00b7 real people"
+        "label": "Kicker · real people"
       }
     },
     {
       "id": "s6-valerie-still",
-      "name": "S6 \u00b7 Valerie (real still)",
+      "name": "S6 · Valerie (real still)",
       "from": 1710,
       "durationInFrames": 120,
       "layer": 1,
@@ -364,7 +321,7 @@
     },
     {
       "id": "quote-valerie",
-      "name": "Quote \u00b7 Valerie",
+      "name": "Quote · Valerie",
       "from": 1710,
       "durationInFrames": 120,
       "layer": 3,
@@ -381,12 +338,12 @@
       },
       "content": {
         "type": "layers",
-        "label": "Quote \u00b7 Valerie"
+        "label": "Quote · Valerie"
       }
     },
     {
       "id": "s6-fredrik-still",
-      "name": "S6 \u00b7 Fredrik (real still)",
+      "name": "S6 · Fredrik (real still)",
       "from": 1830,
       "durationInFrames": 120,
       "layer": 1,
@@ -408,7 +365,7 @@
     },
     {
       "id": "quote-fredrik",
-      "name": "Quote \u00b7 Fredrik",
+      "name": "Quote · Fredrik",
       "from": 1830,
       "durationInFrames": 120,
       "layer": 3,
@@ -425,12 +382,12 @@
       },
       "content": {
         "type": "layers",
-        "label": "Quote \u00b7 Fredrik"
+        "label": "Quote · Fredrik"
       }
     },
     {
       "id": "s7-endcard",
-      "name": "S7 \u00b7 end card",
+      "name": "S7 · end card",
       "from": 1950,
       "durationInFrames": 150,
       "layer": 0,
@@ -453,7 +410,7 @@
     },
     {
       "id": "s7-logo",
-      "name": "S7 \u00b7 wordmark (real asset)",
+      "name": "S7 · wordmark (real asset)",
       "from": 1974,
       "durationInFrames": 126,
       "layer": 2,
@@ -474,8 +431,170 @@
       }
     },
     {
+      "id": "s1-music",
+      "name": "Music · Serengeti bed (cut dead at the city)",
+      "from": 0,
+      "durationInFrames": 300,
+      "layer": 0,
+      "trimStart": 0,
+      "volume": 0.12,
+      "content": {
+        "type": "audio",
+        "src": "asset://music-serengeti"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-toast-1",
+      "name": "SFX · pop (first toast)",
+      "from": 408,
+      "durationInFrames": 15,
+      "layer": 0,
+      "volume": 0.45,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-pop"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-word-texts",
+      "name": "SFX · ding — \"Texts.\"",
+      "from": 435,
+      "durationInFrames": 53,
+      "layer": 0,
+      "volume": 0.4,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-ding"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-word-calls",
+      "name": "SFX · pop — \"Calls.\"",
+      "from": 452,
+      "durationInFrames": 15,
+      "layer": 0,
+      "volume": 0.35,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-pop"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-word-alerts",
+      "name": "SFX · soft — \"Alerts.\"",
+      "from": 472,
+      "durationInFrames": 59,
+      "layer": 0,
+      "volume": 0.4,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-soft"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-word-ragebait",
+      "name": "SFX · buzz — \"Rage bait.\"",
+      "from": 490,
+      "durationInFrames": 48,
+      "layer": 0,
+      "volume": 0.45,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-buzz"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-ring-out",
+      "name": "SFX · buzz (storm out)",
+      "from": 650,
+      "durationInFrames": 48,
+      "layer": 0,
+      "volume": 0.35,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-buzz"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
       "id": "vo-origin",
-      "name": "VO \u00b7 origin",
+      "name": "VO · origin",
       "from": 0,
       "durationInFrames": 300,
       "layer": 0,
@@ -498,7 +617,7 @@
     },
     {
       "id": "vo-now",
-      "name": "VO \u00b7 now",
+      "name": "VO · now",
       "from": 300,
       "durationInFrames": 360,
       "layer": 0,
@@ -521,9 +640,9 @@
     },
     {
       "id": "vo-brain",
-      "name": "VO \u00b7 brain",
+      "name": "VO · brain",
       "from": 660,
-      "durationInFrames": 360,
+      "durationInFrames": 352,
       "layer": 0,
       "volume": 1,
       "content": {
@@ -544,9 +663,9 @@
     },
     {
       "id": "vo-solution",
-      "name": "VO \u00b7 solution",
-      "from": 1020,
-      "durationInFrames": 450,
+      "name": "VO · solution",
+      "from": 1000,
+      "durationInFrames": 460,
       "layer": 0,
       "volume": 1,
       "content": {
@@ -567,9 +686,9 @@
     },
     {
       "id": "vo-ritual",
-      "name": "VO \u00b7 ritual",
-      "from": 1470,
-      "durationInFrames": 210,
+      "name": "VO · ritual",
+      "from": 1460,
+      "durationInFrames": 272,
       "layer": 0,
       "volume": 1,
       "content": {
@@ -590,7 +709,7 @@
     },
     {
       "id": "vo-close",
-      "name": "VO \u00b7 close",
+      "name": "VO · close",
       "from": 1950,
       "durationInFrames": 150,
       "layer": 0,
@@ -598,6 +717,238 @@
       "content": {
         "type": "nested",
         "composition": "voClose"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "s2-ambience",
+      "name": "Ambience · city (cut with the scene)",
+      "from": 300,
+      "durationInFrames": 360,
+      "layer": 0,
+      "trimStart": 0,
+      "volume": 0.22,
+      "content": {
+        "type": "audio",
+        "src": "asset://city-ambience"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "music-violins",
+      "name": "Music · The Violins (reveal → end card)",
+      "from": 1000,
+      "durationInFrames": 1100,
+      "layer": 0,
+      "trimStart": 0,
+      "volume": 0.24,
+      "content": {
+        "type": "audio",
+        "src": "asset://music-violins"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-brain-1",
+      "name": "SFX · slack ping (card 1)",
+      "from": 678,
+      "durationInFrames": 14,
+      "layer": 0,
+      "volume": 0.3,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-slack"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-brain-2",
+      "name": "SFX · slack ping (card 2)",
+      "from": 712,
+      "durationInFrames": 14,
+      "layer": 0,
+      "volume": 0.3,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-slack"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-brain-3",
+      "name": "SFX · slack ping (card 3)",
+      "from": 746,
+      "durationInFrames": 14,
+      "layer": 0,
+      "volume": 0.3,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-slack"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-brain-4",
+      "name": "SFX · slack ping (card 4)",
+      "from": 784,
+      "durationInFrames": 14,
+      "layer": 0,
+      "volume": 0.3,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-slack"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-brain-5",
+      "name": "SFX · slack ping (card 5)",
+      "from": 818,
+      "durationInFrames": 14,
+      "layer": 0,
+      "volume": 0.3,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-slack"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-brain-6",
+      "name": "SFX · slack ping (card 6)",
+      "from": 860,
+      "durationInFrames": 14,
+      "layer": 0,
+      "volume": 0.3,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-slack"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-brain-7",
+      "name": "SFX · slack ping (card 7)",
+      "from": 898,
+      "durationInFrames": 14,
+      "layer": 0,
+      "volume": 0.3,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-slack"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
+      "id": "sfx-brain-8",
+      "name": "SFX · slack ping (card 8)",
+      "from": 938,
+      "durationInFrames": 14,
+      "layer": 0,
+      "volume": 0.3,
+      "content": {
+        "type": "audio",
+        "src": "asset://sfx-slack"
       },
       "layout": {
         "rect": [

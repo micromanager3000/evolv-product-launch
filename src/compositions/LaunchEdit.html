@@ -15,7 +15,7 @@
  .stats .src{margin-top:9px;font:10.5px ui-monospace;letter-spacing:1px;color:#9CA3AF;text-shadow:0 1px 8px rgba(0,0,0,.6)}
  /* --- S5 routine steps --------------------------------------------------------------- */
  .steps{position:absolute;left:360px;top:924px;width:1200px;height:64px;display:flex;justify-content:center;gap:14px}
- .step{display:flex;align-items:center;gap:10px;background:rgba(13,27,42,.78);border:1px solid rgba(245,242,238,.18);border-radius:999px;padding:12px 22px;font-size:14.5px;font-weight:600}
+ .step{display:flex;align-items:center;gap:10px;background:rgba(13,27,42,.78);border:1px solid rgba(245,242,238,.18);border-radius:999px;padding:12px 22px;font-size:14.5px;font-weight:600;opacity:0}
  .step i{font:800 11px ui-monospace;color:#00B4B4;font-style:normal}
  /* --- S6 testimonial cards ----------------------------------------------------------- */
  .proofk{position:absolute;left:615px;top:96px;width:690px;height:48px;text-align:center;font:800 13px ui-monospace;letter-spacing:3px;color:#00B4B4}
@@ -32,8 +32,6 @@
      typography — kickers, claim chips, quotes — as `layers` items placed by the timeline. -->
 <main data-fd-composition data-fd-id="LaunchEdit" data-fd-name="Evolv28 — launch film" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="2100" data-fd-kind="edit" data-fd-source="src/compositions/LaunchEdit.html" data-fd-module="src/compositions/LaunchEdit.ts" data-fd-export="launchEditComp" data-fd-timeline-source="src/compositions/LaunchEdit.timeline.json">
 
- <div class="kicker" data-fd-clip data-fd-id="kicker-origin" data-fd-name="Kicker · where you evolved" data-fd-type="layers"><small>WHERE YOU EVOLVED</small><div class="rule"></div></div>
- <div class="kicker warm" data-fd-clip data-fd-id="kicker-now" data-fd-name="Kicker · where you live" data-fd-type="layers"><small>WHERE YOU LIVE NOW</small><div class="rule"></div></div>
 
  <div class="vcmf" data-fd-clip data-fd-id="vcmf-chip" data-fd-name="VCMF claim chip" data-fd-type="layers">PATENTED VCMF™ · UNDER 1 μT · NO SENSATION · DAYTIME WEAR</div>
 
@@ -49,7 +47,7 @@
  <div class="steps" data-fd-clip data-fd-id="ritual-steps" data-fd-name="Routine steps" data-fd-type="layers">
   <span class="step"><i>01</i> Put it on</span>
   <span class="step"><i>02</i> Press the button</span>
-  <span class="step"><i>03</i> Go live your day</span>
+  <span class="step"><i>03</i> Go about your day</span>
  </div>
 
  <div class="proofk" data-fd-clip data-fd-id="proof-kicker" data-fd-name="Kicker · real people" data-fd-type="layers">REAL PEOPLE · REAL NIGHTS</div>
@@ -68,4 +66,20 @@
   <span class="delta">DAYTIME WEAR · 4+ HOURS</span>
  </div>
 
+ <script>
+  // Routine steps land word-synced with voRitual: "Put it on." · "Press the button." ·
+  // "And go live your day." Absolute edit frames (voRitual starts at f1470), same
+  // APPEAR-table pattern as the notification storm.
+  const steps=queryAll(".step"),STEP_AT=[1509,1539,1606]; // voRitual take9 onsets (VO item at f1460)
+  onFrame(({frame})=>{
+   for(let i=0;i<steps.length;i++){
+    const t=frame-STEP_AT[i];
+    const p=Math.max(0,Math.min(1,t/7)),e=1-Math.pow(1-p,3);   // 7-frame pop, cubic out
+    const flash=t>=0?Math.max(0,1-t/12):0;                     // teal border flash on land
+    steps[i].style.opacity=String(e);
+    steps[i].style.transform=`translateY(${(8*(1-e)).toFixed(2)}px) scale(${(.9+.1*e).toFixed(3)})`;
+    steps[i].style.borderColor=flash>0?`rgba(0,180,180,${(.18+.55*flash).toFixed(2)})`:"rgba(245,242,238,.18)";
+   }
+  });
+ </script>
 </main></body></html>

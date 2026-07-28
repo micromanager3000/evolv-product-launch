@@ -1,0 +1,11 @@
+{
+  "provider": "fal",
+  "output": "audio",
+  "model": "elevenlabs-v3",
+  "prompt": "This is the Evolv28 narrator. Steady, warm, and precise. Wide horizons. Deep calm.",
+  "refs": [],
+  "voice": "Rachel",
+  "duration": 6,
+  "fps": 30,
+  "take": 1
+}
