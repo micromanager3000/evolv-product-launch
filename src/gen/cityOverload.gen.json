@@ -2,7 +2,7 @@
   "provider": "fal",
   "output": "video",
   "model": "seedance-2.0",
-  "prompt": "A 12-second live-action montage of modern sensory overload. EDIT STRUCTURE IS HIGHEST PRIORITY: instantaneous hard cuts at exactly 00:02.0, 00:04.0, 00:05.5, 00:07.0, 00:08.5 and 00:10.0 — no dissolves, no morphs, no continuous camera path across any cut. 00:00.0–00:02.0 — night city timelapse from a rooftop, headlight streaks and glass towers. 00:02.0–00:04.0 — packed subway platform, doors slide open, a crowd surges, everyone lit by phone screens. 00:04.0–00:05.5 — fluorescent open-plan office, dozens of monitors, keyboards clattering. 00:05.5–00:07.0 — macro of a thumb doomscrolling, feed light strobing on skin. 00:07.0–00:08.5 — a phone face-up on a desk buzzing and skittering with stacked banner notifications. 00:08.5–00:10.0 — driver's view in stop-and-go traffic, brake lights smearing in rain. 00:10.0–00:12.0 — a face in a dark bedroom lit only by a phone held too close, eyes tired and awake. Cold fluorescent and screen-glow palette — cyan, sodium, LCD white — deliberately opposing a warm golden savannah. Handheld urgency, slight overexposure on screens, fine 35mm grain. Photoreal live-action only; no text overlays, no UI graphics, no animation look.",
+  "prompt": "A 12-second live-action montage of modern sensory overload. EDIT STRUCTURE IS HIGHEST PRIORITY: instantaneous hard cuts at exactly 00:02.0, 00:04.0, 00:05.5, 00:07.0, 00:08.5 and 00:10.0 — no dissolves, no morphs, no continuous camera path across any cut. NO VISIBLE HUMAN FACES ANYWHERE IN ANY SHOT — every person appears from behind, in silhouette, cropped below the chin, or defocused beyond recognition; no faces in reflections either. 00:00.0–00:02.0 — night city timelapse from a rooftop, headlight streaks and glass towers. 00:02.0–00:04.0 — packed subway platform seen from behind the crowd: a wall of backs, hoods and shoulders surges through sliding doors, phone screens glowing past silhouetted heads. 00:04.0–00:05.5 — fluorescent open-plan office shot from behind a row of workers, dozens of monitors, keyboards clattering, heads dark against the screen glare. 00:05.5–00:07.0 — macro of a thumb doomscrolling, feed light strobing on skin. 00:07.0–00:08.5 — a phone face-up on a desk buzzing and skittering with stacked banner notifications. 00:08.5–00:10.0 — driver's-seat POV in stop-and-go traffic, brake lights smearing in rain, no mirror in frame. 00:10.0–00:12.0 — over-the-shoulder from close behind a man hunched at a desk at night: two bright monitors stacked with piling popups, his hand leaving the keyboard to grip the back of his neck, knuckles tightening; camera stays behind his head, face never visible. Cold fluorescent and screen-glow palette — cyan, sodium, LCD white — deliberately opposing a warm golden savannah. Handheld urgency, slight overexposure on screens, fine 35mm grain. Photoreal live-action only; no text overlays, no readable UI copy, no animation look.",
   "refs": [],
   "tier": "fast",
   "resolution": "720p",
@@ -10,5 +10,5 @@
   "aspect": "16:9",
   "audio": false,
   "fps": 30,
-  "take": 1
+  "take": 2
 }

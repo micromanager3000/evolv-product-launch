@@ -2,14 +2,18 @@
   "provider": "fal",
   "output": "image",
   "model": "seedream-5.0-pro",
-  "prompt": "@Image1 is the exact product: a matte graphite neckband wearable with two flat paddles and a thin teal light line. Create a photoreal 16:9 live-action frame: a woman seen from behind and slightly to the side, framed from shoulder blades to the back of her head — her face is never visible, not even in profile. Both hands are raised, lifting the exact graphite neckband to settle it around the base of her neck, the paddles coming to rest on her collarbones. Focus on the nape, wisps of hair tucked away, the collar just touching skin. Calm morning bedroom: soft window daylight from the left, linen and warm-white tones softly out of focus behind. 85mm lens, shallow depth of field, natural skin texture, quiet color, fine 35mm grain. The product's design must match @Image1 exactly. No face, no mirror reflection of a face, no text, no jewelry, no second person.",
+  "prompt": "@Image1 is the exact product — study it: a smooth matte graphite neckband whose rounded collar is thickest across the back and tapers as it sweeps forward into two flat, elongated teardrop paddles angled slightly inward; soft-touch matte finish, a small pill-shaped indicator slot on the inner face of one paddle, and a slim teal accent strip on the outer face near the back of the band. No other buttons, ports, seams, or lights exist. The collar is RIGID — a solid molded piece that cannot bend, flex, twist, or splay open. @Image2 shows how it sits when worn: riding low around the base of the neck just above the collar line, paddles resting toward the collarbones. Create a photoreal 16:9 live-action frame framed TIGHT on the neck area only: a woman from behind and slightly to the side, cropped from the tops of her shoulder blades to just below her hairline — no jaw, no cheek, no profile, no face, and no face in any mirror or window. Both hands hold the rigid collar by its sides, sliding it horizontally onto her neck from behind in one smooth glide — the fixed C-shaped opening simply passes around the neck, the band keeping its exact solid shape the whole time, paddles arriving to rest toward her collarbones. Focus locked on the nape and collar, wisps of hair tucked away. Calm morning bedroom: soft window daylight from the left, linen and warm-white tones softly out of focus behind. 85mm lens, shallow depth of field, natural skin texture, quiet color, fine 35mm grain. The product must match @Image1 exactly — same proportions, same finish, same paddle shape, nothing added or removed. No jewelry, no text, no second person.",
   "refs": [
     {
       "kind": "image",
       "src": "asset://device-render"
+    },
+    {
+      "kind": "image",
+      "src": "asset://portrait-profile"
     }
   ],
   "aspect": "16:9",
   "fps": 30,
-  "take": 1
+  "take": 4
 }

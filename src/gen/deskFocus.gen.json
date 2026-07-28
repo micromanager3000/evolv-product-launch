@@ -2,13 +2,18 @@
   "provider": "fal",
   "output": "video",
   "model": "seedance-2.0",
-  "prompt": "a man works at his desk in a bright office, wearing a matte graphite neckband with a thin teal light line, seen from behind him . Animate one continuous, calm 6-second shot: the camera arcs slowly around toward his back-right shoulder, ending slightly behind and above it so his screen and the neckband on the back of his neck are both visible — a gentle over-the-shoulder reveal. He types unhurried, pauses once to read, breathes easily; his posture is relaxed, not slumped. The neckband's teal line glows steadily. Soft daylight from the windows, monitor glow subtle, shallow depth. The product, his clothing, and the room must match @Image1 exactly. Settled, focused, quietly confident. No cuts, no text, no other people in focus, no camera shake.",
-  "refs": [],
+  "prompt": "@Image1 is the exact first frame: a man seen strictly from behind at his desk in a bright office, a matte graphite neckband resting at the base of his neck, his monitor glowing ahead. Animate one continuous, calm 6-second shot: the camera holds behind him and pushes in very slowly toward his shoulders — no arc to the front, no orbit, his face never revealed, not even in the screen's reflection. He types unhurried, pauses once to read, breathes easily; posture relaxed, not slumped. The neckband keeps the exact geometry and finish of the first frame — no morphing, nothing added; its slim teal accent catches the window light once. Soft daylight from the windows, monitor glow subtle, shallow depth. Settled, focused, quietly confident — the calm mirror of the overwhelmed desk shot earlier in the film. No cuts, no text, no other people in focus, no camera shake.",
+  "refs": [
+    {
+      "kind": "image",
+      "src": "comp://deskStill"
+    }
+  ],
   "tier": "fast",
   "resolution": "720p",
   "duration": 6,
   "aspect": "16:9",
   "audio": false,
   "fps": 30,
-  "take": 0
+  "take": 3
 }

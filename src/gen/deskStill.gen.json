@@ -1,0 +1,23 @@
+{
+  "provider": "fal",
+  "output": "image",
+  "model": "seedream-5.0-pro",
+  "prompt": "@Image1 is the exact product — study it: a smooth matte graphite neckband whose rounded collar is thickest across the back and tapers forward into two flat, elongated teardrop paddles angled slightly inward; soft-touch matte finish, a slim teal accent strip on the outer face near the back of the band. @Image2 is the room, wardrobe, and desk to keep: the same bright office, window light, grey sweater, and desk setup as that photo. @Image3 shows how the product sits when worn: low around the base of the neck, just above the collar line. Create a photoreal 16:9 live-action frame: the same man from @Image2 seen STRICTLY FROM BEHIND at his desk — camera at shoulder height behind his back-right, head and shoulders framed against the glowing monitor ahead, his face completely hidden: no profile, no cheek, and no reflection of a face in the screen. The graphite neckband rests at the base of his neck exactly as in @Image3, the slim teal accent catching the window light, the collar of his grey sweater sitting just below it. Soft daylight from the windows, monitor glow subtle, shallow depth of field, natural fabric and hair texture, fine 35mm grain. The product must match @Image1 exactly — same proportions, same finish, nothing added or removed. No face, no text, no second person.",
+  "refs": [
+    {
+      "kind": "image",
+      "src": "asset://device-render"
+    },
+    {
+      "kind": "image",
+      "src": "asset://lifestyle-desk"
+    },
+    {
+      "kind": "image",
+      "src": "asset://portrait-profile"
+    }
+  ],
+  "aspect": "16:9",
+  "fps": 30,
+  "take": 1
+}

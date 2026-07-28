@@ -55,6 +55,51 @@
         "/__framediff-cache/sha256%3Ae963d8d9453088f0e2bfb889f459369f3e309b41c16385cf528cbc635505f695"
       ]
     },
+    "music-serengeti": {
+      "name": "music-serengeti.mp3",
+      "contentHash": "sha256:3cce62e89db28981c220685c89d3917b1b076e0301c605aeb66dc3cf282c48da",
+      "mime": "audio/mpeg",
+      "bytes": 1311418,
+      "sources": [
+        "/__framediff-cache/sha256%3A3cce62e89db28981c220685c89d3917b1b076e0301c605aeb66dc3cf282c48da"
+      ]
+    },
+    "sfx-ding": {
+      "name": "sfx-ding.wav",
+      "contentHash": "sha256:7574e4881f0983e77a94252007d5987d048728f33f47da948cfd3dcc07b770b4",
+      "mime": "audio/wav",
+      "bytes": 311010,
+      "sources": [
+        "/__framediff-cache/sha256%3A7574e4881f0983e77a94252007d5987d048728f33f47da948cfd3dcc07b770b4"
+      ]
+    },
+    "sfx-pop": {
+      "name": "sfx-pop.wav",
+      "contentHash": "sha256:d630218352eb12e5e59524a3d60a0887be5d0e96c58906cbef9be3097720279e",
+      "mime": "audio/wav",
+      "bytes": 88318,
+      "sources": [
+        "/__framediff-cache/sha256%3Ad630218352eb12e5e59524a3d60a0887be5d0e96c58906cbef9be3097720279e"
+      ]
+    },
+    "sfx-soft": {
+      "name": "sfx-soft.wav",
+      "contentHash": "sha256:3e361d7691fce0907d2b71ae1892f2fe695ecb6f50cb10f970914a002e3008cb",
+      "mime": "audio/wav",
+      "bytes": 352878,
+      "sources": [
+        "/__framediff-cache/sha256%3A3e361d7691fce0907d2b71ae1892f2fe695ecb6f50cb10f970914a002e3008cb"
+      ]
+    },
+    "sfx-buzz": {
+      "name": "sfx-buzz.wav",
+      "contentHash": "sha256:59b7c61b37759c951a01f6fc407d7e26687a097836d83fef57253bd2a4e11e0c",
+      "mime": "audio/wav",
+      "bytes": 282338,
+      "sources": [
+        "/__framediff-cache/sha256%3A59b7c61b37759c951a01f6fc407d7e26687a097836d83fef57253bd2a4e11e0c"
+      ]
+    },
     "valerie-still": {
       "name": "valerie-still.jpg",
       "contentHash": "sha256:1e92fcbbf4525dbedcdec81419cd1acb9035cc2bfae18deae73c049c4567c756",
@@ -693,6 +738,2282 @@
         "seed": 1611699407,
         "outputKind": "video",
         "at": "2026-07-25T06:34:35.771Z"
+      }
+    },
+    "d046f722-53fa-437d-a57c-1cbbe02a5797": {
+      "name": "ritualStill.take2.jpg",
+      "contentHash": "sha256:e498447e09af858554cf65317858d40927f7c2d86a49350ece88c58c7cba2ebe",
+      "mime": "image/jpeg",
+      "bytes": 232233,
+      "sources": [
+        "/__framediff-cache/sha256%3Ae498447e09af858554cf65317858d40927f7c2d86a49350ece88c58c7cba2ebe"
+      ],
+      "generator": {
+        "gen": "ritualStill",
+        "take": 2,
+        "recipeHash": "sha256:a844df8d82d02c4b9936e83af9fd18c047ba10d9770f6dc7183a308a8c40fecf",
+        "endpoint": "bytedance/seedream/v5/pro/edit",
+        "recipe": {
+          "provider": "fal",
+          "output": "image",
+          "model": "seedream-5.0-pro",
+          "prompt": "@Image1 is the exact product — study it: a smooth matte graphite neckband whose rounded collar is thickest across the back and tapers as it sweeps forward into two flat, elongated teardrop paddles angled slightly inward; soft-touch matte finish, a small pill-shaped indicator slot on the inner face of one paddle, and a slim teal accent strip on the outer face near the back of the band. No other buttons, ports, seams, or lights exist. @Image2 shows how it sits when worn: riding low around the base of the neck just above the collar line, paddles resting toward the collarbones. Create a photoreal 16:9 live-action frame framed TIGHT on the neck area only: a woman from behind and slightly to the side, cropped from the tops of her shoulder blades to just below her hairline — no jaw, no cheek, no profile, no face, and no face in any mirror or window. Both hands are raised mid-gesture, seating the exact graphite neckband at the base of her neck, paddles just settling toward her collarbones. Focus locked on the nape and collar, wisps of hair tucked away. Calm morning bedroom: soft window daylight from the left, linen and warm-white tones softly out of focus behind. 85mm lens, shallow depth of field, natural skin texture, quiet color, fine 35mm grain. The product must match @Image1 exactly — same proportions, same finish, same paddle shape, nothing added or removed. No jewelry, no text, no second person.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://device-render"
+            },
+            {
+              "kind": "image",
+              "src": "asset://portrait-profile"
+            }
+          ],
+          "aspect": "16:9",
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://device-render",
+            "contentHash": "sha256:ff44c956c585b47e1b4af753e40756eb00b42361433a48897082afa7972935c3"
+          },
+          {
+            "kind": "image",
+            "src": "asset://portrait-profile",
+            "contentHash": "sha256:e963d8d9453088f0e2bfb889f459369f3e309b41c16385cf528cbc635505f695"
+          }
+        ],
+        "requestId": "c44af2b6-133c-4522-b047-6e519fc654f9",
+        "outputKind": "image",
+        "at": "2026-07-27T04:34:54.958Z"
+      }
+    },
+    "ca80548a-e12c-413c-810d-7ca811afbaa8": {
+      "name": "deskStill.take1.jpg",
+      "contentHash": "sha256:70ed27df422005f4030aa753e1132a3ca3f7815cad9a3dca83f4a0af43ea1773",
+      "mime": "image/jpeg",
+      "bytes": 278938,
+      "sources": [
+        "/__framediff-cache/sha256%3A70ed27df422005f4030aa753e1132a3ca3f7815cad9a3dca83f4a0af43ea1773"
+      ],
+      "generator": {
+        "gen": "deskStill",
+        "take": 1,
+        "recipeHash": "sha256:cee2320f7760e73dc605bd6ca256d0366c8f3919955d985d06de0a56e4db99b3",
+        "endpoint": "bytedance/seedream/v5/pro/edit",
+        "recipe": {
+          "provider": "fal",
+          "output": "image",
+          "model": "seedream-5.0-pro",
+          "prompt": "@Image1 is the exact product — study it: a smooth matte graphite neckband whose rounded collar is thickest across the back and tapers forward into two flat, elongated teardrop paddles angled slightly inward; soft-touch matte finish, a slim teal accent strip on the outer face near the back of the band. @Image2 is the room, wardrobe, and desk to keep: the same bright office, window light, grey sweater, and desk setup as that photo. @Image3 shows how the product sits when worn: low around the base of the neck, just above the collar line. Create a photoreal 16:9 live-action frame: the same man from @Image2 seen STRICTLY FROM BEHIND at his desk — camera at shoulder height behind his back-right, head and shoulders framed against the glowing monitor ahead, his face completely hidden: no profile, no cheek, and no reflection of a face in the screen. The graphite neckband rests at the base of his neck exactly as in @Image3, the slim teal accent catching the window light, the collar of his grey sweater sitting just below it. Soft daylight from the windows, monitor glow subtle, shallow depth of field, natural fabric and hair texture, fine 35mm grain. The product must match @Image1 exactly — same proportions, same finish, nothing added or removed. No face, no text, no second person.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://device-render"
+            },
+            {
+              "kind": "image",
+              "src": "asset://lifestyle-desk"
+            },
+            {
+              "kind": "image",
+              "src": "asset://portrait-profile"
+            }
+          ],
+          "aspect": "16:9",
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://device-render",
+            "contentHash": "sha256:ff44c956c585b47e1b4af753e40756eb00b42361433a48897082afa7972935c3"
+          },
+          {
+            "kind": "image",
+            "src": "asset://lifestyle-desk",
+            "contentHash": "sha256:ddd7946b24a2a0f1e276b2d8a0c4d5d95f77db8fd9cedbc203825fc6cbb6dda9"
+          },
+          {
+            "kind": "image",
+            "src": "asset://portrait-profile",
+            "contentHash": "sha256:e963d8d9453088f0e2bfb889f459369f3e309b41c16385cf528cbc635505f695"
+          }
+        ],
+        "requestId": "b2fe2a17-2e06-4f38-b430-fd0cdcf8f98f",
+        "outputKind": "image",
+        "at": "2026-07-27T04:35:21.475Z"
+      }
+    },
+    "22422b33-eaa5-4999-aa5c-000f932a5873": {
+      "name": "cityOverload.take2.mp4",
+      "contentHash": "sha256:cf991aad0f3276523e01846189eeae1db3056a4011c42f26ae2e8b4a2a426948",
+      "mime": "video/mp4",
+      "bytes": 5402897,
+      "sources": [
+        "/__framediff-cache/sha256%3Acf991aad0f3276523e01846189eeae1db3056a4011c42f26ae2e8b4a2a426948"
+      ],
+      "generator": {
+        "gen": "cityOverload",
+        "take": 2,
+        "recipeHash": "sha256:e553025436db71d84a55422a831c53f58995c10e4c508070745787470f544589",
+        "endpoint": "bytedance/seedance-2.0/fast/text-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "A 12-second live-action montage of modern sensory overload. EDIT STRUCTURE IS HIGHEST PRIORITY: instantaneous hard cuts at exactly 00:02.0, 00:04.0, 00:05.5, 00:07.0, 00:08.5 and 00:10.0 — no dissolves, no morphs, no continuous camera path across any cut. NO VISIBLE HUMAN FACES ANYWHERE IN ANY SHOT — every person appears from behind, in silhouette, cropped below the chin, or defocused beyond recognition; no faces in reflections either. 00:00.0–00:02.0 — night city timelapse from a rooftop, headlight streaks and glass towers. 00:02.0–00:04.0 — packed subway platform seen from behind the crowd: a wall of backs, hoods and shoulders surges through sliding doors, phone screens glowing past silhouetted heads. 00:04.0–00:05.5 — fluorescent open-plan office shot from behind a row of workers, dozens of monitors, keyboards clattering, heads dark against the screen glare. 00:05.5–00:07.0 — macro of a thumb doomscrolling, feed light strobing on skin. 00:07.0–00:08.5 — a phone face-up on a desk buzzing and skittering with stacked banner notifications. 00:08.5–00:10.0 — driver's-seat POV in stop-and-go traffic, brake lights smearing in rain, no mirror in frame. 00:10.0–00:12.0 — over-the-shoulder from close behind a man hunched at a desk at night: two bright monitors stacked with piling popups, his hand leaving the keyboard to grip the back of his neck, knuckles tightening; camera stays behind his head, face never visible. Cold fluorescent and screen-glow palette — cyan, sodium, LCD white — deliberately opposing a warm golden savannah. Handheld urgency, slight overexposure on screens, fine 35mm grain. Photoreal live-action only; no text overlays, no readable UI copy, no animation look.",
+          "refs": [],
+          "tier": "fast",
+          "resolution": "720p",
+          "duration": 12,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "78b78763-1e67-4e03-be8b-cbca8778c6c1",
+        "seed": 528721306,
+        "outputKind": "video",
+        "at": "2026-07-27T04:36:14.088Z"
+      }
+    },
+    "a98db4e2-9be5-41f7-891d-367fa205a148": {
+      "name": "hyenaChase.take2.jpg",
+      "contentHash": "sha256:3e983a8ab4bbaae996fc0502e489b3383b9d4ef634df9d4c016691032e21cfd2",
+      "mime": "image/jpeg",
+      "bytes": 335495,
+      "sources": [
+        "/__framediff-cache/sha256%3A3e983a8ab4bbaae996fc0502e489b3383b9d4ef634df9d4c016691032e21cfd2"
+      ],
+      "generator": {
+        "gen": "hyenaChase",
+        "take": 2,
+        "recipeHash": "sha256:77c1b5ead5811905d506a37863d3a6f87dadaed77669a23163166bbd96064827",
+        "endpoint": "bytedance/seedream/v5/pro/text-to-image",
+        "recipe": {
+          "provider": "fal",
+          "output": "image",
+          "model": "seedream-5.0-pro",
+          "prompt": "Photoreal 16:9 live-action wildlife-documentary frame, 400mm long-lens compression, low to the ground on a golden-dawn African savannah: a lean adult runner in simple earth-toned hide clothing sprints flat out through dry gold grass, seen side-on and slightly from behind, body pitched forward mid-stride — and one spotted hyena is three strides behind at full gallop, head low, locked on. Kicked-up dust hangs backlit in the low sun; motion blur on legs and grass; the runner's head is fully turned away from camera, face never visible. Shallow depth of field, warm rim light, natural exposure, fine 35mm grain. The mood is pure primal alarm — urgent, not gory. No blood, no contact, no text, no modern clothing, no illustration or painting look.",
+          "refs": [],
+          "aspect": "16:9",
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "eaa2156f-4a28-4aa4-9b4e-072af7626fbe",
+        "outputKind": "image",
+        "at": "2026-07-27T04:36:19.393Z"
+      }
+    },
+    "9e26bec4-3c29-428c-b59c-0da20dace6d2": {
+      "name": "ritualStill.take3.jpg",
+      "contentHash": "sha256:58629d192e9c0fa71c10c58096706cf4e208bfbba39ac5fa0d461249b41949ff",
+      "mime": "image/jpeg",
+      "bytes": 289174,
+      "sources": [
+        "/__framediff-cache/sha256%3A58629d192e9c0fa71c10c58096706cf4e208bfbba39ac5fa0d461249b41949ff"
+      ],
+      "generator": {
+        "gen": "ritualStill",
+        "take": 3,
+        "recipeHash": "sha256:a844df8d82d02c4b9936e83af9fd18c047ba10d9770f6dc7183a308a8c40fecf",
+        "endpoint": "bytedance/seedream/v5/pro/edit",
+        "recipe": {
+          "provider": "fal",
+          "output": "image",
+          "model": "seedream-5.0-pro",
+          "prompt": "@Image1 is the exact product — study it: a smooth matte graphite neckband whose rounded collar is thickest across the back and tapers as it sweeps forward into two flat, elongated teardrop paddles angled slightly inward; soft-touch matte finish, a small pill-shaped indicator slot on the inner face of one paddle, and a slim teal accent strip on the outer face near the back of the band. No other buttons, ports, seams, or lights exist. @Image2 shows how it sits when worn: riding low around the base of the neck just above the collar line, paddles resting toward the collarbones. Create a photoreal 16:9 live-action frame framed TIGHT on the neck area only: a woman from behind and slightly to the side, cropped from the tops of her shoulder blades to just below her hairline — no jaw, no cheek, no profile, no face, and no face in any mirror or window. Both hands are raised mid-gesture, seating the exact graphite neckband at the base of her neck, paddles just settling toward her collarbones. Focus locked on the nape and collar, wisps of hair tucked away. Calm morning bedroom: soft window daylight from the left, linen and warm-white tones softly out of focus behind. 85mm lens, shallow depth of field, natural skin texture, quiet color, fine 35mm grain. The product must match @Image1 exactly — same proportions, same finish, same paddle shape, nothing added or removed. No jewelry, no text, no second person.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://device-render"
+            },
+            {
+              "kind": "image",
+              "src": "asset://portrait-profile"
+            }
+          ],
+          "aspect": "16:9",
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://device-render",
+            "contentHash": "sha256:ff44c956c585b47e1b4af753e40756eb00b42361433a48897082afa7972935c3"
+          },
+          {
+            "kind": "image",
+            "src": "asset://portrait-profile",
+            "contentHash": "sha256:e963d8d9453088f0e2bfb889f459369f3e309b41c16385cf528cbc635505f695"
+          }
+        ],
+        "requestId": "99ff58cd-80eb-49c5-a1be-d02a1100b610",
+        "outputKind": "image",
+        "at": "2026-07-27T04:38:03.552Z"
+      }
+    },
+    "23ebb6cf-d9fe-4f9a-a072-7f76e0116c3a": {
+      "name": "deskFocus.take3.mp4",
+      "contentHash": "sha256:4e58d6b4000368290abcf9f0212e2eb33e57e96666ef9b2c1f9dadd07db970bb",
+      "mime": "video/mp4",
+      "bytes": 2911231,
+      "sources": [
+        "/__framediff-cache/sha256%3A4e58d6b4000368290abcf9f0212e2eb33e57e96666ef9b2c1f9dadd07db970bb"
+      ],
+      "generator": {
+        "gen": "deskFocus",
+        "take": 3,
+        "recipeHash": "sha256:08428d2440506519a14ccb13a17118baca8a5d908b2031df1ebf1d78c6a2bea4",
+        "endpoint": "bytedance/seedance-2.0/fast/image-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "@Image1 is the exact first frame: a man seen strictly from behind at his desk in a bright office, a matte graphite neckband resting at the base of his neck, his monitor glowing ahead. Animate one continuous, calm 6-second shot: the camera holds behind him and pushes in very slowly toward his shoulders — no arc to the front, no orbit, his face never revealed, not even in the screen's reflection. He types unhurried, pauses once to read, breathes easily; posture relaxed, not slumped. The neckband keeps the exact geometry and finish of the first frame — no morphing, nothing added; its slim teal accent catches the window light once. Soft daylight from the windows, monitor glow subtle, shallow depth. Settled, focused, quietly confident — the calm mirror of the overwhelmed desk shot earlier in the film. No cuts, no text, no other people in focus, no camera shake.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "comp://deskStill"
+            }
+          ],
+          "tier": "fast",
+          "resolution": "720p",
+          "duration": 6,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "comp://deskStill",
+            "contentHash": "sha256:70ed27df422005f4030aa753e1132a3ca3f7815cad9a3dca83f4a0af43ea1773"
+          }
+        ],
+        "requestId": "b9f8eebf-1b77-400f-8ad3-90607f8b379b",
+        "seed": 1064201716,
+        "outputKind": "video",
+        "at": "2026-07-27T04:40:29.730Z"
+      }
+    },
+    "12591565-2e7b-48d5-80fe-ec876e909a8e": {
+      "name": "ritualOn.take2.mp4",
+      "contentHash": "sha256:8a9f054860f3402099d1f746178f0dcc6f3d2095f992b32a93728c1e0f52d0ac",
+      "mime": "video/mp4",
+      "bytes": 2685471,
+      "sources": [
+        "/__framediff-cache/sha256%3A8a9f054860f3402099d1f746178f0dcc6f3d2095f992b32a93728c1e0f52d0ac"
+      ],
+      "generator": {
+        "gen": "ritualOn",
+        "take": 2,
+        "recipeHash": "sha256:86cd68126ced0d0e7159a88ce9326e336e772ccc986f55360ce9f6a22827c89a",
+        "endpoint": "bytedance/seedance-2.0/fast/image-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "@Image1 is the exact first frame: a tight neck-area close-up — a woman from behind, cropped from shoulder blades to just below her hairline, face never visible, seating a matte graphite neckband at the base of her neck in soft morning bedroom light. One continuous, intimate 6-second shot, camera locked with imperceptible handheld drift, never tilting up past her hairline. The product keeps the exact geometry and finish of the first frame — no morphing, no redesign, nothing added. Motion, precisely: 00:00.0–00:02.5 — her hands seat the collar gently and smooth it once; the paddles settle toward her collarbones. 00:02.5–00:03.5 — one thumb presses the flat inner face of the right paddle once; the small indicator wakes as a single soft teal LED breathing on, faintly reflected on her skin. 00:03.5–00:06.0 — her hands lower out of frame and she takes one easy breath, shoulders dropping as she relaxes; focus stays on the nape and collar. Her face must never enter the frame — no turn, no profile, no mirror, no reflection. Natural morning light, shallow 85mm depth, quiet color, fine 35mm grain. No cuts, no text, no second person.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "comp://ritualStill"
+            }
+          ],
+          "tier": "fast",
+          "resolution": "720p",
+          "duration": 6,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "comp://ritualStill",
+            "contentHash": "sha256:1e137bc6b4455d7a94f8bf659947335493b7ba27c596a173edbd431c163f293f"
+          }
+        ],
+        "requestId": "5c69cc5e-8d6b-427d-b6b3-3978697129f6",
+        "seed": 1863065506,
+        "outputKind": "video",
+        "at": "2026-07-27T04:42:18.794Z"
+      }
+    },
+    "2d2f3042-f726-4803-bfcf-5281bc50dfc6": {
+      "name": "voOrigin.take2.mp3",
+      "contentHash": "sha256:a701a786614268f07b26be5dc2dbcf8f8d16f3cde065dcb1b8f7320633d095eb",
+      "mime": "audio/mpeg",
+      "bytes": 237445,
+      "sources": [
+        "/__framediff-cache/sha256%3Aa701a786614268f07b26be5dc2dbcf8f8d16f3cde065dcb1b8f7320633d095eb"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 2,
+        "recipeHash": "sha256:b299e670128046af19f3040bc9b9a67f1f0bad0c2444f8dd1eff214cf8675819",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where your brain was built. Wide horizons. Deep calm. And once in a while — real danger. Total focus. Then... gone.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 10,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "194208e1-dfee-4a43-88f6-1c51524baad5",
+        "outputKind": "audio",
+        "at": "2026-07-27T04:59:13.327Z"
+      }
+    },
+    "5e534cdf-ac6b-49ce-b318-827bf371ddd6": {
+      "name": "voNow.take2.mp3",
+      "contentHash": "sha256:8b818beded53357fbcd65fb9facfd0bf366bf29c05ce06ee47f9e1938ed69fe8",
+      "mime": "audio/mpeg",
+      "bytes": 275898,
+      "sources": [
+        "/__framediff-cache/sha256%3A8b818beded53357fbcd65fb9facfd0bf366bf29c05ce06ee47f9e1938ed69fe8"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 2,
+        "recipeHash": "sha256:bf0aa90dbe18eeb27447001c0b3daf3095412ae65fd5e4d219829859ee6b89e0",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where it lives now. We rebuilt the world — concrete, engines, deadlines, feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour... and they never stop.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 12,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "87897755-87f2-47d3-b439-edbd2630b334",
+        "outputKind": "audio",
+        "at": "2026-07-27T04:59:14.033Z"
+      }
+    },
+    "b44f9b86-666c-4a1d-ac71-7b547e0107f9": {
+      "name": "voBrain.take2.mp3",
+      "contentHash": "sha256:9eaee5f2786cb2777e99c785c8ea3a528e7484548fc4d6421d8ce3014bebe06c",
+      "mime": "audio/mpeg",
+      "bytes": 172244,
+      "sources": [
+        "/__framediff-cache/sha256%3A9eaee5f2786cb2777e99c785c8ea3a528e7484548fc4d6421d8ce3014bebe06c"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 2,
+        "recipeHash": "sha256:23eb05cc87636d60affda6553c09b968d2cd88fc2fc4de01010c8689b094dd25",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. And that alarm has no off switch.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 12,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "f263a53f-eb5f-4f6a-9944-d4409e5d1e68",
+        "outputKind": "audio",
+        "at": "2026-07-27T04:59:14.566Z"
+      }
+    },
+    "66e19ef1-1acf-48dd-b7e7-48b11341e622": {
+      "name": "voSolution.take3.mp3",
+      "contentHash": "sha256:84da9b061dc232c3dbd79776cc3a5096083dc0b072ac270a0ae6ed2b8492c821",
+      "mime": "audio/mpeg",
+      "bytes": 332322,
+      "sources": [
+        "/__framediff-cache/sha256%3A84da9b061dc232c3dbd79776cc3a5096083dc0b072ac270a0ae6ed2b8492c821"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 3,
+        "recipeHash": "sha256:014b12404e1a65d185ae02257827427f8f4ec44dc8c6896bac722d9dcde1f4f3",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "Evolv28 switches the alarm off at the source. Gentle, precise magnetic fields guide your brain back to its natural alpha rhythm — the calm it was built on. In placebo-controlled trials: heart rate variability up. Stress down. Forty-five more minutes of sleep, every night.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 15,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "7d43431d-8762-4248-a055-e4f0752bf0bb",
+        "outputKind": "audio",
+        "at": "2026-07-27T04:59:15.404Z"
+      }
+    },
+    "887eefe0-fe45-48c6-9345-6a8558d2324c": {
+      "name": "voRitual.take2.mp3",
+      "contentHash": "sha256:8ce279e91b480366e8954e01ae3fe9eb2985c0cef139d83d2ca04d75ba2d8ac5",
+      "mime": "audio/mpeg",
+      "bytes": 78621,
+      "sources": [
+        "/__framediff-cache/sha256%3A8ce279e91b480366e8954e01ae3fe9eb2985c0cef139d83d2ca04d75ba2d8ac5"
+      ],
+      "generator": {
+        "gen": "voRitual",
+        "take": 2,
+        "recipeHash": "sha256:7cb92f8f90d40ba8217e8c5f9e10141de24184cd709b7be393a72689f55863db",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "Put it on. Press the button. And go live your day. That's the whole routine.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 7,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "fe7d7f03-af22-499c-b686-f1bcfc6fedf7",
+        "outputKind": "audio",
+        "at": "2026-07-27T04:59:15.894Z"
+      }
+    },
+    "ff6cce9a-ee11-42cd-b653-25e2d100ca01": {
+      "name": "voClose.take2.mp3",
+      "contentHash": "sha256:8f161629735715aaa8afe3f1942f3d5a152e64112e9e24ad655551799b7a43bc",
+      "mime": "audio/mpeg",
+      "bytes": 72351,
+      "sources": [
+        "/__framediff-cache/sha256%3A8f161629735715aaa8afe3f1942f3d5a152e64112e9e24ad655551799b7a43bc"
+      ],
+      "generator": {
+        "gen": "voClose",
+        "take": 2,
+        "recipeHash": "sha256:3fe37a80979e6d3ce2674c95b6c6b7fe8bfffd1efbe979ed80d3194dc9c21100",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "Evolv28. Calm, by design. Get yours today.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 5,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "67fdb04d-4abd-41d6-981d-bcf4bd327642",
+        "outputKind": "audio",
+        "at": "2026-07-27T04:59:16.533Z"
+      }
+    },
+    "d6d23419-2d62-4b59-bd4e-0556124414ea": {
+      "name": "voOrigin.take3.mp3",
+      "contentHash": "sha256:ea5c6f106044f693df90d6ab64d84658bdf5ea0bac9842f53a7050070d52ba21",
+      "mime": "audio/mpeg",
+      "bytes": 160541,
+      "sources": [
+        "/__framediff-cache/sha256%3Aea5c6f106044f693df90d6ab64d84658bdf5ea0bac9842f53a7050070d52ba21"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 3,
+        "recipeHash": "sha256:81b67a80ae6c68746a1c81812f06b9ba3dad1cae9c831e5ac2da17525fa58234",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where your brain was built. Wide horizons. Deep calm. And once in a while — real danger. Total focus. Then... gone.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 10,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "ec6a1cb5-c3b8-4995-a698-4a889d5c052c",
+        "outputKind": "audio",
+        "at": "2026-07-27T05:01:59.032Z"
+      }
+    },
+    "a0edcbcf-7368-4470-b24b-584e1a2cb8df": {
+      "name": "voNow.take3.mp3",
+      "contentHash": "sha256:52bd478df1fbb7c8993363ef96df77c2c6baa7c365f964f24749edc0df13c40d",
+      "mime": "audio/mpeg",
+      "bytes": 196067,
+      "sources": [
+        "/__framediff-cache/sha256%3A52bd478df1fbb7c8993363ef96df77c2c6baa7c365f964f24749edc0df13c40d"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 3,
+        "recipeHash": "sha256:a5b5b7e7c38aa9452ad3e9175397d291d03806716f3fe41ffe1e4e7bc71ec5e7",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where it lives now. We rebuilt the world — concrete, engines, deadlines, feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour... and they never stop.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 12,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "0fcd3077-67f8-47f9-acd7-2b6e3f82f3f4",
+        "outputKind": "audio",
+        "at": "2026-07-27T05:01:59.875Z"
+      }
+    },
+    "da01d5ea-ff4b-4be9-9b48-9c0b361ca243": {
+      "name": "voBrain.take3.mp3",
+      "contentHash": "sha256:99ac46a24e8f6547e7aac57d90bd2ce2d28b8d63ec99514975fdc6538d94cdf0",
+      "mime": "audio/mpeg",
+      "bytes": 143405,
+      "sources": [
+        "/__framediff-cache/sha256%3A99ac46a24e8f6547e7aac57d90bd2ce2d28b8d63ec99514975fdc6538d94cdf0"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 3,
+        "recipeHash": "sha256:8c4e979017b4d0f833b4a2f33579bb0848723b6dddbfebe1ea2b6565ad19c0d2",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. And that alarm has no off switch.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 12,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "f81e2558-688b-4b20-ab2f-67d1ac98ee81",
+        "outputKind": "audio",
+        "at": "2026-07-27T05:02:00.536Z"
+      }
+    },
+    "a7717696-9dc7-403a-a997-7076980753b3": {
+      "name": "voSolution.take4.mp3",
+      "contentHash": "sha256:9958313a585aae948e08c769ba9f766274210e51db98523d6e0275942791a6e0",
+      "mime": "audio/mpeg",
+      "bytes": 274226,
+      "sources": [
+        "/__framediff-cache/sha256%3A9958313a585aae948e08c769ba9f766274210e51db98523d6e0275942791a6e0"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 4,
+        "recipeHash": "sha256:f558325e634eab3a1b5f7d549b11d484add9bb135ede230f7536292c2b8b2acb",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Evolv28 switches the alarm off at the source. Gentle, precise magnetic fields guide your brain back to the calm it was built on. In placebo-controlled trials: heart rate variability up. Stress down. Forty-five more minutes of sleep, every night.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 15,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "0e7a3cc2-102c-4189-8175-e02fac7d459f",
+        "outputKind": "audio",
+        "at": "2026-07-27T05:02:01.072Z"
+      }
+    },
+    "1686d277-29c5-48d7-a8ce-c82971b15b68": {
+      "name": "voRitual.take3.mp3",
+      "contentHash": "sha256:41a77e47c946a4c24947cacd099ca6dba148d230bc96662011e13aa0906accd9",
+      "mime": "audio/mpeg",
+      "bytes": 72769,
+      "sources": [
+        "/__framediff-cache/sha256%3A41a77e47c946a4c24947cacd099ca6dba148d230bc96662011e13aa0906accd9"
+      ],
+      "generator": {
+        "gen": "voRitual",
+        "take": 3,
+        "recipeHash": "sha256:548efa9549a32a73ac64960be7d0ab9bb78f8d0106f315d12378ae4c4b87e808",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Put it on. Press the button. And go live your day. That's the whole routine.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 7,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "691ace88-079a-4c4f-8cd9-f2c7c88c3735",
+        "outputKind": "audio",
+        "at": "2026-07-27T05:02:01.564Z"
+      }
+    },
+    "ba49ee34-39f5-4744-ad87-ce359f9926cc": {
+      "name": "voClose.take3.mp3",
+      "contentHash": "sha256:a87d2aa7689a9fee61d0af0497ba6fb5e219bb4c5ec990badc4704b642d4a78d",
+      "mime": "audio/mpeg",
+      "bytes": 50618,
+      "sources": [
+        "/__framediff-cache/sha256%3Aa87d2aa7689a9fee61d0af0497ba6fb5e219bb4c5ec990badc4704b642d4a78d"
+      ],
+      "generator": {
+        "gen": "voClose",
+        "take": 3,
+        "recipeHash": "sha256:1c296373f6eb8dfca3d591bcea12826b09e9aa288042570e1b95815d715be845",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Evolv28. Calm, by design. Get yours today.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 5,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "e3bdaba1-e064-4974-98a5-657d63f6f55e",
+        "outputKind": "audio",
+        "at": "2026-07-27T05:02:01.939Z"
+      }
+    },
+    "afd2ede9-d350-4c1c-83b7-e054bd0b1439": {
+      "name": "voSolution.take5.mp3",
+      "contentHash": "sha256:274f7cce7774c37882f4cbbaad5aebfcf9d82db97f051f3d141b032a4bf96450",
+      "mime": "audio/mpeg",
+      "bytes": 242043,
+      "sources": [
+        "/__framediff-cache/sha256%3A274f7cce7774c37882f4cbbaad5aebfcf9d82db97f051f3d141b032a4bf96450"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 5,
+        "recipeHash": "sha256:8fef45a176fcfd16349578375978db7f7a3e862a82b2ba25d955827a43b6f6f7",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Evolv28 switches the alarm off. Gentle, precise magnetic fields bring your brain back to the calm it was built on. In placebo-controlled trials: heart rate variability up. Stress down. Forty-five more minutes of sleep.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 15,
+          "speed": 1.05,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "638674f5-c8bb-494e-af41-b406dd0b2330",
+        "outputKind": "audio",
+        "at": "2026-07-27T05:03:38.461Z"
+      }
+    },
+    "094bf1a8-e56c-4e06-813b-bff7fa287a3b": {
+      "name": "voNow.take4.mp3",
+      "contentHash": "sha256:36c63afa75affcf763c3edb8c5f947aaa011a27e9dc897502e9dffb6ef1c0c74",
+      "mime": "audio/mpeg",
+      "bytes": 184365,
+      "sources": [
+        "/__framediff-cache/sha256%3A36c63afa75affcf763c3edb8c5f947aaa011a27e9dc897502e9dffb6ef1c0c74"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 4,
+        "recipeHash": "sha256:a5b5b7e7c38aa9452ad3e9175397d291d03806716f3fe41ffe1e4e7bc71ec5e7",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where it lives now. We rebuilt the world — concrete, engines, deadlines, feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour... and they never stop.",
+          "refs": [],
+          "voice": "Aria",
+          "duration": 12,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "032f6e2e-09c0-4ad3-bc6a-553230bc8b9a",
+        "outputKind": "audio",
+        "at": "2026-07-27T05:03:38.983Z"
+      }
+    },
+    "b7b363e4-284d-44b4-b669-74d0369a9d78": {
+      "name": "voOrigin.take4.mp3",
+      "contentHash": "sha256:ebb1981b5527a611be59d84001331da1c4a953460ca703ec4817474f8f916a94",
+      "mime": "audio/mpeg",
+      "bytes": 162631,
+      "sources": [
+        "/__framediff-cache/sha256%3Aebb1981b5527a611be59d84001331da1c4a953460ca703ec4817474f8f916a94"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 4,
+        "recipeHash": "sha256:e82fcd981043b0d2116b856690e91e5bb4eb73730755d09e66af0bd7a5687fb6",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where your brain was built. Wide horizons. Deep calm. And once in a while — real danger. Total focus. Then... gone.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 10,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "3e24a3c2-c58d-445e-8776-cdc4b3936276",
+        "outputKind": "audio",
+        "at": "2026-07-27T16:59:13.466Z"
+      }
+    },
+    "530a6ffe-52f6-4e68-b05c-e7ec800bb5a0": {
+      "name": "voNow.take5.mp3",
+      "contentHash": "sha256:320e30898324eb836975f00e75a50db1b5ca878e95672126ac060faf6b2eba70",
+      "mime": "audio/mpeg",
+      "bytes": 231594,
+      "sources": [
+        "/__framediff-cache/sha256%3A320e30898324eb836975f00e75a50db1b5ca878e95672126ac060faf6b2eba70"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 5,
+        "recipeHash": "sha256:f6b4a5b45564aa713c23ce12550e4576d72612d280254ead61074d50cbed623c",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where it lives now. We rebuilt the world — concrete, engines, deadlines, feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour... and they never stop.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 12,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "88e29c1b-8ec1-4c8b-83b5-c15dae52c7cd",
+        "outputKind": "audio",
+        "at": "2026-07-27T16:59:13.979Z"
+      }
+    },
+    "3b3694d9-9fd1-4217-820d-f39e2eac5040": {
+      "name": "voBrain.take4.mp3",
+      "contentHash": "sha256:815e8efd33fa1443e0f8fba5d3da8b39cadd8f8efe1939d22e2b5a76f3cc4e11",
+      "mime": "audio/mpeg",
+      "bytes": 164302,
+      "sources": [
+        "/__framediff-cache/sha256%3A815e8efd33fa1443e0f8fba5d3da8b39cadd8f8efe1939d22e2b5a76f3cc4e11"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 4,
+        "recipeHash": "sha256:4983885ab983b3651e124fb7890e538ce4462afeea0ba4404f055edb76628edb",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. And that alarm has no off switch.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 12,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "437969eb-7634-4342-b7cd-b9f0e428192f",
+        "outputKind": "audio",
+        "at": "2026-07-27T16:59:14.621Z"
+      }
+    },
+    "25d5e5ce-a54f-4d1d-b42e-744282aa3c2b": {
+      "name": "voSolution.take6.mp3",
+      "contentHash": "sha256:91cee674c8faa8b8476cda37827318011f150f28fb875f00f760124cc3f596bf",
+      "mime": "audio/mpeg",
+      "bytes": 283839,
+      "sources": [
+        "/__framediff-cache/sha256%3A91cee674c8faa8b8476cda37827318011f150f28fb875f00f760124cc3f596bf"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 6,
+        "recipeHash": "sha256:de37fad07c0a0862440e223ba3b36e687ea31e93a7ae3f7ee77b83ba1f0cec1a",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Evolv28 switches the alarm off. Gentle, precise magnetic fields bring your brain back to the calm it was built on. In placebo-controlled trials: heart rate variability up. Stress down. Forty-five more minutes of sleep.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 15,
+          "speed": 1.05,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "2027fdd3-73c4-46ca-a555-2cc81fc0f145",
+        "outputKind": "audio",
+        "at": "2026-07-27T16:59:15.337Z"
+      }
+    },
+    "707c6b19-5dc1-413a-ad2b-61840351abb5": {
+      "name": "voRitual.take4.mp3",
+      "contentHash": "sha256:091b11aaa7e295dd26779b3273696f396639d5136ab036bd89541bdf7e8ce811",
+      "mime": "audio/mpeg",
+      "bytes": 79457,
+      "sources": [
+        "/__framediff-cache/sha256%3A091b11aaa7e295dd26779b3273696f396639d5136ab036bd89541bdf7e8ce811"
+      ],
+      "generator": {
+        "gen": "voRitual",
+        "take": 4,
+        "recipeHash": "sha256:7e0e6825eb5f3f0e93cdb2adeed094a688ecc8a2d5fe842199aa1f0df79d3025",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Put it on. Press the button. And go live your day. That's the whole routine.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 7,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "2f4c42d0-81b0-4a12-aa00-386e3a9c7368",
+        "outputKind": "audio",
+        "at": "2026-07-27T16:59:15.865Z"
+      }
+    },
+    "099c37ef-fe3f-47d4-8f0d-0145023ab113": {
+      "name": "voClose.take4.mp3",
+      "contentHash": "sha256:3311b8beddc9fcd0b70c9d9fb93f7e8ebc2610acae5863b20032a68290e70a6a",
+      "mime": "audio/mpeg",
+      "bytes": 70680,
+      "sources": [
+        "/__framediff-cache/sha256%3A3311b8beddc9fcd0b70c9d9fb93f7e8ebc2610acae5863b20032a68290e70a6a"
+      ],
+      "generator": {
+        "gen": "voClose",
+        "take": 4,
+        "recipeHash": "sha256:e8c78c92e47afb28146118a8015504d497ff8da29b174157a91c4a2003dc6877",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Evolv28. Calm, by design. Get yours today.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 5,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "fbebfae7-5642-48bf-8e09-f5e68bca5af9",
+        "outputKind": "audio",
+        "at": "2026-07-27T16:59:16.548Z"
+      }
+    },
+    "b34e1647-8daa-41c9-b1ba-ae38af898889": {
+      "name": "voOrigin.take5.mp3",
+      "contentHash": "sha256:6728a655322e933339a03ccb11b418f5d0640cd33350fe36ae91fdadbf8a0a79",
+      "mime": "audio/mpeg",
+      "bytes": 149256,
+      "sources": [
+        "/__framediff-cache/sha256%3A6728a655322e933339a03ccb11b418f5d0640cd33350fe36ae91fdadbf8a0a79"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 5,
+        "recipeHash": "sha256:e82fcd981043b0d2116b856690e91e5bb4eb73730755d09e66af0bd7a5687fb6",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where your brain was built. Wide horizons. Deep calm. And once in a while — real danger. Total focus. Then... gone.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 10,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "4a8a51e3-fee4-451f-8d96-b42b03f6ae44",
+        "outputKind": "audio",
+        "at": "2026-07-27T17:00:37.050Z"
+      }
+    },
+    "540760a0-c416-4e0e-a150-312a3b544c7c": {
+      "name": "voNow.take6.mp3",
+      "contentHash": "sha256:fbf7b696122c3ac0e2136af2c91f16ffbf39816136c27c161e6aa0fd121f646d",
+      "mime": "audio/mpeg",
+      "bytes": 199829,
+      "sources": [
+        "/__framediff-cache/sha256%3Afbf7b696122c3ac0e2136af2c91f16ffbf39816136c27c161e6aa0fd121f646d"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 6,
+        "recipeHash": "sha256:ae34a3d78a8356af3d0deb488a34aefe4c06397e4c527ea759129ff2caf51986",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where it lives now. We rebuilt the world — concrete, engines, deadlines, feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour... and they never stop.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 12,
+          "speed": 1.1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "06146245-836d-4cea-8a48-bb5ccb0ce3eb",
+        "outputKind": "audio",
+        "at": "2026-07-27T17:00:37.715Z"
+      }
+    },
+    "edc113b2-80a6-4990-8b5b-22b797d11aa2": {
+      "name": "voBrain.take5.mp3",
+      "contentHash": "sha256:689780d58f44e1f432335300d12c7699f9111e9f18d77015df485252e6843ff6",
+      "mime": "audio/mpeg",
+      "bytes": 164302,
+      "sources": [
+        "/__framediff-cache/sha256%3A689780d58f44e1f432335300d12c7699f9111e9f18d77015df485252e6843ff6"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 5,
+        "recipeHash": "sha256:4983885ab983b3651e124fb7890e538ce4462afeea0ba4404f055edb76628edb",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. And that alarm has no off switch.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 12,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "5b8f1643-6f66-4791-bc9c-45cb47283725",
+        "outputKind": "audio",
+        "at": "2026-07-27T17:00:38.458Z"
+      }
+    },
+    "c8e62963-47a4-4cee-83dc-b960a628bed0": {
+      "name": "voSolution.take7.mp3",
+      "contentHash": "sha256:0bb6685fae39479f4779b1220851525542f90c70703be4babbd870a47692570f",
+      "mime": "audio/mpeg",
+      "bytes": 234520,
+      "sources": [
+        "/__framediff-cache/sha256%3A0bb6685fae39479f4779b1220851525542f90c70703be4babbd870a47692570f"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 7,
+        "recipeHash": "sha256:c72f635af99882ea76ccd761697be437e3cbd454c74bdf488c9ef0c4a2b12182",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Evolv28 switches the alarm off. Gentle, precise magnetic fields bring your brain back to the calm it was built on. In placebo-controlled trials: heart rate variability up. Stress down. Forty-five more minutes of sleep.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 15,
+          "speed": 1.1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "1c74d0bc-1a48-4e29-91db-84aa5f6eab5d",
+        "outputKind": "audio",
+        "at": "2026-07-27T17:00:39.009Z"
+      }
+    },
+    "bcf3388a-11dc-4f0c-8e09-28e1fbd6dbbd": {
+      "name": "voRitual.take5.mp3",
+      "contentHash": "sha256:9f7537c134c3ed22d4b5d0b777b33fb972da00ca8d6211b9719d18f79dddeaa9",
+      "mime": "audio/mpeg",
+      "bytes": 86144,
+      "sources": [
+        "/__framediff-cache/sha256%3A9f7537c134c3ed22d4b5d0b777b33fb972da00ca8d6211b9719d18f79dddeaa9"
+      ],
+      "generator": {
+        "gen": "voRitual",
+        "take": 5,
+        "recipeHash": "sha256:7e0e6825eb5f3f0e93cdb2adeed094a688ecc8a2d5fe842199aa1f0df79d3025",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Put it on. Press the button. And go live your day. That's the whole routine.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 7,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "e3d7c270-d41f-4c1f-9f68-e68153cc4b10",
+        "outputKind": "audio",
+        "at": "2026-07-27T17:00:39.622Z"
+      }
+    },
+    "a0fe6397-fc93-47c4-855e-387594070f14": {
+      "name": "voClose.take5.mp3",
+      "contentHash": "sha256:690aeb44d9e253dd218ced07ee9a8d210cbb92033d0748b4ef3ca486d5f28255",
+      "mime": "audio/mpeg",
+      "bytes": 63992,
+      "sources": [
+        "/__framediff-cache/sha256%3A690aeb44d9e253dd218ced07ee9a8d210cbb92033d0748b4ef3ca486d5f28255"
+      ],
+      "generator": {
+        "gen": "voClose",
+        "take": 5,
+        "recipeHash": "sha256:e8c78c92e47afb28146118a8015504d497ff8da29b174157a91c4a2003dc6877",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Evolv28. Calm, by design. Get yours today.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 5,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "e5c712a6-f17d-4db3-a182-416af33f2042",
+        "outputKind": "audio",
+        "at": "2026-07-27T17:00:40.148Z"
+      }
+    },
+    "10c7a8b0-ddb6-4d3d-9caa-074c86aea0b1": {
+      "name": "voNow.take7.mp3",
+      "contentHash": "sha256:05b451c8905063e81bc62c75368c650470c1302173745c84f83b6e3ab3d10508",
+      "mime": "audio/mpeg",
+      "bytes": 210278,
+      "sources": [
+        "/__framediff-cache/sha256%3A05b451c8905063e81bc62c75368c650470c1302173745c84f83b6e3ab3d10508"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 7,
+        "recipeHash": "sha256:16010011a6f86c6b424d2fb68e39be6b9293fd4c3ea6ed0de6b64925194146be",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where it lives now. We rebuilt the world — concrete, engines, deadlines, feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour. They never stop.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 12,
+          "speed": 1.1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "3e50b38e-3533-4d09-a99f-536faec83519",
+        "outputKind": "audio",
+        "at": "2026-07-27T17:01:36.555Z"
+      }
+    },
+    "17b96e54-9639-47e2-b1e4-faf359a36fb8": {
+      "name": "voNow.take8.mp3",
+      "contentHash": "sha256:fd3be17404c96b16826a0a7d4737b55d36eac6a5c0f76ab3626cc0343db94efa",
+      "mime": "audio/mpeg",
+      "bytes": 169318,
+      "sources": [
+        "/__framediff-cache/sha256%3Afd3be17404c96b16826a0a7d4737b55d36eac6a5c0f76ab3626cc0343db94efa"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 8,
+        "recipeHash": "sha256:57d3cd7c95f1274a7b98065b66582f586e8b9af2e67164229d68458c4508dc88",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where it lives now. Concrete. Engines. Deadlines. Feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour. They never stop.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 12,
+          "speed": 1.1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "e390f8d2-4401-42ce-99d2-bc94dcc50a5b",
+        "outputKind": "audio",
+        "at": "2026-07-27T17:02:45.194Z"
+      }
+    },
+    "b2b89a78-fbcd-4b55-b1f7-2621cb1eee06": {
+      "name": "voSolution.take8.mp3",
+      "contentHash": "sha256:82efd4d81c75c167f416e2be922fa7d52b7e7a8d70163b503072f2cfcbaed318",
+      "mime": "audio/mpeg",
+      "bytes": 190216,
+      "sources": [
+        "/__framediff-cache/sha256%3A82efd4d81c75c167f416e2be922fa7d52b7e7a8d70163b503072f2cfcbaed318"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 8,
+        "recipeHash": "sha256:e3e68823d93c4ba45d5ddc99ff1861e084179ea0f112dcb0fb818b0fe2112d73",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Evolv28 switches the alarm off. Gentle, precise magnetic fields induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 15,
+          "speed": 1.1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "ab233a7c-c904-4227-8d8d-82e24b94802d",
+        "outputKind": "audio",
+        "at": "2026-07-27T18:30:18.611Z"
+      }
+    },
+    "00b58b3a-4883-444c-bf47-d199a5cc27a8": {
+      "name": "voSolution.take9.mp3",
+      "contentHash": "sha256:523b120c547e810c259c022f3fbcfa64fa632d150e6f5d7c90dafd5edae22517",
+      "mime": "audio/mpeg",
+      "bytes": 188544,
+      "sources": [
+        "/__framediff-cache/sha256%3A523b120c547e810c259c022f3fbcfa64fa632d150e6f5d7c90dafd5edae22517"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 9,
+        "recipeHash": "sha256:a79acc6fd711b7857b7862116b594c912a83b648f36c6066d42b7587aa048496",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 15,
+          "speed": 1.1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "d37bbce6-faed-42af-b6c1-161d91e96aee",
+        "outputKind": "audio",
+        "at": "2026-07-27T18:31:42.741Z"
+      }
+    },
+    "city-ambience": {
+      "name": "city-ambience.wav",
+      "contentHash": "sha256:aa45a675edee33cae3ba44febf824296e6f29d0cf767e0fadfa9a1adfc5cc496",
+      "mime": "audio/wav",
+      "bytes": 14210436,
+      "sources": [
+        "/__framediff-cache/sha256%3Aaa45a675edee33cae3ba44febf824296e6f29d0cf767e0fadfa9a1adfc5cc496"
+      ]
+    },
+    "2f9c9052-274c-44cd-98a1-69769446b5ff": {
+      "name": "voBrain.take6.mp3",
+      "contentHash": "sha256:7d6e6f25baffe7b72250b786359f9b32184868bd484c0ab0790f691efcefdfde",
+      "mime": "audio/mpeg",
+      "bytes": 193978,
+      "sources": [
+        "/__framediff-cache/sha256%3A7d6e6f25baffe7b72250b786359f9b32184868bd484c0ab0790f691efcefdfde"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 6,
+        "recipeHash": "sha256:2633a47efeedd35ffe89e3ce0e7a6ce28cdd6fb28d326e81a8628568c78d4760",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. Your brain stays in an agitated state all day.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 12,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "98d73587-2261-4190-8f42-210705a6a255",
+        "outputKind": "audio",
+        "at": "2026-07-27T18:36:43.717Z"
+      }
+    },
+    "ae2ebed4-d72d-43d4-a2c7-cec41e94cb3b": {
+      "name": "savannahDrift.take2.mp4",
+      "contentHash": "sha256:add6f48c04969d84e5335b032f16b89d28c1d79521f0fb16feac827028bf5096",
+      "mime": "video/mp4",
+      "bytes": 6643111,
+      "sources": [
+        "/__framediff-cache/sha256%3Aadd6f48c04969d84e5335b032f16b89d28c1d79521f0fb16feac827028bf5096"
+      ],
+      "generator": {
+        "gen": "savannahDrift",
+        "take": 2,
+        "recipeHash": "sha256:1271f2b07ad36c53ba7f8c90e9e4dbacb98737655a03064a80f3be20c2c566fc",
+        "endpoint": "bytedance/seedance-2.0/fast/text-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "Real helicopter aerial footage over an African savannah at golden dawn, shot on a gyro-stabilized long lens for a wildlife documentary. The camera drifts forward at walking pace over dry gold grassland: a winding river catching the low sun, scattered flat-top acacia trees, thin morning haze in the far valleys, a distant herd of wildebeest grazing near the riverbank. Natural, slightly muted color; true-to-life exposure with soft highlight rolloff; gentle atmospheric perspective; fine 35mm grain; subtle stabilized-gimbal micro-drift. Absolutely calm — nothing startles, nothing chases. Documentary realism only: real-world lighting and texture, no oversaturated golds, no dreamy glow, no painterly or CGI look, no people, no vehicles, no text, no cuts.",
+          "refs": [],
+          "tier": "fast",
+          "resolution": "720p",
+          "duration": 10,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "e1750972-fab9-4a72-9bd7-f9482783fe28",
+        "seed": 279720693,
+        "outputKind": "video",
+        "at": "2026-07-27T18:38:19.673Z"
+      }
+    },
+    "4183af37-66c3-43f5-9d3f-1fe2b6049d3c": {
+      "name": "voBrain.take7.mp3",
+      "contentHash": "sha256:851c8b50255b5a0dd80924b8670104f559b160b579c1898e63a65471d58227ba",
+      "mime": "audio/mpeg",
+      "bytes": 180603,
+      "sources": [
+        "/__framediff-cache/sha256%3A851c8b50255b5a0dd80924b8670104f559b160b579c1898e63a65471d58227ba"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 7,
+        "recipeHash": "sha256:525709024e08c70139eb2e0e4ec94fb89a4386d02478d2ba17ff8bb2c28a3583",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. Your brain stays in an agitated state all day.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 12,
+          "speed": 1.05,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "0e9cdfb4-2f39-4610-9170-1f1d97d57d52",
+        "outputKind": "audio",
+        "at": "2026-07-27T18:39:33.757Z"
+      }
+    },
+    "savannah-stock": {
+      "name": "savannah-stock.mp4",
+      "contentHash": "sha256:bd2069909057301d99de7c2f52b04cd54abfb69e8d30a608595f6e0a41812a22",
+      "mime": "video/mp4",
+      "bytes": 16517886,
+      "sources": [
+        "/__framediff-cache/sha256%3Abd2069909057301d99de7c2f52b04cd54abfb69e8d30a608595f6e0a41812a22"
+      ]
+    },
+    "music-violins": {
+      "name": "music-violins.mp3",
+      "contentHash": "sha256:093c2a9275c901c9e0506ed914679b23cf1aec8bdfaa16fa600c9e22ff5e0685",
+      "mime": "audio/mpeg",
+      "bytes": 1638046,
+      "sources": [
+        "/__framediff-cache/sha256%3A093c2a9275c901c9e0506ed914679b23cf1aec8bdfaa16fa600c9e22ff5e0685"
+      ]
+    },
+    "sfx-slack": {
+      "name": "sfx-slack.wav",
+      "contentHash": "sha256:329994073cbeda456a4ed530e98e06b43452bdb1fcaa6ee28086f1ac3f193852",
+      "mime": "audio/wav",
+      "bytes": 79458,
+      "sources": [
+        "/__framediff-cache/sha256%3A329994073cbeda456a4ed530e98e06b43452bdb1fcaa6ee28086f1ac3f193852"
+      ]
+    },
+    "4d5b787a-e897-4f3f-a97d-69c28a562ba5": {
+      "name": "voOrigin.take6.mp3",
+      "contentHash": "sha256:dba08738e5d05f8ed4db7f55ede94336c8c989785342f804e85eb35d4112be56",
+      "mime": "audio/mpeg",
+      "bytes": 145494,
+      "sources": [
+        "/__framediff-cache/sha256%3Adba08738e5d05f8ed4db7f55ede94336c8c989785342f804e85eb35d4112be56"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 6,
+        "recipeHash": "sha256:4dd720ff1e2a8b3eb6ef98f221a4fd8fc311fe14dcd29aa3fecfcf9da6b5b6b9",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where your brain evolved. Wide horizons. Deep calm. And once in a while — real danger. Total focus. Then... gone.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 10,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "b7614df9-7afb-4039-8615-657cd983119b",
+        "outputKind": "audio",
+        "at": "2026-07-27T18:59:24.567Z"
+      }
+    },
+    "057b8289-6124-4226-8623-2648d199af77": {
+      "name": "voNow.take9.mp3",
+      "contentHash": "sha256:3919513cd6119189c82dc33983c09986160b2db947633d4c1713ba028a40b5bb",
+      "mime": "audio/mpeg",
+      "bytes": 170990,
+      "sources": [
+        "/__framediff-cache/sha256%3A3919513cd6119189c82dc33983c09986160b2db947633d4c1713ba028a40b5bb"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 9,
+        "recipeHash": "sha256:fd227efa6a9000474ac6b98bc7b2325e5219f5fa68ab9cf40f23dc39ec5e425d",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where it lives now. Concrete. Engines. Deadlines. Feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 12,
+          "speed": 1.1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "194ac5e4-98d2-48f4-8336-94c5787214a0",
+        "outputKind": "audio",
+        "at": "2026-07-27T18:59:24.578Z"
+      }
+    },
+    "c50cbcfc-2f91-44e5-bddd-3f1c7287d3d3": {
+      "name": "voOrigin.take7.mp3",
+      "contentHash": "sha256:e038077314529cb2a21c06e806b2f5376e4391a7799234e5bc3864217c0696bf",
+      "mime": "audio/mpeg",
+      "bytes": 157615,
+      "sources": [
+        "/__framediff-cache/sha256%3Ae038077314529cb2a21c06e806b2f5376e4391a7799234e5bc3864217c0696bf"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 7,
+        "recipeHash": "sha256:a39e753795f93aac73be8c349e8b88e7b7618693c3db74bd80466ae1921e2ab7",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where your brain evolved. Wide horizons. Deep calm. And once in a while — real danger. Total focus. Then... back to calm.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 10,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "e08029b6-d9ad-423f-9df4-e542b42232dd",
+        "outputKind": "audio",
+        "at": "2026-07-27T20:50:00.697Z"
+      }
+    },
+    "07fc734f-3297-4226-9c17-8b96dbd1473d": {
+      "name": "voOrigin.take8.mp3",
+      "contentHash": "sha256:2330ec85e3bcea160c517928ccd6849a5cf0f2fac8fe4418ed1e0ff237f53ef1",
+      "mime": "audio/mpeg",
+      "bytes": 140897,
+      "sources": [
+        "/__framediff-cache/sha256%3A2330ec85e3bcea160c517928ccd6849a5cf0f2fac8fe4418ed1e0ff237f53ef1"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 8,
+        "recipeHash": "sha256:72d5bf0cce66be70199e0212713366401d1629650832923a79a6acde7908821a",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where your brain evolved. Wide horizons. Deep calm. And once in a while — real danger. Then... back to calm.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 10,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "6714a646-50e3-4992-ab96-89e0fe7cb616",
+        "outputKind": "audio",
+        "at": "2026-07-27T20:50:36.761Z"
+      }
+    },
+    "f2987fd2-d2a3-4182-95e1-82f55415b126": {
+      "name": "voSolution.take10.mp3",
+      "contentHash": "sha256:2dd08c336c4397e6175d549c43ae4c0550d3c8d846fdd88af17b55a02d880a2c",
+      "mime": "audio/mpeg",
+      "bytes": 239953,
+      "sources": [
+        "/__framediff-cache/sha256%3A2dd08c336c4397e6175d549c43ae4c0550d3c8d846fdd88af17b55a02d880a2c"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 10,
+        "recipeHash": "sha256:80380617c39e36c53138673dd98c4262ac2d7e51be05a26133b931aec2f6be10",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Introducing Evolv28. Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 15,
+          "speed": 1.1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "cb69d87e-5c7b-47b4-a45a-3229dea6df79",
+        "outputKind": "audio",
+        "at": "2026-07-27T20:56:51.698Z"
+      }
+    },
+    "a3999342-02f8-4ba1-b6d5-5d3c1d70e6e1": {
+      "name": "voRitual.take6.mp3",
+      "contentHash": "sha256:07247fc42cdb25e5ba99a81f575e9dfb63d22358a59120529688654fea52684e",
+      "mime": "audio/mpeg",
+      "bytes": 77367,
+      "sources": [
+        "/__framediff-cache/sha256%3A07247fc42cdb25e5ba99a81f575e9dfb63d22358a59120529688654fea52684e"
+      ],
+      "generator": {
+        "gen": "voRitual",
+        "take": 6,
+        "recipeHash": "sha256:7e0e6825eb5f3f0e93cdb2adeed094a688ecc8a2d5fe842199aa1f0df79d3025",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Put it on. Press the button. And go live your day. That's the whole routine.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 7,
+          "speed": 1,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "864c263e-d5d1-4faa-b900-0567a441b20b",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:02:00.779Z"
+      }
+    },
+    "8f900909-d320-4903-bc34-b41092b0f21b": {
+      "name": "voRitual.take7.mp3",
+      "contentHash": "sha256:5e9b8a02fe8cf7b468b1e2eb0ce7533d353ed8d67aeebfe13c710cfba658a84f",
+      "mime": "audio/mpeg",
+      "bytes": 137553,
+      "sources": [
+        "/__framediff-cache/sha256%3A5e9b8a02fe8cf7b468b1e2eb0ce7533d353ed8d67aeebfe13c710cfba658a84f"
+      ],
+      "generator": {
+        "gen": "voRitual",
+        "take": 7,
+        "recipeHash": "sha256:6d852c06163285e54cefd9dff932d1467f10c7e56c775161e0dbd1047e95824c",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "Here's how it works. You put it in, press the button for your customized program, and go about your day. That's the whole routine.",
+          "fps": 30,
+          "duration": 7,
+          "voice": "Rachel",
+          "speed": 1
+        },
+        "inputs": [],
+        "requestId": "b3809e53-718d-47c6-a861-e6f0adb7d53c",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:02:36.728Z"
+      }
+    },
+    "7cdb8255-d354-4809-b406-86d77488ed82": {
+      "name": "voRitual.take8.mp3",
+      "contentHash": "sha256:7d89dd7c53b86352ab8f378e344af4033e74a24bdfc77cde18baa0236b60a5da",
+      "mime": "audio/mpeg",
+      "bytes": 141315,
+      "sources": [
+        "/__framediff-cache/sha256%3A7d89dd7c53b86352ab8f378e344af4033e74a24bdfc77cde18baa0236b60a5da"
+      ],
+      "generator": {
+        "gen": "voRitual",
+        "take": 8,
+        "recipeHash": "sha256:caa82d0cfc4f8df48751d6876a462b1e749f11d4e15281984ae2187e8fef8158",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "Here's how it works. You put it on, press the button for your customized program, and go about your day. That's the whole routine.",
+          "fps": 30,
+          "duration": 7,
+          "voice": "Rachel",
+          "speed": 1
+        },
+        "inputs": [],
+        "requestId": "4f0d3175-a2c8-4a4b-a540-7f641c2d8143",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:03:30.687Z"
+      }
+    },
+    "2452327f-5a17-4a12-bb57-f2e276b57853": {
+      "name": "voOrigin.take9.mp3",
+      "contentHash": "sha256:1408aaa1b0c645e698bf5d6fa6cd566bb62cb6ae8c2121c25f4e1e6ea2be2121",
+      "mime": "audio/mpeg",
+      "bytes": 181021,
+      "sources": [
+        "/__framediff-cache/sha256%3A1408aaa1b0c645e698bf5d6fa6cd566bb62cb6ae8c2121c25f4e1e6ea2be2121"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 9,
+        "recipeHash": "sha256:33ce8d1436460b83b29444ecadbc44a0852029ce96b0a61f91db032d3e4904ca",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where your brain evolved. Wide horizons. Deep calm. And once in a while — real danger. Then... back to calm.",
+          "fps": 30,
+          "duration": 10,
+          "voice": "Rachel",
+          "speed": 1
+        },
+        "inputs": [],
+        "requestId": "629b44a1-8c97-4877-8c6d-ea42ab9a20b3",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:04:39.701Z"
+      }
+    },
+    "57593e94-e828-4454-a78b-cdfb54ae963d": {
+      "name": "voOrigin.take10.mp3",
+      "contentHash": "sha256:f668f5319564a51ba0ebdf3084499e8fd533f249daf23618e50ee5846c70c202",
+      "mime": "audio/mpeg",
+      "bytes": 186454,
+      "sources": [
+        "/__framediff-cache/sha256%3Af668f5319564a51ba0ebdf3084499e8fd533f249daf23618e50ee5846c70c202"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 10,
+        "recipeHash": "sha256:1fefda7e07a71492dc9cdc0523d85bde659a927960a1658eaa310e386e84f708",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where your brain evolved. Wide horizons. Calm, peaceful. And once in a while — real danger. Then... back to calm.",
+          "fps": 30,
+          "duration": 10,
+          "voice": "Rachel",
+          "speed": 1
+        },
+        "inputs": [],
+        "requestId": "a3de1a05-8557-426b-ae54-11ae873d554a",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:06:30.714Z"
+      }
+    },
+    "bbfc387e-db02-411e-8a6b-c2fae7341c35": {
+      "name": "voOrigin.take11.mp3",
+      "contentHash": "sha256:8467339536b21d47f9c295254c657d742c386d7d8811ca82e0e1421957b6bec2",
+      "mime": "audio/mpeg",
+      "bytes": 170990,
+      "sources": [
+        "/__framediff-cache/sha256%3A8467339536b21d47f9c295254c657d742c386d7d8811ca82e0e1421957b6bec2"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 11,
+        "recipeHash": "sha256:82a38cc44c24e42fbecd720386d8ba8e4469ae7a71ceb006e83420b3ed67bb42",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where your brain evolved. Calm, peaceful. And once in a while — real danger. Then... back to calm.",
+          "fps": 30,
+          "duration": 10,
+          "voice": "Rachel",
+          "speed": 1
+        },
+        "inputs": [],
+        "requestId": "83b87698-fd58-4519-a9aa-d471b5ab79e0",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:07:03.646Z"
+      }
+    },
+    "e193932a-8a77-4720-b391-52a435840dd3": {
+      "name": "voOrigin.take12.mp3",
+      "contentHash": "sha256:8c59d861529e7a11df10748177d0344886a52b77b2678949efd0b4c3e0d4e3c4",
+      "mime": "audio/mpeg",
+      "bytes": 176005,
+      "sources": [
+        "/__framediff-cache/sha256%3A8c59d861529e7a11df10748177d0344886a52b77b2678949efd0b4c3e0d4e3c4"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 12,
+        "recipeHash": "sha256:55dc1e95032583d7db57e313867c3fa776ee26de0ea1170a9582ca6341c3bb1b",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where your brain evolved. Calm, peaceful. And once in a while — real danger. Then... back to calm.",
+          "fps": 30,
+          "duration": 10,
+          "voice": "Rachel",
+          "speed": 1.2
+        },
+        "inputs": [],
+        "requestId": "53b807d3-de37-4baa-acac-cbe56313f3f7",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:11:36.846Z"
+      }
+    },
+    "561f6ca1-6a9a-4738-a48a-7deb5c198ffb": {
+      "name": "voiceRef.take1.mp3",
+      "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713",
+      "mime": "audio/mpeg",
+      "bytes": 138807,
+      "sources": [
+        "/__framediff-cache/sha256%3Aeb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+      ],
+      "generator": {
+        "gen": "voiceRef",
+        "take": 1,
+        "recipeHash": "sha256:b55d3cb15e53c055b27640038b2a3130e2cb11f17d90ca5a9f0ea8f4db1f7256",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is the Evolv28 narrator. Steady, warm, and precise. Wide horizons. Deep calm.",
+          "refs": [],
+          "voice": "Rachel",
+          "duration": 6,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "a204daf1-dc86-42a5-95b0-76a0124a2eaa",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:24:45.833Z"
+      }
+    },
+    "f2255c28-adc3-4835-bc79-ea9297b75579": {
+      "name": "ritualStill.take4.jpg",
+      "contentHash": "sha256:2bd402bfc4ac3297e13bd686317171e9ea64ba3213a7d0bdc46bbf12c398cce2",
+      "mime": "image/jpeg",
+      "bytes": 253578,
+      "sources": [
+        "/__framediff-cache/sha256%3A2bd402bfc4ac3297e13bd686317171e9ea64ba3213a7d0bdc46bbf12c398cce2"
+      ],
+      "generator": {
+        "gen": "ritualStill",
+        "take": 4,
+        "recipeHash": "sha256:03a0e63b45ff58f33fe3b3e342716aa2152fd8573af9e0861b6e9d96c2a81efd",
+        "endpoint": "bytedance/seedream/v5/pro/edit",
+        "recipe": {
+          "provider": "fal",
+          "output": "image",
+          "model": "seedream-5.0-pro",
+          "prompt": "@Image1 is the exact product — study it: a smooth matte graphite neckband whose rounded collar is thickest across the back and tapers as it sweeps forward into two flat, elongated teardrop paddles angled slightly inward; soft-touch matte finish, a small pill-shaped indicator slot on the inner face of one paddle, and a slim teal accent strip on the outer face near the back of the band. No other buttons, ports, seams, or lights exist. The collar is RIGID — a solid molded piece that cannot bend, flex, twist, or splay open. @Image2 shows how it sits when worn: riding low around the base of the neck just above the collar line, paddles resting toward the collarbones. Create a photoreal 16:9 live-action frame framed TIGHT on the neck area only: a woman from behind and slightly to the side, cropped from the tops of her shoulder blades to just below her hairline — no jaw, no cheek, no profile, no face, and no face in any mirror or window. Both hands hold the rigid collar by its sides, sliding it horizontally onto her neck from behind in one smooth glide — the fixed C-shaped opening simply passes around the neck, the band keeping its exact solid shape the whole time, paddles arriving to rest toward her collarbones. Focus locked on the nape and collar, wisps of hair tucked away. Calm morning bedroom: soft window daylight from the left, linen and warm-white tones softly out of focus behind. 85mm lens, shallow depth of field, natural skin texture, quiet color, fine 35mm grain. The product must match @Image1 exactly — same proportions, same finish, same paddle shape, nothing added or removed. No jewelry, no text, no second person.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://device-render"
+            },
+            {
+              "kind": "image",
+              "src": "asset://portrait-profile"
+            }
+          ],
+          "aspect": "16:9",
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://device-render",
+            "contentHash": "sha256:ff44c956c585b47e1b4af753e40756eb00b42361433a48897082afa7972935c3"
+          },
+          {
+            "kind": "image",
+            "src": "asset://portrait-profile",
+            "contentHash": "sha256:e963d8d9453088f0e2bfb889f459369f3e309b41c16385cf528cbc635505f695"
+          }
+        ],
+        "requestId": "830a47d7-2e5d-4b1d-85ee-0736469b5a23",
+        "outputKind": "image",
+        "at": "2026-07-27T21:26:53.906Z"
+      }
+    },
+    "ef8a2a8a-970e-4bba-a366-af3b04917d34": {
+      "name": "voOrigin.take13.mp3",
+      "contentHash": "sha256:af4f33af11ec4da9a2c6a6ce0f727a6edb51534a5d6f268e32db64bcb7a1eec5",
+      "mime": "audio/mpeg",
+      "bytes": 160541,
+      "sources": [
+        "/__framediff-cache/sha256%3Aaf4f33af11ec4da9a2c6a6ce0f727a6edb51534a5d6f268e32db64bcb7a1eec5"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 13,
+        "recipeHash": "sha256:72e16683cf12fcccef1def7e93edfadf781756ef767dff2a36a71f75bc7cfae9",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where your brain evolved. Calm, peaceful. And once in a while — real danger. Then... back to calm.",
+          "fps": 30,
+          "duration": 10,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "9304641c-79c2-465e-b6f6-1df8ee56a58f",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:28:03.792Z"
+      }
+    },
+    "71eabd2d-f799-488d-a2f1-b77f273ab128": {
+      "name": "voNow.take10.mp3",
+      "contentHash": "sha256:dd93c9c89c2307684aa395655f27274696fd34ae020b2f3b92fa44c18b931e13",
+      "mime": "audio/mpeg",
+      "bytes": 205262,
+      "sources": [
+        "/__framediff-cache/sha256%3Add93c9c89c2307684aa395655f27274696fd34ae020b2f3b92fa44c18b931e13"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 10,
+        "recipeHash": "sha256:3eadac1a15d6ab2f225dc236a4876de1cc467429b6e960b599d3245a4f9d4fca",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where it lives now. Concrete. Engines. Deadlines. Feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 12,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "be45fc45-bffd-4054-89a3-e1d0350147a4",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:28:04.333Z"
+      }
+    },
+    "04908812-18df-473d-b49b-ff29ee8e068f": {
+      "name": "voBrain.take8.mp3",
+      "contentHash": "sha256:52c1ff30ef436484a2dc0a07c0fe96be1317e173857d164c9b5979da9accd739",
+      "mime": "audio/mpeg",
+      "bytes": 186454,
+      "sources": [
+        "/__framediff-cache/sha256%3A52c1ff30ef436484a2dc0a07c0fe96be1317e173857d164c9b5979da9accd739"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 8,
+        "recipeHash": "sha256:71e7112ff89dbe06efed4d88a1733d05b0732d75bb75fc87e11de6fa241a9774",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. Your brain stays in an agitated state all day.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 12,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "86acafd4-b160-4d4b-98c8-748e070db162",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:28:05.029Z"
+      }
+    },
+    "73c6862b-e0f8-4a4e-bd80-43474c10994e": {
+      "name": "voSolution.take11.mp3",
+      "contentHash": "sha256:e4bcbaa0e7fbb787557211a01f632913e102305819893c36ed51fb4022bcd77a",
+      "mime": "audio/mpeg",
+      "bytes": 236191,
+      "sources": [
+        "/__framediff-cache/sha256%3Ae4bcbaa0e7fbb787557211a01f632913e102305819893c36ed51fb4022bcd77a"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 11,
+        "recipeHash": "sha256:b0ea1bba18f1df3f8d563c03f8748f46dbeaa913067b582ff14c871fb405e60a",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "Introducing Evolv28. Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 15,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "6a66ff50-bc0d-4a7d-8581-4fd99e02b9bf",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:28:05.590Z"
+      }
+    },
+    "8cea3b09-ce02-42ab-a131-0c8284100265": {
+      "name": "voRitual.take9.mp3",
+      "contentHash": "sha256:4c22f0a30bc66d95074f843b62b120e2cae6b97db2954e075c1cc23742234fca",
+      "mime": "audio/mpeg",
+      "bytes": 136299,
+      "sources": [
+        "/__framediff-cache/sha256%3A4c22f0a30bc66d95074f843b62b120e2cae6b97db2954e075c1cc23742234fca"
+      ],
+      "generator": {
+        "gen": "voRitual",
+        "take": 9,
+        "recipeHash": "sha256:5a1388abb0a85916b7af1e7c7f902ea683fb5cc8a6323382ade7be548594b8b3",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "Here's how it works: You put it on, press the button for your customized program, and go about your day. That's the whole routine.",
+          "fps": 30,
+          "duration": 7,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "a34e1431-587e-48f7-9bab-678ecb59ed07",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:28:06.149Z"
+      }
+    },
+    "baaa3b6d-5121-4876-9a91-d3c5cad14c3a": {
+      "name": "voClose.take6.mp3",
+      "contentHash": "sha256:615f2e556ceb03976aa6504e04f5505042888b24a8221b5535c9f19fbc666ad4",
+      "mime": "audio/mpeg",
+      "bytes": 73605,
+      "sources": [
+        "/__framediff-cache/sha256%3A615f2e556ceb03976aa6504e04f5505042888b24a8221b5535c9f19fbc666ad4"
+      ],
+      "generator": {
+        "gen": "voClose",
+        "take": 6,
+        "recipeHash": "sha256:d42cf79581581bd78a672c5f9baacf2b21405d08d741734b7369e64397d148c0",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "Evolv28. Calm, by design. Get yours today.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 5,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "d3fe4ea4-3e36-4a07-aa1d-90d98cdd942d",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:28:06.637Z"
+      }
+    },
+    "bbba1cfe-e6f4-426f-bb5b-dc25ba8f7259": {
+      "name": "ritualOn.take3.mp4",
+      "contentHash": "sha256:d5f9890a13bd72025cda7ba3e882dfdd294568aa464699feb1a32c449bd987cd",
+      "mime": "video/mp4",
+      "bytes": 2280516,
+      "sources": [
+        "/__framediff-cache/sha256%3Ad5f9890a13bd72025cda7ba3e882dfdd294568aa464699feb1a32c449bd987cd"
+      ],
+      "generator": {
+        "gen": "ritualOn",
+        "take": 3,
+        "recipeHash": "sha256:3c916f55984fa8b304fe8b184dbc5874fed47460127c01dcb0a42f6211ae0759",
+        "endpoint": "bytedance/seedance-2.0/fast/image-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "@Image1 is the exact first frame: a tight neck-area close-up — a woman from behind, cropped from shoulder blades to just below her hairline, face never visible, seating a matte graphite neckband at the base of her neck in soft morning bedroom light. One continuous, intimate 6-second shot, camera locked with imperceptible handheld drift, never tilting up past her hairline. The product keeps the exact geometry and finish of the first frame — no morphing, no redesign, nothing added. The collar is RIGID: a solid molded piece that never bends, flexes, twists, or splays — it slides on as one fixed shape. Motion, precisely: 00:00.0–00:02.5 — her hands slide the rigid collar forward onto her neck from behind in one smooth glide until it seats at the base of her neck; the paddles arrive at her collarbones without the band ever deforming. 00:02.5–00:03.5 — one thumb presses the flat inner face of the right paddle once; the small indicator wakes as a single soft teal LED breathing on, faintly reflected on her skin. 00:03.5–00:06.0 — her hands lower out of frame and she takes one easy breath, shoulders dropping as she relaxes; focus stays on the nape and collar. Her face must never enter the frame — no turn, no profile, no mirror, no reflection. Natural morning light, shallow 85mm depth, quiet color, fine 35mm grain. No cuts, no text, no second person.",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "comp://ritualStill"
+            }
+          ],
+          "tier": "fast",
+          "resolution": "720p",
+          "duration": 6,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "comp://ritualStill",
+            "contentHash": "sha256:58629d192e9c0fa71c10c58096706cf4e208bfbba39ac5fa0d461249b41949ff"
+          }
+        ],
+        "requestId": "4810439d-aa5a-4f83-82d6-3dcb9fed7b10",
+        "seed": 661537797,
+        "outputKind": "video",
+        "at": "2026-07-27T21:39:54.096Z"
+      }
+    },
+    "4fba08f8-1e17-44a1-b847-b4a221f4d73c": {
+      "name": "voOrigin.take14.mp3",
+      "contentHash": "sha256:a122ea93a59012097c0708cf10b1f7c18461f8ca4c48d0f586260d0f2414dc51",
+      "mime": "audio/mpeg",
+      "bytes": 159287,
+      "sources": [
+        "/__framediff-cache/sha256%3Aa122ea93a59012097c0708cf10b1f7c18461f8ca4c48d0f586260d0f2414dc51"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 14,
+        "recipeHash": "sha256:72e16683cf12fcccef1def7e93edfadf781756ef767dff2a36a71f75bc7cfae9",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where your brain evolved. Calm, peaceful. And once in a while — real danger. Then... back to calm.",
+          "fps": 30,
+          "duration": 10,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "b4f366fc-5e41-4e44-a12a-a2053afdf715",
+        "outputKind": "audio",
+        "at": "2026-07-27T21:42:23.430Z"
+      }
+    },
+    "afa2ee3a-4513-4638-907c-985c237247b1": {
+      "name": "voOrigin.take15.mp3",
+      "contentHash": "sha256:b7274bbeac31b41e2e87022c91587917010f73aebc38852415039e9d0d6a1de5",
+      "mime": "audio/mpeg",
+      "bytes": 146748,
+      "sources": [
+        "/__framediff-cache/sha256%3Ab7274bbeac31b41e2e87022c91587917010f73aebc38852415039e9d0d6a1de5"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 15,
+        "recipeHash": "sha256:be98083ee4bc657907e4da0017544d472be1d11a18f75bb9ad46994c6897033f",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where your brain evolved. Calm. And once in a while — real danger. Then... back to calm.",
+          "fps": 30,
+          "duration": 10,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "2f1cf15a-ec66-431b-b1b1-b12030a3aabb",
+        "outputKind": "audio",
+        "at": "2026-07-27T22:07:11.585Z"
+      }
+    },
+    "141d62a0-d1ac-4138-b83d-e98cc656577a": {
+      "name": "voNow.take11.mp3",
+      "contentHash": "sha256:e831c46d05be95a229889e7a7d50f766065edeb9180c8c9067f68f32a5c973d9",
+      "mime": "audio/mpeg",
+      "bytes": 234938,
+      "sources": [
+        "/__framediff-cache/sha256%3Ae831c46d05be95a229889e7a7d50f766065edeb9180c8c9067f68f32a5c973d9"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 11,
+        "recipeHash": "sha256:3eadac1a15d6ab2f225dc236a4876de1cc467429b6e960b599d3245a4f9d4fca",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where it lives now. Concrete. Engines. Deadlines. Feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 12,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "67bdb71b-e109-4e21-bf31-f732e972b3c0",
+        "outputKind": "audio",
+        "at": "2026-07-27T22:29:55.724Z"
+      }
+    },
+    "1a9346cb-f895-407b-8b30-16202ee6f15b": {
+      "name": "voBrain.take9.mp3",
+      "contentHash": "sha256:c97eab705b1cf3cbdcb1f5e6cebd7582d25ddbb71167cdbfec293a7039fa32ec",
+      "mime": "audio/mpeg",
+      "bytes": 202755,
+      "sources": [
+        "/__framediff-cache/sha256%3Ac97eab705b1cf3cbdcb1f5e6cebd7582d25ddbb71167cdbfec293a7039fa32ec"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 9,
+        "recipeHash": "sha256:71e7112ff89dbe06efed4d88a1733d05b0732d75bb75fc87e11de6fa241a9774",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. Your brain stays in an agitated state all day.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 12,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "fd44a01f-d4f7-446d-a1c7-f627fc4c4ad0",
+        "outputKind": "audio",
+        "at": "2026-07-27T22:29:56.247Z"
+      }
+    },
+    "815655ab-cda3-4122-85e7-31282d4399c6": {
+      "name": "voNow.take12.mp3",
+      "contentHash": "sha256:80103c7dc33dfc3889f1d4d1f79110e8af18787903e1519f1e320945a269825d",
+      "mime": "audio/mpeg",
+      "bytes": 150928,
+      "sources": [
+        "/__framediff-cache/sha256%3A80103c7dc33dfc3889f1d4d1f79110e8af18787903e1519f1e320945a269825d"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 12,
+        "recipeHash": "sha256:00f2325a42660b93c817ab9d11c9c46fd6266b6859e6306d8d4889aeaa7a5b0d",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "This is where it lives now. Concrete. Engines. Deadlines. Feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 12,
+          "fps": 30,
+          "speed": 1.1
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "1ff3e93e-19ba-4aba-a61b-ee495ea0cede",
+        "outputKind": "audio",
+        "at": "2026-07-27T22:31:19.473Z"
+      }
+    },
+    "a21cf427-576f-44a6-9191-df4712a0bef3": {
+      "name": "voBrain.take10.mp3",
+      "contentHash": "sha256:ed7d1c70fae76f33d8409c7e3a025d1b901513d0a9c4923c08af9f73d2a51b0e",
+      "mime": "audio/mpeg",
+      "bytes": 168482,
+      "sources": [
+        "/__framediff-cache/sha256%3Aed7d1c70fae76f33d8409c7e3a025d1b901513d0a9c4923c08af9f73d2a51b0e"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 10,
+        "recipeHash": "sha256:c8642f60b0d0724daa1d119e5a726da9398808896f7fcf5f543c1589271c83a3",
+        "endpoint": "fal-ai/elevenlabs/tts/multilingual-v2",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-multilingual-v2",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. Your brain stays in an agitated state all day.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 12,
+          "fps": 30,
+          "speed": 1.1
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:eb58c0e4017cff4815c4c5de656ab9cc1929c67f4d267cdb27e4171333cbe713"
+          }
+        ],
+        "requestId": "24270f38-9c5e-466e-8409-92c59f2e79ec",
+        "outputKind": "audio",
+        "at": "2026-07-27T22:33:21.556Z"
       }
     }
   }

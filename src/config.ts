@@ -25,7 +25,9 @@ import { productStill } from "./gen/productStill.gen";
 import { productReveal } from "./gen/productReveal.gen";
 import { ritualStill } from "./gen/ritualStill.gen";
 import { ritualOn } from "./gen/ritualOn.gen";
+import { deskStill } from "./gen/deskStill.gen";
 import { deskFocus } from "./gen/deskFocus.gen";
+import { voiceRef } from "./gen/voiceRef.gen";
 import { voOrigin } from "./gen/voOrigin.gen";
 import { voNow } from "./gen/voNow.gen";
 import { voBrain } from "./gen/voBrain.gen";
@@ -56,7 +58,9 @@ export const COMPOSITIONS = {
   productReveal,
   ritualStill,
   ritualOn,
+  deskStill,
   deskFocus,
+  voiceRef,
   voOrigin,
   voNow,
   voBrain,
