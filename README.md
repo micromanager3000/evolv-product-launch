@@ -1,5 +1,44 @@
 # Evolv28 product launch — plan → generate → edit
 
+## Quick start (fresh machine)
+
+Every pinned take ships in this repo via Git LFS, so **watching, scrubbing, and rendering the
+film needs no API keys** — but you must have LFS before cloning, and the FrameDiff engine must
+sit in a sibling folder (this project links it with a `file:` dependency).
+
+```sh
+# 0. Prerequisites: Node 20+, git, git-lfs
+brew install git-lfs        # macOS (Linux: apt-get install git-lfs)
+git lfs install             # one-time, per machine
+
+# 1. Clone the engine and this project SIDE BY SIDE (the folder layout matters)
+git clone git@github.com:micromanager3000/framediff.git
+git clone git@github.com:micromanager3000/evolv-product-launch.git
+#    already cloned before installing LFS? fix it with:  cd evolv-product-launch && git lfs pull
+
+# 2. Install and run
+cd evolv-product-launch
+npm install                 # links ../framediff and its runtime deps
+npm run dev                 # open the printed URL — you land on launch-edit
+```
+
+From the Studio: press play to watch, scrub the timeline, and use **Render LaunchEdit** in the
+topbar to export the MP4. If a generative comp shows a "not in cache" slate instead of media,
+your clone is missing LFS objects — run `git lfs pull`.
+
+### API keys (only for regenerating takes)
+
+| key | where to get it | what it unlocks | where to put it |
+| --- | --- | --- | --- |
+| `FAL_KEY` | [fal.ai](https://fal.ai) dashboard | **all** generation — Seedance video, Seedream stills, and the ElevenLabs VO endpoints run through fal | ⚿ **SERVICES** in the Studio topbar, or `FAL_KEY` in the env before `npm run dev` |
+
+That single key is the only secret the project uses. Nothing regenerates implicitly — takes
+only change when you press Generate — and a full re-roll of every recipe costs roughly $3–5 at
+the default fast/720p tier. Keys are stored in the gitignored `.framediff/` folder and must
+never be committed.
+
+---
+
 A full launch-film pipeline in one FrameDiff project: a **moodboard**, a timed **script**, and a
 **storyboard** plan the piece; **17 generative comps** (Seedream stills, Seedance clips, ElevenLabs
 VO behind a single voice-anchor comp) realize each scene; and a root **edit** cuts the pinned takes together under authored overlay
@@ -40,13 +79,8 @@ show, and its rows nest the comp that realizes each scene, so the plan scrubs in
 
 ## Run it
 
-```sh
-npm install        # links framediff from the sibling checkout at ../framediff
-npm run dev
-```
-
-Open the printed URL to land on `launch-edit`. Until takes are pinned, generative comps render
-honest slates — the edit, overlays, script, storyboard, and moodboard all work immediately.
+See **Quick start** at the top. Until takes are pinned, generative comps render honest
+slates — the edit, overlays, script, storyboard, and moodboard all work immediately.
 
 ## Generate and pin, in order
 
