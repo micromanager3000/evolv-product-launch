@@ -3,24 +3,28 @@
 ## Quick start (fresh machine)
 
 Every pinned take ships in this repo via Git LFS, so **watching, scrubbing, and rendering the
-film needs no API keys** — but you must have LFS before cloning, and the FrameDiff engine must
-sit in a sibling folder (this project links it with a `file:` dependency).
+film needs no API keys**. The FrameDiff engine is pulled automatically by npm from the public
+[micromanager3000/framediff](https://github.com/micromanager3000/framediff) repo — no sibling
+checkout needed.
 
 ```sh
 # 0. Prerequisites: Node 20+, git, git-lfs
 brew install git-lfs        # macOS (Linux: apt-get install git-lfs)
 git lfs install             # one-time, per machine
 
-# 1. Clone the engine and this project SIDE BY SIDE (the folder layout matters)
-git clone git@github.com:micromanager3000/framediff.git
-git clone git@github.com:micromanager3000/evolv-product-launch.git
-#    already cloned before installing LFS? fix it with:  cd evolv-product-launch && git lfs pull
-
-# 2. Install and run
+# 1. Clone (LFS pulls the pinned takes automatically)
+git clone https://github.com/micromanager3000/evolv-product-launch.git
 cd evolv-product-launch
-npm install                 # links ../framediff and its runtime deps
+#    cloned before installing LFS? fix it with:  git lfs pull
+
+# 2. Install and run — the engine installs from GitHub as a git dependency
+GIT_LFS_SKIP_SMUDGE=1 npm install
 npm run dev                 # open the printed URL — you land on launch-edit
 ```
+
+`GIT_LFS_SKIP_SMUDGE=1` matters: the engine repo carries LFS media of its own (example
+projects) that npm's shallow clone must not try to smudge — the engine's source needs none
+of it. To pull a newer engine later: `GIT_LFS_SKIP_SMUDGE=1 npm update framediff-monorepo`.
 
 From the Studio: press play to watch, scrub the timeline, and use **Render LaunchEdit** in the
 topbar to export the MP4. If a generative comp shows a "not in cache" slate instead of media,

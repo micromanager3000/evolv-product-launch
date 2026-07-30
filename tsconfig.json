@@ -1,4 +1,39 @@
 {
   "extends": "./.svelte-kit/tsconfig.json",
-  "compilerOptions": { "allowJs": true, "checkJs": true, "esModuleInterop": true, "forceConsistentCasingInFileNames": true, "resolveJsonModule": true, "skipLibCheck": true, "sourceMap": true, "strict": true, "moduleResolution": "bundler", "verbatimModuleSyntax": false }
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "bundler",
+    "verbatimModuleSyntax": false,
+    "baseUrl": ".",
+    "paths": {
+      "$lib": [
+        "./src/lib"
+      ],
+      "$lib/*": [
+        "./src/lib/*"
+      ],
+      "framediff": [
+        "./node_modules/framediff-monorepo/packages/framediff/src/index.ts"
+      ],
+      "framediff/three": [
+        "./node_modules/framediff-monorepo/packages/framediff/src/three/index.ts"
+      ],
+      "framediff/studio-runtime": [
+        "./node_modules/framediff-monorepo/packages/framediff/src/studio-runtime/runtime.ts"
+      ],
+      "@framediff/studio-model": [
+        "./node_modules/framediff-monorepo/packages/studio-model/src/index.ts"
+      ],
+      "@framediff/studio-ui": [
+        "./node_modules/framediff-monorepo/packages/studio-ui/src/index.ts"
+      ]
+    }
+  }
 }
