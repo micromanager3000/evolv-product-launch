@@ -12,7 +12,8 @@ checkout needed.
 brew install git-lfs        # macOS (Linux: apt-get install git-lfs)
 git lfs install             # one-time, per machine
 
-# 1. Clone (LFS pulls the pinned takes automatically)
+# 1. Clone (LFS pulls the pinned takes automatically; repo is private — use a
+#    GitHub login that's been granted access)
 git clone https://github.com/micromanager3000/evolv-product-launch.git
 cd evolv-product-launch
 #    cloned before installing LFS? fix it with:  git lfs pull
@@ -26,9 +27,17 @@ npm run dev                 # open the printed URL — you land on launch-edit
 projects) that npm's shallow clone must not try to smudge — the engine's source needs none
 of it. To pull a newer engine later: `GIT_LFS_SKIP_SMUDGE=1 npm update framediff-monorepo`.
 
-From the Studio: press play to watch, scrub the timeline, and use **Render LaunchEdit** in the
-topbar to export the MP4. If a generative comp shows a "not in cache" slate instead of media,
-your clone is missing LFS objects — run `git lfs pull`.
+**First 60 seconds in the Studio:**
+
+1. You land on **launch-edit** — press play to watch the full 70s film with sound.
+2. Open **Script** or **Storyboard** in the left rail and scrub — the plan documents share
+   the edit's timing, so they highlight in sync with the cut.
+3. Click any generative comp (say `ritualOn`) to see its recipe, takes, and pin.
+4. **Render LaunchEdit** in the topbar exports the MP4 (keep the render window visible
+   until it finishes; the file lands in your downloads).
+
+If a generative comp shows a "not in cache" slate instead of media, your clone is missing
+LFS objects — run `git lfs pull`.
 
 ### API keys (only for regenerating takes)
 
