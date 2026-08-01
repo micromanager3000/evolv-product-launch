@@ -1,6 +1,5 @@
-// Scene 5's second shot, from the site's own lifestyle photography (asset://lifestyle-desk):
-// the brief's "guy at his desk, over the shoulder, device visible." i2v from the real
-// marketing still keeps wardrobe, room, and device placement exactly on-brand.
+// Future worn-device image-to-video recipe starts from the exact current photography and locks
+// the product geometry. The final edit uses deterministic motion from that photo directly.
 import { generative, type GenRecipeData } from "framediff";
 import data from "./deskFocus.gen.json";
 

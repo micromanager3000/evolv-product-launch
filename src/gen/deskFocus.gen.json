@@ -2,11 +2,11 @@
   "provider": "fal",
   "output": "video",
   "model": "seedance-2.0",
-  "prompt": "@Image1 is the exact first frame: a man seen strictly from behind at his desk in a bright office, a matte graphite neckband resting at the base of his neck, his monitor glowing ahead. Animate one continuous, calm 6-second shot: the camera holds behind him and pushes in very slowly toward his shoulders — no arc to the front, no orbit, his face never revealed, not even in the screen's reflection. He types unhurried, pauses once to read, breathes easily; posture relaxed, not slumped. The neckband keeps the exact geometry and finish of the first frame — no morphing, nothing added; its slim teal accent catches the window light once. Soft daylight from the windows, monitor glow subtle, shallow depth. Settled, focused, quietly confident — the calm mirror of the overwhelmed desk shot earlier in the film. No cuts, no text, no other people in focus, no camera shake.",
+  "prompt": "@Image1 is the exact worn-device source photograph. Animate one continuous calm 6-second shot with only a very slow camera push and subtle natural breathing. Preserve the Evolv28 pixel-faithfully: it is a rigid solid molded object, and its continuous C-shape, paddle geometry, proportions, seams, finish, color, and placement must remain identical from first frame to last. Absolutely no bending, flexing, twisting, stretching, splaying, wobbling, breathing, asymmetrical deformation, or morphing. Keep the camera behind the wearer; no face or reflection. No cuts, text, button press, invented LED or controls, extra people, or camera shake.",
   "refs": [
     {
       "kind": "image",
-      "src": "comp://deskStill"
+      "src": "asset://evolv-worn-photo"
     }
   ],
   "tier": "fast",

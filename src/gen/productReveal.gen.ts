@@ -1,6 +1,5 @@
-// Scene 4's picture: animates the approved hero frame. The `comp://productStill` ref resolves
-// to that comp's pinned take byte-for-byte (the same chain the lighthouse example uses), so
-// this comp is deliberately blocked until productStill has an approved, pinned image.
+// Direct image-to-video recipe from the exact current product photograph. Motion is restricted
+// to a camera push so the rigid device cannot bend, flex, or morph.
 import { generative, type GenRecipeData } from "framediff";
 import data from "./productReveal.gen.json";
 

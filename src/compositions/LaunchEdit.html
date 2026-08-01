@@ -13,6 +13,8 @@
  .stat b{display:block;font-family:Georgia,"Times New Roman",serif;font-size:30px;color:#00B4B4}
  .stat small{display:block;font:800 10px ui-monospace;letter-spacing:1.6px;color:#9CA3AF;margin-top:3px}
  .stats .src{margin-top:9px;font:10.5px ui-monospace;letter-spacing:1px;color:#9CA3AF;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+ .impact{position:absolute;left:340px;top:735px;width:1240px;text-align:center;font-family:Georgia,"Times New Roman",serif;font-size:43px;line-height:1.2;font-weight:600;text-shadow:0 3px 22px rgba(0,0,0,.82)}
+ .impact em{color:#00B4B4;font-style:normal}
  /* --- S5 routine steps --------------------------------------------------------------- */
  .steps{position:absolute;left:360px;top:924px;width:1200px;height:64px;display:flex;justify-content:center;gap:14px}
  .step{display:flex;align-items:center;gap:10px;background:rgba(13,27,42,.78);border:1px solid rgba(245,242,238,.18);border-radius:999px;padding:12px 22px;font-size:14.5px;font-weight:600;opacity:0}
@@ -28,7 +30,7 @@
  .quote .delta{display:inline-block;margin-top:14px;font:800 12px ui-monospace;letter-spacing:1px;color:#F59E0B;border:1px solid rgba(245,158,11,.45);border-radius:999px;padding:5px 12px}
 </style></head><body>
 <!-- The film itself: every visual is a timeline item (nested gen clips, authored overlay
-     comps, real testimonial stills, the wordmark). This HTML carries only the in-film
+     comps, real testimonial videos, the wordmark). This HTML carries only the in-film
      typography — kickers, claim chips, quotes — as `layers` items placed by the timeline. -->
 <main data-fd-composition data-fd-id="LaunchEdit" data-fd-name="Evolv28 — launch film" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="2100" data-fd-kind="edit" data-fd-source="src/compositions/LaunchEdit.html" data-fd-module="src/compositions/LaunchEdit.ts" data-fd-export="launchEditComp" data-fd-timeline-source="src/compositions/LaunchEdit.timeline.json">
 
@@ -44,33 +46,33 @@
   <div class="src">PLACEBO-CONTROLLED, PEER-REVIEWED RCT · PUBMED PMC10307909</div>
  </div>
 
+ <div class="impact" data-fd-clip data-fd-id="sleep-impact" data-fd-name="Sleep impact · hyperarousal" data-fd-type="layers">This is impacting people's sleep and causing <em>hyperarousal.</em></div>
+
  <div class="steps" data-fd-clip data-fd-id="ritual-steps" data-fd-name="Routine steps" data-fd-type="layers">
   <span class="step"><i>01</i> Put it on</span>
-  <span class="step"><i>02</i> Press the button</span>
+  <span class="step"><i>02</i> Start it in the app</span>
   <span class="step"><i>03</i> Go about your day</span>
  </div>
 
  <div class="proofk" data-fd-clip data-fd-id="proof-kicker" data-fd-name="Kicker · real people" data-fd-type="layers">REAL PEOPLE · REAL NIGHTS</div>
 
  <div class="quote" data-fd-clip data-fd-id="quote-valerie" data-fd-name="Quote · Valerie" data-fd-type="layers">
-  <blockquote>My sleep increased by more than two hours a night. This device changed my life.</blockquote>
+  <blockquote>I just can't say enough about it. It's changed my life. It really has.</blockquote>
   <div class="who">Valerie Cartonio</div>
   <div class="role">Mental Health Correctional Counselor · insomnia since childhood</div>
-  <span class="delta">5h 34m → 7h 56m · +2h 22m EVERY NIGHT</span>
+  <span class="delta">CHANGED MY LIFE</span>
  </div>
 
  <div class="quote" data-fd-clip data-fd-id="quote-fredrik" data-fd-name="Quote · Fredrik" data-fd-type="layers">
-  <blockquote>I haven't slept 8 hours in 20 years. Getting my sleep back gave me my day back.</blockquote>
+  <blockquote>And after four weeks, I sleep eight hours.</blockquote>
   <div class="who">Fredrik Regnell</div>
   <div class="role">Sales &amp; Access Manager · 20-year insomnia · Sweden</div>
-  <span class="delta">DAYTIME WEAR · 4+ HOURS</span>
+  <span class="delta">8 HOURS · AFTER FOUR WEEKS</span>
  </div>
 
  <script>
-  // Routine steps land word-synced with voRitual: "Put it on." · "Press the button." ·
-  // "And go live your day." Absolute edit frames (voRitual starts at f1470), same
-  // APPEAR-table pattern as the notification storm.
-  const steps=queryAll(".step"),STEP_AT=[1509,1539,1606]; // voRitual take9 onsets (VO item at f1460)
+  // Routine steps land with the three exact-reference shots: put on, app start, worn.
+  const steps=queryAll(".step"),STEP_AT=[1490,1580,1670];
   onFrame(({frame})=>{
    for(let i=0;i<steps.length;i++){
     const t=frame-STEP_AT[i];

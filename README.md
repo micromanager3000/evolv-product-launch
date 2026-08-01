@@ -60,17 +60,18 @@ comps — a notification storm, a beta→alpha wave morph, testimonial cards, an
 The subject is [Evolv28](https://evolv28.com) ("the insomnia intelligence company"): a daytime
 neckband wearable that uses patented ultra-low variable magnetic fields (VCMF™) to calm cortical
 hyperarousal — HRV up, stress down, +45 min sleep in a placebo-controlled RCT. Brand palette,
-device renders, lifestyle photos, testimonial stills, and the wordmark are imported from the
-product site into the Git LFS-backed `assets/` store.
+current manufacturer device renders and photography, the actual app Session Setup screen, two
+full Vimeo interviews, and the wordmark are imported into the Git LFS-backed `assets/` store.
 
 ```
 moodboard · script · storyboard          (the plan — comps in the same graph)
         │
         ├─ savannah-stock (Envato drone; savannahDrift = backup) ─┐   savannahThreat · cityOverload
-        ├─ device-render ──▶ productStill ──▶ productReveal ────┤
-        ├─ device-render ──▶ ritualStill ──▶ ritualOn ──────────┤   brain-loop (hyenaChase retired to backup)
-        ├─ device-render + lifestyle-desk ──▶ deskStill ──▶ deskFocus ─┤   alpha-waves · notification-storm
-        └─ voiceRef ─▶ voOrigin…voClose (ElevenLabs · v3 + v2) ────┤   end-card ◀── productStill
+        ├─ exact hero photo ──▶ deterministic push ─────────────┤
+        ├─ exact fitting photo ──▶ rigid minimal motion ─────────┤   brain-loop (hyenaChase retired to backup)
+        ├─ actual app Start Session ─▶ exact worn photo ─────────┤   alpha-waves · notification-storm
+        ├─ Valerie + Fredrik full Vimeo interviews ──────────────┤
+        └─ voiceRef ─▶ voOrigin…voClose (ElevenLabs · v3 + v2) ─┤   end-card ◀── exact hero photo
                                                                 ▼
                                                           launch-edit (70s · 1920×1080)
 ```
@@ -82,10 +83,10 @@ moodboard · script · storyboard          (the plan — comps in the same graph
 | 1 | Where you evolved | 0:00–0:10 | real stock drone savannah; the burst snaps in on “real danger.” and out 1.3s later — “Then... back to calm.” narrates over 3s of restored drift; Serengeti bed cut dead at the city |
 | 2 | Where you live now | 0:10–0:22 | 7-hard-cut overload montage (no faces; ends over-the-shoulder at a drowning desk) + notification storm + ding SFX |
 | 3 | Same alarm | 0:22–0:33 | authored brain scene — messy notification pile, one agitated brain radiating alarm; slack pings per card |
-| 4 | Calm, engineered | 0:33–0:49 | hero float + beta→alpha wave overlay + trial stat chips |
-| 5 | The whole routine | 0:49–0:57 | nape close-up (no face) → locked over-shoulder desk push; step chips pop word-synced |
-| 6 | Real people | 0:57–1:05 | **real** webcam stills + verbatim quotes — never synthesized |
-| 7 | Get yours | 1:05–1:10 | end card; the real wordmark lands as an image item |
+| 4 | Calm, engineered | 0:33–0:49 | exact product-photo push + beta→alpha overlay; “This is impacting people's sleep and causing hyperarousal” lands at exactly 0:35; trial stat chips follow |
+| 5 | The whole routine | 0:49–0:57 | exact fitting photo → actual app Start Session control → exact worn-device photo; picture-synced steps say put it on, start it in the app, go about your day |
+| 6 | Real people | 0:57–1:05 | **real Vimeo interview video and audio** — Valerie then Fredrik; never synthesized |
+| 7 | Get yours | 1:05–1:10 | exact product photograph on the end card; the real wordmark lands as an image item |
 
 VO lines live verbatim in `src/gen/vo*.gen.json`; the Script comp is the human-readable run of
 show, and its rows nest the comp that realizes each scene, so the plan scrubs in sync with the cut.
@@ -107,15 +108,13 @@ action; nothing regenerates implicitly.
    `speed` param gives deterministic length where v3's expressive variance blew the slot.
    fal offers preset voices only, so the anchor is reference-level consistency, not audio
    cloning. Always re-measure a fresh take against its slot before pinning.
-2. **Stills** — `productStill`, `ritualStill`, and `deskStill` stage the exact
-   `asset://device-render` (the worn shots also reference the site's own worn photos for
-   placement). Pin one take each. (`hyenaChase` is retired to backup with the old
-   two-panel brain scene.)
-3. **Clips** — `savannahThreat` and `cityOverload` are text-to-video; `productReveal`,
-   `ritualOn`, and `deskFocus` stay deliberately blocked until their upstream stills are
-   pinned — the `comp://` ref resolves to the approved bytes, which is what keeps the
-   device's industrial design exact in every worn shot. (Scene 1's aerial is licensed
-   stock — `savannahDrift` remains registered as the generative backup.)
+2. **Stills** — `productStill`, `ritualStill`, and `deskStill` now reference the current
+   manufacturer Drive photography and renders. Their prompts explicitly preserve every rigid
+   product proportion and forbid bending, flexing, splaying, or morphing.
+3. **Clips** — the final product, fitting, app, and worn-device shots use deterministic camera
+   motion from the exact source images, so the current cut cannot deform the hardware. The
+   `productReveal`, `ritualOn`, and `deskFocus` recipes remain available for future AI I2V;
+   each now starts directly from an exact reference and carries the same rigid-geometry lock.
 4. Export `launch-edit` from the Studio like any comp.
 
 Recipes default to Seedance `fast` @ 720p for cheap iteration; flip `tier`/`resolution` in the
@@ -123,9 +122,9 @@ Recipes default to Seedance `fast` @ 720p for cheap iteration; flip `tier`/`reso
 
 ## House rules baked into the project
 
-- **Testimonials stay real.** Valerie and Fredrik are real customers from the site: their stills
-  and verbatim quotes appear as image + text items. No generative model ever touches a real
-  person's face or voice here.
+- **Testimonials stay real.** Valerie and Fredrik's full Vimeo source videos are stored locally;
+  the final edit uses their real picture, real voice, and exact soundbites. No generative model
+  touches their faces or voices.
 - **Claims discipline.** Trial numbers are copied verbatim from the site (+45 min, −7.2 ISI,
   PMC10307909); wellness framing, no medical promises.
 - **No generated shot shows a face.** A content rule restated inside every prompt that
@@ -148,7 +147,7 @@ Recipes default to Seedance `fast` @ 720p for cheap iteration; flip `tier`/`reso
 | `src/compositions/BrainLoop.html` | the agitated-brain scene — messy notification pile, alarm spokes (`kind: "scene"`) |
 | `src/compositions/AlphaWaves.html` | beta→alpha wave morph overlay (`kind: "custom"`, alpha) |
 | `src/compositions/NotificationStorm.html` | toast storm overlay (`kind: "custom"`, alpha) |
-| `src/compositions/EndCard.html` | the closer; nests the pinned hero still (`kind: "scene"`) |
+| `src/compositions/EndCard.html` | the closer; uses the exact current product photograph (`kind: "scene"`) |
 | `src/compositions/LaunchEdit.html` + `.timeline.json` | the film — v2 timeline owns every placement (`kind: "edit"`) |
 | `src/gen/*.gen.ts` + `.gen.json` | 17 recipes: voiceRef + 6 VO, 4 stills, 6 clips — takes pin in the manifest |
 | `framediff.assets.json` | asset manifest — site imports + generated takes with full provenance |

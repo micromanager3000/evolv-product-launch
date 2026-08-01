@@ -2,11 +2,19 @@
   "provider": "fal",
   "output": "image",
   "model": "seedream-5.0-pro",
-  "prompt": "@Image1 is the exact product: a smooth matte graphite neckband whose rounded collar is thickest across the back and tapers forward into two flat, elongated teardrop paddles angled slightly inward, with a small pill-shaped indicator slot on the inner face of one paddle and a slim teal accent strip on the outer face near the back of the band. Reproduce this exact industrial design — same proportions, same matte finish, same paddle shape, nothing added or removed — as a premium studio hero photograph: the neckband floats centered against a deep navy (#0D1B2A) seamless gradient backdrop, lit by one soft teal (#00B4B4) rim light tracing the collar's inner edge and a broad cool key from upper left. Three faint concentric rings of teal light ripple outward from the band into the dark, like calm radio waves, fading before the frame edge. Micro-texture visible in the matte surface, one restrained specular highlight along the top curve, gentle reflection pool beneath. 85mm product photography, f/8 crispness, true blacks, no dust. No hands, no people, no text, no logo, no extra objects.",
+  "prompt": "@Image1, @Image2, and @Image3 are exact, current Evolv28 product references from the manufacturer. Reproduce the industrial design byte-faithfully: same rigid continuous C-shaped collar, exact proportions, paddle geometry, surface finish, seams, indicator details, and charcoal color. Do not reinterpret or stylize the product. Stage it as a premium studio hero photograph centered against a deep navy (#0D1B2A) seamless gradient, with a soft teal (#00B4B4) rim and broad cool key from upper left. The device is a solid molded object: absolutely no bending, flexing, twisting, stretching, splaying, asymmetry, or morphing. No hands, people, text, logos, extra controls, or invented details.",
   "refs": [
     {
       "kind": "image",
-      "src": "asset://device-render"
+      "src": "asset://evolv-device-render-front"
+    },
+    {
+      "kind": "image",
+      "src": "asset://evolv-device-render-angle"
+    },
+    {
+      "kind": "image",
+      "src": "asset://evolv-device-hero-photo"
     }
   ],
   "aspect": "16:9",
