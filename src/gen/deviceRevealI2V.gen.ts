@@ -1,5 +1,6 @@
-// Final device-reveal I2V. This comp intentionally has a fresh id so the older,
-// geometry-inaccurate productReveal takes can never be selected as its output.
+// Final device-reveal generation. The exact photo owns appearance; the comp:// Three.js
+// blockout bakes automatically on Generate and owns only camera motion, framing, and timing.
+// This fresh id also keeps older geometry-inaccurate productReveal takes out of the output.
 import { generative, type GenRecipeData } from "framediff";
 import data from "./deviceRevealI2V.gen.json";
 

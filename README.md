@@ -68,7 +68,7 @@ full Vimeo interviews, and the wordmark are imported into the Git LFS-backed `as
 moodboard · script · storyboard          (the plan — comps in the same graph)
         │
         ├─ savannah-stock (Envato drone; savannahDrift = backup) ─┐   savannahThreat · cityOverload
-        ├─ exact hero photo ──▶ deviceRevealI2V ────────────────┤
+        ├─ exact hero photo + Three.js blockout ─▶ deviceRevealI2V ─┤
         ├─ exact fitting photo ──▶ devicePutOnI2V ──────────────┤   brain-loop (hyenaChase retired to backup)
         ├─ actual app Start Session ─▶ deviceWornI2V ───────────┤   alpha-waves · notification-storm
         ├─ Valerie + Fredrik full Vimeo interviews ──────────────┤
@@ -84,7 +84,7 @@ moodboard · script · storyboard          (the plan — comps in the same graph
 | 1 | Where you evolved | 0:00–0:10 | real stock drone savannah; the burst snaps in on “real danger.” and out 1.3s later — “Then... back to calm.” narrates over 3s of restored drift; Serengeti bed cut dead at the city |
 | 2 | Where you live now | 0:10–0:22 | 7-hard-cut overload montage (no faces; ends over-the-shoulder at a drowning desk) + notification storm + ding SFX |
 | 3 | Same alarm | 0:22–0:33 | authored brain scene — messy notification pile, one agitated brain radiating alarm; slack pings per card |
-| 4 | Calm, engineered | 0:33–0:49 | `deviceRevealI2V`: 1080p I2V from the exact Drive hero photo, camera-only push with rigid-device locks + beta→alpha overlay; “This is impacting people's sleep and causing hyperarousal” lands at exactly 0:35; trial stat chips follow |
+| 4 | Calm, engineered | 0:33–0:49 | `deviceRevealI2V`: 1080p generation from the exact Drive hero photo plus the baked `device-reveal-blockout` Three.js motion guide; camera-only push with rigid-device locks + beta→alpha overlay; “This is impacting people's sleep and causing hyperarousal” lands at exactly 0:35; trial stat chips follow |
 | 5 | The whole routine | 0:49–0:57 | `devicePutOnI2V` from the exact fitting photo → actual app Start Session control → `deviceWornI2V` from the exact worn-device photo; picture-synced steps say put it on, start it in the app, go about your day |
 | 6 | Real people | 0:57–1:05 | **real Vimeo interview video and audio** — Valerie then Fredrik; never synthesized |
 | 7 | Get yours | 1:05–1:10 | exact product photograph on the end card; the real wordmark lands as an image item |
@@ -113,10 +113,13 @@ action; nothing regenerates implicitly.
    manufacturer Drive photography and renders. Their prompts explicitly preserve every rigid
    product proportion and forbid bending, flexing, splaying, or morphing.
 3. **Final device clips** — generate and pin `deviceRevealI2V`, `devicePutOnI2V`, and
-   `deviceWornI2V`. Each is a new first-class composition wired directly into `launch-edit`,
-   starts from one exact approved Drive photograph (true image-to-video mode), and has a strict
-   rigid-body prompt contract forbidding bending, flexing, splaying, morphing, added controls,
-   and invented LEDs. The new ids deliberately cannot reuse the older inaccurate
+   `deviceWornI2V`. Each is a first-class composition wired directly into `launch-edit` and
+   has a strict rigid-body prompt contract forbidding bending, flexing, splaying, morphing,
+   added controls, and invented LEDs. `deviceRevealI2V` combines the exact approved hero photo
+   with `comp://device-reveal-blockout`: FrameDiff automatically bakes the 15-second Three.js
+   previz when you click Generate, and the prompt limits it to camera motion, framing, floor
+   contact, and timing while the photo remains the sole appearance authority. The fitting and
+   worn shots remain true single-image I2V. The new ids deliberately cannot reuse the older inaccurate
    `productReveal`, `ritualOn`, or `deskFocus` takes. The factual app-start beat remains the
    imported app UI footage.
 4. Export `launch-edit` from the Studio like any comp.
@@ -154,6 +157,7 @@ version). Set them to `fast` @ 720p first if you want inexpensive motion tests.
 | `src/compositions/BrainLoop.html` | the agitated-brain scene — messy notification pile, alarm spokes (`kind: "scene"`) |
 | `src/compositions/AlphaWaves.html` | beta→alpha wave morph overlay (`kind: "custom"`, alpha) |
 | `src/compositions/NotificationStorm.html` | toast storm overlay (`kind: "custom"`, alpha) |
+| `src/compositions/DeviceRevealBlockout.ts` | deterministic 15s Three.js camera-motion previz baked into `deviceRevealI2V` (`kind: "3d"`) |
 | `src/compositions/EndCard.html` | the closer; uses the exact current product photograph (`kind: "scene"`) |
 | `src/compositions/LaunchEdit.html` + `.timeline.json` | the film — v2 timeline owns every placement (`kind: "edit"`) |
 | `src/gen/*.gen.ts` + `.gen.json` | 17 recipes: voiceRef + 6 VO, 4 stills, 6 clips — takes pin in the manifest |
