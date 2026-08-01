@@ -462,6 +462,28 @@
       }
     },
     {
+      "id": "s7-product-photo",
+      "name": "S7 · exact current product photograph",
+      "from": 1950,
+      "durationInFrames": 150,
+      "layer": 1,
+      "layout": {
+        "rect": [
+          520,
+          96,
+          880,
+          495
+        ],
+        "fit": "cover",
+        "cornerRadius": 18,
+        "opacity": 0.9
+      },
+      "content": {
+        "type": "image",
+        "src": "asset://evolv-device-hero-photo"
+      }
+    },
+    {
       "id": "s7-logo",
       "name": "S7 · wordmark (real asset)",
       "from": 1974,
