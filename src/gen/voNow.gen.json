@@ -1,13 +1,16 @@
 {
-  "provider": "elevenlabs",
+  "provider": "fal",
   "output": "audio",
-  "model": "elevenlabs-direct",
+  "model": "elevenlabs-multilingual-v2",
   "prompt": "This is where it lives now. Concrete. Engines. Deadlines. Feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour.",
-  "refs": [],
+  "refs": [
+    {
+      "kind": "audio",
+      "src": "comp://voiceRef"
+    }
+  ],
   "duration": 12,
   "fps": 30,
   "take": 13,
-  "voice": "EXAVITQu4vr4xnSDxMaL",
-  "speed": 1.05,
-  "seed": 28028
+  "speed": 1.1
 }

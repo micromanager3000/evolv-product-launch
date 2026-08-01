@@ -44,8 +44,7 @@ LFS objects — run `git lfs pull`.
 
 | key | where to get it | what it unlocks | where to put it |
 | --- | --- | --- | --- |
-| `FAL_KEY` | [fal.ai](https://fal.ai) dashboard | Seedance video, Seedream stills, and media relay for generated inputs | ⚿ **SERVICES** in the Studio topbar, or `FAL_KEY` in the env before `npm run dev` |
-| `ELEVENLABS_API_KEY` | [ElevenLabs](https://elevenlabs.io) | direct Eleven v3 narration using the account's full voice library | ⚿ **SERVICES** in the Studio topbar, or `ELEVENLABS_API_KEY` in the env before `npm run dev` |
+| `FAL_KEY` | [fal.ai](https://fal.ai) dashboard | all generation — Seedance video, Seedream stills, media relay, and ElevenLabs narration | ⚿ **SERVICES** in the Studio topbar, or `FAL_KEY` in the env before `npm run dev` |
 
 Nothing regenerates implicitly — takes
 only change when you press Generate — and a full re-roll of every recipe costs roughly $3–5 at
@@ -55,8 +54,8 @@ never be committed.
 ---
 
 A full launch-film pipeline in one FrameDiff project: a **moodboard**, a timed **script**, and a
-**storyboard** plan the piece; **17 generative comps** (Seedream stills, Seedance clips, and direct
-ElevenLabs narration sharing one Sarah voice id) realize each scene; and a root **edit** cuts the pinned takes together under authored overlay
+**storyboard** plan the piece; **17 generative comps** (Seedream stills, Seedance clips, and
+ElevenLabs narration behind one Sarah voice-anchor comp) realize each scene; and a root **edit** cuts the pinned takes together under authored overlay
 comps — a notification storm, a beta→alpha wave morph, testimonial cards, and the end card.
 
 The subject is [Evolv28](https://evolv28.com) ("the insomnia intelligence company"): a daytime
@@ -73,7 +72,7 @@ moodboard · script · storyboard          (the plan — comps in the same graph
         ├─ exact fitting photo ──▶ devicePutOnI2V ──────────────┤   brain-loop (hyenaChase retired to backup)
         ├─ actual app Start Session ─▶ deviceWornI2V ───────────┤   alpha-waves · notification-storm
         ├─ Valerie + Fredrik full Vimeo interviews ──────────────┤
-        └─ Sarah voice id ─▶ voOrigin…voClose (ElevenLabs v3 direct) ─┤   end-card ◀── exact hero photo
+        └─ voiceRef (Sarah) ─▶ voOrigin…voClose (ElevenLabs v3 + v2) ─┤   end-card ◀── exact hero photo
                                                                 ▼
                                                           launch-edit (70s · 1920×1080)
 ```
@@ -103,11 +102,11 @@ slates — the edit, overlays, script, storyboard, and moodboard all work immedi
 Add the relevant provider key (⚿ SERVICES in the topbar). Generation is the only paid
 action; nothing regenerates implicitly.
 
-1. **VO** — `voiceRef` is the casting sample; the six edit segments run Eleven v3 directly
-   against the shared Sarah voice id `EXAVITQu4vr4xnSDxMaL` with seed `28028`. Sarah's account
-   description is “Mature, Reassuring, Confident,” matching the film's calm, credible tone.
-   Per-line speed is tuned only to fit the authored slot. Generate and pin all six segments,
-   then re-measure each take before export. The complete narrator reroll costs only cents.
+1. **VO** — generate and pin `voiceRef` first. Every edit segment references
+   `comp://voiceRef` as an audio input, so FrameDiff borrows the anchor's Sarah voice setting at
+   submit time. Most segments use expressive Eleven v3; `voNow` and `voBrain` use Multilingual
+   v2 for tighter pacing. The anchor provides reference-level consistency rather than cloning
+   arbitrary audio. Generate and pin all six segments, then re-measure each take before export.
 2. **Stills** — `productStill`, `ritualStill`, and `deskStill` now reference the current
    manufacturer Drive photography and renders. Their prompts explicitly preserve every rigid
    product proportion and forbid bending, flexing, splaying, or morphing.

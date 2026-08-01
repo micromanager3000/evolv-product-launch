@@ -1,13 +1,16 @@
 {
-  "provider": "elevenlabs",
+  "provider": "fal",
   "output": "audio",
-  "model": "elevenlabs-direct",
+  "model": "elevenlabs-multilingual-v2",
   "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. This is impacting people's sleep and causing hyperarousal.",
-  "refs": [],
+  "refs": [
+    {
+      "kind": "audio",
+      "src": "comp://voiceRef"
+    }
+  ],
   "duration": 12,
   "fps": 30,
   "take": 11,
-  "voice": "EXAVITQu4vr4xnSDxMaL",
-  "speed": 1.08,
-  "seed": 28028
+  "speed": 1.1
 }
