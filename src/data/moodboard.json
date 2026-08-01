@@ -38,7 +38,7 @@
       "src": "asset://evolv-device-render-front",
       "mime": "image/png",
       "alt": "Exact current Evolv28 front render from the manufacturer Drive folder",
-      "text": "THE PRODUCT — current exact industrial design. Every new image-to-video recipe locks this rigid geometry."
+      "text": "THE PRODUCT — current exact industrial design. deviceRevealI2V starts from the approved hero photograph and locks this rigid geometry."
     },
     {
       "id": "logo-reference",
@@ -86,7 +86,7 @@
       "src": "asset://evolv-putting-on-photo",
       "mime": "image/jpeg",
       "alt": "Man adjusting the exact current Evolv28 device",
-      "text": "S5 PLATE — exact fitting photograph; motion stays minimal so the device cannot deform."
+      "text": "S5 PLATE — exact fitting photograph and immutable start frame for devicePutOnI2V; hand motion stays minimal and the device remains rigid."
     },
     {
       "id": "guide-reference",

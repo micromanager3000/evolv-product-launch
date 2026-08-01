@@ -1,0 +1,19 @@
+{
+  "provider": "fal",
+  "output": "video",
+  "model": "seedance-2.0",
+  "prompt": "@Image1 is the exact approved start frame. Create one continuous silent 4-second image-to-video portrait with a locked camera. The woman remains comfortably still with eyes closed; allow only extremely subtle natural breathing from the first frame. Preserve her face, expression, identity, hair, clothing, posture, framing, background, and lighting exactly. The Evolv28 is a rigid solid molded object. Preserve its open U silhouette, two arms, paddle geometry, proportions, spacing, seams, blue accent line, logo, finish, color, orientation, and contact with her shoulders exactly. ABSOLUTELY NO bending, flexing, twisting, stretching, opening, closing, splaying, wobbling, breathing, asymmetrical deformation, duplication, melting, or morphing. The device does not move independently of the wearer. No button press, invented LED, cuts, text, extra people, lip movement, expression change, camera movement, or redesigned details.",
+  "refs": [
+    {
+      "kind": "image",
+      "src": "asset://evolv-worn-profile"
+    }
+  ],
+  "tier": "standard",
+  "resolution": "1080p",
+  "duration": 4,
+  "aspect": "16:9",
+  "audio": false,
+  "fps": 30,
+  "take": 0
+}

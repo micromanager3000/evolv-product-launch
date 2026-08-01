@@ -1,0 +1,19 @@
+{
+  "provider": "fal",
+  "output": "video",
+  "model": "seedance-2.0",
+  "prompt": "@Image1 is the exact approved start frame. Create one continuous silent 4-second image-to-video shot. The man makes only a small natural finishing adjustment with the raised hand, seating the already-worn Evolv28 at the base of his neck during the first 2.5 seconds, then holds the settled pose. Preserve the photographed person, face, gaze, hair, hands, fingers, shirt, framing, background, lighting, and identity exactly; no facial expression change and no lip movement. The Evolv28 is a rigid solid molded object, not soft or wearable fabric. Preserve its open U silhouette, two arms, paddle geometry, proportions, spacing, seams, blue accent line, finish, color, orientation, and contact with the neck exactly. ABSOLUTELY NO bending, flexing, twisting, stretching, opening, closing, splaying, wobbling, breathing, asymmetrical deformation, duplication, melting, or morphing. The hand may touch the device but must not squeeze or deform it. Do not add or press a hardware button and do not invent an LED; the program starts in the app in the next shot. Locked camera. No zoom, cuts, text, extra people, extra fingers, redesigned details, or camera shake.",
+  "refs": [
+    {
+      "kind": "image",
+      "src": "asset://evolv-putting-on-photo"
+    }
+  ],
+  "tier": "standard",
+  "resolution": "1080p",
+  "duration": 4,
+  "aspect": "16:9",
+  "audio": false,
+  "fps": 30,
+  "take": 0
+}
