@@ -32,7 +32,8 @@ of it. To pull a newer engine later: `GIT_LFS_SKIP_SMUDGE=1 npm update framediff
 1. You land on **launch-edit** — press play to watch the full 70s film with sound.
 2. Open **Script** or **Storyboard** in the left rail and scrub — the plan documents share
    the edit's timing, so they highlight in sync with the cut.
-3. Click any generative comp (say `ritualOn`) to see its recipe, takes, and pin.
+3. Click any generative comp (say `devicePutOnI2V`) to see its exact source image,
+   rigid-device prompt contract, takes, and pin.
 4. **Render LaunchEdit** in the topbar exports the MP4 (keep the render window visible
    until it finishes; the file lands in your downloads).
 
@@ -67,9 +68,9 @@ full Vimeo interviews, and the wordmark are imported into the Git LFS-backed `as
 moodboard · script · storyboard          (the plan — comps in the same graph)
         │
         ├─ savannah-stock (Envato drone; savannahDrift = backup) ─┐   savannahThreat · cityOverload
-        ├─ exact hero photo ──▶ deterministic push ─────────────┤
-        ├─ exact fitting photo ──▶ rigid minimal motion ─────────┤   brain-loop (hyenaChase retired to backup)
-        ├─ actual app Start Session ─▶ exact worn photo ─────────┤   alpha-waves · notification-storm
+        ├─ exact hero photo ──▶ deviceRevealI2V ────────────────┤
+        ├─ exact fitting photo ──▶ devicePutOnI2V ──────────────┤   brain-loop (hyenaChase retired to backup)
+        ├─ actual app Start Session ─▶ deviceWornI2V ───────────┤   alpha-waves · notification-storm
         ├─ Valerie + Fredrik full Vimeo interviews ──────────────┤
         └─ voiceRef ─▶ voOrigin…voClose (ElevenLabs · v3 + v2) ─┤   end-card ◀── exact hero photo
                                                                 ▼
@@ -83,8 +84,8 @@ moodboard · script · storyboard          (the plan — comps in the same graph
 | 1 | Where you evolved | 0:00–0:10 | real stock drone savannah; the burst snaps in on “real danger.” and out 1.3s later — “Then... back to calm.” narrates over 3s of restored drift; Serengeti bed cut dead at the city |
 | 2 | Where you live now | 0:10–0:22 | 7-hard-cut overload montage (no faces; ends over-the-shoulder at a drowning desk) + notification storm + ding SFX |
 | 3 | Same alarm | 0:22–0:33 | authored brain scene — messy notification pile, one agitated brain radiating alarm; slack pings per card |
-| 4 | Calm, engineered | 0:33–0:49 | exact product-photo push + beta→alpha overlay; “This is impacting people's sleep and causing hyperarousal” lands at exactly 0:35; trial stat chips follow |
-| 5 | The whole routine | 0:49–0:57 | exact fitting photo → actual app Start Session control → exact worn-device photo; picture-synced steps say put it on, start it in the app, go about your day |
+| 4 | Calm, engineered | 0:33–0:49 | `deviceRevealI2V`: 1080p I2V from the exact Drive hero photo, camera-only push with rigid-device locks + beta→alpha overlay; “This is impacting people's sleep and causing hyperarousal” lands at exactly 0:35; trial stat chips follow |
+| 5 | The whole routine | 0:49–0:57 | `devicePutOnI2V` from the exact fitting photo → actual app Start Session control → `deviceWornI2V` from the exact worn-device photo; picture-synced steps say put it on, start it in the app, go about your day |
 | 6 | Real people | 0:57–1:05 | **real Vimeo interview video and audio** — Valerie then Fredrik; never synthesized |
 | 7 | Get yours | 1:05–1:10 | exact product photograph on the end card; the real wordmark lands as an image item |
 
@@ -111,14 +112,19 @@ action; nothing regenerates implicitly.
 2. **Stills** — `productStill`, `ritualStill`, and `deskStill` now reference the current
    manufacturer Drive photography and renders. Their prompts explicitly preserve every rigid
    product proportion and forbid bending, flexing, splaying, or morphing.
-3. **Clips** — the final product, fitting, app, and worn-device shots use deterministic camera
-   motion from the exact source images, so the current cut cannot deform the hardware. The
-   `productReveal`, `ritualOn`, and `deskFocus` recipes remain available for future AI I2V;
-   each now starts directly from an exact reference and carries the same rigid-geometry lock.
+3. **Final device clips** — generate and pin `deviceRevealI2V`, `devicePutOnI2V`, and
+   `deviceWornI2V`. Each is a new first-class composition wired directly into `launch-edit`,
+   starts from one exact approved Drive photograph (true image-to-video mode), and has a strict
+   rigid-body prompt contract forbidding bending, flexing, splaying, morphing, added controls,
+   and invented LEDs. The new ids deliberately cannot reuse the older inaccurate
+   `productReveal`, `ritualOn`, or `deskFocus` takes. The factual app-start beat remains the
+   imported app UI footage.
 4. Export `launch-edit` from the Studio like any comp.
 
-Recipes default to Seedance `fast` @ 720p for cheap iteration; flip `tier`/`resolution` in the
-`.gen.json` for a 1080p standard-tier final pass. Full-price rerun of every recipe ≈ $3–5.
+Most recipes default to Seedance `fast` @ 720p for cheap iteration. The three final device I2V
+comps are intentionally checked in at `standard` @ 1080p; Studio shows the provider estimate
+before a paid run (roughly $16 total for those three at the pricing encoded by this FrameDiff
+version). Set them to `fast` @ 720p first if you want inexpensive motion tests.
 
 ## House rules baked into the project
 
@@ -127,9 +133,10 @@ Recipes default to Seedance `fast` @ 720p for cheap iteration; flip `tier`/`reso
   touches their faces or voices.
 - **Claims discipline.** Trial numbers are copied verbatim from the site (+45 min, −7.2 ISI,
   PMC10307909); wellness framing, no medical promises.
-- **No generated shot shows a face.** A content rule restated inside every prompt that
-  contains a person: the ritual shots are framed nape-only, the desk shots strictly from
-  behind, montage crowds appear as backs and silhouettes — and no faces in reflections.
+- **No synthetic people.** The lifestyle I2V shots animate only the exact approved Drive
+  photographs and explicitly lock each photographed person's identity, face, expression, hands,
+  and clothing. The testimonials remain untouched real video and audio; montage crowds remain
+  backs and silhouettes.
 - **Type** — the site uses Fraunces + Inter; comps approximate with Georgia + the system sans
   stack until licensed woff2s land in `public/fonts/`.
 - **Sound** — Serengeti bed under scene 1 (cut dead by the city smash), city ambience under

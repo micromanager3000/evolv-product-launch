@@ -119,9 +119,9 @@
     },
     {
       "id": "s4-product",
-      "name": "S4 · product reveal",
+      "name": "S4 · generated product reveal from exact Drive photo",
       "from": 1000,
-      "durationInFrames": 468,
+      "durationInFrames": 470,
       "layer": 0,
       "trimStart": 0,
       "layout": {
@@ -136,10 +136,9 @@
         "opacity": 1
       },
       "content": {
-        "type": "video",
-        "src": "asset://evolv-product-hero-motion"
-      },
-      "muted": true
+        "type": "nested",
+        "composition": "deviceRevealI2V"
+      }
     },
     {
       "id": "s4-waves",
@@ -232,7 +231,7 @@
     },
     {
       "id": "s5-ritual",
-      "name": "S5 · put on exact rigid Evolv28",
+      "name": "S5 · generated put-on from exact Drive photo · rigid device",
       "from": 1470,
       "durationInFrames": 90,
       "layer": 0,
@@ -249,10 +248,9 @@
         "opacity": 1
       },
       "content": {
-        "type": "video",
-        "src": "asset://evolv-putting-on-motion"
-      },
-      "muted": true
+        "type": "nested",
+        "composition": "devicePutOnI2V"
+      }
     },
     {
       "id": "s5-desk",
@@ -280,7 +278,7 @@
     },
     {
       "id": "s5-worn",
-      "name": "S5 · exact device worn during the day",
+      "name": "S5 · generated worn-device portrait from exact Drive photo",
       "from": 1650,
       "durationInFrames": 60,
       "layer": 0,
@@ -297,10 +295,9 @@
         "opacity": 1
       },
       "content": {
-        "type": "video",
-        "src": "asset://evolv-worn-motion"
-      },
-      "muted": true
+        "type": "nested",
+        "composition": "deviceWornI2V"
+      }
     },
     {
       "id": "ritual-steps",

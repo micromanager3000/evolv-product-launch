@@ -3,7 +3,7 @@
 //
 //   moodboard → script → storyboard          (pre-production, ordinary comps in the graph)
 //        ↓
-//   seedream stills ──▶ seedance clips        (src/gen/*.gen.ts — takes pinned in
+//   exact Drive images ──▶ seedance I2V clips (src/gen/*.gen.ts — takes pinned in
 //   seed-audio VO segments                     framediff.assets.json)
 //        ↓
 //   launch-edit                               (the 70s film: clips + overlay comps + VO)
@@ -22,11 +22,11 @@ import { savannahThreat } from "./gen/savannahThreat.gen";
 import { cityOverload } from "./gen/cityOverload.gen";
 import { hyenaChase } from "./gen/hyenaChase.gen";
 import { productStill } from "./gen/productStill.gen";
-import { productReveal } from "./gen/productReveal.gen";
+import { deviceRevealI2V } from "./gen/deviceRevealI2V.gen";
 import { ritualStill } from "./gen/ritualStill.gen";
-import { ritualOn } from "./gen/ritualOn.gen";
+import { devicePutOnI2V } from "./gen/devicePutOnI2V.gen";
 import { deskStill } from "./gen/deskStill.gen";
-import { deskFocus } from "./gen/deskFocus.gen";
+import { deviceWornI2V } from "./gen/deviceWornI2V.gen";
 import { voiceRef } from "./gen/voiceRef.gen";
 import { voOrigin } from "./gen/voOrigin.gen";
 import { voNow } from "./gen/voNow.gen";
@@ -55,11 +55,11 @@ export const COMPOSITIONS = {
   cityOverload,
   hyenaChase,
   productStill,
-  productReveal,
+  deviceRevealI2V,
   ritualStill,
-  ritualOn,
+  devicePutOnI2V,
   deskStill,
-  deskFocus,
+  deviceWornI2V,
   voiceRef,
   voOrigin,
   voNow,

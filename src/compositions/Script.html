@@ -6,6 +6,7 @@
  .row{display:grid;grid-template-columns:150px 1fr 224px 330px;gap:0 24px;align-items:start;padding:12px 12px;border-top:1px solid rgba(245,242,238,.09);border-radius:8px}
  .row.active{background:rgba(0,180,180,.07)}
  .thumb{position:relative;width:200px;height:112px;overflow:hidden;border-radius:8px;border:1px solid rgba(245,242,238,.12);background:#122436}
+ .thumbfill{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
  .tc{font:600 14px ui-monospace}.dur{font:11px ui-monospace;color:#9CA3AF;margin-top:3px}
  .shot{font-size:15.5px;font-weight:700}
  .vo{margin:5px 0 0;font-size:12.5px;font-style:italic;color:#DDE3E6;background:rgba(0,180,180,.06);border-radius:6px;padding:4px 9px;line-height:1.45}
@@ -38,25 +39,25 @@
   <div class="chips"><span class="chip gen">✦ cityOverload</span><span class="chip scene">◈ notification-storm</span><span class="chip asset">▣ city-ambience</span><span class="chip asset">▣ sfx ×4</span><span class="chip vo">● voNow</span></div>
  </section>
 
- <section class="row" data-fd-clip data-fd-id="scene-brain" data-fd-name="3 · Same alarm" data-fd-from="660" data-fd-duration="360" data-fd-prop-status="scene">
+ <section class="row" data-fd-clip data-fd-id="scene-brain" data-fd-name="3 · Same alarm" data-fd-from="660" data-fd-duration="340" data-fd-prop-status="scene">
   <div><div class="tc"></div><div class="dur"></div></div>
   <div><div class="shot">3 · Same alarm</div><p class="vo">“Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. This is impacting people's sleep and causing hyperarousal.”</p><p class="beat">Notifications pile in messily on the left; one agitated brain radiates alarm spokes. Slack-style pings land with each card. The new sleep-impact line lands on screen at exactly 0:35.</p></div>
-  <div class="thumb" data-fd-clip data-fd-id="scene-brain-ref" data-fd-name="brain · loop scene" data-fd-from="660" data-fd-duration="360" data-fd-type="nested" data-fd-comp="brain-loop" data-fd-nested-scale="0.1041667"></div>
+  <div class="thumb" data-fd-clip data-fd-id="scene-brain-ref" data-fd-name="brain · loop scene" data-fd-from="660" data-fd-duration="340" data-fd-type="nested" data-fd-comp="brain-loop" data-fd-nested-scale="0.1041667"></div>
   <div class="chips"><span class="chip scene">◈ brain-loop</span><span class="chip asset">▣ sfx-slack</span><span class="chip vo">● voBrain</span></div>
  </section>
 
- <section class="row" data-fd-clip data-fd-id="scene-solution" data-fd-name="4 · Calm, engineered" data-fd-from="1020" data-fd-duration="390" data-fd-prop-status="gen">
+ <section class="row" data-fd-clip data-fd-id="scene-solution" data-fd-name="4 · Calm, engineered" data-fd-from="1000" data-fd-duration="470" data-fd-prop-status="gen">
   <div><div class="tc"></div><div class="dur"></div></div>
-  <div><div class="shot">4 · Calm, engineered</div><p class="vo">“Introducing Evolv28. Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.”</p><p class="beat">Exact manufacturer product photography receives a deterministic 8% camera push; the beta→alpha wave band settles under it; stat chips land on the trial results.</p></div>
-  <img class="thumb" data-fd-clip data-fd-id="scene-solution-ref" data-fd-name="solution · exact product photo" data-fd-from="1020" data-fd-duration="390" data-fd-type="image" data-fd-src="asset://evolv-device-hero-photo" data-fd-fit="cover">
-  <div class="chips"><span class="chip asset">▣ evolv-device-hero-photo</span><span class="chip asset">▣ evolv-product-hero-motion</span><span class="chip scene">◈ alpha-waves</span><span class="chip asset">▣ music-violins</span><span class="chip vo">● voSolution</span></div>
+  <div><div class="shot">4 · Calm, engineered</div><p class="vo">“Introducing Evolv28. Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.”</p><p class="beat">The exact Drive hero photograph is the immutable first frame of a dedicated 1080p image-to-video reveal; only the camera pushes while the rigid product stays locked. The beta→alpha wave band settles under it; stat chips land on the trial results.</p></div>
+  <div class="thumb" data-fd-clip data-fd-id="scene-solution-ref" data-fd-name="solution · exact-photo I2V reveal" data-fd-from="1000" data-fd-duration="470" data-fd-type="nested" data-fd-comp="deviceRevealI2V" data-fd-nested-scale="0.1041667"></div>
+  <div class="chips"><span class="chip gen">✦ deviceRevealI2V</span><span class="chip asset">▣ evolv-device-hero-photo</span><span class="chip scene">◈ alpha-waves</span><span class="chip asset">▣ music-violins</span><span class="chip vo">● voSolution</span></div>
  </section>
 
- <section class="row" data-fd-clip data-fd-id="scene-ritual" data-fd-name="5 · The whole routine" data-fd-from="1410" data-fd-duration="240" data-fd-prop-status="gen">
+ <section class="row" data-fd-clip data-fd-id="scene-ritual" data-fd-name="5 · The whole routine" data-fd-from="1470" data-fd-duration="240" data-fd-prop-status="gen">
   <div><div class="tc"></div><div class="dur"></div></div>
-  <div><div class="shot">5 · The whole routine</div><p class="vo">“Here's how it works: You put it on, start your program in the app, and go about your day. That's the whole routine.”</p><p class="beat">Exact fitting photo → actual app Session Setup / Start Session control → exact worn-device photo. Step chips follow the picture. The device remains perfectly rigid; no button press or invented LED.</p></div>
-  <div class="thumb"><img data-fd-clip data-fd-id="scene-ritual-ref" data-fd-name="ritual · exact fitting photo" data-fd-from="1410" data-fd-duration="120" data-fd-type="image" data-fd-src="asset://evolv-putting-on-photo" data-fd-fit="cover" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><img data-fd-clip data-fd-id="scene-ritual-ref-b" data-fd-name="ritual · actual app start" data-fd-from="1530" data-fd-duration="120" data-fd-type="image" data-fd-src="asset://evolv-app-session" data-fd-fit="cover" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></div>
-  <div class="chips"><span class="chip asset">▣ evolv-putting-on-motion</span><span class="chip asset">▣ evolv-app-start-motion</span><span class="chip asset">▣ evolv-worn-motion</span><span class="chip gen">✦ rigid I2V recipes</span></div>
+  <div><div class="shot">5 · The whole routine</div><p class="vo">“Here's how it works: You put it on, start your program in the app, and go about your day. That's the whole routine.”</p><p class="beat">Exact fitting-photo I2V → actual app Session Setup / Start Session control → exact worn-photo I2V. Step chips follow the picture. Both generated shots have explicit rigid-body locks; no button press or invented LED.</p></div>
+  <div class="thumb"><div class="thumbfill" data-fd-clip data-fd-id="scene-ritual-ref" data-fd-name="ritual · exact fitting-photo I2V" data-fd-from="1470" data-fd-duration="90" data-fd-type="nested" data-fd-comp="devicePutOnI2V" data-fd-nested-scale="0.1041667"></div><img class="thumbfill" data-fd-clip data-fd-id="scene-ritual-ref-b" data-fd-name="ritual · actual app start" data-fd-from="1560" data-fd-duration="90" data-fd-type="image" data-fd-src="asset://evolv-app-session" data-fd-fit="cover"><div class="thumbfill" data-fd-clip data-fd-id="scene-ritual-ref-c" data-fd-name="ritual · exact worn-photo I2V" data-fd-from="1650" data-fd-duration="60" data-fd-type="nested" data-fd-comp="deviceWornI2V" data-fd-nested-scale="0.1041667"></div></div>
+  <div class="chips"><span class="chip gen">✦ devicePutOnI2V</span><span class="chip asset">▣ evolv-app-start-motion</span><span class="chip gen">✦ deviceWornI2V</span></div>
  </section>
 
  <section class="row" data-fd-clip data-fd-id="scene-proof" data-fd-name="6 · Real people" data-fd-from="1710" data-fd-duration="240" data-fd-prop-status="asset">
