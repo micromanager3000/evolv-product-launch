@@ -2,7 +2,7 @@
   "provider": "fal",
   "output": "audio",
   "model": "elevenlabs-v3",
-  "prompt": "Here's how it works: You put it on, press the button for your customized program, and go about your day. That's the whole routine.",
+  "prompt": "Here's how it works: You put it on, start your program in the app, and go about your day. That's the whole routine.",
   "take": 9,
   "fps": 30,
   "duration": 7,

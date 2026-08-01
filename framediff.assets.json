@@ -19,6 +19,141 @@
         "/__framediff-cache/sha256%3Aff44c956c585b47e1b4af753e40756eb00b42361433a48897082afa7972935c3"
       ]
     },
+    "evolv-device-hero-photo": {
+      "name": "evolv-device-hero-photo.jpg",
+      "contentHash": "sha256:bfb9ab8f716c2eca9fa0ade56f44f3cf71682a1b04ea646920ebb2198f72a5b9",
+      "mime": "image/jpeg",
+      "bytes": 2293760,
+      "sources": [
+        "/__framediff-cache/sha256%3Abfb9ab8f716c2eca9fa0ade56f44f3cf71682a1b04ea646920ebb2198f72a5b9"
+      ]
+    },
+    "evolv-device-render-angle": {
+      "name": "evolv-device-render-angle.png",
+      "contentHash": "sha256:e9a8088113f1440222d9700926a4408c9ca626b8f298457e0a1a519360317e53",
+      "mime": "image/png",
+      "bytes": 3049366,
+      "sources": [
+        "/__framediff-cache/sha256%3Ae9a8088113f1440222d9700926a4408c9ca626b8f298457e0a1a519360317e53"
+      ]
+    },
+    "evolv-device-render-front": {
+      "name": "evolv-device-render-front.png",
+      "contentHash": "sha256:a2df786a6c6c77c4e83f9ca0aa3b8a9eec263bb732ded573d2fecb83235cb084",
+      "mime": "image/png",
+      "bytes": 3169597,
+      "sources": [
+        "/__framediff-cache/sha256%3Aa2df786a6c6c77c4e83f9ca0aa3b8a9eec263bb732ded573d2fecb83235cb084"
+      ]
+    },
+    "evolv-device-pack-photo": {
+      "name": "evolv-device-pack-photo.png",
+      "contentHash": "sha256:4c8920bbd11b49e3cd009b7c43506e37df063df1eb20650d89d2d61287832665",
+      "mime": "image/png",
+      "bytes": 1024952,
+      "sources": [
+        "/__framediff-cache/sha256%3A4c8920bbd11b49e3cd009b7c43506e37df063df1eb20650d89d2d61287832665"
+      ]
+    },
+    "evolv-putting-on-photo": {
+      "name": "evolv-putting-on-photo.jpg",
+      "contentHash": "sha256:6d6529ca21129d5539b6a0c3de0083a578e83af4b03c83ce3f8786bb3e173691",
+      "mime": "image/jpeg",
+      "bytes": 3112960,
+      "sources": [
+        "/__framediff-cache/sha256%3A6d6529ca21129d5539b6a0c3de0083a578e83af4b03c83ce3f8786bb3e173691"
+      ]
+    },
+    "evolv-worn-photo": {
+      "name": "evolv-worn-photo.jpg",
+      "contentHash": "sha256:61bd50f8c9aaea5cf772a298754aca7a89ec016486e5b26a48a7cd1b0b6b2e77",
+      "mime": "image/jpeg",
+      "bytes": 2293760,
+      "sources": [
+        "/__framediff-cache/sha256%3A61bd50f8c9aaea5cf772a298754aca7a89ec016486e5b26a48a7cd1b0b6b2e77"
+      ]
+    },
+    "evolv-worn-profile": {
+      "name": "evolv-worn-profile.jpg",
+      "contentHash": "sha256:913e3be0e8ac447bd707522d0a2e322a386de3f0ff345fc59d4958aef9c1718b",
+      "mime": "image/jpeg",
+      "bytes": 3735552,
+      "sources": [
+        "/__framediff-cache/sha256%3A913e3be0e8ac447bd707522d0a2e322a386de3f0ff345fc59d4958aef9c1718b"
+      ]
+    },
+    "evolv-app-session": {
+      "name": "evolv-app-session.png",
+      "contentHash": "sha256:2699a27b6e7f0d573d341fbecc7eda12a40cc4d7937ab0b434695d74170c00cf",
+      "mime": "image/png",
+      "bytes": 1676694,
+      "sources": [
+        "/__framediff-cache/sha256%3A2699a27b6e7f0d573d341fbecc7eda12a40cc4d7937ab0b434695d74170c00cf"
+      ]
+    },
+    "evolv-device-turntable": {
+      "name": "evolv-device-turntable.gif",
+      "contentHash": "sha256:d37d7a0c5b347b6835c195a5ea5db7103c83e7d83a11cd2b20805d862e8f0442",
+      "mime": "image/gif",
+      "bytes": 21125582,
+      "sources": [
+        "/__framediff-cache/sha256%3Ad37d7a0c5b347b6835c195a5ea5db7103c83e7d83a11cd2b20805d862e8f0442"
+      ]
+    },
+    "evolv-product-hero-motion": {
+      "name": "evolv-product-hero-motion.mp4",
+      "contentHash": "sha256:d17c3bf620bed7c06f053387a2bc4857df73ed20e8d7c72bd2a43ee3b053f349",
+      "mime": "video/mp4",
+      "bytes": 2025428,
+      "sources": [
+        "/__framediff-cache/sha256%3Ad17c3bf620bed7c06f053387a2bc4857df73ed20e8d7c72bd2a43ee3b053f349"
+      ]
+    },
+    "evolv-putting-on-motion": {
+      "name": "evolv-putting-on-motion.mp4",
+      "contentHash": "sha256:2daa5ffde1d8ebd844cf33b709970fe487787aa8b77482db5cbe0e55b468e1eb",
+      "mime": "video/mp4",
+      "bytes": 711428,
+      "sources": [
+        "/__framediff-cache/sha256%3A2daa5ffde1d8ebd844cf33b709970fe487787aa8b77482db5cbe0e55b468e1eb"
+      ]
+    },
+    "evolv-app-start-motion": {
+      "name": "evolv-app-start-motion.mp4",
+      "contentHash": "sha256:8a2c9842bdc05f11717c598367564657cf63c0e944d22c6784abb5536b0b8086",
+      "mime": "video/mp4",
+      "bytes": 79278,
+      "sources": [
+        "/__framediff-cache/sha256%3A8a2c9842bdc05f11717c598367564657cf63c0e944d22c6784abb5536b0b8086"
+      ]
+    },
+    "evolv-worn-motion": {
+      "name": "evolv-worn-motion.mp4",
+      "contentHash": "sha256:231d346459e335566d06f158e0088e61970d72a48a99acee16b7129e1c48af6a",
+      "mime": "video/mp4",
+      "bytes": 418738,
+      "sources": [
+        "/__framediff-cache/sha256%3A231d346459e335566d06f158e0088e61970d72a48a99acee16b7129e1c48af6a"
+      ]
+    },
+    "fredrik-testimonial-source": {
+      "name": "fredrik-testimonial-source.mp4",
+      "contentHash": "sha256:2e18f31dd7f7e81b49bcac7e0e91cf645a8e2070be727899db55b7c4b4fc9161",
+      "mime": "video/mp4",
+      "bytes": 49734944,
+      "sources": [
+        "/__framediff-cache/sha256%3A2e18f31dd7f7e81b49bcac7e0e91cf645a8e2070be727899db55b7c4b4fc9161"
+      ]
+    },
+    "valerie-testimonial-source": {
+      "name": "valerie-testimonial-source.mp4",
+      "contentHash": "sha256:913782d68235ecb94f037cc8a86c58aede50cfc9af681d46fddb5c88f1ab7002",
+      "mime": "video/mp4",
+      "bytes": 192617051,
+      "sources": [
+        "/__framediff-cache/sha256%3A913782d68235ecb94f037cc8a86c58aede50cfc9af681d46fddb5c88f1ab7002"
+      ]
+    },
     "lifestyle-desk": {
       "name": "lifestyle-desk.png",
       "contentHash": "sha256:ddd7946b24a2a0f1e276b2d8a0c4d5d95f77db8fd9cedbc203825fc6cbb6dda9",

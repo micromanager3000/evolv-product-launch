@@ -2,7 +2,7 @@
   "provider": "fal",
   "output": "audio",
   "model": "elevenlabs-multilingual-v2",
-  "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. Your brain stays in an agitated state all day.",
+  "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. This is impacting people's sleep and causing hyperarousal.",
   "refs": [
     {
       "kind": "audio",

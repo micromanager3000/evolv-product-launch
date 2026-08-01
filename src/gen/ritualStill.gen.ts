@@ -1,6 +1,5 @@
-// Scene 5's key frame: the brief's "closeup without face of a woman putting it on, focus on
-// the neck area." Seedream stages it from the exact device render; ritualOn then animates the
-// pinned frame. Keeping the face out of frame is a content rule, restated in both prompts.
+// Scene 5's future key-frame recipe is anchored to the exact fitting photograph plus current
+// product renders. The final edit uses that reference photograph directly.
 import { generative, type GenRecipeData } from "framediff";
 import data from "./ritualStill.gen.json";
 

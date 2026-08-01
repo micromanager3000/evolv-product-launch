@@ -35,10 +35,10 @@
       "rotation": 0.8,
       "width": 480,
       "height": 270,
-      "src": "asset://device-render",
-      "mime": "image/webp",
-      "alt": "Evolv28 matte graphite neckband render",
-      "text": "THE PRODUCT — matte graphite collar, thin teal light line. Every gen recipe stages THIS design."
+      "src": "asset://evolv-device-render-front",
+      "mime": "image/png",
+      "alt": "Exact current Evolv28 front render from the manufacturer Drive folder",
+      "text": "THE PRODUCT — current exact industrial design. Every new image-to-video recipe locks this rigid geometry."
     },
     {
       "id": "logo-reference",
@@ -70,10 +70,10 @@
       "rotation": 0.7,
       "width": 300,
       "height": 400,
-      "src": "asset://portrait-profile",
-      "mime": "image/png",
-      "alt": "Profile of a man wearing the Evolv28 collar",
-      "text": "ON-BODY — sits like headphones, disappears into the day."
+      "src": "asset://evolv-worn-profile",
+      "mime": "image/jpeg",
+      "alt": "Current manufacturer photograph of Evolv28 worn in profile",
+      "text": "ON-BODY — exact fit and current product geometry, rigid and unchanged."
     },
     {
       "id": "desk-reference",
@@ -83,10 +83,10 @@
       "rotation": -0.8,
       "width": 300,
       "height": 400,
-      "src": "asset://lifestyle-desk",
-      "mime": "image/png",
-      "alt": "Man working at a desk wearing the collar",
-      "text": "S5 PLATE — deskFocus animates this exact site photo (over-shoulder arc)."
+      "src": "asset://evolv-putting-on-photo",
+      "mime": "image/jpeg",
+      "alt": "Man adjusting the exact current Evolv28 device",
+      "text": "S5 PLATE — exact fitting photograph; motion stays minimal so the device cannot deform."
     },
     {
       "id": "guide-reference",
@@ -96,10 +96,10 @@
       "rotation": 0.6,
       "width": 300,
       "height": 480,
-      "src": "asset://lifestyle-guide",
+      "src": "asset://evolv-app-session",
       "mime": "image/png",
-      "alt": "Woman at a bright desk wearing the collar",
-      "text": "DAY-IN-LIFE — bright, linen, unhurried. The ritual scene borrows this light."
+      "alt": "Actual Evolv28 app Session Setup page with Start Session control",
+      "text": "CURRENT ROUTINE — put it on, then start the program in the app. No device button is shown."
     },
     {
       "id": "calm-reference",
@@ -109,10 +109,10 @@
       "rotation": -0.5,
       "width": 300,
       "height": 468,
-      "src": "asset://lifestyle-calm",
-      "mime": "image/png",
-      "alt": "Older man reading calmly wearing the collar",
-      "text": "TONE — calm is the product. Nobody performs wellness at the camera."
+      "src": "asset://evolv-worn-photo",
+      "mime": "image/jpeg",
+      "alt": "Current manufacturer photograph of Evolv28 worn during the day",
+      "text": "DAY-IN-LIFE — exact on-body appearance; calm is the product."
     },
     {
       "id": "note-voice",
@@ -130,7 +130,7 @@
       "y": 860,
       "rotation": -0.8,
       "width": 330,
-      "text": "SOUND — Serengeti bed under the savannah (asset://music-serengeti, ducked at 0.28 under VO, cut dead at the city smash) → notification SFX piling with the storm overlay → near-silence on the button press → soft low alpha hum to the end card (TODO)."
+      "text": "SOUND — Serengeti bed under the savannah (asset://music-serengeti, cut dead at the city smash) → notification SFX piling with the storm overlay → calm music under the fitting/app sequence → music ducks beneath the real Vimeo interview audio."
     },
     {
       "id": "note-type",
@@ -161,7 +161,7 @@
       "src": "asset://valerie-still",
       "mime": "image/jpeg",
       "alt": "Valerie Cartonio webcam still",
-      "text": "VALERIE — “My sleep increased by more than two hours a night.”"
+      "text": "VALERIE — full Vimeo interview is stored locally; final soundbite: “It's changed my life. It really has.”"
     },
     {
       "id": "fredrik-reference",
@@ -174,7 +174,7 @@
       "src": "asset://fredrik-still",
       "mime": "image/jpeg",
       "alt": "Fredrik Regnell webcam still",
-      "text": "FREDRIK — “Getting my sleep back gave me my day back.”"
+      "text": "FREDRIK — full Vimeo interview is stored locally; final soundbite: “After four weeks, I sleep eight hours.”"
     },
     {
       "id": "note-claims",
@@ -183,7 +183,7 @@
       "y": 1060,
       "rotation": -1.2,
       "width": 330,
-      "text": "CLAIMS DISCIPLINE — trial numbers verbatim from the site (+45 min sleep, HRV up, placebo-controlled). Wellness framing, no medical promises. Testimonials stay REAL: stills + verbatim quotes, never synthesized faces or voices."
+      "text": "CLAIMS DISCIPLINE — trial numbers verbatim from the site (+45 min sleep, HRV up, placebo-controlled). Wellness framing, no medical promises. Testimonials stay REAL: source video + exact interview audio, never synthesized faces or voices."
     },
     {
       "id": "note-rule",

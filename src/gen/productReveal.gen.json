@@ -2,11 +2,11 @@
   "provider": "fal",
   "output": "video",
   "model": "seedance-2.0",
-  "prompt": "@Image1 is the exact first frame: a matte graphite neckband wearable floating over a deep navy studio gradient with a teal rim light and faint concentric teal wave rings. Animate it as one continuous, silent, weightless 8-second product shot. The product's shape, finish, and position stay EXACT — no morphing, no redesign. Motion, precisely: the neckband drifts with imperceptible slow float, at most a few pixels; the concentric teal rings pulse outward calmly, one new ring every 2 seconds, fading as they travel; between 00:02.0 and 00:05.0 a single thin light sweep travels along the collar's inner edge from left paddle to right paddle; the camera pushes in about 8 percent across the full 8 seconds, perfectly smooth. Nothing else moves; the background stays a still navy gradient. Premium, minimal, precise. No hands, no people, no text, no flares, no particles, no cuts.",
+  "prompt": "@Image1 is an exact current-product photograph of Evolv28. Animate it as one continuous silent 8-second premium product shot with only a perfectly smooth 8 percent camera push. Preserve the source image and device geometry exactly from first frame to last: the product is a rigid solid molded object and must never bend, flex, twist, stretch, splay, wobble, breathe, asymmetrically deform, or morph. Do not redraw its paddles, proportions, seams, finish, controls, or color. Keep the plinth, lighting, and background stable. No hands, people, text, logos, particles, cuts, invented details, or object motion.",
   "refs": [
     {
       "kind": "image",
-      "src": "comp://productStill"
+      "src": "asset://evolv-device-hero-photo"
     }
   ],
   "tier": "fast",

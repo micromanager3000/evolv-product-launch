@@ -2,15 +2,19 @@
   "provider": "fal",
   "output": "image",
   "model": "seedream-5.0-pro",
-  "prompt": "@Image1 is the exact product — study it: a smooth matte graphite neckband whose rounded collar is thickest across the back and tapers as it sweeps forward into two flat, elongated teardrop paddles angled slightly inward; soft-touch matte finish, a small pill-shaped indicator slot on the inner face of one paddle, and a slim teal accent strip on the outer face near the back of the band. No other buttons, ports, seams, or lights exist. The collar is RIGID — a solid molded piece that cannot bend, flex, twist, or splay open. @Image2 shows how it sits when worn: riding low around the base of the neck just above the collar line, paddles resting toward the collarbones. Create a photoreal 16:9 live-action frame framed TIGHT on the neck area only: a woman from behind and slightly to the side, cropped from the tops of her shoulder blades to just below her hairline — no jaw, no cheek, no profile, no face, and no face in any mirror or window. Both hands hold the rigid collar by its sides, sliding it horizontally onto her neck from behind in one smooth glide — the fixed C-shaped opening simply passes around the neck, the band keeping its exact solid shape the whole time, paddles arriving to rest toward her collarbones. Focus locked on the nape and collar, wisps of hair tucked away. Calm morning bedroom: soft window daylight from the left, linen and warm-white tones softly out of focus behind. 85mm lens, shallow depth of field, natural skin texture, quiet color, fine 35mm grain. The product must match @Image1 exactly — same proportions, same finish, same paddle shape, nothing added or removed. No jewelry, no text, no second person.",
+  "prompt": "@Image1 is the exact reference photograph for the fitting action and @Image2 and @Image3 are exact current Evolv28 product references. Reproduce the photographed person, framing, hands, and device faithfully in a photoreal 16:9 frame. The device is a rigid solid molded object: preserve its exact continuous C-shape, proportions, paddle geometry, seams, controls, finish, color, and position. Absolutely no bending, flexing, twisting, stretching, splaying, or morphing. No invented button press, LED, controls, jewelry, text, second person, or altered face.",
   "refs": [
     {
       "kind": "image",
-      "src": "asset://device-render"
+      "src": "asset://evolv-putting-on-photo"
     },
     {
       "kind": "image",
-      "src": "asset://portrait-profile"
+      "src": "asset://evolv-device-render-front"
+    },
+    {
+      "kind": "image",
+      "src": "asset://evolv-worn-profile"
     }
   ],
   "aspect": "16:9",

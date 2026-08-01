@@ -8,7 +8,7 @@
  .thumb{position:relative;width:200px;height:112px;overflow:hidden;border-radius:8px;border:1px solid rgba(245,242,238,.12);background:#122436}
  .tc{font:600 14px ui-monospace}.dur{font:11px ui-monospace;color:#9CA3AF;margin-top:3px}
  .shot{font-size:15.5px;font-weight:700}
- .vo{margin:5px 0 0;font-size:12.5px;font-style:italic;color:#DDE3E6;border-left:2px solid rgba(0,180,180,.55);padding-left:9px;line-height:1.45}
+ .vo{margin:5px 0 0;font-size:12.5px;font-style:italic;color:#DDE3E6;background:rgba(0,180,180,.06);border-radius:6px;padding:4px 9px;line-height:1.45}
  .beat{margin:5px 0 0;font-size:11.5px;line-height:1.45;color:#9CA3AF}
  .chips{display:flex;flex-wrap:wrap;gap:5px;align-content:start}
  .chip{font:10.5px ui-monospace;border:1px solid rgba(245,242,238,.14);border-radius:999px;padding:2px 8px;color:#9CA3AF}
@@ -40,30 +40,30 @@
 
  <section class="row" data-fd-clip data-fd-id="scene-brain" data-fd-name="3 · Same alarm" data-fd-from="660" data-fd-duration="360" data-fd-prop-status="scene">
   <div><div class="tc"></div><div class="dur"></div></div>
-  <div><div class="shot">3 · Same alarm</div><p class="vo">“Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. Your brain stays in an agitated state all day.”</p><p class="beat">Notifications pile in messily on the left; one agitated brain radiates alarm spokes. Slack-style pings land with each card.</p></div>
+  <div><div class="shot">3 · Same alarm</div><p class="vo">“Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. This is impacting people's sleep and causing hyperarousal.”</p><p class="beat">Notifications pile in messily on the left; one agitated brain radiates alarm spokes. Slack-style pings land with each card. The new sleep-impact line lands on screen at exactly 0:35.</p></div>
   <div class="thumb" data-fd-clip data-fd-id="scene-brain-ref" data-fd-name="brain · loop scene" data-fd-from="660" data-fd-duration="360" data-fd-type="nested" data-fd-comp="brain-loop" data-fd-nested-scale="0.1041667"></div>
   <div class="chips"><span class="chip scene">◈ brain-loop</span><span class="chip asset">▣ sfx-slack</span><span class="chip vo">● voBrain</span></div>
  </section>
 
  <section class="row" data-fd-clip data-fd-id="scene-solution" data-fd-name="4 · Calm, engineered" data-fd-from="1020" data-fd-duration="390" data-fd-prop-status="gen">
   <div><div class="tc"></div><div class="dur"></div></div>
-  <div><div class="shot">4 · Calm, engineered</div><p class="vo">“Introducing Evolv28. Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.”</p><p class="beat">Hero float; the beta→alpha wave band settles under it; stat chips land on the trial results.</p></div>
-  <div class="thumb" data-fd-clip data-fd-id="scene-solution-ref" data-fd-name="solution · reveal take" data-fd-from="1020" data-fd-duration="390" data-fd-type="nested" data-fd-comp="productReveal" data-fd-nested-scale="0.15625"></div>
-  <div class="chips"><span class="chip gen">✦ productStill</span><span class="chip gen">✦ productReveal</span><span class="chip scene">◈ alpha-waves</span><span class="chip asset">▣ music-violins</span><span class="chip vo">● voSolution</span></div>
+  <div><div class="shot">4 · Calm, engineered</div><p class="vo">“Introducing Evolv28. Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.”</p><p class="beat">Exact manufacturer product photography receives a deterministic 8% camera push; the beta→alpha wave band settles under it; stat chips land on the trial results.</p></div>
+  <img class="thumb" data-fd-clip data-fd-id="scene-solution-ref" data-fd-name="solution · exact product photo" data-fd-from="1020" data-fd-duration="390" data-fd-type="image" data-fd-src="asset://evolv-device-hero-photo" data-fd-fit="cover">
+  <div class="chips"><span class="chip asset">▣ evolv-device-hero-photo</span><span class="chip asset">▣ evolv-product-hero-motion</span><span class="chip scene">◈ alpha-waves</span><span class="chip asset">▣ music-violins</span><span class="chip vo">● voSolution</span></div>
  </section>
 
  <section class="row" data-fd-clip data-fd-id="scene-ritual" data-fd-name="5 · The whole routine" data-fd-from="1410" data-fd-duration="240" data-fd-prop-status="gen">
   <div><div class="tc"></div><div class="dur"></div></div>
-  <div><div class="shot">5 · The whole routine</div><p class="vo">“Here's how it works: You put it on, press the button for your customized program, and go about your day. That's the whole routine.”</p><p class="beat">Nape close-up — collar on, button press, LED breathes — then the locked over-shoulder desk push. Step chips pop word-synced; the rigid collar slides on — it never flexes.</p></div>
-  <div class="thumb"><div data-fd-clip data-fd-id="scene-ritual-ref" data-fd-name="ritual · on take" data-fd-from="1410" data-fd-duration="120" data-fd-type="nested" data-fd-comp="ritualOn" data-fd-nested-scale="0.15625" style="position:absolute;inset:0"></div><div data-fd-clip data-fd-id="scene-ritual-ref-b" data-fd-name="ritual · desk take" data-fd-from="1530" data-fd-duration="120" data-fd-type="nested" data-fd-comp="deskFocus" data-fd-nested-scale="0.15625" style="position:absolute;inset:0"></div></div>
-  <div class="chips"><span class="chip gen">✦ ritualStill</span><span class="chip gen">✦ ritualOn</span><span class="chip gen">✦ deskStill</span><span class="chip gen">✦ deskFocus</span><span class="chip vo">● voRitual</span></div>
+  <div><div class="shot">5 · The whole routine</div><p class="vo">“Here's how it works: You put it on, start your program in the app, and go about your day. That's the whole routine.”</p><p class="beat">Exact fitting photo → actual app Session Setup / Start Session control → exact worn-device photo. Step chips follow the picture. The device remains perfectly rigid; no button press or invented LED.</p></div>
+  <div class="thumb"><img data-fd-clip data-fd-id="scene-ritual-ref" data-fd-name="ritual · exact fitting photo" data-fd-from="1410" data-fd-duration="120" data-fd-type="image" data-fd-src="asset://evolv-putting-on-photo" data-fd-fit="cover" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><img data-fd-clip data-fd-id="scene-ritual-ref-b" data-fd-name="ritual · actual app start" data-fd-from="1530" data-fd-duration="120" data-fd-type="image" data-fd-src="asset://evolv-app-session" data-fd-fit="cover" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></div>
+  <div class="chips"><span class="chip asset">▣ evolv-putting-on-motion</span><span class="chip asset">▣ evolv-app-start-motion</span><span class="chip asset">▣ evolv-worn-motion</span><span class="chip gen">✦ rigid I2V recipes</span></div>
  </section>
 
  <section class="row" data-fd-clip data-fd-id="scene-proof" data-fd-name="6 · Real people" data-fd-from="1710" data-fd-duration="240" data-fd-prop-status="asset">
   <div><div class="tc"></div><div class="dur"></div></div>
-  <div><div class="shot">6 · Real people</div><p class="vo">(no VO — music and room tone under on-screen quotes)</p><p class="beat">Valerie: “My sleep increased by more than two hours a night.” Then Fredrik: “Getting my sleep back gave me my day back.” Real webcam stills, real names — testimonials are never synthesized.</p></div>
+  <div><div class="shot">6 · Real people</div><p class="vo">(real interview audio; music ducked under the speakers)</p><p class="beat">Valerie: “I just can't say enough about it. It's changed my life. It really has.” Then Fredrik: “And after four weeks, I sleep eight hours.” Full Vimeo source videos are stored locally; testimonials are never synthesized.</p></div>
   <div class="thumb"><div class="quotes">“ ”</div></div>
-  <div class="chips"><span class="chip asset">▣ valerie-still</span><span class="chip asset">▣ fredrik-still</span><span class="chip">stills + type only</span></div>
+  <div class="chips"><span class="chip asset">▣ valerie-testimonial-source</span><span class="chip asset">▣ fredrik-testimonial-source</span><span class="chip">real video + audio</span></div>
  </section>
 
  <section class="row" data-fd-clip data-fd-id="scene-cta" data-fd-name="7 · Get yours" data-fd-from="1950" data-fd-duration="150" data-fd-prop-status="scene">
@@ -73,6 +73,6 @@
   <div class="chips"><span class="chip scene">◈ end-card</span><span class="chip asset">▣ logo-white</span><span class="chip vo">● voClose</span></div>
  </section>
 
- <p class="foot">kind=<code>script</code> · 2100f @ 30 = 70s. VO lines are verbatim in <code>src/gen/vo*.gen.json</code> — six ElevenLabs v3 reads anchored to <code>comp://voiceRef</code> — one comp defines the narrator; the recipe prompt IS the spoken line (v3 audio tags like [pause] supported).</p>
+ <p class="foot">kind=<code>script</code> · 2100f @ 30 = 70s. VO recipe lines live in <code>src/gen/vo*.gen.json</code>; the final routine is carried by picture-synced copy until its corrected narrator take is generated.</p>
  <script>const rows=queryAll(".row"),fps=30,mmss=f=>{const s=Math.round(f/fps);return Math.floor(s/60)+":"+String(s%60).padStart(2,"0")};for(const row of rows){const a=+row.getAttribute("data-fd-from"),d=+row.getAttribute("data-fd-duration");row.querySelector(".tc").textContent=mmss(a)+"–"+mmss(a+d);row.querySelector(".dur").textContent=d+"f @30"}onFrame(({frame})=>{for(const row of rows){const a=+row.getAttribute("data-fd-from"),d=+row.getAttribute("data-fd-duration");row.classList.toggle("active",frame>=a&&frame<a+d)}})</script>
 </main></body></html>

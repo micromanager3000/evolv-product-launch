@@ -136,9 +136,10 @@
         "opacity": 1
       },
       "content": {
-        "type": "nested",
-        "composition": "productReveal"
-      }
+        "type": "video",
+        "src": "asset://evolv-product-hero-motion"
+      },
+      "muted": true
     },
     {
       "id": "s4-waves",
@@ -186,6 +187,28 @@
       }
     },
     {
+      "id": "sleep-impact",
+      "name": "Sleep impact · hyperarousal (lands at 0:35)",
+      "from": 1050,
+      "durationInFrames": 120,
+      "layer": 4,
+      "layout": {
+        "rect": [
+          340,
+          735,
+          1240,
+          120
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "layers",
+        "label": "Sleep impact · hyperarousal"
+      }
+    },
+    {
       "id": "stat-chips",
       "name": "Trial stat chips",
       "from": 1290,
@@ -209,9 +232,9 @@
     },
     {
       "id": "s5-ritual",
-      "name": "S5 · collar on (nape)",
+      "name": "S5 · put on exact rigid Evolv28",
       "from": 1470,
-      "durationInFrames": 120,
+      "durationInFrames": 90,
       "layer": 0,
       "trimStart": 0,
       "layout": {
@@ -226,15 +249,16 @@
         "opacity": 1
       },
       "content": {
-        "type": "nested",
-        "composition": "ritualOn"
-      }
+        "type": "video",
+        "src": "asset://evolv-putting-on-motion"
+      },
+      "muted": true
     },
     {
       "id": "s5-desk",
-      "name": "S5 · desk arc",
-      "from": 1590,
-      "durationInFrames": 120,
+      "name": "S5 · start the program in the app",
+      "from": 1560,
+      "durationInFrames": 90,
       "layer": 0,
       "trimStart": 0,
       "layout": {
@@ -249,13 +273,38 @@
         "opacity": 1
       },
       "content": {
-        "type": "nested",
-        "composition": "deskFocus"
-      }
+        "type": "video",
+        "src": "asset://evolv-app-start-motion"
+      },
+      "muted": true
+    },
+    {
+      "id": "s5-worn",
+      "name": "S5 · exact device worn during the day",
+      "from": 1650,
+      "durationInFrames": 60,
+      "layer": 0,
+      "trimStart": 0,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "video",
+        "src": "asset://evolv-worn-motion"
+      },
+      "muted": true
     },
     {
       "id": "ritual-steps",
-      "name": "Routine steps (word-synced pops)",
+      "name": "Routine steps (picture-synced pops)",
       "from": 1470,
       "durationInFrames": 234,
       "layer": 3,
@@ -298,11 +347,12 @@
       }
     },
     {
-      "id": "s6-valerie-still",
-      "name": "S6 · Valerie (real still)",
+      "id": "s6-valerie-video",
+      "name": "S6 · Valerie (real Vimeo interview)",
       "from": 1710,
       "durationInFrames": 120,
       "layer": 1,
+      "trimStart": 348.56,
       "layout": {
         "rect": [
           180,
@@ -315,9 +365,10 @@
         "opacity": 1
       },
       "content": {
-        "type": "image",
-        "src": "asset://valerie-still"
-      }
+        "type": "video",
+        "src": "asset://valerie-testimonial-source"
+      },
+      "muted": false
     },
     {
       "id": "quote-valerie",
@@ -342,11 +393,12 @@
       }
     },
     {
-      "id": "s6-fredrik-still",
-      "name": "S6 · Fredrik (real still)",
+      "id": "s6-fredrik-video",
+      "name": "S6 · Fredrik (real Vimeo interview)",
       "from": 1830,
       "durationInFrames": 120,
       "layer": 1,
+      "trimStart": 104.8,
       "layout": {
         "rect": [
           180,
@@ -359,9 +411,10 @@
         "opacity": 1
       },
       "content": {
-        "type": "image",
-        "src": "asset://fredrik-still"
-      }
+        "type": "video",
+        "src": "asset://fredrik-testimonial-source"
+      },
+      "muted": false
     },
     {
       "id": "quote-fredrik",
@@ -685,29 +738,6 @@
       }
     },
     {
-      "id": "vo-ritual",
-      "name": "VO · ritual",
-      "from": 1460,
-      "durationInFrames": 272,
-      "layer": 0,
-      "volume": 1,
-      "content": {
-        "type": "nested",
-        "composition": "voRitual"
-      },
-      "layout": {
-        "rect": [
-          0,
-          1086,
-          4,
-          4
-        ],
-        "fit": "fill",
-        "cornerRadius": 0,
-        "opacity": 0
-      }
-    },
-    {
       "id": "vo-close",
       "name": "VO · close",
       "from": 1950,
@@ -761,7 +791,7 @@
       "durationInFrames": 1100,
       "layer": 0,
       "trimStart": 0,
-      "volume": 0.24,
+      "volume": 0.16,
       "content": {
         "type": "audio",
         "src": "asset://music-violins"

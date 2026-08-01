@@ -1,7 +1,5 @@
-// The product hero frame. Seedream's edit mode receives the site's exact device render
-// (asset://device-render) so the generated beauty shot keeps the real industrial design —
-// re-rolls restage the light, never the product. Downstream, productReveal animates this
-// comp's pinned take via a comp:// reference, and end-card nests it as the closing pack shot.
+// Future hero generations use three current manufacturer references from the Drive folder.
+// The final edit and end card use the exact source photography directly.
 import { generative, type GenRecipeData } from "framediff";
 import data from "./productStill.gen.json";
 
