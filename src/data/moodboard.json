@@ -38,7 +38,7 @@
       "src": "asset://evolv-device-render-front",
       "mime": "image/png",
       "alt": "Exact current Evolv28 front render from the manufacturer Drive folder",
-      "text": "THE PRODUCT — current exact industrial design. deviceRevealI2V starts from the approved hero photograph and locks this rigid geometry."
+      "text": "THE PRODUCT — current exact industrial design. deviceRevealI2V takes appearance only from the approved hero photograph; its Three.js input contributes camera motion and framing, never product design."
     },
     {
       "id": "logo-reference",

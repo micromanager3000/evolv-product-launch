@@ -8,6 +8,7 @@
     "prepare": "svelte-kit sync",
     "dev": "vite dev",
     "build": "vite build",
+    "check:bundles": "node scripts/check-bundle-budgets.mjs",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "typecheck": "npm run check"

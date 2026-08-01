@@ -3,7 +3,7 @@
 //
 //   moodboard → script → storyboard          (pre-production, ordinary comps in the graph)
 //        ↓
-//   exact Drive images ──▶ seedance I2V clips (src/gen/*.gen.ts — takes pinned in
+//   Drive images + Three.js blockout ──▶ seedance clips (src/gen/*.gen.ts — takes pinned in
 //   seed-audio VO segments                     framediff.assets.json)
 //        ↓
 //   launch-edit                               (the 70s film: clips + overlay comps + VO)
@@ -17,6 +17,7 @@ import { brainLoopComp } from "./compositions/BrainLoop";
 import { alphaWavesComp } from "./compositions/AlphaWaves";
 import { notificationStormComp } from "./compositions/NotificationStorm";
 import { endCardComp } from "./compositions/EndCard";
+import { deviceRevealBlockoutComp } from "./compositions/DeviceRevealBlockout";
 import { savannahDrift } from "./gen/savannahDrift.gen";
 import { savannahThreat } from "./gen/savannahThreat.gen";
 import { cityOverload } from "./gen/cityOverload.gen";
@@ -44,11 +45,12 @@ export const COMPOSITIONS = {
   moodboard: moodboardComp,
   script: scriptComp,
   storyboard: storyboardComp,
-  // authored scene + overlay comps — deterministic HTML animation, nested by the edit
+  // authored scene, overlay, and 3D previz comps — deterministic inputs nested by the edit/gen graph
   "brain-loop": brainLoopComp,
   "alpha-waves": alphaWavesComp,
   "notification-storm": notificationStormComp,
   "end-card": endCardComp,
+  "device-reveal-blockout": deviceRevealBlockoutComp,
   // generative comps — recipes in src/gen/*.gen.ts, takes pinned in framediff.assets.json
   savannahDrift,
   savannahThreat,
