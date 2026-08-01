@@ -121,7 +121,7 @@
       "y": 520,
       "rotation": 1.2,
       "width": 330,
-      "text": "VOICE — one narrator, woman mid-40s, low and warm, close-mic, unhurried, quietly wry. Documentary calm, never salesy. Six independent ElevenLabs Multilingual v2 reads via fal, shared Aria preset — the recipe prompt is the spoken line, sized ~1.5s under its slot so no read clips."
+      "text": "VOICE — one mature, warm, reassuring woman; close-mic, measured, confident, and never salesy. Six direct ElevenLabs v3 reads share Sarah voice EXAVITQu4vr4xnSDxMaL and seed 28028; only per-line speed changes to protect the authored edit slots."
     },
     {
       "id": "note-sound",

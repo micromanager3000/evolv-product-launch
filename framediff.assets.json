@@ -3150,6 +3150,230 @@
         "outputKind": "audio",
         "at": "2026-07-27T22:33:21.556Z"
       }
+    },
+    "499a4c68-46b2-4416-a5e8-0692f2a1d56e": {
+      "name": "voiceRef.take2.mp3",
+      "contentHash": "sha256:e1ab8d77361bb32a5672bbcacc61e787f36cf1e67940d598a320ff0c2c5ed530",
+      "mime": "audio/mpeg",
+      "bytes": 126685,
+      "sources": [
+        "/__framediff-cache/sha256%3Ae1ab8d77361bb32a5672bbcacc61e787f36cf1e67940d598a320ff0c2c5ed530"
+      ],
+      "generator": {
+        "gen": "voiceRef",
+        "take": 2,
+        "recipeHash": "sha256:14f75c2cebe03d816307f730a0ecbd260c08af6d9ea3e02dd51aeb53075fbaba",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "This is the Evolv28 narrator. Steady, warm, and precise. Wide horizons. Deep calm.",
+          "refs": [],
+          "voice": "EXAVITQu4vr4xnSDxMaL",
+          "speed": 0.95,
+          "seed": 28028,
+          "duration": 6,
+          "fps": 30
+        },
+        "inputs": [],
+        "requestId": "3e374dee-923e-4a89-9d31-bfcda3bfc367",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-01T19:06:46.857Z"
+      }
+    },
+    "fbbdc58b-051c-4d40-91b0-a106fe9c6b37": {
+      "name": "voOrigin.take16.mp3",
+      "contentHash": "sha256:640531a87ecb51cbd878cffd8412c238fca49355686cbd63389c80d519285cb7",
+      "mime": "audio/mpeg",
+      "bytes": 136716,
+      "sources": [
+        "/__framediff-cache/sha256%3A640531a87ecb51cbd878cffd8412c238fca49355686cbd63389c80d519285cb7"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 16,
+        "recipeHash": "sha256:5d0f0424d6c6921fc667af2987f730a1d5459003c95ef4d755cc63b42e3d2b8d",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "This is where your brain evolved. Calm. And once in a while — real danger. Then... back to calm.",
+          "fps": 30,
+          "duration": 10,
+          "refs": [],
+          "voice": "EXAVITQu4vr4xnSDxMaL",
+          "speed": 0.95,
+          "seed": 28028
+        },
+        "inputs": [],
+        "requestId": "7491ba01-943d-49cb-b951-36ff45f048ce",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-01T19:06:49.618Z"
+      }
+    },
+    "ba2f9e71-dfe3-410d-8b47-d55bb1800d56": {
+      "name": "voNow.take13.mp3",
+      "contentHash": "sha256:850bf6c09db85140ad04c35ef382b7ff35a80c1043af25a0dce099843d256d2f",
+      "mime": "audio/mpeg",
+      "bytes": 178930,
+      "sources": [
+        "/__framediff-cache/sha256%3A850bf6c09db85140ad04c35ef382b7ff35a80c1043af25a0dce099843d256d2f"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 13,
+        "recipeHash": "sha256:5d834903f914f4381d993799d2ceb5e34788a52410a805c7df77258055b1f58c",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "This is where it lives now. Concrete. Engines. Deadlines. Feeds. Texts. Calls. Alerts. Rage bait. A hundred tiny alarms an hour.",
+          "refs": [],
+          "duration": 12,
+          "fps": 30,
+          "voice": "EXAVITQu4vr4xnSDxMaL",
+          "speed": 1.05,
+          "seed": 28028
+        },
+        "inputs": [],
+        "requestId": "2af91ac0-dfca-4662-a671-8db06795bd4f",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-01T19:06:53.981Z"
+      }
+    },
+    "cb20daf6-04ad-4913-a20b-c0862d0d4041": {
+      "name": "voBrain.take11.mp3",
+      "contentHash": "sha256:02061e15a1f90b2ea9808cea563374575201fbfa78eeda5190a8f3cfa7ecec7f",
+      "mime": "audio/mpeg",
+      "bytes": 178930,
+      "sources": [
+        "/__framediff-cache/sha256%3A02061e15a1f90b2ea9808cea563374575201fbfa78eeda5190a8f3cfa7ecec7f"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 11,
+        "recipeHash": "sha256:96db1cca35b4f3be213249b6d925fb6c89dfceda6747a8e8db028102752d34b5",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. This is impacting people's sleep and causing hyperarousal.",
+          "refs": [],
+          "duration": 12,
+          "fps": 30,
+          "voice": "EXAVITQu4vr4xnSDxMaL",
+          "speed": 1.08,
+          "seed": 28028
+        },
+        "inputs": [],
+        "requestId": "7610dcaf-9f63-47e7-a5c8-0e48dd3ed70b",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-01T19:06:58.879Z"
+      }
+    },
+    "a10d9da5-77ca-454e-9a7f-71a9efee8535": {
+      "name": "voSolution.take12.mp3",
+      "contentHash": "sha256:e1fe7c90cd98475be6b2ad7af09ef1ac881105353ea0f1a868abe966834d8981",
+      "mime": "audio/mpeg",
+      "bytes": 237862,
+      "sources": [
+        "/__framediff-cache/sha256%3Ae1fe7c90cd98475be6b2ad7af09ef1ac881105353ea0f1a868abe966834d8981"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 12,
+        "recipeHash": "sha256:a09a14adb10d584aa63919a90ce84c76b99f28d7be287ca5867baa3d407a6bc7",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "Introducing Evolv28. Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.",
+          "refs": [],
+          "duration": 15,
+          "fps": 30,
+          "voice": "EXAVITQu4vr4xnSDxMaL",
+          "speed": 0.98,
+          "seed": 28028
+        },
+        "inputs": [],
+        "requestId": "2d7c4490-80f4-4571-8f74-3eb72119df00",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-01T19:07:04.291Z"
+      }
+    },
+    "f1defe61-4cde-44ba-b783-e7a11dc183fc": {
+      "name": "voRitual.take10.mp3",
+      "contentHash": "sha256:2ccbdafcc7d54e52b2b86ea177b9a1dbe074810e2174b3d7ac61c6df2ec2325b",
+      "mime": "audio/mpeg",
+      "bytes": 112475,
+      "sources": [
+        "/__framediff-cache/sha256%3A2ccbdafcc7d54e52b2b86ea177b9a1dbe074810e2174b3d7ac61c6df2ec2325b"
+      ],
+      "generator": {
+        "gen": "voRitual",
+        "take": 10,
+        "recipeHash": "sha256:58e1751aa8213a594db91e1e39454a410ead99cb6d7e38df18ca38af05b5d1de",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "Here's how it works: You put it on, start your program in the app, and go about your day. That's the whole routine.",
+          "fps": 30,
+          "duration": 8,
+          "refs": [],
+          "voice": "EXAVITQu4vr4xnSDxMaL",
+          "speed": 1.1,
+          "seed": 28028
+        },
+        "inputs": [],
+        "requestId": "2aaa6a6b-fd0f-4ec7-860d-3fd481ff6c2f",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-01T19:07:07.849Z"
+      }
+    },
+    "41603604-20b2-4f7f-adc1-4f573b53b851": {
+      "name": "voClose.take7.mp3",
+      "contentHash": "sha256:c4ce5dbc188131b2c3f44edc1a8ae3005071c4153c15ce1cadd7612b016b90c6",
+      "mime": "audio/mpeg",
+      "bytes": 71515,
+      "sources": [
+        "/__framediff-cache/sha256%3Ac4ce5dbc188131b2c3f44edc1a8ae3005071c4153c15ce1cadd7612b016b90c6"
+      ],
+      "generator": {
+        "gen": "voClose",
+        "take": 7,
+        "recipeHash": "sha256:1300192a33ae6f3c0105c9975dfd1b218144e4ad6086b030f56ff2451cc3ff40",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "Evolv28. Calm, by design. Get yours today.",
+          "refs": [],
+          "duration": 5,
+          "fps": 30,
+          "voice": "EXAVITQu4vr4xnSDxMaL",
+          "speed": 0.92,
+          "seed": 28028
+        },
+        "inputs": [],
+        "requestId": "775ca4f4-d53a-4353-92f9-39d8d58f6d56",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-01T19:07:09.892Z"
+      }
     }
   }
 }

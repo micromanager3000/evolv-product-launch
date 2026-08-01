@@ -44,9 +44,10 @@ LFS objects — run `git lfs pull`.
 
 | key | where to get it | what it unlocks | where to put it |
 | --- | --- | --- | --- |
-| `FAL_KEY` | [fal.ai](https://fal.ai) dashboard | **all** generation — Seedance video, Seedream stills, and the ElevenLabs VO endpoints run through fal | ⚿ **SERVICES** in the Studio topbar, or `FAL_KEY` in the env before `npm run dev` |
+| `FAL_KEY` | [fal.ai](https://fal.ai) dashboard | Seedance video, Seedream stills, and media relay for generated inputs | ⚿ **SERVICES** in the Studio topbar, or `FAL_KEY` in the env before `npm run dev` |
+| `ELEVENLABS_API_KEY` | [ElevenLabs](https://elevenlabs.io) | direct Eleven v3 narration using the account's full voice library | ⚿ **SERVICES** in the Studio topbar, or `ELEVENLABS_API_KEY` in the env before `npm run dev` |
 
-That single key is the only secret the project uses. Nothing regenerates implicitly — takes
+Nothing regenerates implicitly — takes
 only change when you press Generate — and a full re-roll of every recipe costs roughly $3–5 at
 the default fast/720p tier. Keys are stored in the gitignored `.framediff/` folder and must
 never be committed.
@@ -54,8 +55,8 @@ never be committed.
 ---
 
 A full launch-film pipeline in one FrameDiff project: a **moodboard**, a timed **script**, and a
-**storyboard** plan the piece; **17 generative comps** (Seedream stills, Seedance clips, ElevenLabs
-VO behind a single voice-anchor comp) realize each scene; and a root **edit** cuts the pinned takes together under authored overlay
+**storyboard** plan the piece; **17 generative comps** (Seedream stills, Seedance clips, and direct
+ElevenLabs narration sharing one Sarah voice id) realize each scene; and a root **edit** cuts the pinned takes together under authored overlay
 comps — a notification storm, a beta→alpha wave morph, testimonial cards, and the end card.
 
 The subject is [Evolv28](https://evolv28.com) ("the insomnia intelligence company"): a daytime
@@ -72,7 +73,7 @@ moodboard · script · storyboard          (the plan — comps in the same graph
         ├─ exact fitting photo ──▶ devicePutOnI2V ──────────────┤   brain-loop (hyenaChase retired to backup)
         ├─ actual app Start Session ─▶ deviceWornI2V ───────────┤   alpha-waves · notification-storm
         ├─ Valerie + Fredrik full Vimeo interviews ──────────────┤
-        └─ voiceRef ─▶ voOrigin…voClose (ElevenLabs · v3 + v2) ─┤   end-card ◀── exact hero photo
+        └─ Sarah voice id ─▶ voOrigin…voClose (ElevenLabs v3 direct) ─┤   end-card ◀── exact hero photo
                                                                 ▼
                                                           launch-edit (70s · 1920×1080)
 ```
@@ -99,16 +100,14 @@ slates — the edit, overlays, script, storyboard, and moodboard all work immedi
 
 ## Generate and pin, in order
 
-Add a fal key (⚿ SERVICES in the topbar, or `FAL_KEY` in the env). Generation is the only paid
+Add the relevant provider key (⚿ SERVICES in the topbar). Generation is the only paid
 action; nothing regenerates implicitly.
 
-1. **VO** — generate and pin `voiceRef` (the narrator anchor), then the six segments: each
-   references `comp://voiceRef` as an audio ref and borrows its voice settings at submit —
-   one comp defines the narrator. Cents for the whole set. Most segments run ElevenLabs v3
-   (inline audio tags like [pause] supported); `voNow`/`voBrain` run Multilingual v2, whose
-   `speed` param gives deterministic length where v3's expressive variance blew the slot.
-   fal offers preset voices only, so the anchor is reference-level consistency, not audio
-   cloning. Always re-measure a fresh take against its slot before pinning.
+1. **VO** — `voiceRef` is the casting sample; the six edit segments run Eleven v3 directly
+   against the shared Sarah voice id `EXAVITQu4vr4xnSDxMaL` with seed `28028`. Sarah's account
+   description is “Mature, Reassuring, Confident,” matching the film's calm, credible tone.
+   Per-line speed is tuned only to fit the authored slot. Generate and pin all six segments,
+   then re-measure each take before export. The complete narrator reroll costs only cents.
 2. **Stills** — `productStill`, `ritualStill`, and `deskStill` now reference the current
    manufacturer Drive photography and renders. Their prompts explicitly preserve every rigid
    product proportion and forbid bending, flexing, splaying, or morphing.
