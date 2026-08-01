@@ -1,15 +1,13 @@
 {
-  "provider": "fal",
+  "provider": "elevenlabs",
   "output": "audio",
-  "model": "elevenlabs-v3",
+  "model": "elevenlabs-direct",
   "prompt": "Here's how it works: You put it on, start your program in the app, and go about your day. That's the whole routine.",
-  "take": 9,
+  "take": 10,
   "fps": 30,
-  "duration": 7,
-  "refs": [
-    {
-      "kind": "audio",
-      "src": "comp://voiceRef"
-    }
-  ]
+  "duration": 8,
+  "refs": [],
+  "voice": "EXAVITQu4vr4xnSDxMaL",
+  "speed": 1.1,
+  "seed": 28028
 }

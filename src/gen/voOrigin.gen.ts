@@ -1,7 +1,5 @@
-// The narrator anchor: this comp defines the campaign voice. Approve and pin this take FIRST —
-// every other VO segment references `comp://voOrigin` as a voice clone, so the whole narration
-// stays one performer. Seed Audio takes its performance length from the prompt, not a param;
-// the duration field only sets the comp's timeline bounds (and the cost preview).
+// Direct ElevenLabs narration. All six segments share the same voice_id and deterministic seed;
+// per-line speed is tuned only to fit the edit's authored slot.
 import { generative, type GenRecipeData } from "framediff";
 import data from "./voOrigin.gen.json";
 

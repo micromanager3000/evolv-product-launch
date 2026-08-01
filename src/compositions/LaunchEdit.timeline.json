@@ -757,6 +757,29 @@
       }
     },
     {
+      "id": "vo-ritual",
+      "name": "VO · routine",
+      "from": 1470,
+      "durationInFrames": 240,
+      "layer": 0,
+      "volume": 1,
+      "content": {
+        "type": "nested",
+        "composition": "voRitual"
+      },
+      "layout": {
+        "rect": [
+          0,
+          1086,
+          4,
+          4
+        ],
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0
+      }
+    },
+    {
       "id": "vo-close",
       "name": "VO · close",
       "from": 1950,
