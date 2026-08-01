@@ -1,13 +1,15 @@
 {
-  "provider": "elevenlabs",
+  "provider": "fal",
   "output": "audio",
-  "model": "elevenlabs-direct",
+  "model": "elevenlabs-v3",
   "prompt": "Evolv28. Calm, by design. Get yours today.",
-  "refs": [],
+  "refs": [
+    {
+      "kind": "audio",
+      "src": "comp://voiceRef"
+    }
+  ],
   "duration": 5,
   "fps": 30,
-  "take": 7,
-  "voice": "EXAVITQu4vr4xnSDxMaL",
-  "speed": 0.92,
-  "seed": 28028
+  "take": 7
 }

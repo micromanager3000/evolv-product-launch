@@ -1,5 +1,5 @@
-// Direct ElevenLabs narration. All six segments share the same voice_id and deterministic seed;
-// per-line speed is tuned only to fit the edit's authored slot.
+// Every narration segment uses voiceRef as its comp:// audio anchor. FrameDiff resolves that
+// reference to the anchor's Sarah voice setting when the segment is generated.
 import { generative, type GenRecipeData } from "framediff";
 import data from "./voOrigin.gen.json";
 
