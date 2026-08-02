@@ -44,7 +44,8 @@ LFS objects — run `git lfs pull`.
 
 | key | where to get it | what it unlocks | where to put it |
 | --- | --- | --- | --- |
-| `FAL_KEY` | [fal.ai](https://fal.ai) dashboard | all generation — Seedance video, Seedream stills, media relay, and ElevenLabs narration | ⚿ **SERVICES** in the Studio topbar, or `FAL_KEY` in the env before `npm run dev` |
+| `FAL_KEY` | [fal.ai](https://fal.ai) dashboard | Seedance video, Seedream stills, and media relay for generated inputs | ⚿ **SERVICES** in the Studio topbar, or `FAL_KEY` in the env before `npm run dev` |
+| `ELEVENLABS_API_KEY` | [ElevenLabs](https://elevenlabs.io) | direct Eleven v3 narration using the anchored account voice ID | ⚿ **SERVICES** in the Studio topbar, or `ELEVENLABS_API_KEY` in the env before `npm run dev` |
 
 Nothing regenerates implicitly — takes
 only change when you press Generate — and a full re-roll of every recipe costs roughly $3–5 at
@@ -54,8 +55,8 @@ never be committed.
 ---
 
 A full launch-film pipeline in one FrameDiff project: a **moodboard**, a timed **script**, and a
-**storyboard** plan the piece; **17 generative comps** (Seedream stills, Seedance clips, and
-ElevenLabs narration behind one Sarah voice-anchor comp) realize each scene; and a root **edit** cuts the pinned takes together under authored overlay
+**storyboard** plan the piece; **17 generative comps** (Seedream stills, Seedance clips, and direct
+ElevenLabs narration behind one voice-ID anchor comp) realize each scene; and a root **edit** cuts the pinned takes together under authored overlay
 comps — a notification storm, a beta→alpha wave morph, testimonial cards, and the end card.
 
 The subject is [Evolv28](https://evolv28.com) ("the insomnia intelligence company"): a daytime
@@ -72,7 +73,7 @@ moodboard · script · storyboard          (the plan — comps in the same graph
         ├─ exact fitting photo ──▶ devicePutOnI2V ──────────────┤   brain-loop (hyenaChase retired to backup)
         ├─ actual app Start Session ─▶ deviceWornI2V ───────────┤   alpha-waves · notification-storm
         ├─ Valerie + Fredrik full Vimeo interviews ──────────────┤
-        └─ voiceRef (Sarah) ─▶ voOrigin…voClose (ElevenLabs v3 + v2) ─┤   end-card ◀── exact hero photo
+        └─ voiceRef (direct voice ID) ─▶ voOrigin…voClose (Eleven v3 direct) ─┤   end-card ◀── exact hero photo
                                                                 ▼
                                                           launch-edit (70s · 1920×1080)
 ```
@@ -102,11 +103,13 @@ slates — the edit, overlays, script, storyboard, and moodboard all work immedi
 Add the relevant provider key (⚿ SERVICES in the topbar). Generation is the only paid
 action; nothing regenerates implicitly.
 
-1. **VO** — generate and pin `voiceRef` first. Every edit segment references
-   `comp://voiceRef` as an audio input, so FrameDiff borrows the anchor's Sarah voice setting at
-   submit time. Most segments use expressive Eleven v3; `voNow` and `voBrain` use Multilingual
-   v2 for tighter pacing. The anchor provides reference-level consistency rather than cloning
-   arbitrary audio. Generate and pin all six segments, then re-measure each take before export.
+1. **VO** — generate and pin `voiceRef` first. Every edit segment runs Eleven v3 directly and
+   references `comp://voiceRef`, so FrameDiff inherits the anchor's account voice ID before it
+   constructs the provider request. The input is a voice-setting anchor, not speech-to-speech
+   cloning. Each line exposes `speed` (0.7–1.2) for approximate slot fitting and accepts Eleven
+   v3 inline delivery tags such as `[whispers]`, `[excited]`, and `[pause]`. `duration` is the
+   composition bound, not an exact provider target: measure each take and adjust `speed` before
+   pinning. Then re-check the complete narration against the edit before export.
 2. **Stills** — `productStill`, `ritualStill`, and `deskStill` now reference the current
    manufacturer Drive photography and renders. Their prompts explicitly preserve every rigid
    product proportion and forbid bending, flexing, splaying, or morphing.

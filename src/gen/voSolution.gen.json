@@ -1,7 +1,7 @@
 {
-  "provider": "fal",
+  "provider": "elevenlabs",
   "output": "audio",
-  "model": "elevenlabs-v3",
+  "model": "elevenlabs-direct",
   "prompt": "Introducing Evolv28. Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.",
   "refs": [
     {
@@ -11,5 +11,7 @@
   ],
   "duration": 15,
   "fps": 30,
-  "take": 12
+  "take": 12,
+  "speed": 0.98,
+  "seed": 28028
 }

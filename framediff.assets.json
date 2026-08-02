@@ -3374,6 +3374,139 @@
         "outputKind": "audio",
         "at": "2026-08-01T19:07:09.892Z"
       }
+    },
+    "216f837b-7e34-47c2-809c-83b4bad10bba": {
+      "name": "voOrigin.take17.mp3",
+      "contentHash": "sha256:2f4aa2841e1bf3d81276b2d3702674b13c7069384326dbfb0ab84d9b8fadc6cc",
+      "mime": "audio/mpeg",
+      "bytes": 131701,
+      "sources": [
+        "/__framediff-cache/sha256%3A2f4aa2841e1bf3d81276b2d3702674b13c7069384326dbfb0ab84d9b8fadc6cc"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 17,
+        "recipeHash": "sha256:73fd844cd580936697f8737ce7774b5afc327f8ce0dc4e99f60eaabdec75ef10",
+        "endpoint": "v1/text-to-speech/XrExE9yKIg1WjnnlVkGX",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "This is where your brain evolved. Calm. And once in a while — real danger. Then... back to calm.",
+          "fps": 30,
+          "duration": 10,
+          "refs": [],
+          "voice": "XrExE9yKIg1WjnnlVkGX",
+          "speed": 0.95,
+          "seed": 28028
+        },
+        "inputs": [],
+        "requestId": "65df5d92-e82b-4a7e-9f4b-b09801ecbb56",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-01T23:28:13.982Z"
+      }
+    },
+    "ffd58277-c048-4306-b48c-aba2fba5ecca": {
+      "name": "voiceRef.take3.mp3",
+      "contentHash": "sha256:eb42a1f41fdd0cff01fccd8683b2972a43cc019e16e4169e735089d7cb45f87c",
+      "mime": "audio/mpeg",
+      "bytes": 144239,
+      "sources": [
+        "/__framediff-cache/sha256%3Aeb42a1f41fdd0cff01fccd8683b2972a43cc019e16e4169e735089d7cb45f87c"
+      ],
+      "generator": {
+        "gen": "voiceRef",
+        "take": 3,
+        "recipeHash": "sha256:6e9aae38f47444da8d66c7a5ed5c71e41b7cbe3b932adf61315c4f7a52212089",
+        "endpoint": "v1/text-to-speech/cgSgspJ2msm6clMCkdW9",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "This is the Evolv28 narrator. Steady, warm, and precise. Wide horizons. Deep calm.",
+          "fps": 30,
+          "voice": "cgSgspJ2msm6clMCkdW9",
+          "duration": 8,
+          "speed": 1,
+          "seed": 0
+        },
+        "inputs": [],
+        "requestId": "9a57774d-d0ef-49da-8ea1-f4367d578f5a",
+        "seed": 0,
+        "outputKind": "audio",
+        "at": "2026-08-01T23:40:10.803Z"
+      }
+    },
+    "663d9ac8-f0f5-4bb5-9f12-0e1952e2a9cd": {
+      "name": "voiceRef.take4.mp3",
+      "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301",
+      "mime": "audio/mpeg",
+      "bytes": 122506,
+      "sources": [
+        "/__framediff-cache/sha256%3Ac081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+      ],
+      "generator": {
+        "gen": "voiceRef",
+        "take": 4,
+        "recipeHash": "sha256:30a6508bcf0e882361a58db0269999170c5d4295e2e21dc9bf45ba96dd1f534a",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "This is the Evolv28 narrator. Steady, warm, and precise. Wide horizons. Deep calm.",
+          "fps": 30,
+          "voice": "EXAVITQu4vr4xnSDxMaL",
+          "duration": 8,
+          "speed": 1,
+          "seed": 0
+        },
+        "inputs": [],
+        "requestId": "10f989e4-ea8d-46b6-8ce1-5809aa5d24ae",
+        "seed": 0,
+        "outputKind": "audio",
+        "at": "2026-08-01T23:41:23.587Z"
+      }
+    },
+    "af64904c-4e27-40bb-843a-93d8cf781f2e": {
+      "name": "voOrigin.take18.mp3",
+      "contentHash": "sha256:db4cabf8b6f101b11a77c097d6d509088b19562561c0e7a3e8c18d54e81ed8de",
+      "mime": "audio/mpeg",
+      "bytes": 149256,
+      "sources": [
+        "/__framediff-cache/sha256%3Adb4cabf8b6f101b11a77c097d6d509088b19562561c0e7a3e8c18d54e81ed8de"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 18,
+        "recipeHash": "sha256:be98083ee4bc657907e4da0017544d472be1d11a18f75bb9ad46994c6897033f",
+        "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+        "recipe": {
+          "provider": "fal",
+          "output": "audio",
+          "model": "elevenlabs-v3",
+          "prompt": "This is where your brain evolved. Calm. And once in a while — real danger. Then... back to calm.",
+          "fps": 30,
+          "duration": 10,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "e2541224-9a89-4aea-8ff8-718edb12b27f",
+        "outputKind": "audio",
+        "at": "2026-08-01T23:42:25.512Z"
+      }
     }
   }
 }

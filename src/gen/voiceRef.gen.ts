@@ -1,8 +1,8 @@
 import { generative, type GenRecipeData } from "framediff";
 import data from "./voiceRef.gen.json";
 
-/** The narrator anchor: every VO segment references this comp's Sarah voice setting via
- *  `comp://voiceRef`, so the film's voice is defined in exactly one place. */
+/** The direct ElevenLabs narrator anchor. Every VO segment references this comp via
+ *  `comp://voiceRef` and inherits its voice_id, so casting lives in exactly one place. */
 export const voiceRef = generative({
   id: "voiceRef",
   file: "src/gen/voiceRef.gen.ts",
