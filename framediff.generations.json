@@ -2990,6 +2990,126 @@
       "assetId": "41603604-20b2-4f7f-adc1-4f573b53b851",
       "outputKind": "audio",
       "doneAt": "2026-08-01T19:07:09.893Z"
+    },
+    {
+      "id": "65df5d92-e82b-4a7e-9f4b-b09801ecbb56",
+      "provider": "elevenlabs",
+      "autoPinIfEmpty": true,
+      "gen": "voOrigin",
+      "endpoint": "v1/text-to-speech/XrExE9yKIg1WjnnlVkGX",
+      "recipeHash": "sha256:73fd844cd580936697f8737ce7774b5afc327f8ce0dc4e99f60eaabdec75ef10",
+      "status": "done",
+      "take": 17,
+      "seed": 28028,
+      "at": "2026-08-01T23:28:10.332Z",
+      "recipe": {
+        "provider": "elevenlabs",
+        "output": "audio",
+        "model": "elevenlabs-direct",
+        "prompt": "This is where your brain evolved. Calm. And once in a while — real danger. Then... back to calm.",
+        "fps": 30,
+        "duration": 10,
+        "refs": [],
+        "voice": "XrExE9yKIg1WjnnlVkGX",
+        "speed": 0.95,
+        "seed": 28028
+      },
+      "inputs": [],
+      "assetId": "216f837b-7e34-47c2-809c-83b4bad10bba",
+      "outputKind": "audio",
+      "doneAt": "2026-08-01T23:28:13.983Z"
+    },
+    {
+      "id": "9a57774d-d0ef-49da-8ea1-f4367d578f5a",
+      "provider": "elevenlabs",
+      "autoPinIfEmpty": true,
+      "gen": "voiceRef",
+      "endpoint": "v1/text-to-speech/cgSgspJ2msm6clMCkdW9",
+      "recipeHash": "sha256:6e9aae38f47444da8d66c7a5ed5c71e41b7cbe3b932adf61315c4f7a52212089",
+      "status": "done",
+      "take": 3,
+      "seed": 0,
+      "at": "2026-08-01T23:40:08.602Z",
+      "recipe": {
+        "provider": "elevenlabs",
+        "output": "audio",
+        "model": "elevenlabs-direct",
+        "prompt": "This is the Evolv28 narrator. Steady, warm, and precise. Wide horizons. Deep calm.",
+        "fps": 30,
+        "voice": "cgSgspJ2msm6clMCkdW9",
+        "duration": 8,
+        "speed": 1,
+        "seed": 0
+      },
+      "inputs": [],
+      "assetId": "ffd58277-c048-4306-b48c-aba2fba5ecca",
+      "outputKind": "audio",
+      "doneAt": "2026-08-01T23:40:10.803Z"
+    },
+    {
+      "id": "10f989e4-ea8d-46b6-8ce1-5809aa5d24ae",
+      "provider": "elevenlabs",
+      "autoPinIfEmpty": true,
+      "gen": "voiceRef",
+      "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+      "recipeHash": "sha256:30a6508bcf0e882361a58db0269999170c5d4295e2e21dc9bf45ba96dd1f534a",
+      "status": "done",
+      "take": 4,
+      "seed": 0,
+      "at": "2026-08-01T23:41:21.631Z",
+      "recipe": {
+        "provider": "elevenlabs",
+        "output": "audio",
+        "model": "elevenlabs-direct",
+        "prompt": "This is the Evolv28 narrator. Steady, warm, and precise. Wide horizons. Deep calm.",
+        "fps": 30,
+        "voice": "EXAVITQu4vr4xnSDxMaL",
+        "duration": 8,
+        "speed": 1,
+        "seed": 0
+      },
+      "inputs": [],
+      "assetId": "663d9ac8-f0f5-4bb5-9f12-0e1952e2a9cd",
+      "outputKind": "audio",
+      "doneAt": "2026-08-01T23:41:23.588Z"
+    },
+    {
+      "id": "e2541224-9a89-4aea-8ff8-718edb12b27f",
+      "provider": "fal",
+      "autoPinIfEmpty": true,
+      "gen": "voOrigin",
+      "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+      "recipeHash": "sha256:be98083ee4bc657907e4da0017544d472be1d11a18f75bb9ad46994c6897033f",
+      "status": "done",
+      "take": 18,
+      "at": "2026-08-01T23:42:19.640Z",
+      "recipe": {
+        "provider": "fal",
+        "output": "audio",
+        "model": "elevenlabs-v3",
+        "prompt": "This is where your brain evolved. Calm. And once in a while — real danger. Then... back to calm.",
+        "fps": 30,
+        "duration": 10,
+        "refs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef"
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "kind": "audio",
+          "src": "comp://voiceRef",
+          "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+        }
+      ],
+      "providerJobId": "019fbfb5-0694-7943-9650-5bd4c7ba7a6c",
+      "statusUrl": "https://queue.fal.run/fal-ai/elevenlabs/requests/019fbfb5-0694-7943-9650-5bd4c7ba7a6c/status",
+      "responseUrl": "https://queue.fal.run/fal-ai/elevenlabs/requests/019fbfb5-0694-7943-9650-5bd4c7ba7a6c",
+      "assetId": "af64904c-4e27-40bb-843a-93d8cf781f2e",
+      "outputKind": "audio",
+      "doneAt": "2026-08-01T23:42:25.512Z"
     }
   ]
 }

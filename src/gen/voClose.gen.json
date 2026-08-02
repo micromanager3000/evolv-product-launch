@@ -1,7 +1,7 @@
 {
-  "provider": "fal",
+  "provider": "elevenlabs",
   "output": "audio",
-  "model": "elevenlabs-v3",
+  "model": "elevenlabs-direct",
   "prompt": "Evolv28. Calm, by design. Get yours today.",
   "refs": [
     {
@@ -11,5 +11,7 @@
   ],
   "duration": 5,
   "fps": 30,
-  "take": 7
+  "take": 7,
+  "speed": 0.92,
+  "seed": 28028
 }
