@@ -2,7 +2,7 @@
   "provider": "elevenlabs",
   "output": "audio",
   "model": "elevenlabs-direct",
-  "prompt": "This is where it lives now. Concrete. Engines. Deadlines. Feeds. Texts. Calls. Slacks. Rage bait. A hundred tiny alarms an hour.",
+  "prompt": "[excited] This is where it lives now. Concrete. Engines. Deadlines. Feeds. [sarcastic] Texts. Calls. Slacks. Rage bait. [exhales] A hundred tiny alarms an hour.",
   "take": 13,
   "fps": 30,
   "duration": 12,
