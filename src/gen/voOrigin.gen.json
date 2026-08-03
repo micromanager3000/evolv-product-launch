@@ -3,7 +3,7 @@
   "output": "audio",
   "model": "elevenlabs-direct",
   "prompt": "This is where your brain evolved. Calm. And once in a while — real danger. Then... back to calm.",
-  "take": 18,
+  "take": 19,
   "fps": 30,
   "duration": 10,
   "refs": [
