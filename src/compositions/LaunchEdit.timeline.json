@@ -28,10 +28,10 @@
     {
       "id": "s1-threat",
       "name": "S1 · the burst (snaps in on 'real danger.', out before 'Then...')",
-      "from": 172,
-      "durationInFrames": 38,
+      "from": 130,
+      "durationInFrames": 80,
       "layer": 1,
-      "trimStart": 1.2,
+      "trimStart": -0.2,
       "layout": {
         "rect": [
           0,
@@ -52,9 +52,9 @@
       "id": "s2-city",
       "name": "S2 · city overload",
       "from": 300,
-      "durationInFrames": 360,
+      "durationInFrames": 446,
       "layer": 0,
-      "trimStart": 0,
+      "trimStart": -0.666667,
       "layout": {
         "rect": [
           0,
@@ -74,10 +74,10 @@
     {
       "id": "s2-storm",
       "name": "S2 · notification storm overlay",
-      "from": 390,
-      "durationInFrames": 270,
+      "from": 300,
+      "durationInFrames": 277,
       "layer": 2,
-      "trimStart": 0,
+      "trimStart": -0.233333,
       "layout": {
         "rect": [
           0,
@@ -183,28 +183,6 @@
       "content": {
         "type": "layers",
         "label": "VCMF claim chip"
-      }
-    },
-    {
-      "id": "sleep-impact",
-      "name": "Sleep impact · hyperarousal (lands at 0:35)",
-      "from": 1050,
-      "durationInFrames": 120,
-      "layer": 4,
-      "layout": {
-        "rect": [
-          340,
-          735,
-          1240,
-          120
-        ],
-        "fit": "cover",
-        "cornerRadius": 0,
-        "opacity": 1
-      },
-      "content": {
-        "type": "layers",
-        "label": "Sleep impact · hyperarousal"
       }
     },
     {

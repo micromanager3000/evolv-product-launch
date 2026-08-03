@@ -3507,6 +3507,828 @@
         "outputKind": "audio",
         "at": "2026-08-01T23:42:25.512Z"
       }
+    },
+    "2992fdb9-11d1-4a77-be42-1c9c9058ef1b": {
+      "name": "voOrigin.take19.mp3",
+      "contentHash": "sha256:dbe1e0bbfee62158de4aaae953c0abeb8106010c4b6b9a7b10d9876522931c42",
+      "mime": "audio/mpeg",
+      "bytes": 136716,
+      "sources": [
+        "/__framediff-cache/sha256%3Adbe1e0bbfee62158de4aaae953c0abeb8106010c4b6b9a7b10d9876522931c42"
+      ],
+      "generator": {
+        "gen": "voOrigin",
+        "take": 19,
+        "recipeHash": "sha256:6b1821a676a31e4b50dd8e2162a0357f34d3e73aa153da0b8ba6496b6592d716",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "This is where your brain evolved. Calm. And once in a while — real danger. Then... back to calm.",
+          "fps": 30,
+          "duration": 10,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "speed": 0.95,
+          "seed": 28028
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "431c0064-d848-40b8-bfdb-69cc24d7d86a",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T00:12:29.775Z"
+      }
+    },
+    "832b6bf3-70e9-4331-b219-dcbed71f7f7a": {
+      "name": "voNow.take14.mp3",
+      "contentHash": "sha256:603f8bcab49675e21393bd8482c6c1f7192907bd12918589bfc039fbcc9d3d98",
+      "mime": "audio/mpeg",
+      "bytes": 181438,
+      "sources": [
+        "/__framediff-cache/sha256%3A603f8bcab49675e21393bd8482c6c1f7192907bd12918589bfc039fbcc9d3d98"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 14,
+        "recipeHash": "sha256:fccc4b00a888f03266933bda5cef0e907fb58bd8deac104633a6ce6de262b2e7",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "This is where it lives now. Concrete. Engines. Deadlines. Feeds. Texts. Calls. Slacks. Rage bait. A hundred tiny alarms an hour.",
+          "fps": 30,
+          "duration": 12,
+          "speed": 1.05,
+          "seed": 28028,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "3a5c4889-e741-464e-a216-92a114ba97e2",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T00:13:34.053Z"
+      }
+    },
+    "6b6de704-3da8-48bd-b494-92bcdcf9ccb5": {
+      "name": "voNow.take15.mp3",
+      "contentHash": "sha256:c6ad9fda1b28825c3e47e7e9f99d8753a24b5dbe163219c202e18268ae70f5de",
+      "mime": "audio/mpeg",
+      "bytes": 181438,
+      "sources": [
+        "/__framediff-cache/sha256%3Ac6ad9fda1b28825c3e47e7e9f99d8753a24b5dbe163219c202e18268ae70f5de"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 15,
+        "recipeHash": "sha256:8b2290fb3ddc4985426ac7308448885b6d62af209448a82b1be6761ba2101fb6",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "This is where it lives now. Concrete. Engines. Deadlines. Feeds. Texts. Calls. Slacks. Rage bait. A hundred tiny alarms an hour.",
+          "fps": 30,
+          "duration": 12,
+          "speed": 1,
+          "seed": 28028,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "e3348abc-3489-465d-a26e-3d7b9f732e32",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T00:14:58.638Z"
+      }
+    },
+    "3302a455-8e5c-432b-b454-293046156d7c": {
+      "name": "voNow.take16.mp3",
+      "contentHash": "sha256:73aba62b29b895fee02f13ce9b20f58bace47e4231d3bf0c9f826a77bb910f79",
+      "mime": "audio/mpeg",
+      "bytes": 200664,
+      "sources": [
+        "/__framediff-cache/sha256%3A73aba62b29b895fee02f13ce9b20f58bace47e4231d3bf0c9f826a77bb910f79"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 16,
+        "recipeHash": "sha256:897b857738ab98c800f1bc4d00ab632f7b8816b770415d048900a5e987561e29",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "[excited] This is where it lives now. Concrete. Engines. Deadlines. Feeds. [sarcastic] Texts. Calls. Slacks. Rage bait. [exhales] A hundred tiny alarms an hour.",
+          "fps": 30,
+          "duration": 12,
+          "speed": 1,
+          "seed": 28028,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "61f579f9-f2f0-4c46-be24-2191e6f7dfa8",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T00:24:45.533Z"
+      }
+    },
+    "471a9ce1-fcdc-41cd-8fe0-67894bcd8165": {
+      "name": "voNow.take17.mp3",
+      "contentHash": "sha256:7792a1c099b8e6c0d2448ba21725357be5176869ec9f8280508bae641227a29f",
+      "mime": "audio/mpeg",
+      "bytes": 190633,
+      "sources": [
+        "/__framediff-cache/sha256%3A7792a1c099b8e6c0d2448ba21725357be5176869ec9f8280508bae641227a29f"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 17,
+        "recipeHash": "sha256:e968a98853b4431b954311ddce26e20114e795742daaeed2edb882574acc36f4",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "[excited] This is where it lives now. Concrete. Engines. Deadlines. Feeds. [sarcastic] Texts. Calls. Slacks. Rage bait. [tired] A hundred tiny alarms an hour.",
+          "fps": 30,
+          "duration": 12,
+          "speed": 1,
+          "seed": 28028,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "7327080e-86dd-4903-b568-9999ae636b17",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T00:25:33.875Z"
+      }
+    },
+    "6199deca-06ed-44e7-9219-a3aa80aa86eb": {
+      "name": "voNow.take18.mp3",
+      "contentHash": "sha256:28a57af888dd6ab862983914e0e48590c64da5dd5ce911c0e920c93d0864cf81",
+      "mime": "audio/mpeg",
+      "bytes": 190633,
+      "sources": [
+        "/__framediff-cache/sha256%3A28a57af888dd6ab862983914e0e48590c64da5dd5ce911c0e920c93d0864cf81"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 18,
+        "recipeHash": "sha256:e968a98853b4431b954311ddce26e20114e795742daaeed2edb882574acc36f4",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "[excited] This is where it lives now. Concrete. Engines. Deadlines. Feeds. [sarcastic] Texts. Calls. Slacks. Rage bait. [tired] A hundred tiny alarms an hour.",
+          "fps": 30,
+          "duration": 12,
+          "speed": 1,
+          "seed": 28028,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "7c83a4e4-86cf-4c60-b7aa-fa3d74d0f160",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T05:00:03.125Z"
+      }
+    },
+    "72ce12e5-c03b-4098-99b8-ae3805ec50e4": {
+      "name": "voNow.take19.mp3",
+      "contentHash": "sha256:b9688044d95a5a769e704944fd1b75c726f2eb34b086d7af4a7ad40dfe92eefa",
+      "mime": "audio/mpeg",
+      "bytes": 190633,
+      "sources": [
+        "/__framediff-cache/sha256%3Ab9688044d95a5a769e704944fd1b75c726f2eb34b086d7af4a7ad40dfe92eefa"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 19,
+        "recipeHash": "sha256:e72ed0bd14eeb06b32a830f239fe9963e3a244e28c95b34e6f5e0c22ef8d69dd",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "[excited] This is where it lives now. Concrete. Engines. Deadlines. Feeds. [sarcastic] Texts. Calls. Slacks. Rage bait. [tired] A hundred tiny alarms an hour.",
+          "fps": 30,
+          "duration": 12,
+          "speed": 1.1,
+          "seed": 28028,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "4e74234e-d34c-400e-bfe6-f72fa01f25e2",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T05:00:19.417Z"
+      }
+    },
+    "27f6aa5d-be47-4d83-b833-94e4b7cbb7f5": {
+      "name": "voNow.take20.mp3",
+      "contentHash": "sha256:2c86569134e2f06932b93336d705c71f2ffe5e9b469529d32f0659082641c434",
+      "mime": "audio/mpeg",
+      "bytes": 190633,
+      "sources": [
+        "/__framediff-cache/sha256%3A2c86569134e2f06932b93336d705c71f2ffe5e9b469529d32f0659082641c434"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 20,
+        "recipeHash": "sha256:5d0b948b710c6de1d3391179a15eb072b693dc99b89090f6ec7c2f0ada2c83cb",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "[excited] This is where it lives now. Concrete. Engines. Deadlines. Feeds. [sarcastic] Texts. Calls. Slacks. Rage bait. [tired] A hundred tiny alarms an hour.",
+          "fps": 30,
+          "duration": 12,
+          "speed": 1.3,
+          "seed": 28028,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "5add9023-f42f-4f89-8c51-2204624d0c53",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T05:01:01.502Z"
+      }
+    },
+    "b3c320ba-2e7d-42a9-a32a-30834538d294": {
+      "name": "voNow.take21.mp3",
+      "contentHash": "sha256:016520d0f0d4e97b495b83c704b5051a7cb42aee8ed7c7a535b9106792a84de6",
+      "mime": "audio/mpeg",
+      "bytes": 190633,
+      "sources": [
+        "/__framediff-cache/sha256%3A016520d0f0d4e97b495b83c704b5051a7cb42aee8ed7c7a535b9106792a84de6"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 21,
+        "recipeHash": "sha256:528b13a2ca8a5b7be8dd0b4686d6cbae8263dc8c9faece94798c3cb2c7856bb1",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "[excited] This is where it lives now. Concrete. Engines. Deadlines. Feeds. [sarcastic] Texts. Calls. Slacks. Rage bait. [tired] A hundred tiny alarms an hour.",
+          "fps": 30,
+          "duration": 12,
+          "speed": 0.9,
+          "seed": 28028,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "f3aabc28-3ec3-4df9-9960-ea4bdd05b686",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T05:01:44.062Z"
+      }
+    },
+    "04f80213-1fd3-4e95-b8d2-4012e1298b3a": {
+      "name": "voNow.take22.mp3",
+      "contentHash": "sha256:3a435953b6b74d24d0a3502f729a8876fc54df998412a6d19b91a0b72538dd6e",
+      "mime": "audio/mpeg",
+      "bytes": 190633,
+      "sources": [
+        "/__framediff-cache/sha256%3A3a435953b6b74d24d0a3502f729a8876fc54df998412a6d19b91a0b72538dd6e"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 22,
+        "recipeHash": "sha256:415da3772856b6d80ebf2540d24e49b93e95838fd60b721ac5661f68f21271b6",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "[excited] This is where it lives now. Concrete. Engines. Deadlines. Feeds. [sarcastic] Texts. Calls. Slacks. Rage bait. [tired] A hundred tiny alarms an hour.",
+          "fps": 30,
+          "duration": 12,
+          "speed": 2,
+          "seed": 28028,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "9a3ff75a-f255-4b65-b466-0072b4540da4",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T05:02:18.679Z"
+      }
+    },
+    "59492c73-58b9-42ae-bee5-7c545467d340": {
+      "name": "voNow.take23.mp3",
+      "contentHash": "sha256:c710124ea08b1e13f4d35b5a32992bc1c08076aaf8ae13be1e0cd584e5b7adee",
+      "mime": "audio/mpeg",
+      "bytes": 190633,
+      "sources": [
+        "/__framediff-cache/sha256%3Ac710124ea08b1e13f4d35b5a32992bc1c08076aaf8ae13be1e0cd584e5b7adee"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 23,
+        "recipeHash": "sha256:415da3772856b6d80ebf2540d24e49b93e95838fd60b721ac5661f68f21271b6",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "[excited] This is where it lives now. Concrete. Engines. Deadlines. Feeds. [sarcastic] Texts. Calls. Slacks. Rage bait. [tired] A hundred tiny alarms an hour.",
+          "fps": 30,
+          "duration": 12,
+          "speed": 2,
+          "seed": 28028,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "e4733020-b081-4652-b506-2d38d7d673a9",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T05:20:01.546Z"
+      }
+    },
+    "9cad2876-ce8d-4e9f-86c0-2c0cf2da34db": {
+      "name": "voNow.take24.mp3",
+      "contentHash": "sha256:36844a42f0eb0dcd07d446d33ce4f6fde6014cea8e9f36f0c932570ab7c3de42",
+      "mime": "audio/mpeg",
+      "bytes": 188125,
+      "sources": [
+        "/__framediff-cache/sha256%3A36844a42f0eb0dcd07d446d33ce4f6fde6014cea8e9f36f0c932570ab7c3de42"
+      ],
+      "generator": {
+        "gen": "voNow",
+        "take": 24,
+        "recipeHash": "sha256:736ae23e81ac15f189aa5fe630705fbe8a80a0a169dac3e0b28e0a878d956d68",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "[excited] This is where it lives now. Concrete. Engines. Deadlines. Feeds. [sarcastic] Texts. Calls. Slacks. [tired] A hundred tiny alarms an hour.",
+          "fps": 30,
+          "duration": 12,
+          "speed": 2,
+          "seed": 28028,
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "8af33b03-c90c-443b-83bb-5beeb5f305cc",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T05:20:23.835Z"
+      }
+    },
+    "e3aa50d7-5df7-44e0-b001-95ca65615e26": {
+      "name": "voBrain.take12.mp3",
+      "contentHash": "sha256:ee0549572a8d73489d4edfae891225d8ec91adb4dc18a3ae3c8f7ef2af6ba313",
+      "mime": "audio/mpeg",
+      "bytes": 178930,
+      "sources": [
+        "/__framediff-cache/sha256%3Aee0549572a8d73489d4edfae891225d8ec91adb4dc18a3ae3c8f7ef2af6ba313"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 12,
+        "recipeHash": "sha256:d0e383001073b3e496ac8ee3e932bcd40bf720034ec2143c0f57ce426da3e701",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. This is impacting people's sleep and causing hyperarousal.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 12,
+          "fps": 30,
+          "speed": 1.08,
+          "seed": 28028,
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "912fe170-3142-4428-a1ac-b80c9760f0ef",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T05:21:17.949Z"
+      }
+    },
+    "c4e4e660-b3ff-4ee5-801e-6147424efc69": {
+      "name": "voSolution.take13.mp3",
+      "contentHash": "sha256:526f06d3a94cd9eaccb4bc184b7782877d2c1d212cbf9a2f5aab2c856b82cc12",
+      "mime": "audio/mpeg",
+      "bytes": 237862,
+      "sources": [
+        "/__framediff-cache/sha256%3A526f06d3a94cd9eaccb4bc184b7782877d2c1d212cbf9a2f5aab2c856b82cc12"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 13,
+        "recipeHash": "sha256:9f60642c0494162980928e1cafbf0633c4fe1f7f83a13db353652e574f1b9333",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "Introducing Evolv28. Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 15,
+          "fps": 30,
+          "speed": 0.98,
+          "seed": 28028,
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "d22c1224-4dce-4182-bf16-734255f379c7",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T05:25:43.497Z"
+      }
+    },
+    "d4fdb679-9ed5-4df4-b2af-23ff41621628": {
+      "name": "deviceRevealI2V.take1.mp4",
+      "contentHash": "sha256:248003eec47096c0bfd71091a9ecbd0e9d1d81d258293b76ea325b8a3a1dada7",
+      "mime": "video/mp4",
+      "bytes": 11398660,
+      "sources": [
+        "/__framediff-cache/sha256%3A248003eec47096c0bfd71091a9ecbd0e9d1d81d258293b76ea325b8a3a1dada7"
+      ],
+      "generator": {
+        "gen": "deviceRevealI2V",
+        "take": 1,
+        "recipeHash": "sha256:b58731fdf7013334e6a96e670a6c8d77025634ade42e76322ebdf4274757e01e",
+        "endpoint": "bytedance/seedance-2.0/reference-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.0",
+          "prompt": "@Video1 is a 15-second blocked-out Three.js previz. Use it ONLY for camera path, framing, product scale, floor contact, and timing. The orange-and-teal proxy, simplified U shape, CG materials, lighting, shadows, and gray environment are disposable guides and must not appear in the result. @Image1 is the exact approved Evolv28 product photograph and the sole authority for product appearance, industrial design, materials, color, lighting, plinth, and background. Re-render @Video1's perfectly smooth, very slow 8 percent camera push as one continuous silent premium product reveal of the exact @Image1 scene. The physical Evolv28 and plinth remain completely still; only the camera moves. Finish the push by 14.5 seconds and hold the final framing for the last half-second. Preserve every source-image pixel that defines the hardware: the device is one rigid solid molded object. Its open U silhouette, two arms, paddle geometry, proportions, spacing, seams, vents, blue accent line, logo, finish, color, contact points, shadows, and reflections remain identical from first frame to last. ABSOLUTELY NO bending, flexing, twisting, stretching, opening, closing, splaying, wobbling, breathing, asymmetrical deformation, duplication, melting, or morphing. Do not inherit, redraw, rotate, lift, animate, or redesign the blockout proxy. No orange proxy surfaces, teal proxy strips, CG render, hands, people, text overlays, extra logos, particles, cuts, invented controls, camera shake, or object motion.",
+          "refs": [
+            {
+              "kind": "video",
+              "src": "comp://device-reveal-blockout"
+            },
+            {
+              "kind": "image",
+              "src": "asset://evolv-device-hero-photo"
+            }
+          ],
+          "tier": "standard",
+          "resolution": "1080p",
+          "duration": 15,
+          "aspect": "16:9",
+          "audio": false,
+          "fps": 30
+        },
+        "inputs": [
+          {
+            "kind": "video",
+            "src": "comp://device-reveal-blockout",
+            "contentHash": "sha256:562b7f39b79ae9ef84d4d660e9d19ac9f8ec5467201a7368908fa006d2c93936"
+          },
+          {
+            "kind": "image",
+            "src": "asset://evolv-device-hero-photo",
+            "contentHash": "sha256:bfb9ab8f716c2eca9fa0ade56f44f3cf71682a1b04ea646920ebb2198f72a5b9"
+          }
+        ],
+        "requestId": "cde1b9cd-248b-4dfc-b3ba-a57bfc52d742",
+        "seed": 588778490,
+        "outputKind": "video",
+        "at": "2026-08-02T19:27:44.344Z"
+      }
+    },
+    "b66d876b-87a4-49f5-ae87-e1f762e7c6e5": {
+      "name": "voBrain.take13.mp3",
+      "contentHash": "sha256:4ddc3d0806fd73f2c14ae24e248d1ec369c17d810b3a98c50a6a54d5d2563caa",
+      "mime": "audio/mpeg",
+      "bytes": 159704,
+      "sources": [
+        "/__framediff-cache/sha256%3A4ddc3d0806fd73f2c14ae24e248d1ec369c17d810b3a98c50a6a54d5d2563caa"
+      ],
+      "generator": {
+        "gen": "voBrain",
+        "take": 13,
+        "recipeHash": "sha256:41e211660e538d8f261dd09f2018d68bd55013dbc43e7b93adc0214e4f7ac5e0",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "Your brain still runs on savannah rules. It can't tell an urgent email from a predator — it just sounds the same alarm. This causes stress and impacts sleep.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 12,
+          "fps": 30,
+          "speed": 1.08,
+          "seed": 28028,
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "f5447f53-83cd-405b-8849-1cd6773187a4",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T19:29:41.361Z"
+      }
+    },
+    "260d839d-8806-461c-87c7-ebb4c1b57e43": {
+      "name": "voSolution.take14.mp3",
+      "contentHash": "sha256:603b758c50e37216af71317e3b394b42df135035ce4dcda73f4c0b641357184c",
+      "mime": "audio/mpeg",
+      "bytes": 237862,
+      "sources": [
+        "/__framediff-cache/sha256%3A603b758c50e37216af71317e3b394b42df135035ce4dcda73f4c0b641357184c"
+      ],
+      "generator": {
+        "gen": "voSolution",
+        "take": 14,
+        "recipeHash": "sha256:9f60642c0494162980928e1cafbf0633c4fe1f7f83a13db353652e574f1b9333",
+        "endpoint": "v1/text-to-speech/EXAVITQu4vr4xnSDxMaL",
+        "recipe": {
+          "provider": "elevenlabs",
+          "output": "audio",
+          "model": "elevenlabs-direct",
+          "prompt": "Introducing Evolv28. Evolv28 uses gentle, precise magnetic fields to induce calming alpha waves. In clinical trials Evolv boosts HRV, reduces stress, and improves sleep.",
+          "refs": [
+            {
+              "kind": "audio",
+              "src": "comp://voiceRef"
+            }
+          ],
+          "duration": 15,
+          "fps": 30,
+          "speed": 0.98,
+          "seed": 28028,
+          "voice": "EXAVITQu4vr4xnSDxMaL"
+        },
+        "inputs": [
+          {
+            "kind": "audio",
+            "src": "comp://voiceRef",
+            "contentHash": "sha256:c081617fe8801e3f966fa541608b3c122e01a32ec30cd0aba5c61cd445fe3301"
+          }
+        ],
+        "requestId": "dbd511cf-af93-47bb-8692-053a0762beae",
+        "seed": 28028,
+        "outputKind": "audio",
+        "at": "2026-08-02T19:31:33.447Z"
+      }
+    },
+    "92d16931-a401-4dae-bf07-62b1652eca0f": {
+      "name": "devicePutOnI2V.take3.mp4",
+      "contentHash": "sha256:36db18e1d07771c9fa28723f0b842dbc7215159983af08d75d947a86aaeb0ebe",
+      "mime": "video/mp4",
+      "bytes": 13551885,
+      "sources": [
+        "/__framediff-cache/sha256%3A36db18e1d07771c9fa28723f0b842dbc7215159983af08d75d947a86aaeb0ebe"
+      ],
+      "generator": {
+        "gen": "devicePutOnI2V",
+        "take": 3,
+        "recipeHash": "sha256:2d341375aaab8759a91adaf4aa5d0bb6180c407e1cf7a350f51c84d0fc7dbe63",
+        "endpoint": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "kling-2.5-pro",
+          "prompt": "@Image1 is the exact approved start frame. Create one continuous silent 4-second image-to-video shot. The man makes only a small natural finishing adjustment with the raised hand, seating the already-worn Evolv28 at the base of his neck during the first 2.5 seconds, then holds the settled pose. Preserve the photographed person, face, gaze, hair, hands, fingers, shirt, framing, background, lighting, and identity exactly; no facial expression change and no lip movement. The Evolv28 is a rigid solid molded object, not soft or wearable fabric. Preserve its open U silhouette, two arms, paddle geometry, proportions, spacing, seams, blue accent line, finish, color, orientation, and contact with the neck exactly. ABSOLUTELY NO bending, flexing, twisting, stretching, opening, closing, splaying, wobbling, breathing, asymmetrical deformation, duplication, melting, or morphing. The hand may touch the device but must not squeeze or deform it. Do not add or press a hardware button and do not invent an LED; the program starts in the app in the next shot. Locked camera. No zoom, cuts, text, extra people, extra fingers, redesigned details, or camera shake.",
+          "fps": 30,
+          "duration": 5,
+          "cfg": 0.5,
+          "aspect": "16:9",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://evolv-putting-on-photo"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://evolv-putting-on-photo",
+            "contentHash": "sha256:6d6529ca21129d5539b6a0c3de0083a578e83af4b03c83ce3f8786bb3e173691"
+          }
+        ],
+        "requestId": "05184de1-b6d5-4f9f-b6ea-33e81fee0205",
+        "outputKind": "video",
+        "at": "2026-08-02T19:48:38.523Z"
+      }
+    },
+    "ec6dbab2-5b96-40cd-ad9b-75f67c5550a6": {
+      "name": "devicePutOnI2V.take4.mp4",
+      "contentHash": "sha256:a0faaa9e0100b60ada5aecaaf24f35445593a7f6f20592c9180666c121d12b8e",
+      "mime": "video/mp4",
+      "bytes": 14389252,
+      "sources": [
+        "/__framediff-cache/sha256%3Aa0faaa9e0100b60ada5aecaaf24f35445593a7f6f20592c9180666c121d12b8e"
+      ],
+      "generator": {
+        "gen": "devicePutOnI2V",
+        "take": 4,
+        "recipeHash": "sha256:cba88171216b1cbe067cbd0e68c6f3bf6c50ad2c1d1423170d93da3e4607edfa",
+        "endpoint": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "kling-2.5-pro",
+          "prompt": "@Image1 is the exact approved start frame. Create one continuous silent 4-second image-to-video shot. The man makes only a small natural finishing adjustment with the raised hand, seating the already-worn Evolv28 at the base of his neck during the first 2.5 seconds, then holds the settled pose. Preserve the photographed person, face, gaze, hair, hands, fingers, shirt, framing, background, lighting, and identity exactly; no facial expression change and no lip movement. The Evolv28 is a rigid solid molded object, not soft or wearable fabric. Preserve its open U silhouette, two arms, paddle geometry, proportions, spacing, seams, blue accent line, finish, color, orientation, and contact with the neck exactly. ABSOLUTELY NO bending, flexing, twisting, stretching, opening, closing, splaying, wobbling, breathing, asymmetrical deformation, duplication, melting, or morphing. The hand may touch the device but must not squeeze or deform it. Do not add or press a hardware button and do not invent an LED; the program starts in the app in the next shot. Locked camera. No zoom, cuts, text, extra people, extra fingers, redesigned details, or camera shake.",
+          "fps": 30,
+          "duration": 5,
+          "cfg": 0.5,
+          "aspect": "16:9",
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://evolv-putting-on-photo"
+            }
+          ],
+          "negativePrompt": "DO NOT BEND THE PRODUCT AT ALL"
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://evolv-putting-on-photo",
+            "contentHash": "sha256:6d6529ca21129d5539b6a0c3de0083a578e83af4b03c83ce3f8786bb3e173691"
+          }
+        ],
+        "requestId": "6a138f76-7a99-4891-9909-376440fe139f",
+        "outputKind": "video",
+        "at": "2026-08-02T19:55:38.914Z"
+      }
     }
   }
 }
