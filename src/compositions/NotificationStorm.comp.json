@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "notifications": [
+    {"icon":"✉","color":"#3B82F6","title":"Marta (work)","body":"RE: RE: RE: budget — today??"},
+    {"icon":"☏","color":"#22C55E","title":"Missed call","body":"Unknown · leave a voicemail?"},
+    {"icon":"＠","color":"#8B5CF6","title":"#everyone","body":"quick sync in 5 — mandatory"},
+    {"icon":"▲","color":"#EF4444","title":"BREAKING","body":"you won't believe what happened"},
+    {"icon":"♪","color":"#0EA5E9","title":"New episode","body":"3h 41m · listen at 2×?"},
+    {"icon":"☍","color":"#F59E0B","title":"Reply guy","body":"actually, you're wrong about—"},
+    {"icon":"♥","color":"#EC4899","title":"34 likes","body":"and one comment you'll regret reading"},
+    {"icon":"▦","color":"#14B8A6","title":"Calendar","body":"3 meetings moved · 1 added"},
+    {"icon":"✉","color":"#6366F1","title":"Inbox (47)","body":"46 of these are nothing"},
+    {"icon":"!","color":"#EF4444","title":"Card declined?","body":"verify your account immediately"},
+    {"icon":"✈","color":"#3B82F6","title":"Gate changed","body":"B7 → E24 · boarding soon"},
+    {"icon":"▶","color":"#8B5CF6","title":"New video","body":"you stopped watching — come back"}
+  ],
+  "slots": [[84,206,1],[1516,150,-1],[96,846,1],[1500,760,-1],[120,376,1],[1470,420,-1],[660,64,1],[1064,64,-1],[70,560,1],[1480,930,-1],[430,930,1],[1010,915,-1]],
+  "appear": [18,40,62,84,106,128,150,172,194,216,238,260],
+  "ringAt": [84,172,260],
+  "maxUnread": 147
+}

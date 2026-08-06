@@ -1,5 +1,6 @@
 import { defineThreeSceneComposition } from "framediff/three";
 import { deviceRevealBlockoutScene } from "./deviceRevealBlockoutScene";
+import data from "./DeviceRevealBlockout.scene.json";
 
 export const deviceRevealBlockoutComp = defineThreeSceneComposition({
   scene: deviceRevealBlockoutScene,
@@ -8,17 +9,8 @@ export const deviceRevealBlockoutComp = defineThreeSceneComposition({
   height: 1080,
   fps: 30,
   durationInFrames: 450,
-  background: "#d8dee6",
-  cameras: [
-    {
-      id: "device-reveal-camera",
-      name: "15s camera-only product push",
-      camera: "reveal",
-      from: 0,
-      durationInFrames: 450,
-    },
-  ],
-  defaultCamera: "reveal",
+  data,
+  dataFile: "src/compositions/DeviceRevealBlockout.scene.json",
   meta: {
     file: "src/compositions/DeviceRevealBlockout.ts",
     module: "src/compositions/DeviceRevealBlockout.ts",

@@ -23,22 +23,11 @@
 <!-- Scene 3 redesign: one agitated brain with radiating alarm spokes; the modern noise
      arrives as a messy pile of notifications on the left. (The old hyena comparison panel
      is gone — hyenaChase stays registered in the project as an unused backup comp.) -->
-<main data-fd-composition data-fd-id="BrainLoop" data-fd-name="Same alarm — brain scene" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="360" data-fd-kind="scene" data-fd-library="true" data-fd-source="src/compositions/BrainLoop.html" data-fd-module="src/compositions/BrainLoop.ts" data-fd-export="brainLoopComp">
- <div class="kicker" data-fd-id="brain-kicker">ONE ALARM SYSTEM</div>
- <h1 class="headline" data-fd-id="brain-headline">Your brain can't tell the difference.</h1>
+<main data-fd-composition data-fd-id="BrainLoop" data-fd-name="Same alarm — brain scene" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="360" data-fd-kind="scene" data-fd-library="true" data-fd-source="src/compositions/BrainLoop.html" data-fd-document="src/compositions/BrainLoop.comp.json" data-fd-module="src/compositions/BrainLoop.ts" data-fd-export="brainLoopComp">
+ <div class="kicker" data-fd-id="brain-kicker"></div><h1 class="headline" data-fd-id="brain-headline"></h1>
 
  <section class="panel left" data-fd-id="brain-panel-today">
-  <div class="tag">TODAY · 09:41</div>
-  <div class="cards">
-   <div class="card"><span class="dot" style="background:#3B82F6">✉</span><span><b>RE: RE: URGENT</b><small>need this tonight — sorry!</small></span><span class="now">now</span></div>
-   <div class="card"><span class="dot" style="background:#EF4444">☎</span><span><b>Missed call (3)</b><small>Unknown number</small></span><span class="now">now</span></div>
-   <div class="card"><span class="dot" style="background:#8B5CF6">＠</span><span><b>@channel</b><small>quick ping — got a sec?</small></span><span class="now">now</span></div>
-   <div class="card"><span class="dot" style="background:#0EA5E9">✉</span><span><b>Inbox (47)</b><small>46 of these are nothing</small></span><span class="now">now</span></div>
-   <div class="card"><span class="dot" style="background:#F59E0B">▲</span><span><b>BREAKING</b><small>everything, all at once, again</small></span><span class="now">now</span></div>
-   <div class="card"><span class="dot" style="background:#6366F1">▤</span><span><b>Storage almost full</b><small>so is your attention</small></span><span class="now">now</span></div>
-   <div class="card"><span class="dot" style="background:#14B8A6">☏</span><span><b>1 new voicemail</b><small>probably nothing. probably.</small></span><span class="now">now</span></div>
-   <div class="card"><span class="dot" style="background:#10B981">⌁</span><span><b>Battery low</b><small>you, not the phone</small></span><span class="now">now</span></div>
-  </div>
+  <div class="tag"></div><div class="cards"></div>
  </section>
 
  <div class="brainwrap" data-fd-id="brain-figure">
@@ -60,15 +49,16 @@
   </svg>
  </div>
 
- <div class="same"><span class="word" data-fd-id="brain-same-word">Same alarm. All day long.</span></div>
- <div class="meter" data-fd-id="brain-meter"><small>THREAT RESPONSE</small><span class="state">ENGAGED</span><div class="bar"><i></i></div></div>
+ <div class="same"><span class="word" data-fd-id="brain-same-word"></span></div>
+ <div class="meter" data-fd-id="brain-meter"><small></small><span class="state"></span><div class="bar"><i></i></div></div>
 
  <script>
+  const dom=root.ownerDocument,cardsHost=query(".cards");
+  query(".kicker").textContent=document.copy.kicker;query(".headline").textContent=document.copy.headline;query(".tag").textContent=document.copy.panel;query(".same .word").textContent=document.copy.same;query(".meter small").textContent=document.copy.meter;query(".meter .state").textContent=document.copy.state;
+  for(const item of document.notifications){const card=dom.createElement("div");card.className="card";card.innerHTML=`<span class="dot"></span><span><b></b><small></small></span><span class="now">now</span>`;card.querySelector(".dot").textContent=item.icon;card.querySelector(".dot").style.background=item.color;card.querySelector("b").textContent=item.title;card.querySelector("small").textContent=item.body;cardsHost.appendChild(card);}
   const cards=queryAll(".card"),wave=query("#stress-wave"),amyg=query("#amygdala"),halo=query("#amygdala-halo"),
         brainG=query("#brain-g"),bar=query(".meter .bar i"),pulsesL=query("#pulses-left"),agit=query("#agit");
   // messy arrivals: uneven rhythm, each card lands with its own skew + drift
-  const CARD_AT=[18,52,86,124,158,200,238,278];
-  const MESS=[[9,-2.6],[-6,1.8],[14,-1.2],[-10,2.8],[6,-2.2],[-14,1.4],[10,2.2],[-8,-1.6]]; // [dx, rot°]
   const dotsL=Array.from(pulsesL.children);
   // 14 agitation spokes radiating from the brain — static markup, driven per frame
   const spokes=Array.from(agit.children),SPOKES=spokes.length;
@@ -76,11 +66,11 @@
    // notifications pile in messily and stay; each landing kicks the alarm envelope
    let kick=0;
    for(let i=0;i<cards.length;i++){
-    const t=frame-CARD_AT[i];
+    const t=frame-document.cardAt[i];
     const p=Math.max(0,Math.min(1,t/8));
     const e=1-Math.pow(1-p,3);
     const over=1+.12*Math.sin(Math.min(1,t/14)*Math.PI);           // little overshoot past rest
-    const [dx,rot]=MESS[i];
+    const [dx,rot]=document.mess[i];
     cards[i].style.opacity=String(e);
     cards[i].style.transform=`translateX(${(-60*(1-e)+dx*e).toFixed(1)}px) rotate(${(rot*e).toFixed(2)}deg) scale(${(e?over:1).toFixed(3)})`;
     if(t>=0)kick+=Math.exp(-t/22);

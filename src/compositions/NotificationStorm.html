@@ -1,66 +1,19 @@
 <!doctype html><html><head><style>
- [data-fd-composition]{position:relative;overflow:hidden;background:transparent;color:#1A1A2E;font-family:-apple-system,"SF Pro Display","Segoe UI",sans-serif}
- .shake{position:absolute;inset:0}
- .toast{position:absolute;width:330px;display:grid;grid-template-columns:30px 1fr auto;gap:10px;align-items:center;background:rgba(245,242,238,.97);border-radius:12px;padding:11px 13px;box-shadow:0 12px 30px rgba(0,0,0,.45);opacity:0}
- .toast .dot{width:26px;height:26px;border-radius:7px;display:grid;place-items:center;font-size:13px;color:#fff}
- .toast b{display:block;font-size:12.5px}.toast small{display:block;font-size:10.5px;color:#6B7280;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
- .toast .now{font:9.5px ui-monospace;color:#9CA3AF;align-self:start}
- .badge{position:absolute;top:52px;right:64px;min-width:66px;text-align:center;font:800 26px ui-monospace;color:#fff;background:#EF4444;border-radius:999px;padding:9px 16px;box-shadow:0 12px 30px rgba(0,0,0,.5)}
- .badge small{display:block;font:800 8.5px ui-monospace;letter-spacing:1.6px;margin-top:1px}
- .ring{position:absolute;border:3px solid rgba(245,158,11,.8);border-radius:50%;opacity:0}
+ [data-fd-composition]{position:relative;overflow:hidden;background:transparent;color:#1A1A2E;font-family:-apple-system,"SF Pro Display","Segoe UI",sans-serif}.shake{position:absolute;inset:0}
+ .toast{position:absolute;width:330px;display:grid;grid-template-columns:30px 1fr auto;gap:10px;align-items:center;background:rgba(245,242,238,.97);border-radius:12px;padding:11px 13px;box-shadow:0 12px 30px rgba(0,0,0,.45);opacity:0}.toast .dot{width:26px;height:26px;border-radius:7px;display:grid;place-items:center;font-size:13px;color:#fff}.toast b{display:block;font-size:12.5px}.toast small{display:block;font-size:10.5px;color:#6B7280;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.toast .now{font:9.5px ui-monospace;color:#9CA3AF;align-self:start}
+ .badge{position:absolute;top:52px;right:64px;min-width:66px;text-align:center;font:800 26px ui-monospace;color:#fff;background:#EF4444;border-radius:999px;padding:9px 16px;box-shadow:0 12px 30px rgba(0,0,0,.5)}.badge small{display:block;font:800 8.5px ui-monospace;letter-spacing:1.6px;margin-top:1px}.ring{position:absolute;border:3px solid rgba(245,158,11,.8);border-radius:50%;opacity:0}
 </style></head><body>
-<!-- Notification storm: alpha overlay for the city-overload scene. Toast timing, placement,
-     badge count, and screen jitter are all pure functions of the frame — the layout uses a
-     fixed table of hand-placed slots around the frame edge so the center stays readable. -->
-<main data-fd-composition data-fd-id="NotificationStorm" data-fd-name="Notification storm overlay" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="360" data-fd-kind="custom" data-fd-library="true" data-fd-alpha="true" data-fd-timeline="hidden" data-fd-transport="always" data-fd-source="src/compositions/NotificationStorm.html" data-fd-module="src/compositions/NotificationStorm.ts" data-fd-export="notificationStormComp">
- <div class="shake">
-  <div class="toast"><span class="dot" style="background:#3B82F6">✉</span><span><b>Marta (work)</b><small>RE: RE: RE: budget — today??</small></span><span class="now">now</span></div>
-  <div class="toast"><span class="dot" style="background:#22C55E">☏</span><span><b>Missed call</b><small>Unknown · leave a voicemail?</small></span><span class="now">now</span></div>
-  <div class="toast"><span class="dot" style="background:#8B5CF6">＠</span><span><b>#everyone</b><small>quick sync in 5 — mandatory</small></span><span class="now">now</span></div>
-  <div class="toast"><span class="dot" style="background:#EF4444">▲</span><span><b>BREAKING</b><small>you won't believe what happened</small></span><span class="now">now</span></div>
-  <div class="toast"><span class="dot" style="background:#0EA5E9">♪</span><span><b>New episode</b><small>3h 41m · listen at 2×?</small></span><span class="now">now</span></div>
-  <div class="toast"><span class="dot" style="background:#F59E0B">☍</span><span><b>Reply guy</b><small>actually, you're wrong about—</small></span><span class="now">now</span></div>
-  <div class="toast"><span class="dot" style="background:#EC4899">♥</span><span><b>34 likes</b><small>and one comment you'll regret reading</small></span><span class="now">now</span></div>
-  <div class="toast"><span class="dot" style="background:#14B8A6">▦</span><span><b>Calendar</b><small>3 meetings moved · 1 added</small></span><span class="now">now</span></div>
-  <div class="toast"><span class="dot" style="background:#6366F1">✉</span><span><b>Inbox (47)</b><small>46 of these are nothing</small></span><span class="now">now</span></div>
-  <div class="toast"><span class="dot" style="background:#EF4444">!</span><span><b>Card declined?</b><small>verify your account immediately</small></span><span class="now">now</span></div>
-  <div class="toast"><span class="dot" style="background:#3B82F6">✈</span><span><b>Gate changed</b><small>B7 → E24 · boarding soon</small></span><span class="now">now</span></div>
-  <div class="toast"><span class="dot" style="background:#8B5CF6">▶</span><span><b>New video</b><small>you stopped watching — come back</small></span><span class="now">now</span></div>
-  <div class="ring"></div><div class="ring"></div><div class="ring"></div>
-  <div class="badge"><span class="n">0</span><small>UNREAD</small></div>
- </div>
+<main data-fd-composition data-fd-id="NotificationStorm" data-fd-name="Notification storm overlay" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="360" data-fd-kind="scene" data-fd-library="true" data-fd-alpha="true" data-fd-timeline="hidden" data-fd-transport="always" data-fd-source="src/compositions/NotificationStorm.html" data-fd-document="src/compositions/NotificationStorm.comp.json" data-fd-module="src/compositions/NotificationStorm.ts" data-fd-export="notificationStormComp">
+ <div class="shake"><div class="toasts"></div><div class="ring"></div><div class="ring"></div><div class="ring"></div><div class="badge"><span class="n">0</span><small>UNREAD</small></div></div>
  <script>
+  const dom=root.ownerDocument,toastsHost=query(".toasts");
+  for(const item of document.notifications){const toast=dom.createElement("div");toast.className="toast";toast.innerHTML=`<span class="dot"></span><span><b></b><small></small></span><span class="now">now</span>`;toast.querySelector(".dot").textContent=item.icon;toast.querySelector(".dot").style.background=item.color;toast.querySelector("b").textContent=item.title;toast.querySelector("small").textContent=item.body;toastsHost.appendChild(toast);}
   const toasts=queryAll(".toast"),rings=queryAll(".ring"),badge=query(".badge"),badgeN=query(".badge .n"),shake=query(".shake");
-  // hand-placed slots hugging the frame edges — [x, y, drift direction]
-  const SLOT=[[84,206,1],[1516,150,-1],[96,846,1],[1500,760,-1],[120,376,1],[1470,420,-1],[660,64,1],[1064,64,-1],[70,560,1],[1480,930,-1],[430,930,1],[1010,915,-1]];
-  const APPEAR=[18,40,62,84,106,128,150,172,194,216,238,260];
   onFrame(({frame})=>{
-   for(let i=0;i<toasts.length;i++){
-    const t=frame-APPEAR[i];
-    const inP=Math.max(0,Math.min(1,t/8)),ease=1-Math.pow(1-inP,3);
-    const life=Math.max(0,Math.min(1,(t-96)/18));            // slide away after ~3.2s
-    const s=SLOT[i];
-    toasts[i].style.opacity=String(ease*(1-life));
-    toasts[i].style.left=s[0]+"px";
-    toasts[i].style.top=(s[1]-16*(1-ease)+10*life)+"px";
-    toasts[i].style.transform=`scale(${.92+.08*ease}) rotate(${s[2]*(1-ease)*2}deg)`;
-   }
-   // unread badge climbs relentlessly
-   const n=Math.min(147,Math.floor(3+frame*.42+6*Math.sin(frame*.05)));
-   badgeN.textContent=String(Math.max(0,n));
-   badge.style.transform=`scale(${1+.06*Math.abs(Math.sin(frame*.55))})`;
-   // ring bursts on the loudest arrivals
-   const RING_AT=[84,172,260];
-   for(let i=0;i<rings.length;i++){
-    const t=frame-RING_AT[i],p=Math.max(0,Math.min(1,t/26));
-    const s=SLOT[(i*4+3)%SLOT.length];
-    rings[i].style.left=(s[0]+150-140*p)+"px";rings[i].style.top=(s[1]+20-140*p)+"px";
-    rings[i].style.width=rings[i].style.height=(280*p)+"px";
-    rings[i].style.opacity=String(p>0&&p<1?.7*(1-p):0);
-   }
-   // the whole frame vibrates — tiny, relentless
-   const buzz=Math.sin(frame*2.6)*1.6*Math.min(1,frame/40);
-   shake.style.transform=`translate(${buzz.toFixed(2)}px,${(Math.cos(frame*3.1)*1.1).toFixed(2)}px)`;
+   for(let i=0;i<toasts.length;i++){const t=frame-document.appear[i],inP=Math.max(0,Math.min(1,t/8)),ease=1-Math.pow(1-inP,3),life=Math.max(0,Math.min(1,(t-96)/18)),slot=document.slots[i];toasts[i].style.opacity=String(ease*(1-life));toasts[i].style.left=slot[0]+"px";toasts[i].style.top=(slot[1]-16*(1-ease)+10*life)+"px";toasts[i].style.transform=`scale(${.92+.08*ease}) rotate(${slot[2]*(1-ease)*2}deg)`;}
+   const n=Math.min(document.maxUnread,Math.floor(3+frame*.42+6*Math.sin(frame*.05)));badgeN.textContent=String(Math.max(0,n));badge.style.transform=`scale(${1+.06*Math.abs(Math.sin(frame*.55))})`;
+   for(let i=0;i<rings.length;i++){const t=frame-document.ringAt[i],p=Math.max(0,Math.min(1,t/26)),slot=document.slots[(i*4+3)%document.slots.length];rings[i].style.left=(slot[0]+150-140*p)+"px";rings[i].style.top=(slot[1]+20-140*p)+"px";rings[i].style.width=rings[i].style.height=(280*p)+"px";rings[i].style.opacity=String(p>0&&p<1?.7*(1-p):0);}
+   const buzz=Math.sin(frame*2.6)*1.6*Math.min(1,frame/40);shake.style.transform=`translate(${buzz.toFixed(2)}px,${(Math.cos(frame*3.1)*1.1).toFixed(2)}px)`;
   });
  </script>
 </main></body></html>

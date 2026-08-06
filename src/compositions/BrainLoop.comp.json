@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "copy": {"kicker":"ONE ALARM SYSTEM","headline":"Your brain can't tell the difference.","panel":"TODAY · 09:41","same":"Same alarm. All day long.","meter":"THREAT RESPONSE","state":"ENGAGED"},
+  "notifications": [
+    {"icon":"✉","color":"#3B82F6","title":"RE: RE: URGENT","body":"need this tonight — sorry!"},
+    {"icon":"☎","color":"#EF4444","title":"Missed call (3)","body":"Unknown number"},
+    {"icon":"＠","color":"#8B5CF6","title":"@channel","body":"quick ping — got a sec?"},
+    {"icon":"✉","color":"#0EA5E9","title":"Inbox (47)","body":"46 of these are nothing"},
+    {"icon":"▲","color":"#F59E0B","title":"BREAKING","body":"everything, all at once, again"},
+    {"icon":"▤","color":"#6366F1","title":"Storage almost full","body":"so is your attention"},
+    {"icon":"☏","color":"#14B8A6","title":"1 new voicemail","body":"probably nothing. probably."},
+    {"icon":"⌁","color":"#10B981","title":"Battery low","body":"you, not the phone"}
+  ],
+  "cardAt": [18,52,86,124,158,200,238,278],
+  "mess": [[9,-2.6],[-6,1.8],[14,-1.2],[-10,2.8],[6,-2.2],[-14,1.4],[10,2.2],[-8,-1.6]]
+}
