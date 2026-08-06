@@ -13,15 +13,15 @@
 <!-- The closer. The pack shot uses the exact Drive product photograph; launch-edit lays the real
      wordmark (asset://logo-white) into .logo-slot's rect, so the logo stays a byte-true
      asset rather than a redraw. Standalone, the card still reads without it. -->
-<main data-fd-composition data-fd-id="EndCard" data-fd-name="Evolv28 — end card" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="150" data-fd-kind="scene" data-fd-library="true" data-fd-source="src/compositions/EndCard.html" data-fd-module="src/compositions/EndCard.ts" data-fd-export="endCardComp">
+<main data-fd-composition data-fd-id="EndCard" data-fd-name="Evolv28 — end card" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="150" data-fd-kind="scene" data-fd-library="true" data-fd-source="src/compositions/EndCard.html" data-fd-document="src/compositions/EndCard.comp.json" data-fd-module="src/compositions/EndCard.ts" data-fd-export="endCardComp">
  <div class="pack"><img data-fd-clip data-fd-id="endcard-pack" data-fd-name="pack shot · exact device photo" data-fd-from="0" data-fd-duration="150" data-fd-type="image" data-fd-src="asset://evolv-device-hero-photo" data-fd-fit="cover" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><div class="veil"></div></div>
  <div class="logo-slot" data-fd-id="endcard-logo-slot"></div>
- <h1 class="tagline" data-fd-id="endcard-tagline">Calm, <i>by design.</i></h1>
+ <h1 class="tagline" data-fd-id="endcard-tagline"><span></span><i></i></h1>
  <div class="wavebar"><svg viewBox="0 0 1920 110"><polyline id="endwave" points="" fill="none" stroke="#00B4B4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/></svg></div>
- <div class="cta" data-fd-id="endcard-cta">GET YOURS TODAY</div>
- <div class="site" data-fd-id="endcard-site">EVOLV28.COM · THE INSOMNIA INTELLIGENCE COMPANY</div>
+ <div class="cta" data-fd-id="endcard-cta"></div><div class="site" data-fd-id="endcard-site"></div>
  <script>
   const wave=query("#endwave"),tag=query(".tagline"),cta=query(".cta"),site=query(".site"),pack=query(".pack");
+  let data=document;const applyData=next=>{data=next;query(".tagline span").textContent=data.tagline.lead;query(".tagline i").textContent=data.tagline.accent;cta.textContent=data.cta;site.textContent=data.site;};applyData(data);onDocument(applyData);
   const ease=t=>1-Math.pow(1-Math.max(0,Math.min(1,t)),3);
   onFrame(({frame})=>{
    // one calm alpha line draws across, then keeps breathing
@@ -31,12 +31,10 @@
     pts.push(x+","+(55+Math.sin(x*.0165-frame*.16)*30).toFixed(1));
    }
    wave.setAttribute("points",pts.join(" "));
-   pack.style.opacity=String(.25+.65*ease(frame/30));
-   tag.style.opacity=String(ease((frame-24)/26));
-   tag.style.transform=`translateY(${12*(1-ease((frame-24)/26))}px)`;
-   cta.style.opacity=String(ease((frame-56)/24));
-   cta.style.transform=`translateX(-50%) scale(${.94+.06*ease((frame-56)/24)})`;
-   site.style.opacity=String(.85*ease((frame-76)/24));
+   pack.style.opacity=String(.25+.65*ease((frame-data.timing.pack)/30));
+   tag.style.opacity=String(ease((frame-data.timing.tagline)/26));tag.style.transform=`translateY(${12*(1-ease((frame-data.timing.tagline)/26))}px)`;
+   cta.style.opacity=String(ease((frame-data.timing.cta)/24));cta.style.transform=`translateX(-50%) scale(${.94+.06*ease((frame-data.timing.cta)/24)})`;
+   site.style.opacity=String(.85*ease((frame-data.timing.site)/24));
   });
  </script>
 </main></body></html>

@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "labels": { "beta": "BETA · 22 Hz · ON ALERT", "alpha": "ALPHA · 10 Hz · CALM", "field": "VCMF™ FIELD ACTIVE · 8–30 Hz · NEVER-REPEATING" },
+  "timing": { "settleFrom": 60, "settleDuration": 270, "fieldFrom": 20, "fieldFadeDuration": 25 },
+  "wave": { "betaPrimary": 0.085, "betaSecondary": 0.19, "betaTertiary": 0.042, "alpha": 0.0165 }
+}

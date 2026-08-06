@@ -10,12 +10,13 @@
     "build": "vite build",
     "check:bundles": "node scripts/check-bundle-budgets.mjs",
     "preview": "vite preview",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json && npm run check:registry",
+    "check:registry": "node scripts/check-composition-registry.mjs",
     "typecheck": "npm run check"
   },
   "dependencies": {
     "@babel/parser": "^7.29.7",
-    "framediff-monorepo": "github:micromanager3000/framediff#56ff616569fce3181a1cb05d8e4cbab6c18ab8fe",
+    "framediff-monorepo": "github:micromanager3000/framediff#8da96d2a80f04c51277683d77bd0659978ab794e",
     "gsap": "^3.15.0",
     "mediabunny": "^1.49.0",
     "mp4-muxer": "^5.0.0",
