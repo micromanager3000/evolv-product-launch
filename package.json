@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@babel/parser": "^7.29.7",
-    "framediff-monorepo": "github:micromanager3000/framediff#d4d1150dd9feb9391566dfd529a01651092edad7",
+    "framediff-monorepo": "github:micromanager3000/framediff#56ff616569fce3181a1cb05d8e4cbab6c18ab8fe",
     "gsap": "^3.15.0",
     "mediabunny": "^1.49.0",
     "mp4-muxer": "^5.0.0",
