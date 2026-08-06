@@ -8,7 +8,7 @@
 //        ↓
 //   launch-edit                               (the 70s film: clips + overlay comps + VO)
 
-import type { CompRegistry } from "framediff";
+import { defineCompositionRegistry } from "framediff";
 import { launchEditComp } from "./compositions/LaunchEdit";
 import { moodboardComp } from "./compositions/Moodboard";
 import { scriptComp } from "./compositions/Script";
@@ -38,7 +38,7 @@ import { voClose } from "./gen/voClose.gen";
 
 /** The Studio registry. The first entry is also the runtime fallback; every other composition
  *  stays reachable from the project rail. */
-export const COMPOSITIONS = {
+export const COMPOSITIONS = defineCompositionRegistry({
   "launch-edit": launchEditComp,
   // pre-production comps — the plan is part of the same graph: script rows nest the gen
   // comps that realize each scene, storyboard panels share the script's timing.
@@ -69,7 +69,7 @@ export const COMPOSITIONS = {
   voSolution,
   voRitual,
   voClose,
-} satisfies CompRegistry;
+});
 
 /** The composition served at the project URL. */
 export const PROJECT_ROOT: keyof typeof COMPOSITIONS = "launch-edit";
