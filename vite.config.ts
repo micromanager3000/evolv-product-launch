@@ -5,7 +5,7 @@ import { fileURLToPath, URL } from "node:url";
 // exists, so "framediff/vite" would not resolve here. The engine arrives as a git
 // dependency on the public monorepo (package.json → framediff-monorepo), so the plugin
 // and every alias below reach into node_modules/framediff-monorepo.
-import { framediffDev } from "./node_modules/framediff-monorepo/packages/framediff/vite-plugin";
+import { framediffDev } from "./node_modules/framediff-monorepo/packages/framediff/vite-plugin.ts";
 
 const pkg = (path: string) => fileURLToPath(new URL(`./node_modules/framediff-monorepo/packages/${path}`, import.meta.url));
 

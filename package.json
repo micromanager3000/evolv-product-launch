@@ -12,26 +12,27 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json && npm run check:registry",
     "check:registry": "node scripts/check-composition-registry.mjs",
+    "audit": "npm audit --audit-level=high",
     "typecheck": "npm run check"
   },
   "dependencies": {
-    "@babel/parser": "^7.29.7",
-    "framediff-monorepo": "github:micromanager3000/framediff#a84164a52480b674d673bc050397712d12de90c8",
+    "@babel/parser": "^8.0.4",
+    "framediff-monorepo": "github:micromanager3000/framediff#6573ab5dc3e04c4c104a9632534025488541e392",
     "gsap": "^3.15.0",
-    "mediabunny": "^1.49.0",
-    "mp4-muxer": "^5.0.0",
+    "mediabunny": "^1.53.1",
+    "mp4-muxer": "^5.2.2",
     "three": "^0.185.1"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^3.0.0",
-    "@sveltejs/kit": "^2.16.0",
-    "@sveltejs/vite-plugin-svelte": "^5.0.0",
-    "@types/node": "^26.1.1",
-    "@types/three": "^0.185.1",
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.70.2",
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
+    "@types/node": "^26.2.0",
+    "@types/three": "^0.185.4",
     "@webgpu/types": "^0.1.71",
-    "svelte": "^5.0.0",
-    "svelte-check": "^4.0.0",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.7"
+    "svelte": "^5.56.9",
+    "svelte-check": "^4.7.5",
+    "typescript": "^6.0.3",
+    "vite": "^8.2.1"
   }
 }
