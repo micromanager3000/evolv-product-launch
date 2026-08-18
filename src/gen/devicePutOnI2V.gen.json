@@ -1,18 +1,23 @@
 {
   "provider": "fal",
   "output": "video",
-  "model": "kling-2.5-pro",
-  "prompt": "@Image1 is the exact approved start frame. Create one continuous silent 4-second image-to-video shot. The man makes only a small natural finishing adjustment with the raised hand, seating the already-worn Evolv28 at the base of his neck during the first 2.5 seconds, then holds the settled pose. Preserve the photographed person, face, gaze, hair, hands, fingers, shirt, framing, background, lighting, and identity exactly; no facial expression change and no lip movement. The Evolv28 is a rigid solid molded object, not soft or wearable fabric. Preserve its open U silhouette, two arms, paddle geometry, proportions, spacing, seams, blue accent line, finish, color, orientation, and contact with the neck exactly. ABSOLUTELY NO bending, flexing, twisting, stretching, opening, closing, splaying, wobbling, breathing, asymmetrical deformation, duplication, melting, or morphing. The hand may touch the device but must not squeeze or deform it. Do not add or press a hardware button and do not invent an LED; the program starts in the app in the next shot. Locked camera. No zoom, cuts, text, extra people, extra fingers, redesigned details, or camera shake.",
-  "take": 4,
+  "model": "seedance-2.5",
+  "prompt": "@Image1 is the approved first frame: an adult woman seen directly from behind, holding the Evolv28 with both hands just behind her nape. @Image2 is the original manufacturer photograph and the sole authority for the hardware. Create one continuous silent 4-second highly realistic DSLR shot. During the first 2.6 seconds she uses both hands together to slide the rigid open collar forward around the sides of her neck and lower it gently to the base of her neck; during the final 1.4 seconds her hands release and settle naturally while the device stays seated. Keep the camera behind her at upper-back height. Never reveal her face, cheek, jaw, profile, eyes, mouth, or a facial reflection. Preserve the exact woman, high bun, nape, cream top, room, soft morning window light, framing, natural five-finger hands, and realistic skin and hair. Preserve @Image2's exact rigid U silhouette, two arms, paddle geometry, proportions, spacing, seams, vents, small openings, blue accent line, printed mark, matte charcoal finish, orientation, and scale. The hands may grip the paddle tips but may not squeeze or deform them. Full-frame DSLR realism, 50mm lens, shallow natural depth, plausible motion blur, restrained commercial grade, fine sensor grain. ABSOLUTELY NO bending, flexing, twisting, stretching, opening, closing, splaying, wobbling, breathing, asymmetrical deformation, duplication, melting, morphing, W-shaped redesign, invented light, button press, text, cuts, extra people, extra hands, extra fingers, mirror, face reveal, or camera shake.",
+  "takeId": "5c968590-2cf3-4d7d-85c2-2a844c74e1b0",
+  "takeHash": "sha256:3c83e834236838b8ce71af42748748a9c395b604a89d457f10cd95f2bedf9c47",
   "fps": 30,
-  "duration": 5,
-  "cfg": 0.5,
+  "resolution": "1080p",
+  "duration": 4,
   "aspect": "16:9",
+  "audio": false,
   "refs": [
     {
       "kind": "image",
-      "src": "asset://evolv-putting-on-photo"
+      "src": "asset://evolv-put-on-rear-start"
+    },
+    {
+      "kind": "image",
+      "src": "asset://evolv-device-hero-photo"
     }
-  ],
-  "negativePrompt": "DO NOT BEND THE PRODUCT AT ALL"
+  ]
 }

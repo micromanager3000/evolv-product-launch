@@ -3,10 +3,11 @@
   "output": "audio",
   "model": "elevenlabs-direct",
   "prompt": "This is the Evolv28 narrator. Steady, warm, and precise. Wide horizons. Deep calm.",
-  "take": 4,
   "fps": 30,
   "voice": "EXAVITQu4vr4xnSDxMaL",
   "duration": 8,
   "speed": 1,
-  "seed": 0
+  "seed": 0,
+  "takeId": "ba37c147-2aa1-4155-a4cc-79b9721c8bd1",
+  "takeHash": "sha256:443beebc21968100124189b9b7698242cb86670fb100739c01e8517e2232178c"
 }

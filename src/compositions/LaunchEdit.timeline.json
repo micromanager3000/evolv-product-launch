@@ -28,8 +28,8 @@
     {
       "id": "s1-threat",
       "name": "S1 · the burst (snaps in on 'real danger.', out before 'Then...')",
-      "from": 130,
-      "durationInFrames": 80,
+      "from": 122,
+      "durationInFrames": 90,
       "layer": 1,
       "trimStart": -0.2,
       "layout": {
@@ -171,10 +171,10 @@
       "layer": 3,
       "layout": {
         "rect": [
-          612,
-          92,
-          696,
-          56
+          96,
+          68,
+          810,
+          134
         ],
         "fit": "cover",
         "cornerRadius": 0,
@@ -193,10 +193,10 @@
       "layer": 3,
       "layout": {
         "rect": [
-          330,
-          84,
-          1260,
-          140
+          1348,
+          252,
+          476,
+          494
         ],
         "fit": "cover",
         "cornerRadius": 0,
@@ -209,9 +209,9 @@
     },
     {
       "id": "s5-ritual",
-      "name": "S5 · generated put-on from exact Drive photo · rigid device",
+      "name": "S5 · woman puts on Evolv28 · back view · SeedDance 2.5",
       "from": 1470,
-      "durationInFrames": 90,
+      "durationInFrames": 120,
       "layer": 0,
       "trimStart": 0,
       "layout": {
@@ -231,34 +231,10 @@
       }
     },
     {
-      "id": "s5-desk",
-      "name": "S5 · start the program in the app",
-      "from": 1560,
-      "durationInFrames": 90,
-      "layer": 0,
-      "trimStart": 0,
-      "layout": {
-        "rect": [
-          0,
-          0,
-          1920,
-          1080
-        ],
-        "fit": "cover",
-        "cornerRadius": 0,
-        "opacity": 1
-      },
-      "content": {
-        "type": "video",
-        "src": "asset://evolv-app-start-motion"
-      },
-      "muted": true
-    },
-    {
       "id": "s5-worn",
-      "name": "S5 · generated worn-device portrait from exact Drive photo",
-      "from": 1650,
-      "durationInFrames": 60,
+      "name": "S5 · man wears Evolv28 at desk · back view · SeedDance 2.5",
+      "from": 1590,
+      "durationInFrames": 100,
       "layer": 0,
       "trimStart": 0,
       "layout": {
@@ -281,14 +257,14 @@
       "id": "ritual-steps",
       "name": "Routine steps (picture-synced pops)",
       "from": 1470,
-      "durationInFrames": 234,
+      "durationInFrames": 220,
       "layer": 3,
       "layout": {
         "rect": [
-          360,
-          924,
-          1200,
-          64
+          96,
+          874,
+          950,
+          108
         ],
         "fit": "cover",
         "cornerRadius": 0,
@@ -300,63 +276,17 @@
       }
     },
     {
-      "id": "proof-kicker",
-      "name": "Kicker · real people",
-      "from": 1710,
-      "durationInFrames": 240,
-      "layer": 3,
-      "layout": {
-        "rect": [
-          615,
-          96,
-          690,
-          48
-        ],
-        "fit": "cover",
-        "cornerRadius": 0,
-        "opacity": 1
-      },
-      "content": {
-        "type": "layers",
-        "label": "Kicker · real people"
-      }
-    },
-    {
-      "id": "s6-valerie-video",
-      "name": "S6 · Valerie (real Vimeo interview)",
-      "from": 1710,
-      "durationInFrames": 120,
-      "layer": 1,
-      "trimStart": 348.56,
-      "layout": {
-        "rect": [
-          180,
-          330,
-          590,
-          310
-        ],
-        "fit": "cover",
-        "cornerRadius": 16,
-        "opacity": 1
-      },
-      "content": {
-        "type": "video",
-        "src": "asset://valerie-testimonial-source"
-      },
-      "muted": false
-    },
-    {
       "id": "quote-valerie",
-      "name": "Quote · Valerie",
-      "from": 1710,
-      "durationInFrames": 120,
+      "name": "Sleep progress · Valerie",
+      "from": 1690,
+      "durationInFrames": 93,
       "layer": 3,
       "layout": {
         "rect": [
-          1000,
-          330,
-          780,
-          340
+          1036,
+          220,
+          788,
+          560
         ],
         "fit": "cover",
         "cornerRadius": 0,
@@ -364,45 +294,21 @@
       },
       "content": {
         "type": "layers",
-        "label": "Quote · Valerie"
+        "label": "Sleep progress · Valerie"
       }
-    },
-    {
-      "id": "s6-fredrik-video",
-      "name": "S6 · Fredrik (real Vimeo interview)",
-      "from": 1830,
-      "durationInFrames": 120,
-      "layer": 1,
-      "trimStart": 104.8,
-      "layout": {
-        "rect": [
-          180,
-          330,
-          570,
-          310
-        ],
-        "fit": "cover",
-        "cornerRadius": 16,
-        "opacity": 1
-      },
-      "content": {
-        "type": "video",
-        "src": "asset://fredrik-testimonial-source"
-      },
-      "muted": false
     },
     {
       "id": "quote-fredrik",
-      "name": "Quote · Fredrik",
-      "from": 1830,
-      "durationInFrames": 120,
+      "name": "Sleep progress · Fredrik",
+      "from": 1783,
+      "durationInFrames": 167,
       "layer": 3,
       "layout": {
         "rect": [
-          1000,
-          330,
-          780,
-          340
+          1036,
+          220,
+          788,
+          560
         ],
         "fit": "cover",
         "cornerRadius": 0,
@@ -410,7 +316,7 @@
       },
       "content": {
         "type": "layers",
-        "label": "Quote · Fredrik"
+        "label": "Sleep progress · Fredrik"
       }
     },
     {
@@ -437,28 +343,6 @@
       }
     },
     {
-      "id": "s7-product-photo",
-      "name": "S7 · exact current product photograph",
-      "from": 1950,
-      "durationInFrames": 150,
-      "layer": 1,
-      "layout": {
-        "rect": [
-          520,
-          96,
-          880,
-          495
-        ],
-        "fit": "cover",
-        "cornerRadius": 18,
-        "opacity": 0.9
-      },
-      "content": {
-        "type": "image",
-        "src": "asset://evolv-device-hero-photo"
-      }
-    },
-    {
       "id": "s7-logo",
       "name": "S7 · wordmark (real asset)",
       "from": 1974,
@@ -466,10 +350,10 @@
       "layer": 2,
       "layout": {
         "rect": [
-          660,
-          462,
-          600,
-          139
+          96,
+          206,
+          640,
+          149
         ],
         "fit": "contain",
         "cornerRadius": 0,
@@ -692,7 +576,7 @@
       "id": "vo-brain",
       "name": "VO · brain",
       "from": 660,
-      "durationInFrames": 352,
+      "durationInFrames": 340,
       "layer": 0,
       "volume": 1,
       "content": {
@@ -738,7 +622,7 @@
       "id": "vo-ritual",
       "name": "VO · routine",
       "from": 1470,
-      "durationInFrames": 240,
+      "durationInFrames": 210,
       "layer": 0,
       "volume": 1,
       "content": {
@@ -1011,6 +895,74 @@
         "cornerRadius": 0,
         "opacity": 0
       }
+    },
+    {
+      "id": "nested-selects-if-people-had-half-the",
+      "name": "SelectsIfPeopleHadHalfThe",
+      "from": 1690,
+      "durationInFrames": 93,
+      "layer": 1,
+      "layout": {
+        "rect": [
+          96,
+          220,
+          840,
+          560
+        ],
+        "fit": "cover",
+        "cornerRadius": 28,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "selects-if-people-had-half-the"
+      },
+      "trimStart": 0,
+      "effects": [
+        {
+          "type": "crop",
+          "region": {
+            "x": 0.25,
+            "y": 0.5,
+            "width": 0.5,
+            "height": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "nested-fredrik-eight-hours-after-four-weeks",
+      "name": "FredrikEightHoursAfterFourWeeks",
+      "from": 1783,
+      "durationInFrames": 167,
+      "layer": 1,
+      "layout": {
+        "rect": [
+          96,
+          220,
+          840,
+          560
+        ],
+        "fit": "cover",
+        "cornerRadius": 28,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "fredrik-eight-hours-after-four-weeks"
+      },
+      "trimStart": 0,
+      "effects": [
+        {
+          "type": "crop",
+          "region": {
+            "x": 0,
+            "y": 0.25,
+            "width": 0.5,
+            "height": 0.5
+          }
+        }
+      ]
     }
   ]
 }

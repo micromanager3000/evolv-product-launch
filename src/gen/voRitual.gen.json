@@ -3,7 +3,6 @@
   "output": "audio",
   "model": "elevenlabs-direct",
   "prompt": "Here's how it works: You put it on, start your program in the app, and go about your day. That's the whole routine.",
-  "take": 10,
   "fps": 30,
   "duration": 8,
   "refs": [
@@ -13,5 +12,8 @@
     }
   ],
   "speed": 1.1,
-  "seed": 28028
+  "seed": 28028,
+  "voice": "EXAVITQu4vr4xnSDxMaL",
+  "takeId": "023e354d-448a-446c-bf24-91fc670d9356",
+  "takeHash": "sha256:80dad7de8f5fd5ef1767a64cc91356a6f7b350ab6171ac5beb77dba5709a9955"
 }

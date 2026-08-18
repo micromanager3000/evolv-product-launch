@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "source",
+      "name": "Eight hours after four weeks",
+      "from": 0,
+      "durationInFrames": 167,
+      "layer": 0,
+      "trimStart": 421.212,
+      "playbackRate": 1,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "video",
+        "src": "asset://004b2e65-a165-4d9e-a51b-e6f41a7ed5a1"
+      }
+    }
+  ]
+}

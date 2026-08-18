@@ -11,8 +11,9 @@
   ],
   "duration": 12,
   "fps": 30,
-  "take": 13,
   "speed": 1.08,
   "seed": 28028,
-  "voice": "EXAVITQu4vr4xnSDxMaL"
+  "voice": "EXAVITQu4vr4xnSDxMaL",
+  "takeId": "677e45ab-c417-475a-97d7-563f47da9216",
+  "takeHash": "sha256:90a5f34a3bcddfd5056f1b3e888beb984d7f6c6de66fbdbb7ed2d0de2b7b62f9"
 }

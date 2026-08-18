@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "source",
+      "name": "it's a great device. I",
+      "from": 0,
+      "durationInFrames": 218,
+      "layer": 0,
+      "trimStart": 1983.594,
+      "playbackRate": 1,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "shape": "rect",
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "video",
+        "src": "asset://a7a1caf4-1cb9-419f-bf2d-41bc024b3ba5"
+      }
+    }
+  ]
+}

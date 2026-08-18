@@ -1,1 +1,1 @@
-{"version":1,"background":"#d8dee6","defaultCamera":"reveal","cameras":[{"id":"device-reveal-camera","name":"15s camera-only product push","camera":"reveal","from":0,"durationInFrames":450}]}
+{"version":1,"background":"#06111f","defaultCamera":"reveal","cameras":[{"id":"device-reveal-camera","name":"15s product push + ring rhythm","camera":"reveal","from":0,"durationInFrames":450}]}

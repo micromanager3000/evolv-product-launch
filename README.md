@@ -62,16 +62,16 @@ comps — a notification storm, a beta→alpha wave morph, testimonial cards, an
 The subject is [Evolv28](https://evolv28.com) ("the insomnia intelligence company"): a daytime
 neckband wearable that uses patented ultra-low variable magnetic fields (VCMF™) to calm cortical
 hyperarousal — HRV up, stress down, +45 min sleep in a placebo-controlled RCT. Brand palette,
-current manufacturer device renders and photography, the actual app Session Setup screen, two
+current manufacturer device renders and photography, two
 full Vimeo interviews, and the wordmark are imported into the Git LFS-backed `assets/` store.
 
 ```
 moodboard · script · storyboard          (the plan — comps in the same graph)
         │
         ├─ savannah-stock (Envato drone; savannahDrift = backup) ─┐   savannahThreat · cityOverload
-        ├─ exact hero photo + Three.js blockout ─▶ deviceRevealI2V ─┤
+        ├─ exact product refs ─▶ productStill ─▶ deviceRevealI2V ─┤
         ├─ exact fitting photo ──▶ devicePutOnI2V ──────────────┤   brain-loop (hyenaChase retired to backup)
-        ├─ actual app Start Session ─▶ deviceWornI2V ───────────┤   alpha-waves · notification-storm
+        ├─ exact worn photo ─────▶ deviceWornI2V ───────────────┤   alpha-waves · notification-storm
         ├─ Valerie + Fredrik full Vimeo interviews ──────────────┤
         └─ voiceRef (direct voice ID) ─▶ voOrigin…voClose (Eleven v3 direct) ─┤   end-card ◀── exact hero photo
                                                                 ▼
@@ -85,10 +85,10 @@ moodboard · script · storyboard          (the plan — comps in the same graph
 | 1 | Where you evolved | 0:00–0:10 | real stock drone savannah; the burst snaps in on “real danger.” and out 1.3s later — “Then... back to calm.” narrates over 3s of restored drift; Serengeti bed cut dead at the city |
 | 2 | Where you live now | 0:10–0:22 | 7-hard-cut overload montage (no faces; ends over-the-shoulder at a drowning desk) + notification storm + ding SFX |
 | 3 | Same alarm | 0:22–0:33 | authored brain scene — messy notification pile, one agitated brain radiating alarm; slack pings per card |
-| 4 | Calm, engineered | 0:33–0:49 | `deviceRevealI2V`: 1080p generation from the exact Drive hero photo plus the baked `device-reveal-blockout` Three.js motion guide; camera-only push with rigid-device locks + beta→alpha overlay; “This is impacting people's sleep and causing hyperarousal” lands at exactly 0:35; trial stat chips follow |
-| 5 | The whole routine | 0:49–0:57 | `devicePutOnI2V` from the exact fitting photo → actual app Start Session control → `deviceWornI2V` from the exact worn-device photo; picture-synced steps say put it on, start it in the app, go about your day |
-| 6 | Real people | 0:57–1:05 | **real Vimeo interview video and audio** — Valerie then Fredrik; never synthesized |
-| 7 | Get yours | 1:05–1:10 | exact product photograph on the end card; the real wordmark lands as an image item |
+| 4 | Calm, engineered | 0:33–0:49 | the exact device floats in a cinematic navy-and-cyan ring environment; `deviceRevealI2V` uses explicit product/start-frame references and a Three.js camera/ring previz with SeedDance 2.5; a large claim card and vertical clinical-stat rail organize the overlays |
+| 5 | The whole routine | 0:49–0:57 | back-view woman putting it on → direct cut to a back-view man wearing it at his desk; both SeedDance 2.5, no face, no app insert, exact rigid-device locks |
+| 6 | Real people | 0:57–1:05 | **real Vimeo interview video and audio** — smaller correctly cropped video left, quote-free transcript-grounded insomnia history and sleep progress right; Valerie then Fredrik, never synthesized |
+| 7 | Get yours | 1:05–1:10 | cinematic device hero on a clean full-frame end card; the real wordmark lands as an image item |
 
 VO lines live verbatim in `src/gen/vo*.gen.json`; the Script comp is the human-readable run of
 show, and its rows nest the comp that realizes each scene, so the plan scrubs in sync with the cut.
@@ -116,13 +116,12 @@ action; nothing regenerates implicitly.
 3. **Final device clips** — generate and pin `deviceRevealI2V`, `devicePutOnI2V`, and
    `deviceWornI2V`. Each is a first-class composition wired directly into `launch-edit` and
    has a strict rigid-body prompt contract forbidding bending, flexing, splaying, morphing,
-   added controls, and invented LEDs. `deviceRevealI2V` combines the exact approved hero photo
-   with `comp://device-reveal-blockout`: FrameDiff automatically bakes the 15-second Three.js
-   previz when you click Generate, and the prompt limits it to camera motion, framing, floor
-   contact, and timing while the photo remains the sole appearance authority. The fitting and
-   worn shots remain true single-image I2V. The new ids deliberately cannot reuse the older inaccurate
-   `productReveal`, `ritualOn`, or `deskFocus` takes. The factual app-start beat remains the
-   imported app UI footage.
+   added controls, and invented LEDs. `deviceRevealI2V` explicitly receives both the approved
+   cinematic opening frame and the exact manufacturer photograph, then uses the Three.js blockout
+   only for the slow camera push and cyan-ring rhythm. The fitting and worn shots use approved
+   photoreal first frames plus the manufacturer hardware reference, both from behind with no face
+   visible. The new ids deliberately cannot reuse the older inaccurate
+   `productReveal`, `ritualOn`, or `deskFocus` takes; the app insert has been removed from the cut.
 4. Export `launch-edit` from the Studio like any comp.
 
 Most recipes default to Seedance `fast` @ 720p for cheap iteration. The three final device I2V
@@ -137,10 +136,10 @@ version). Set them to `fast` @ 720p first if you want inexpensive motion tests.
   touches their faces or voices.
 - **Claims discipline.** Trial numbers are copied verbatim from the site (+45 min, −7.2 ISI,
   PMC10307909); wellness framing, no medical promises.
-- **No synthetic people.** The lifestyle I2V shots animate only the exact approved Drive
-  photographs and explicitly lock each photographed person's identity, face, expression, hands,
-  and clothing. The testimonials remain untouched real video and audio; montage crowds remain
-  backs and silhouettes.
+- **Faces stay out of generated lifestyle shots.** The woman and man are shown from behind with
+  neck and back-of-head visibility only; prompts forbid visible or reflected faces and lock the
+  exact device geometry. The testimonials remain untouched real video and audio; montage crowds
+  remain backs and silhouettes.
 - **Type** — the site uses Fraunces + Inter; comps approximate with Georgia + the system sans
   stack until licensed woff2s land in `public/fonts/`.
 - **Sound** — Serengeti bed under scene 1 (cut dead by the city smash), city ambience under

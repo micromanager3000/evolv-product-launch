@@ -35,6 +35,12 @@ import { voBrain } from "./gen/voBrain.gen";
 import { voSolution } from "./gen/voSolution.gen";
 import { voRitual } from "./gen/voRitual.gen";
 import { voClose } from "./gen/voClose.gen";
+import { selectsComp } from "./Selects";
+import { selectsIfPeopleHadHalfTheComp } from "./generated-clips/SelectsIfPeopleHadHalfThe";
+import { selectsClip30735247Comp } from "./generated-clips/SelectsClip30735247";
+import { fredrikComp } from "./Fredrik";
+import { fredrikEightHoursAfterFourWeeksComp } from "./generated-clips/FredrikEightHoursAfterFourWeeks";
+import { selectsItsAGreatDeviceIComp } from "./generated-clips/SelectsItsAGreatDeviceI";
 
 /** The Studio registry. The first entry is also the runtime fallback; every other composition
  *  stays reachable from the project rail. */
@@ -69,6 +75,12 @@ export const COMPOSITIONS = defineCompositionRegistry({
   voSolution,
   voRitual,
   voClose,
+  "selects": selectsComp,
+  "selects-if-people-had-half-the": selectsIfPeopleHadHalfTheComp,
+  "selects-clip30735247": selectsClip30735247Comp,
+  "fredrik": fredrikComp,
+  "fredrik-eight-hours-after-four-weeks": fredrikEightHoursAfterFourWeeksComp,
+  "selects-its-agreat-device-i": selectsItsAGreatDeviceIComp,
 });
 
 /** The composition served at the project URL. */

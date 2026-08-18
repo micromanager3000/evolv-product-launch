@@ -1,22 +1,31 @@
 <!doctype html><html><head><style>
- [data-fd-composition]{position:relative;overflow:hidden;background:radial-gradient(circle at 50% 42%,#122436 0%,#0D1B2A 52%,#070e18 100%);color:#F5F2EE;font-family:-apple-system,"SF Pro Display","Segoe UI",sans-serif}
- .pack{position:absolute;left:50%;top:96px;width:880px;height:495px;margin-left:-440px;border-radius:18px;overflow:hidden;opacity:.9}
- .pack .veil{position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,transparent 30%,#0D1B2A 92%)}
- .logo-slot{position:absolute;left:0;right:0;top:462px;height:150px}
- .tagline{position:absolute;left:0;right:0;top:660px;text-align:center;font-family:Georgia,"Times New Roman",serif;font-size:46px;font-weight:600;letter-spacing:.5px}
+ [data-fd-composition]{position:relative;overflow:hidden;background:radial-gradient(circle at 74% 42%,#143148 0%,#0B1B2B 44%,#06101B 100%);color:#F5F2EE;font-family:-apple-system,"SF Pro Display","Segoe UI",sans-serif}
+ [data-fd-composition]:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,10,18,.24),transparent 46%,rgba(2,9,16,.18));pointer-events:none}
+ .pack{position:absolute;left:862px;top:96px;width:962px;height:760px;border-radius:34px;overflow:hidden;opacity:.94;border:1px solid rgba(121,231,227,.2);box-shadow:0 38px 110px rgba(0,0,0,.46),inset 0 1px 0 rgba(255,255,255,.06)}
+ .pack img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+ .pack .veil{position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,16,27,.22),transparent 26%),linear-gradient(0deg,rgba(5,13,22,.48),transparent 34%)}
+ .logo-slot{position:absolute;left:96px;top:206px;width:640px;height:149px}
+ .eyebrow{position:absolute;left:100px;top:150px;font:850 11px ui-monospace;letter-spacing:3.1px;color:#79E7E3;text-transform:uppercase}
+ .tagline{position:absolute;left:96px;top:430px;width:650px;text-align:left;font-family:Georgia,"Times New Roman",serif;font-size:64px;line-height:1.03;font-weight:600;letter-spacing:-1.8px}
  .tagline i{color:#00B4B4;font-style:normal}
- .wavebar{position:absolute;left:0;right:0;top:756px;height:110px}
+ .sub{position:absolute;left:100px;top:590px;width:620px;font-size:19px;line-height:1.55;color:#B9C5CF}
+ .proofs{position:absolute;left:100px;top:704px;display:flex;gap:9px}
+ .proofs span{padding:10px 13px;border-radius:999px;border:1px solid rgba(121,231,227,.2);background:rgba(121,231,227,.06);font:780 9px ui-monospace;letter-spacing:1.2px;color:#C7F3F0;text-transform:uppercase}
+ .wavebar{position:absolute;left:96px;width:650px;top:787px;height:82px}
  .wavebar svg{position:absolute;inset:0;width:100%;height:100%}
- .cta{position:absolute;left:50%;top:894px;transform:translateX(-50%);font:800 15px ui-monospace;letter-spacing:2.4px;color:#0D1B2A;background:#F5F2EE;border-radius:999px;padding:15px 34px}
- .site{position:absolute;left:0;right:0;top:972px;text-align:center;font:12.5px ui-monospace;letter-spacing:2px;color:#9CA3AF}
+ .cta{position:absolute;left:100px;top:884px;font:820 14px ui-monospace;letter-spacing:2.2px;color:#07131F;background:#F5F2EE;border-radius:999px;padding:16px 30px;box-shadow:0 16px 42px rgba(0,0,0,.24)}
+ .site{position:absolute;left:100px;top:962px;font:11.5px ui-monospace;letter-spacing:1.8px;color:#91A4B3}
 </style></head><body>
-<!-- The closer. The pack shot uses the exact Drive product photograph; launch-edit lays the real
-     wordmark (asset://logo-white) into .logo-slot's rect, so the logo stays a byte-true
-     asset rather than a redraw. Standalone, the card still reads without it. -->
+<!-- The closer. The generated hero preserves the manufacturer device while restaging its background;
+     launch-edit lays the real wordmark (asset://logo-white) into .logo-slot's rect, so the logo
+     stays a byte-true asset rather than a redraw. Standalone, the card still reads without it. -->
 <main data-fd-composition data-fd-id="EndCard" data-fd-name="Evolv28 — end card" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="150" data-fd-kind="scene" data-fd-library="true" data-fd-source="src/compositions/EndCard.html" data-fd-document="src/compositions/EndCard.comp.json" data-fd-module="src/compositions/EndCard.ts" data-fd-export="endCardComp">
- <div class="pack"><img data-fd-clip data-fd-id="endcard-pack" data-fd-name="pack shot · exact device photo" data-fd-from="0" data-fd-duration="150" data-fd-type="image" data-fd-src="asset://evolv-device-hero-photo" data-fd-fit="cover" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><div class="veil"></div></div>
+ <div class="pack"><img data-fd-clip data-fd-id="endcard-pack" data-fd-name="pack shot · cinematic device hero" data-fd-from="0" data-fd-duration="150" data-fd-type="image" data-fd-src="asset://evolv-device-hero-rings" data-fd-fit="cover"><div class="veil"></div></div>
+ <div class="eyebrow">A calmer signal for modern life</div>
  <div class="logo-slot" data-fd-id="endcard-logo-slot"></div>
  <h1 class="tagline" data-fd-id="endcard-tagline"><span></span><i></i></h1>
+ <p class="sub">A gentle daytime routine designed to quiet the system — so sleep can return naturally.</p>
+ <div class="proofs"><span>Under 1 μT</span><span>No sensation</span><span>Daytime wear</span></div>
  <div class="wavebar"><svg viewBox="0 0 1920 110"><polyline id="endwave" points="" fill="none" stroke="#00B4B4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/></svg></div>
  <div class="cta" data-fd-id="endcard-cta"></div><div class="site" data-fd-id="endcard-site"></div>
  <script>
@@ -33,7 +42,7 @@
    wave.setAttribute("points",pts.join(" "));
    pack.style.opacity=String(.25+.65*ease((frame-data.timing.pack)/30));
    tag.style.opacity=String(ease((frame-data.timing.tagline)/26));tag.style.transform=`translateY(${12*(1-ease((frame-data.timing.tagline)/26))}px)`;
-   cta.style.opacity=String(ease((frame-data.timing.cta)/24));cta.style.transform=`translateX(-50%) scale(${.94+.06*ease((frame-data.timing.cta)/24)})`;
+   cta.style.opacity=String(ease((frame-data.timing.cta)/24));cta.style.transform=`scale(${.94+.06*ease((frame-data.timing.cta)/24)})`;
    site.style.opacity=String(.85*ease((frame-data.timing.site)/24));
   });
  </script>

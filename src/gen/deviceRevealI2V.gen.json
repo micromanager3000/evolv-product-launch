@@ -1,23 +1,27 @@
 {
   "provider": "fal",
   "output": "video",
-  "model": "seedance-2.0",
-  "prompt": "@Video1 is a 15-second blocked-out Three.js previz. Use it ONLY for camera path, framing, product scale, floor contact, and timing. The orange-and-teal proxy, simplified U shape, CG materials, lighting, shadows, and gray environment are disposable guides and must not appear in the result. @Image1 is the exact approved Evolv28 product photograph and the sole authority for product appearance, industrial design, materials, color, lighting, plinth, and background. Re-render @Video1's perfectly smooth, very slow 8 percent camera push as one continuous silent premium product reveal of the exact @Image1 scene. The physical Evolv28 and plinth remain completely still; only the camera moves. Finish the push by 14.5 seconds and hold the final framing for the last half-second. Preserve every source-image pixel that defines the hardware: the device is one rigid solid molded object. Its open U silhouette, two arms, paddle geometry, proportions, spacing, seams, vents, blue accent line, logo, finish, color, contact points, shadows, and reflections remain identical from first frame to last. ABSOLUTELY NO bending, flexing, twisting, stretching, opening, closing, splaying, wobbling, breathing, asymmetrical deformation, duplication, melting, or morphing. Do not inherit, redraw, rotate, lift, animate, or redesign the blockout proxy. No orange proxy surfaces, teal proxy strips, CG render, hands, people, text overlays, extra logos, particles, cuts, invented controls, camera shake, or object motion.",
-  "refs": [
-    {
-      "kind": "video",
-      "src": "comp://device-reveal-blockout"
-    },
-    {
-      "kind": "image",
-      "src": "asset://evolv-device-hero-photo"
-    }
-  ],
-  "tier": "standard",
+  "model": "seedance-2.5",
+  "prompt": "@Image1 is the approved opening frame and desired premium environment: deep navy, subtle haze, and cyan concentric light rings below and behind the Evolv28. @Image2 is the original manufacturer photograph and the sole authority for the physical hardware. @Video1 is a 15-second Three.js motion previz; use its camera push, framing, timing, and gently expanding ring rhythm only. Do not copy its proxy geometry or CG materials. Create one continuous silent photoreal DSLR product reveal. The camera makes a very slow 8 percent push with slight parallax and finishes by 14.5 seconds, then holds. The background rings breathe outward independently at a restrained pace and the haze shifts subtly; nothing crosses in front of the product. The device remains perfectly rigid and motionless. Preserve @Image2's exact open U silhouette, two arms, paddle geometry, proportions, spacing, seams, vents, small openings, blue accent line, printed evolv28 mark, matte charcoal texture, highlights, and material from first frame to last. The lighting may gain a delicate cool rim, but the hardware itself must not glow or become CGI. Full-frame DSLR realism, 85mm product lens, f/8, natural optics, true blacks, fine sensor grain. ABSOLUTELY NO bending, flexing, twisting, stretching, opening, closing, splaying, wobbling, breathing, asymmetrical deformation, duplication, melting, morphing, redesigned controls, added inner light strip, pedestal, stand, hands, people, text, particles crossing the product, cuts, or camera shake.",
+  "takeId": "6d83c048-8fb7-46a2-a6cb-a421e293bee3",
+  "takeHash": "sha256:70479724c8c034975b21b7a9363a2a7365a2277addfee7625b5e56a0027a88ab",
+  "fps": 30,
   "resolution": "1080p",
   "duration": 15,
   "aspect": "16:9",
   "audio": false,
-  "fps": 30,
-  "take": 1
+  "refs": [
+    {
+      "kind": "image",
+      "src": "asset://evolv-device-hero-rings"
+    },
+    {
+      "kind": "image",
+      "src": "asset://evolv-device-hero-photo"
+    },
+    {
+      "kind": "video",
+      "src": "comp://device-reveal-blockout"
+    }
+  ]
 }
