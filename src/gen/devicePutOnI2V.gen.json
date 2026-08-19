@@ -2,9 +2,9 @@
   "provider": "fal",
   "output": "video",
   "model": "seedance-2.5",
-  "prompt": "@Image1 is the approved first frame: an adult woman seen directly from behind, holding the Evolv28 with both hands just behind her nape. @Image2 is the original manufacturer photograph and the sole authority for the hardware. Create one continuous silent 4-second highly realistic DSLR shot. During the first 2.6 seconds she uses both hands together to slide the rigid open collar forward around the sides of her neck and lower it gently to the base of her neck; during the final 1.4 seconds her hands release and settle naturally while the device stays seated. Keep the camera behind her at upper-back height. Never reveal her face, cheek, jaw, profile, eyes, mouth, or a facial reflection. Preserve the exact woman, high bun, nape, cream top, room, soft morning window light, framing, natural five-finger hands, and realistic skin and hair. Preserve @Image2's exact rigid U silhouette, two arms, paddle geometry, proportions, spacing, seams, vents, small openings, blue accent line, printed mark, matte charcoal finish, orientation, and scale. The hands may grip the paddle tips but may not squeeze or deform them. Full-frame DSLR realism, 50mm lens, shallow natural depth, plausible motion blur, restrained commercial grade, fine sensor grain. ABSOLUTELY NO bending, flexing, twisting, stretching, opening, closing, splaying, wobbling, breathing, asymmetrical deformation, duplication, melting, morphing, W-shaped redesign, invented light, button press, text, cuts, extra people, extra hands, extra fingers, mirror, face reveal, or camera shake.",
-  "takeId": "5c968590-2cf3-4d7d-85c2-2a844c74e1b0",
-  "takeHash": "sha256:3c83e834236838b8ce71af42748748a9c395b604a89d457f10cd95f2bedf9c47",
+  "prompt": "@Image1 is the mandatory exact first frame and the sole visual authority: an adult woman seen directly from behind holding the complete Evolv28 in clear air behind her right shoulder. Preserve every product pixel and its complete fixed open-U silhouette at frame zero. Create one continuous silent 4-second highly realistic DSLR shot of a rigid slide-on action. Hold the exact opening frame for 0.4 seconds. From 0.4 to 2.8 seconds, she moves both hands together and carries the entire device as one indivisible hard object along one smooth arc toward her neck: translate it left and forward, rotate the whole object no more than 25 degrees, and slide the already-open U into its final position without changing its shape. Her shoulders, elbows, wrists, and hands move around the fixed hardware; the hardware never opens, closes, conforms, or wraps around her. Both hands maintain light support underneath the same two paddle tips, never pulling them apart. From 2.8 to 4 seconds, the device remains seated and motionless while her hands release slightly. RIGID-BODY INVARIANT FOR EVERY FRAME: track the entire device as one solid 6-DoF object. The distance between paddle tips, both arm-to-bridge angles, U silhouette, thickness, scale, proportions, and bilateral spacing must remain pixel-consistent with @Image1. Zero local deformation is permitted. Keep the camera locked directly behind her. Never reveal her face, cheek, jaw, profile, eyes, mouth, or a facial reflection. Preserve the exact woman, high bun, cream top, room, soft morning window light, natural five-finger hands, hardware seams, small openings, blue accent, printed mark, matte charcoal finish, and realistic DSLR texture from @Image1. ABSOLUTELY NO bending, flexing, bowing, twisting, stretching, opening, closing, splaying, squeezing, wobbling, breathing, asymmetrical deformation, duplication, melting, morphing, neckband behavior, horseshoe redesign, W-shaped redesign, soft material, invented light, button press, text, cuts, extra people, extra hands, extra fingers, mirror, face reveal, or camera shake.",
+  "takeId": "34fa9cf6-ab66-4705-b81b-3527048d039a",
+  "takeHash": "sha256:cd4b610f7ddc084e1239514073c460c2ee092a45a5b807ea70de659c1af23705",
   "fps": 30,
   "resolution": "1080p",
   "duration": 4,
@@ -13,11 +13,7 @@
   "refs": [
     {
       "kind": "image",
-      "src": "asset://evolv-put-on-rear-start"
-    },
-    {
-      "kind": "image",
-      "src": "asset://evolv-device-hero-photo"
+      "src": "asset://evolv-put-on-rigid-slide-start"
     }
   ]
 }

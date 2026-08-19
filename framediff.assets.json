@@ -4862,6 +4862,117 @@
         "outputKind": "video",
         "at": "2026-08-18T22:55:42.786Z"
       }
+    },
+    "evolv-put-on-rigid-slide-start": {
+      "name": "evolv-put-on-rigid-slide-start.png",
+      "contentHash": "sha256:f94b41841a9686b16fb2cdb5bbdd4f87e17a6120cca5ba76ed07061a71874985",
+      "mime": "image/png",
+      "bytes": 1737862,
+      "sources": [
+        "/__framediff-cache/sha256%3Af94b41841a9686b16fb2cdb5bbdd4f87e17a6120cca5ba76ed07061a71874985"
+      ]
+    },
+    "399075cf-8665-4039-8512-85c0b4917388": {
+      "name": "devicePutOnI2V.take-644f3927-276b-4c87-a349-fac2ffcdb1c1.mp4",
+      "contentHash": "sha256:2a46a3ac6d6401bca6c212f1b19f15bc399542463a6933060e6adac5104a6432",
+      "mime": "video/mp4",
+      "bytes": 566301,
+      "sources": [
+        "/__framediff-cache/sha256%3A2a46a3ac6d6401bca6c212f1b19f15bc399542463a6933060e6adac5104a6432"
+      ],
+      "durationSeconds": 4.041667,
+      "hasAudio": false,
+      "generator": {
+        "gen": "devicePutOnI2V",
+        "id": "644f3927-276b-4c87-a349-fac2ffcdb1c1",
+        "recipeHash": "sha256:1be58ce6a25eee4af917da62b9efb40ecf49b5034b6112fa4759fef53c08f84e",
+        "endpoint": "bytedance/seedance-2.5/reference-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.5",
+          "prompt": "@Image1 is the approved first frame: an adult woman seen directly from behind holding the complete Evolv28 in clear air behind her right shoulder. @Image2 is the original manufacturer photograph and the sole authority for the hardware. Create one continuous silent 4-second highly realistic DSLR shot of a rigid slide-on action. Hold the exact opening pose for 0.35 seconds. From 0.35 to 2.75 seconds, she moves both hands together so the entire device travels as one indivisible hard object: translate it left and forward behind her nape, rotate the whole object no more than 25 degrees, and slide its already-open U around the sides of her neck into its final resting position. Her arms and wrists travel around the fixed device; the device does not open around her. At no time may either hand pull the paddle tips apart or change their spacing. From 2.75 to 4 seconds, the device remains seated and perfectly still while both hands release and lower slightly. RIGID-BODY INVARIANT FOR EVERY FRAME: the distance between paddle tips, the angles between both arms and the bridge, the U silhouette, thickness, scale, proportions, and bilateral spacing remain exactly constant; the hardware may undergo only one global translation and rotation, with zero local deformation. Keep the camera locked directly behind her. Never reveal her face, cheek, jaw, profile, eyes, mouth, or a facial reflection. Preserve the exact woman, high bun, cream top, room, soft morning window light, natural five-finger hands, and realistic skin and hair from @Image1. Preserve @Image2's exact open-U geometry, straight rigid arms, paddle shapes, seams, vents, small openings, blue accent line, printed mark, and matte charcoal finish. Full-frame DSLR realism, 50mm lens, natural depth, plausible hand motion blur, fine sensor grain. ABSOLUTELY NO bending, flexing, bowing, twisting, stretching, opening, closing, splaying, squeezing, wobbling, breathing, asymmetrical deformation, duplication, melting, morphing, neckband behavior, W-shaped redesign, invented light, button press, text, cuts, extra people, extra hands, extra fingers, mirror, face reveal, or camera shake.",
+          "fps": 30,
+          "resolution": "1080p",
+          "duration": 4,
+          "aspect": "16:9",
+          "audio": false,
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://evolv-put-on-rigid-slide-start"
+            },
+            {
+              "kind": "image",
+              "src": "asset://evolv-device-hero-photo"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://evolv-put-on-rigid-slide-start",
+            "label": "evolv-put-on-rigid-slide-start.png",
+            "contentHash": "sha256:f94b41841a9686b16fb2cdb5bbdd4f87e17a6120cca5ba76ed07061a71874985"
+          },
+          {
+            "kind": "image",
+            "src": "asset://evolv-device-hero-photo",
+            "label": "evolv-device-hero-photo.jpg",
+            "contentHash": "sha256:bfb9ab8f716c2eca9fa0ade56f44f3cf71682a1b04ea646920ebb2198f72a5b9"
+          }
+        ],
+        "requestId": "644f3927-276b-4c87-a349-fac2ffcdb1c1",
+        "seed": 2038287134,
+        "outputKind": "video",
+        "at": "2026-08-19T01:06:07.430Z"
+      }
+    },
+    "e2557b11-a95c-44de-ab21-083388a99401": {
+      "name": "devicePutOnI2V.take-34fa9cf6-ab66-4705-b81b-3527048d039a.mp4",
+      "contentHash": "sha256:cd4b610f7ddc084e1239514073c460c2ee092a45a5b807ea70de659c1af23705",
+      "mime": "video/mp4",
+      "bytes": 628150,
+      "sources": [
+        "/__framediff-cache/sha256%3Acd4b610f7ddc084e1239514073c460c2ee092a45a5b807ea70de659c1af23705"
+      ],
+      "durationSeconds": 4.041667,
+      "hasAudio": false,
+      "generator": {
+        "gen": "devicePutOnI2V",
+        "id": "34fa9cf6-ab66-4705-b81b-3527048d039a",
+        "recipeHash": "sha256:0a987c98293cec1b53ef1710b452f0b421f33f7929f9f9006e2651dc9a0d2454",
+        "endpoint": "bytedance/seedance-2.5/image-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.5",
+          "prompt": "@Image1 is the mandatory exact first frame and the sole visual authority: an adult woman seen directly from behind holding the complete Evolv28 in clear air behind her right shoulder. Preserve every product pixel and its complete fixed open-U silhouette at frame zero. Create one continuous silent 4-second highly realistic DSLR shot of a rigid slide-on action. Hold the exact opening frame for 0.4 seconds. From 0.4 to 2.8 seconds, she moves both hands together and carries the entire device as one indivisible hard object along one smooth arc toward her neck: translate it left and forward, rotate the whole object no more than 25 degrees, and slide the already-open U into its final position without changing its shape. Her shoulders, elbows, wrists, and hands move around the fixed hardware; the hardware never opens, closes, conforms, or wraps around her. Both hands maintain light support underneath the same two paddle tips, never pulling them apart. From 2.8 to 4 seconds, the device remains seated and motionless while her hands release slightly. RIGID-BODY INVARIANT FOR EVERY FRAME: track the entire device as one solid 6-DoF object. The distance between paddle tips, both arm-to-bridge angles, U silhouette, thickness, scale, proportions, and bilateral spacing must remain pixel-consistent with @Image1. Zero local deformation is permitted. Keep the camera locked directly behind her. Never reveal her face, cheek, jaw, profile, eyes, mouth, or a facial reflection. Preserve the exact woman, high bun, cream top, room, soft morning window light, natural five-finger hands, hardware seams, small openings, blue accent, printed mark, matte charcoal finish, and realistic DSLR texture from @Image1. ABSOLUTELY NO bending, flexing, bowing, twisting, stretching, opening, closing, splaying, squeezing, wobbling, breathing, asymmetrical deformation, duplication, melting, morphing, neckband behavior, horseshoe redesign, W-shaped redesign, soft material, invented light, button press, text, cuts, extra people, extra hands, extra fingers, mirror, face reveal, or camera shake.",
+          "fps": 30,
+          "resolution": "1080p",
+          "duration": 4,
+          "aspect": "16:9",
+          "audio": false,
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://evolv-put-on-rigid-slide-start"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://evolv-put-on-rigid-slide-start",
+            "label": "evolv-put-on-rigid-slide-start.png",
+            "contentHash": "sha256:f94b41841a9686b16fb2cdb5bbdd4f87e17a6120cca5ba76ed07061a71874985"
+          }
+        ],
+        "requestId": "34fa9cf6-ab66-4705-b81b-3527048d039a",
+        "seed": 285055881,
+        "outputKind": "video",
+        "at": "2026-08-19T01:18:10.340Z"
+      }
     }
   }
 }
