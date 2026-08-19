@@ -46,6 +46,15 @@
         "/__framediff-cache/sha256%3A55700ecc0a8aa13af1bb6f63041356958a73dde319410bf0e107990b47b483a3"
       ]
     },
+    "evolv-put-on-rigid-slide-start": {
+      "name": "evolv-put-on-rigid-slide-start.png",
+      "contentHash": "sha256:f94b41841a9686b16fb2cdb5bbdd4f87e17a6120cca5ba76ed07061a71874985",
+      "mime": "image/png",
+      "bytes": 1737862,
+      "sources": [
+        "/__framediff-cache/sha256%3Af94b41841a9686b16fb2cdb5bbdd4f87e17a6120cca5ba76ed07061a71874985"
+      ]
+    },
     "evolv-device-render-angle": {
       "name": "evolv-device-render-angle.png",
       "contentHash": "sha256:e9a8088113f1440222d9700926a4408c9ca626b8f298457e0a1a519360317e53",
@@ -4863,15 +4872,6 @@
         "at": "2026-08-18T22:55:42.786Z"
       }
     },
-    "evolv-put-on-rigid-slide-start": {
-      "name": "evolv-put-on-rigid-slide-start.png",
-      "contentHash": "sha256:f94b41841a9686b16fb2cdb5bbdd4f87e17a6120cca5ba76ed07061a71874985",
-      "mime": "image/png",
-      "bytes": 1737862,
-      "sources": [
-        "/__framediff-cache/sha256%3Af94b41841a9686b16fb2cdb5bbdd4f87e17a6120cca5ba76ed07061a71874985"
-      ]
-    },
     "399075cf-8665-4039-8512-85c0b4917388": {
       "name": "devicePutOnI2V.take-644f3927-276b-4c87-a349-fac2ffcdb1c1.mp4",
       "contentHash": "sha256:2a46a3ac6d6401bca6c212f1b19f15bc399542463a6933060e6adac5104a6432",
@@ -4926,6 +4926,39 @@
         "seed": 2038287134,
         "outputKind": "video",
         "at": "2026-08-19T01:06:07.430Z"
+      }
+    },
+    "d18cfdd6-2bd9-45a0-8b7c-1fb3407628a0": {
+      "name": "savannahThreat.take-fcc7c420-70ab-4ed0-b286-94b0f9fe5bd4.mp4",
+      "contentHash": "sha256:b581a2ef6e8c4ca953a5d5ab03f643943e8179f99763b77243b4117f37cc5db2",
+      "mime": "video/mp4",
+      "bytes": 1733341,
+      "sources": [
+        "/__framediff-cache/sha256%3Ab581a2ef6e8c4ca953a5d5ab03f643943e8179f99763b77243b4117f37cc5db2"
+      ],
+      "durationSeconds": 4.041667,
+      "hasAudio": false,
+      "generator": {
+        "gen": "savannahThreat",
+        "id": "fcc7c420-70ab-4ed0-b286-94b0f9fe5bd4",
+        "recipeHash": "sha256:8f44ffc64af93d438629fcbeb43eb2afe8c84ac7893229fa36716cfc8a2d77c4",
+        "endpoint": "bytedance/seedance-2.5/text-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.5",
+          "prompt": "One 4-second live-action wildlife shot on the same golden-dawn African savannah as a preceding aerial: dry gold grass, low warm sun, thin haze. Ground level, 400mm long-lens compression, shallow depth. TWO BEATS, EXACT TIMING: 00:00.0–00:01.2 — total stillness; a gazelle stands alert in tall backlit grass, ears up, one held breath. 00:01.2–00:04.0 — a lioness explodes from the grass camera-left and the gazelle herd scatters right in a burst of dust and pounding legs; the camera whip-pans a few degrees to follow, motion blur on limbs, dust hanging gold in the rim light. Raw documentary energy, natural exposure, fine 35mm grain. No kill shown, no blood, no people, no text, no slow motion, no animation look.",
+          "fps": 30,
+          "resolution": "720p",
+          "duration": 4,
+          "aspect": "16:9",
+          "audio": false
+        },
+        "inputs": [],
+        "requestId": "fcc7c420-70ab-4ed0-b286-94b0f9fe5bd4",
+        "seed": 1059492499,
+        "outputKind": "video",
+        "at": "2026-08-19T01:20:10.991Z"
       }
     },
     "e2557b11-a95c-44de-ab21-083388a99401": {

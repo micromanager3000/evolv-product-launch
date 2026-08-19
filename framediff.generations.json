@@ -4502,6 +4502,34 @@
       "seed": 285055881,
       "outputKind": "video",
       "doneAt": "2026-08-19T01:23:22.994Z"
+    },
+    {
+      "id": "fcc7c420-70ab-4ed0-b286-94b0f9fe5bd4",
+      "provider": "fal",
+      "gen": "savannahThreat",
+      "endpoint": "bytedance/seedance-2.5/text-to-video",
+      "recipeHash": "sha256:8f44ffc64af93d438629fcbeb43eb2afe8c84ac7893229fa36716cfc8a2d77c4",
+      "status": "done",
+      "at": "2026-08-19T01:20:10.991Z",
+      "recipe": {
+        "provider": "fal",
+        "output": "video",
+        "model": "seedance-2.5",
+        "prompt": "One 4-second live-action wildlife shot on the same golden-dawn African savannah as a preceding aerial: dry gold grass, low warm sun, thin haze. Ground level, 400mm long-lens compression, shallow depth. TWO BEATS, EXACT TIMING: 00:00.0–00:01.2 — total stillness; a gazelle stands alert in tall backlit grass, ears up, one held breath. 00:01.2–00:04.0 — a lioness explodes from the grass camera-left and the gazelle herd scatters right in a burst of dust and pounding legs; the camera whip-pans a few degrees to follow, motion blur on limbs, dust hanging gold in the rim light. Raw documentary energy, natural exposure, fine 35mm grain. No kill shown, no blood, no people, no text, no slow motion, no animation look.",
+        "fps": 30,
+        "resolution": "720p",
+        "duration": 4,
+        "aspect": "16:9",
+        "audio": false
+      },
+      "inputs": [],
+      "providerJobId": "01a0179a-b92e-7110-847c-318064745a9e",
+      "statusUrl": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0179a-b92e-7110-847c-318064745a9e/status",
+      "responseUrl": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0179a-b92e-7110-847c-318064745a9e",
+      "assetId": "d18cfdd6-2bd9-45a0-8b7c-1fb3407628a0",
+      "seed": 1059492499,
+      "outputKind": "video",
+      "doneAt": "2026-08-19T01:23:16.320Z"
     }
   ]
 }
