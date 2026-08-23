@@ -37133,6 +37133,158 @@
         "width": 1920,
         "height": 1080
       }
+    },
+    {
+      "id": "clip-days-went-by-and-my",
+      "name": "days went by, and my",
+      "compositionKey": "selects-days-went-by-and-my",
+      "placementId": "source",
+      "selectedWordIds": [
+        "word-03679",
+        "word-03681",
+        "word-03683",
+        "word-03685",
+        "word-03687",
+        "word-03689",
+        "word-03691"
+      ],
+      "transcriptTakeId": "transcript-take-1",
+      "originalRange": [
+        667.15,
+        669.25
+      ],
+      "workingRange": [
+        667.15,
+        669.25
+      ],
+      "desiredBake": {
+        "version": 1,
+        "fingerprint": "clip-v1:a7a1caf4-1cb9-419f-bf2d-41bc024b3ba5:667.15:669.25:30:1920:1080",
+        "fps": 30,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "id": "clip-progressively-better",
+      "name": "progressively better,",
+      "compositionKey": "selects-progressively-better",
+      "placementId": "source",
+      "selectedWordIds": [
+        "word-02351",
+        "word-02353"
+      ],
+      "transcriptTakeId": "transcript-take-1",
+      "originalRange": [
+        427.45,
+        428.73
+      ],
+      "workingRange": [
+        427.45,
+        428.73
+      ],
+      "desiredBake": {
+        "version": 1,
+        "fingerprint": "clip-v1:a7a1caf4-1cb9-419f-bf2d-41bc024b3ba5:427.45:428.73:30:1920:1080",
+        "fps": 30,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "id": "clip-sanculp-uh-ywe-go",
+      "name": "Sanculp, uh, y- we go",
+      "compositionKey": "selects-sanculp-uh-ywe-go",
+      "placementId": "source",
+      "selectedWordIds": [
+        "word-00659",
+        "word-00661",
+        "word-00663",
+        "word-00665",
+        "word-00667",
+        "word-00669",
+        "word-00671",
+        "word-00673"
+      ],
+      "transcriptTakeId": "transcript-take-1",
+      "originalRange": [
+        130.039,
+        133.22
+      ],
+      "workingRange": [
+        130.039,
+        133.22
+      ],
+      "desiredBake": {
+        "version": 1,
+        "fingerprint": "clip-v1:a7a1caf4-1cb9-419f-bf2d-41bc024b3ba5:130.039:133.22:30:1920:1080",
+        "fps": 30,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "id": "clip-you-spend-your-time-and",
+      "name": "you spend your time and",
+      "compositionKey": "selects-you-spend-your-time-and",
+      "placementId": "source",
+      "selectedWordIds": [
+        "word-01625",
+        "word-01627",
+        "word-01629",
+        "word-01631",
+        "word-01633",
+        "word-01635",
+        "word-01637",
+        "word-01639",
+        "word-01641"
+      ],
+      "transcriptTakeId": "transcript-take-1",
+      "originalRange": [
+        286.54,
+        288.62
+      ],
+      "workingRange": [
+        286.54,
+        288.62
+      ],
+      "desiredBake": {
+        "version": 1,
+        "fingerprint": "clip-v1:a7a1caf4-1cb9-419f-bf2d-41bc024b3ba5:286.54:288.62:30:1920:1080",
+        "fps": 30,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "id": "clip-me-and-sam-kulp-was",
+      "name": "me.\" And Sam Kulp was",
+      "compositionKey": "selects-me-and-sam-kulp-was",
+      "placementId": "source",
+      "selectedWordIds": [
+        "word-02173",
+        "word-02175",
+        "word-02177",
+        "word-02179",
+        "word-02181",
+        "word-02183"
+      ],
+      "transcriptTakeId": "transcript-take-1",
+      "originalRange": [
+        395.35,
+        397.83
+      ],
+      "workingRange": [
+        395.35,
+        397.83
+      ],
+      "desiredBake": {
+        "version": 1,
+        "fingerprint": "clip-v1:a7a1caf4-1cb9-419f-bf2d-41bc024b3ba5:395.35:397.83:30:1920:1080",
+        "fps": 30,
+        "width": 1920,
+        "height": 1080
+      }
     }
   ],
   "transcriptTakes": [
