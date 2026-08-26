@@ -8,7 +8,7 @@
   // Adaptive large-media UX prototype (2026-08-adaptive-media-ux): user-facing surfaces only,
   // driven by the simulated policy in AdaptiveMediaManager — no real transfers or media work.
   if (!new URLSearchParams(window.location.search).has("no-adaptive")) application.adaptiveMedia.configureSimulation({
-    originalLabel: "4K ORIGINAL",
+    originalLabel: "4K FULL RES",
     cacheBytesBudget: 8_000_000_000,
     importAsset: {
       name: "EVOLV_CAM_A_0417.mov",
