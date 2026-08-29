@@ -165,16 +165,16 @@
     },
     {
       "id": "vcmf-chip",
-      "name": "VCMF claim chip",
+      "name": "Technology and clinical evidence rail",
       "from": 1050,
-      "durationInFrames": 240,
+      "durationInFrames": 360,
       "layer": 3,
       "layout": {
         "rect": [
-          96,
-          68,
-          810,
-          134
+          72,
+          54,
+          1776,
+          132
         ],
         "fit": "cover",
         "cornerRadius": 0,
@@ -182,29 +182,7 @@
       },
       "content": {
         "type": "layers",
-        "label": "VCMF claim chip"
-      }
-    },
-    {
-      "id": "stat-chips",
-      "name": "Trial stat chips",
-      "from": 1290,
-      "durationInFrames": 120,
-      "layer": 3,
-      "layout": {
-        "rect": [
-          1348,
-          252,
-          476,
-          494
-        ],
-        "fit": "cover",
-        "cornerRadius": 0,
-        "opacity": 1
-      },
-      "content": {
-        "type": "layers",
-        "label": "Trial stat chips"
+        "label": "Technology and clinical evidence rail"
       }
     },
     {

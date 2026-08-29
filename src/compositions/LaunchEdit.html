@@ -6,19 +6,20 @@
  .kicker .rule{width:64px;height:3px;margin-top:10px;background:#00B4B4}
  .kicker.warm .rule{background:#F59E0B}
  /* --- S4 product evidence ------------------------------------------------------------ */
- .vcmf{position:absolute;left:96px;top:68px;width:810px;height:144px;box-sizing:border-box;padding:24px 30px;background:linear-gradient(135deg,rgba(6,18,31,.94),rgba(10,37,51,.79));border:1px solid rgba(121,231,227,.34);border-radius:22px;box-shadow:0 24px 72px rgba(0,0,0,.34),inset 0 1px 0 rgba(255,255,255,.05);backdrop-filter:blur(18px)}
- .vcmf:after{content:"";position:absolute;left:30px;bottom:0;width:96px;height:3px;background:linear-gradient(90deg,#79E7E3,transparent)}
- .vcmf .eyebrow{display:block;font:850 17px ui-monospace;letter-spacing:2.8px;color:#79E7E3;text-transform:uppercase}
- .vcmf .claim{display:block;margin-top:11px;font-size:31px;font-weight:720;letter-spacing:-.02em;color:#F7FAFC}
+ .vcmf{position:absolute;left:72px;top:54px;width:1776px;height:132px;display:grid;grid-template-columns:674px minmax(0,1fr);gap:16px;box-sizing:border-box}
+ .technology{position:relative;box-sizing:border-box;padding:22px 26px;background:linear-gradient(135deg,rgba(6,18,31,.97),rgba(10,37,51,.94));border:1px solid rgba(121,231,227,.34);border-radius:20px;box-shadow:0 24px 72px rgba(0,0,0,.34),inset 0 1px 0 rgba(255,255,255,.05)}
+ .technology:after{content:"";position:absolute;left:26px;bottom:0;width:96px;height:3px;background:linear-gradient(90deg,#79E7E3,transparent)}
+ .vcmf .eyebrow{display:block;font:850 16px/1.25 ui-monospace;letter-spacing:1.35px;color:#79E7E3;text-transform:uppercase}
+ .vcmf .claim{display:block;margin-top:10px;font-size:23px;font-weight:720;letter-spacing:-.01em;color:#F7FAFC}
  .vcmf .claim i{font-style:normal;color:#79E7E3}
- .stats{position:absolute;left:1348px;top:252px;width:476px;height:494px;text-align:left;box-sizing:border-box;padding:18px;background:linear-gradient(155deg,rgba(5,17,29,.9),rgba(8,30,43,.7));border:1px solid rgba(121,231,227,.24);border-radius:26px;box-shadow:0 28px 88px rgba(0,0,0,.38);backdrop-filter:blur(18px)}
- .stats:before{content:"CLINICAL RESULTS";display:block;margin:2px 4px 14px;font:850 17px ui-monospace;letter-spacing:2.4px;color:#79E7E3}
- .stats .row{display:flex;flex-direction:column;gap:10px}
- .stat{min-height:111px;box-sizing:border-box;background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.025));border:1px solid rgba(255,255,255,.11);border-radius:17px;padding:19px 21px;box-shadow:inset 0 1px 0 rgba(255,255,255,.04)}
- .stat b{display:block;font-size:34px;line-height:1;font-weight:780;letter-spacing:-.04em;color:#F7FAFC}
+ .stats{position:relative;height:132px;text-align:left;box-sizing:border-box;padding:14px 16px 14px 142px;background:linear-gradient(155deg,rgba(5,17,29,.97),rgba(8,30,43,.94));border:1px solid rgba(121,231,227,.24);border-radius:20px;box-shadow:0 24px 72px rgba(0,0,0,.34)}
+ .stats:before{content:"CLINICAL\A RESULTS";white-space:pre;position:absolute;left:22px;top:27px;font:850 15px/1.35 ui-monospace;letter-spacing:1.8px;color:#79E7E3}
+ .stats .row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;height:100%}
+ .stat{box-sizing:border-box;background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.025));border:1px solid rgba(255,255,255,.11);border-radius:14px;padding:17px 18px;box-shadow:inset 0 1px 0 rgba(255,255,255,.04)}
+ .stat b{display:block;font-size:29px;line-height:1;font-weight:780;letter-spacing:-.035em;color:#F7FAFC}
  .stat b em{font-style:normal;color:#79E7E3}
- .stat small{display:block;font:760 16px ui-monospace;letter-spacing:.8px;color:#C8D3DC;margin-top:10px}
- .stats .src{margin:15px 5px 0;font:14px/1.4 ui-monospace;letter-spacing:.35px;color:rgba(232,240,246,.82)}
+ .stat small{display:block;font:760 12px/1.25 ui-monospace;letter-spacing:.45px;color:#C8D3DC;margin-top:8px}
+ .stats .src{position:absolute;left:22px;bottom:22px;width:106px;font:10px/1.35 ui-monospace;letter-spacing:.2px;color:rgba(232,240,246,.76)}
  .impact{position:absolute;left:340px;top:735px;width:1240px;text-align:center;font-family:Georgia,"Times New Roman",serif;font-size:43px;line-height:1.2;font-weight:600;text-shadow:0 3px 22px rgba(0,0,0,.82)}
  .impact em{color:#00B4B4;font-style:normal}
  /* --- S5 routine steps --------------------------------------------------------------- */
@@ -43,16 +44,18 @@
 <main data-fd-composition data-fd-id="LaunchEdit" data-fd-name="Evolv28 — launch film" data-fd-width="1920" data-fd-height="1080" data-fd-fps="30" data-fd-duration="2100" data-fd-kind="edit" data-fd-source="src/compositions/LaunchEdit.html" data-fd-module="src/compositions/LaunchEdit.ts" data-fd-export="launchEditComp" data-fd-timeline-source="src/compositions/LaunchEdit.timeline.json"  >
 
 
- <div class="vcmf" data-fd-clip data-fd-id="vcmf-chip" data-fd-name="VCMF claim chip" data-fd-type="layers"><span class="eyebrow">Patented VCMF™</span><span class="claim">Under <i>1 μT</i> · no sensation · daytime wear</span></div>
-
- <div class="stats" data-fd-clip data-fd-id="stat-chips" data-fd-name="Trial stat chips" data-fd-type="layers">
-  <div class="row">
-   <div class="stat"><b>HRV <em>↑</em></b><small>HEART-RATE VARIABILITY</small></div>
-   <div class="stat"><b><em>−7.2</em> pts</b><small>INSOMNIA SEVERITY · ISI</small></div>
-   <div class="stat"><b><em>+45</em> min</b><small>MORE SLEEP · NIGHTLY</small></div>
+ <div class="vcmf" data-fd-clip data-fd-id="vcmf-chip" data-fd-name="Technology and clinical evidence rail" data-fd-type="layers">
+  <div class="technology"><span class="eyebrow">Patented Variable Complex Magnetic Fields (VCMF™)</span><span class="claim">Under <i>1 μT</i> · no sensation · daytime wear</span></div>
+  <div class="stats">
+   <div class="row">
+    <div class="stat"><b>HRV <em>↑</em></b><small>HEART-RATE VARIABILITY</small></div>
+    <div class="stat"><b><em>−7.2</em> pts</b><small>INSOMNIA SEVERITY · ISI</small></div>
+    <div class="stat"><b><em>+45</em> min</b><small>MORE SLEEP · NIGHTLY</small></div>
+   </div>
+   <div class="src">Peer-reviewed RCT · PMC10307909</div>
   </div>
-  <div class="src">Peer-reviewed RCT · PMC10307909</div>
  </div>
+
 
 
  <div class="steps" data-fd-clip data-fd-id="ritual-steps" data-fd-name="Routine steps" data-fd-type="layers">
