@@ -931,27 +931,73 @@
       ]
     },
     {
+      "id": "nested-fredrik-waveform",
+      "name": "FredrikWaveform",
+      "from": 1783,
+      "durationInFrames": 167,
+      "layer": 2,
+      "layout": {
+        "rect": [
+          1036,
+          820,
+          788,
+          120
+        ],
+        "shape": "rect",
+        "fit": "fill",
+        "cornerRadius": 0,
+        "opacity": 0.92
+      },
+      "content": {
+        "type": "nested",
+        "composition": "fredrik-waveform"
+      }
+    },
+    {
       "id": "nested-fredrik-eight-hours-after-four-weeks",
       "name": "FredrikEightHoursAfterFourWeeks",
       "from": 1783,
       "durationInFrames": 167,
-      "layer": 1,
+      "layer": 5,
       "layout": {
         "rect": [
-          96,
-          220,
-          840,
-          560
+          0,
+          0,
+          1920,
+          1080
         ],
+        "shape": "rect",
         "fit": "cover",
-        "cornerRadius": 28,
+        "cornerRadius": 0,
         "opacity": 1
       },
       "content": {
         "type": "nested",
         "composition": "fredrik-eight-hours-after-four-weeks"
+      }
+    },
+    {
+      "id": "fredrik-smile-portrait",
+      "name": "Fredrik smile portrait",
+      "from": 1783,
+      "durationInFrames": 167,
+      "layer": 1,
+      "layout": {
+        "rect": [
+          100,
+          140,
+          820,
+          800
+        ],
+        "shape": "rect",
+        "fit": "cover",
+        "cornerRadius": 36,
+        "opacity": 1
       },
-      "trimStart": 0,
+      "content": {
+        "type": "nested",
+        "composition": "fredrik-smile-portrait-clip"
+      },
       "effects": [
         {
           "type": "crop",

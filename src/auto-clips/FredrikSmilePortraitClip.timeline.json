@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "source",
+      "name": "Fredrik smile portrait",
+      "from": 0,
+      "durationInFrames": 2100,
+      "layer": 0,
+      "trimStart": 0,
+      "playbackRate": 1,
+      "volume": 1,
+      "muted": false,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "shape": "rect",
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "image",
+        "src": "asset://67eebcf2-1e60-4974-bd67-4b1786a9516f"
+      }
+    }
+  ]
+}

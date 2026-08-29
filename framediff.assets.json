@@ -5982,6 +5982,15 @@
         }
       ],
       "proxy": "sha256:5a7655d6c467647e7c98f147a2b3c1c5b963b0c30cdce0403bb4846357c70c81"
+    },
+    "67eebcf2-1e60-4974-bd67-4b1786a9516f": {
+      "name": "fredrik-smile423212.png",
+      "contentHash": "sha256:4239c075df68f8b749fa0e3bf2d37da3beb85ee356078be5d11fc4b68c3a26ed",
+      "mime": "image/png",
+      "bytes": 483097,
+      "sources": [
+        "/__framediff-cache/sha256%3A4239c075df68f8b749fa0e3bf2d37da3beb85ee356078be5d11fc4b68c3a26ed"
+      ]
     }
   }
 }

@@ -1,0 +1,96 @@
+{
+  "type": "object",
+  "properties": {
+    "source": {
+      "type": "object",
+      "title": "Audio source",
+      "properties": {
+        "ref": {
+          "type": "string",
+          "title": "Audio asset or composition",
+          "format": "asset"
+        },
+        "trimStart": {
+          "type": "number",
+          "title": "Source in point",
+          "minimum": 0,
+          "step": 0.01
+        }
+      }
+    },
+    "waveform": {
+      "type": "object",
+      "title": "Waveform",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "title": "Mode",
+          "enum": [
+            "line",
+            "bars",
+            "radial"
+          ]
+        },
+        "color": {
+          "type": "string",
+          "title": "Primary color",
+          "format": "color"
+        },
+        "accentColor": {
+          "type": "string",
+          "title": "Accent color",
+          "format": "color"
+        },
+        "background": {
+          "type": "string",
+          "title": "Background",
+          "format": "color"
+        },
+        "density": {
+          "type": "number",
+          "title": "Density",
+          "minimum": 12,
+          "maximum": 320,
+          "step": 1,
+          "x-ui": "slider"
+        },
+        "amplitude": {
+          "type": "number",
+          "title": "Amplitude",
+          "minimum": 0.05,
+          "maximum": 2,
+          "step": 0.05,
+          "x-ui": "slider"
+        },
+        "smoothing": {
+          "type": "number",
+          "title": "Smoothing",
+          "minimum": 0,
+          "maximum": 0.95,
+          "step": 0.05,
+          "x-ui": "slider"
+        },
+        "thickness": {
+          "type": "number",
+          "title": "Thickness",
+          "minimum": 1,
+          "maximum": 32,
+          "step": 1,
+          "x-ui": "slider"
+        },
+        "mirror": {
+          "type": "boolean",
+          "title": "Mirror"
+        },
+        "windowSeconds": {
+          "type": "number",
+          "title": "Visible audio window",
+          "minimum": 0.25,
+          "maximum": 30,
+          "step": 0.25,
+          "x-ui": "slider"
+        }
+      }
+    }
+  }
+}

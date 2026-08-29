@@ -1,0 +1,18 @@
+{
+  "source": {
+    "ref": "asset://004b2e65-a165-4d9e-a51b-e6f41a7ed5a1",
+    "trimStart": 421.212
+  },
+  "waveform": {
+    "mode": "bars",
+    "color": "#6de8d4",
+    "accentColor": "#d8b971",
+    "background": "transparent",
+    "density": 72,
+    "amplitude": 1.35,
+    "smoothing": 0.3,
+    "thickness": 7,
+    "mirror": true,
+    "windowSeconds": 2.5
+  }
+}

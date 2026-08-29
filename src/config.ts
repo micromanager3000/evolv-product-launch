@@ -41,6 +41,8 @@ import { selectsClip30735247Comp } from "./generated-clips/SelectsClip30735247";
 import { fredrikComp } from "./Fredrik";
 import { fredrikEightHoursAfterFourWeeksComp } from "./generated-clips/FredrikEightHoursAfterFourWeeks";
 import { selectsItsAGreatDeviceIComp } from "./generated-clips/SelectsItsAGreatDeviceI";
+import { fredrikWaveformComp } from "./FredrikWaveform";
+import { fredrikSmilePortraitClipComp } from "./auto-clips/FredrikSmilePortraitClip";
 
 /** The Studio registry. The first entry is also the runtime fallback; every other composition
  *  stays reachable from the project rail. */
@@ -81,6 +83,8 @@ export const COMPOSITIONS = defineCompositionRegistry({
   "fredrik": fredrikComp,
   "fredrik-eight-hours-after-four-weeks": fredrikEightHoursAfterFourWeeksComp,
   "selects-its-agreat-device-i": selectsItsAGreatDeviceIComp,
+  "fredrik-waveform": fredrikWaveformComp,
+  "fredrik-smile-portrait-clip": fredrikSmilePortraitClipComp,
 });
 
 /** The composition served at the project URL. */
