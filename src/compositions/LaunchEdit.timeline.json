@@ -934,7 +934,7 @@
       "id": "nested-fredrik-waveform",
       "name": "FredrikWaveform",
       "from": 1783,
-      "durationInFrames": 167,
+      "durationInFrames": 131,
       "layer": 2,
       "layout": {
         "rect": [
@@ -957,7 +957,7 @@
       "id": "nested-fredrik-eight-hours-after-four-weeks",
       "name": "FredrikEightHoursAfterFourWeeks",
       "from": 1783,
-      "durationInFrames": 167,
+      "durationInFrames": 131,
       "layer": 5,
       "layout": {
         "rect": [
@@ -980,7 +980,7 @@
       "id": "fredrik-smile-portrait",
       "name": "Fredrik smile portrait",
       "from": 1783,
-      "durationInFrames": 167,
+      "durationInFrames": 145,
       "layer": 1,
       "layout": {
         "rect": [
