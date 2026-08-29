@@ -301,7 +301,7 @@
       "id": "quote-fredrik",
       "name": "Sleep progress · Fredrik",
       "from": 1783,
-      "durationInFrames": 167,
+      "durationInFrames": 120,
       "layer": 3,
       "layout": {
         "rect": [
@@ -322,8 +322,8 @@
     {
       "id": "s7-endcard",
       "name": "S7 · end card",
-      "from": 1950,
-      "durationInFrames": 150,
+      "from": 1903,
+      "durationInFrames": 197,
       "layer": 0,
       "trimStart": 0,
       "layout": {
@@ -345,8 +345,8 @@
     {
       "id": "s7-logo",
       "name": "S7 · wordmark (real asset)",
-      "from": 1974,
-      "durationInFrames": 126,
+      "from": 1927,
+      "durationInFrames": 173,
       "layer": 2,
       "layout": {
         "rect": [
@@ -644,8 +644,8 @@
     {
       "id": "vo-close",
       "name": "VO · close",
-      "from": 1950,
-      "durationInFrames": 150,
+      "from": 1903,
+      "durationInFrames": 197,
       "layer": 0,
       "volume": 1,
       "content": {
@@ -934,7 +934,7 @@
       "id": "nested-fredrik-eight-hours-after-four-weeks",
       "name": "FredrikEightHoursAfterFourWeeks",
       "from": 1783,
-      "durationInFrames": 167,
+      "durationInFrames": 120,
       "layer": 4,
       "layout": {
         "rect": [

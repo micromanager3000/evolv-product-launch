@@ -5991,6 +5991,185 @@
       "sources": [
         "/__framediff-cache/sha256%3A4239c075df68f8b749fa0e3bf2d37da3beb85ee356078be5d11fc4b68c3a26ed"
       ]
+    },
+    "f48d53e1-721d-41b4-89f6-33b2ed32b581": {
+      "name": "devicePutOnI2V.take-54b1994a-b955-42db-9e4e-bbdbfb3638c2.mp4",
+      "contentHash": "sha256:6a06c122f4c98284e8cd979640c991cd51c2e2196cba8b4eb0cbd8d38b5ce43f",
+      "mime": "video/mp4",
+      "bytes": 758679,
+      "sources": [
+        "/__framediff-cache/sha256%3A6a06c122f4c98284e8cd979640c991cd51c2e2196cba8b4eb0cbd8d38b5ce43f"
+      ],
+      "durationSeconds": 4.041667,
+      "hasAudio": false,
+      "generator": {
+        "gen": "devicePutOnI2V",
+        "id": "54b1994a-b955-42db-9e4e-bbdbfb3638c2",
+        "recipeHash": "sha256:33e80f5379cfe6823905d0875b7580ee5db549ff96ccc5dec8ca1b91718af34d",
+        "endpoint": "bytedance/seedance-2.5/image-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.5",
+          "prompt": "@Image1 is the exact first frame and the sole visual authority. Create one continuous silent 4-second photoreal live-action shot, like restrained documentary footage captured on a locked 50mm camera. Keep the woman, room, hair, clothing, lighting, camera, framing, hands, and the complete Evolv28 exactly consistent with the first frame. For the first 0.35 seconds hold the source frame almost still. From 0.35 to 1.65 seconds she makes one slow, physically natural two-handed placement: both elbows lower together while both hands carry the entire rigid device as one solid object a short distance forward and down until it rests at the base of her neck. Her wrists stay neutral, all ten fingers remain anatomically stable with the same grip, and neither hand crosses, re-grips, flickers, or changes finger count. From 1.65 seconds to the end she releases pressure slightly and holds a calm settled pose with only imperceptible natural breathing. The device is a hard molded product and may move only by global translation and rotation; its opening, proportions, tip spacing, seams, blue accent, finish, and silhouette stay unchanged in every frame. Motion is slow, continuous, weighted, and real, with subtle natural motion blur and no speed ramp. Never reveal any part of her face. No deformation, bending, morphing, wobble, jitter, hand artifacts, extra fingers, extra limbs, floating contact, product redesign, invented lights, camera movement, cuts, text, or CGI sheen.",
+          "fps": 30,
+          "resolution": "1080p",
+          "duration": 4,
+          "aspect": "16:9",
+          "audio": false,
+          "refs": [
+            {
+              "kind": "image",
+              "src": "asset://evolv-put-on-rigid-slide-start"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "asset://evolv-put-on-rigid-slide-start",
+            "label": "evolv-put-on-rigid-slide-start.png",
+            "contentHash": "sha256:f94b41841a9686b16fb2cdb5bbdd4f87e17a6120cca5ba76ed07061a71874985"
+          }
+        ],
+        "requestId": "54b1994a-b955-42db-9e4e-bbdbfb3638c2",
+        "seed": 2000726226,
+        "outputKind": "video",
+        "at": "2026-08-29T21:10:50.958Z"
+      },
+      "representations": [
+        {
+          "profile": "proxy-360",
+          "contentHash": "sha256:aa23ddd1dc270da344d61cd8e35157f4ce01df5c407dc4b3fd2f535af05ad8dd",
+          "mime": "video/mp4",
+          "bytes": 145293,
+          "width": 640,
+          "height": 360,
+          "durationSeconds": 4.041667
+        },
+        {
+          "profile": "proxy-540",
+          "contentHash": "sha256:7cb3b8fc5aff40aa9102e081e9c086eab664539cf0c43f10c033361581f813ee",
+          "mime": "video/mp4",
+          "bytes": 252998,
+          "width": 960,
+          "height": 540,
+          "durationSeconds": 4.041667
+        },
+        {
+          "profile": "proxy-720",
+          "contentHash": "sha256:8b3f75b3e7300e73db63c1b8aaa19e88a0732c8765fda12425788a83d6f58b06",
+          "mime": "video/mp4",
+          "bytes": 388339,
+          "width": 1278,
+          "height": 720,
+          "durationSeconds": 4.041667
+        },
+        {
+          "profile": "poster",
+          "contentHash": "sha256:f82af09b48bfe690db7fb318c61fcd9cb578d2c022b3dc454d320bf805140ea0",
+          "mime": "image/jpeg",
+          "bytes": 47423,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "proxy": "sha256:8b3f75b3e7300e73db63c1b8aaa19e88a0732c8765fda12425788a83d6f58b06"
+    },
+    "93dd1972-2d80-450a-aeef-efb6070b7364": {
+      "name": "deviceWornI2V.take-d7d356c2-b08a-4e37-8685-162b7080dee3.mp4",
+      "contentHash": "sha256:f2bcdf438bb24221fb3f99a227041ddd20caefa58881e63cb2b073583cfc070b",
+      "mime": "video/mp4",
+      "bytes": 933428,
+      "sources": [
+        "/__framediff-cache/sha256%3Af2bcdf438bb24221fb3f99a227041ddd20caefa58881e63cb2b073583cfc070b"
+      ],
+      "durationSeconds": 5.041667,
+      "hasAudio": false,
+      "generator": {
+        "gen": "deviceWornI2V",
+        "id": "d7d356c2-b08a-4e37-8685-162b7080dee3",
+        "recipeHash": "sha256:d6e0b60fbc4d37e32e66a52b872355b6e1ea7abb4128fe534b548b76d84e63c9",
+        "endpoint": "bytedance/seedance-2.5/reference-to-video",
+        "recipe": {
+          "provider": "fal",
+          "output": "video",
+          "model": "seedance-2.5",
+          "prompt": "@Image1 is the exact first frame and primary visual authority; @Image2 is the hardware reference. Create one continuous silent 5-second photoreal live-action office shot with the calm observational realism of a locked 50mm documentary camera. The man remains seated and simply reads the monitor; his hands stay below the bottom edge of frame and do not type. Use only tiny human micro-motion: one natural breath through the shoulders and a very slight head inclination of less than two degrees, then stillness. Keep his neck, hairline, ears, sweater collar, shoulders, chair, monitor, desk, window light, and background pixel-consistent with the first frame. Keep the Evolv28 completely motionless and rigid against the base of his neck, with the same shape, scale, spacing, contact points, finish, blue accent, seams, and silhouette in every frame. The camera is locked with no push, pan, orbit, focus hunting, or exposure drift. Texture should feel like real 4K camera footage downsampled to 1080p: natural hair detail, woven fabric, restrained sensor grain, stable edges, soft daylight, and physically plausible motion blur only on the tiny head movement. Never reveal his face or reflection. No hand motion, typing, repeated gestures, body warping, product deformation, hair flicker, device motion, bending, morphing, jitter, extra limbs, text, cuts, or CGI sheen.",
+          "fps": 30,
+          "resolution": "1080p",
+          "duration": 5,
+          "aspect": "16:9",
+          "audio": false,
+          "refs": [
+            {
+              "kind": "image",
+              "src": "comp://deskStill"
+            },
+            {
+              "kind": "image",
+              "src": "asset://evolv-device-hero-photo"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "kind": "image",
+            "src": "/__framediff-cache/sha256%3A70ed27df422005f4030aa753e1132a3ca3f7815cad9a3dca83f4a0af43ea1773",
+            "authoredSrc": "comp://deskStill",
+            "label": "deskStill",
+            "contentHash": "sha256:70ed27df422005f4030aa753e1132a3ca3f7815cad9a3dca83f4a0af43ea1773"
+          },
+          {
+            "kind": "image",
+            "src": "asset://evolv-device-hero-photo",
+            "label": "evolv-device-hero-photo.jpg",
+            "contentHash": "sha256:bfb9ab8f716c2eca9fa0ade56f44f3cf71682a1b04ea646920ebb2198f72a5b9"
+          }
+        ],
+        "requestId": "d7d356c2-b08a-4e37-8685-162b7080dee3",
+        "seed": 2022968136,
+        "outputKind": "video",
+        "at": "2026-08-29T21:10:54.740Z"
+      },
+      "representations": [
+        {
+          "profile": "proxy-360",
+          "contentHash": "sha256:ca0e147b1a8008845d9ea69808c5374121d4d76fed3b7d48ebd6f56f151a8d54",
+          "mime": "video/mp4",
+          "bytes": 115943,
+          "width": 640,
+          "height": 360,
+          "durationSeconds": 5.041667
+        },
+        {
+          "profile": "proxy-540",
+          "contentHash": "sha256:65a857d0eb026505292d07d3071d3474e83cb6f845749c60e330e4cb7e35d264",
+          "mime": "video/mp4",
+          "bytes": 215178,
+          "width": 960,
+          "height": 540,
+          "durationSeconds": 5.041667
+        },
+        {
+          "profile": "proxy-720",
+          "contentHash": "sha256:5ab869a8b92b001ea75a6809a99e3250025fdc90f6e9fc7b2aad2d87abd4d11a",
+          "mime": "video/mp4",
+          "bytes": 342438,
+          "width": 1280,
+          "height": 720,
+          "durationSeconds": 5.041667
+        },
+        {
+          "profile": "poster",
+          "contentHash": "sha256:0597c17b00f6520a860b1d4c4b373cefe6ad577f56b74df61cb119ef845e6dce",
+          "mime": "image/jpeg",
+          "bytes": 71856,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "proxy": "sha256:5ab869a8b92b001ea75a6809a99e3250025fdc90f6e9fc7b2aad2d87abd4d11a"
     }
   }
 }

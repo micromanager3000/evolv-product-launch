@@ -4617,6 +4617,109 @@
       ],
       "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.",
       "doneAt": "2026-08-29T20:37:51.378Z"
+    },
+    {
+      "id": "54b1994a-b955-42db-9e4e-bbdbfb3638c2",
+      "provider": "fal",
+      "gen": "devicePutOnI2V",
+      "endpoint": "bytedance/seedance-2.5/image-to-video",
+      "recipeHash": "sha256:33e80f5379cfe6823905d0875b7580ee5db549ff96ccc5dec8ca1b91718af34d",
+      "status": "done",
+      "stage": "done",
+      "at": "2026-08-29T21:10:50.958Z",
+      "updatedAt": "2026-08-29T21:13:37.628Z",
+      "recipe": {
+        "provider": "fal",
+        "output": "video",
+        "model": "seedance-2.5",
+        "prompt": "@Image1 is the exact first frame and the sole visual authority. Create one continuous silent 4-second photoreal live-action shot, like restrained documentary footage captured on a locked 50mm camera. Keep the woman, room, hair, clothing, lighting, camera, framing, hands, and the complete Evolv28 exactly consistent with the first frame. For the first 0.35 seconds hold the source frame almost still. From 0.35 to 1.65 seconds she makes one slow, physically natural two-handed placement: both elbows lower together while both hands carry the entire rigid device as one solid object a short distance forward and down until it rests at the base of her neck. Her wrists stay neutral, all ten fingers remain anatomically stable with the same grip, and neither hand crosses, re-grips, flickers, or changes finger count. From 1.65 seconds to the end she releases pressure slightly and holds a calm settled pose with only imperceptible natural breathing. The device is a hard molded product and may move only by global translation and rotation; its opening, proportions, tip spacing, seams, blue accent, finish, and silhouette stay unchanged in every frame. Motion is slow, continuous, weighted, and real, with subtle natural motion blur and no speed ramp. Never reveal any part of her face. No deformation, bending, morphing, wobble, jitter, hand artifacts, extra fingers, extra limbs, floating contact, product redesign, invented lights, camera movement, cuts, text, or CGI sheen.",
+        "fps": 30,
+        "resolution": "1080p",
+        "duration": 4,
+        "aspect": "16:9",
+        "audio": false,
+        "refs": [
+          {
+            "kind": "image",
+            "src": "asset://evolv-put-on-rigid-slide-start"
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "kind": "image",
+          "src": "asset://evolv-put-on-rigid-slide-start",
+          "label": "evolv-put-on-rigid-slide-start.png",
+          "contentHash": "sha256:f94b41841a9686b16fb2cdb5bbdd4f87e17a6120cca5ba76ed07061a71874985"
+        }
+      ],
+      "providerJobId": "01a04f5c-6ea4-7d22-96c0-ea1bd557babc",
+      "statusUrl": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a04f5c-6ea4-7d22-96c0-ea1bd557babc/status",
+      "responseUrl": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a04f5c-6ea4-7d22-96c0-ea1bd557babc",
+      "providerAcceptedAt": "2026-08-29T21:10:52.816Z",
+      "providerCompletedAt": "2026-08-29T21:13:36.916Z",
+      "assetId": "f48d53e1-721d-41b4-89f6-33b2ed32b581",
+      "seed": 2000726226,
+      "outputKind": "video",
+      "ingestedAt": "2026-08-29T21:13:37.628Z",
+      "doneAt": "2026-08-29T21:13:37.628Z"
+    },
+    {
+      "id": "d7d356c2-b08a-4e37-8685-162b7080dee3",
+      "provider": "fal",
+      "gen": "deviceWornI2V",
+      "endpoint": "bytedance/seedance-2.5/reference-to-video",
+      "recipeHash": "sha256:d6e0b60fbc4d37e32e66a52b872355b6e1ea7abb4128fe534b548b76d84e63c9",
+      "status": "done",
+      "stage": "done",
+      "at": "2026-08-29T21:10:54.740Z",
+      "updatedAt": "2026-08-29T21:14:23.550Z",
+      "recipe": {
+        "provider": "fal",
+        "output": "video",
+        "model": "seedance-2.5",
+        "prompt": "@Image1 is the exact first frame and primary visual authority; @Image2 is the hardware reference. Create one continuous silent 5-second photoreal live-action office shot with the calm observational realism of a locked 50mm documentary camera. The man remains seated and simply reads the monitor; his hands stay below the bottom edge of frame and do not type. Use only tiny human micro-motion: one natural breath through the shoulders and a very slight head inclination of less than two degrees, then stillness. Keep his neck, hairline, ears, sweater collar, shoulders, chair, monitor, desk, window light, and background pixel-consistent with the first frame. Keep the Evolv28 completely motionless and rigid against the base of his neck, with the same shape, scale, spacing, contact points, finish, blue accent, seams, and silhouette in every frame. The camera is locked with no push, pan, orbit, focus hunting, or exposure drift. Texture should feel like real 4K camera footage downsampled to 1080p: natural hair detail, woven fabric, restrained sensor grain, stable edges, soft daylight, and physically plausible motion blur only on the tiny head movement. Never reveal his face or reflection. No hand motion, typing, repeated gestures, body warping, product deformation, hair flicker, device motion, bending, morphing, jitter, extra limbs, text, cuts, or CGI sheen.",
+        "fps": 30,
+        "resolution": "1080p",
+        "duration": 5,
+        "aspect": "16:9",
+        "audio": false,
+        "refs": [
+          {
+            "kind": "image",
+            "src": "comp://deskStill"
+          },
+          {
+            "kind": "image",
+            "src": "asset://evolv-device-hero-photo"
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "kind": "image",
+          "src": "/__framediff-cache/sha256%3A70ed27df422005f4030aa753e1132a3ca3f7815cad9a3dca83f4a0af43ea1773",
+          "authoredSrc": "comp://deskStill",
+          "label": "deskStill",
+          "contentHash": "sha256:70ed27df422005f4030aa753e1132a3ca3f7815cad9a3dca83f4a0af43ea1773"
+        },
+        {
+          "kind": "image",
+          "src": "asset://evolv-device-hero-photo",
+          "label": "evolv-device-hero-photo.jpg",
+          "contentHash": "sha256:bfb9ab8f716c2eca9fa0ade56f44f3cf71682a1b04ea646920ebb2198f72a5b9"
+        }
+      ],
+      "providerJobId": "01a04f5c-81d7-79c2-b3c2-a5ceafa0f4dc",
+      "statusUrl": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a04f5c-81d7-79c2-b3c2-a5ceafa0f4dc/status",
+      "responseUrl": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a04f5c-81d7-79c2-b3c2-a5ceafa0f4dc",
+      "providerAcceptedAt": "2026-08-29T21:10:57.729Z",
+      "providerCompletedAt": "2026-08-29T21:14:22.948Z",
+      "assetId": "93dd1972-2d80-450a-aeef-efb6070b7364",
+      "seed": 2022968136,
+      "outputKind": "video",
+      "ingestedAt": "2026-08-29T21:14:23.550Z",
+      "doneAt": "2026-08-29T21:14:23.550Z"
     }
   ]
 }
