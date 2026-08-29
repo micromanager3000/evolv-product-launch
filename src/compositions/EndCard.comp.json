@@ -1,1 +1,11 @@
-{"version":1,"tagline":{"lead":"Calm, ","accent":"by design."},"cta":"GET YOURS TODAY","site":"EVOLV28.COM · THE INSOMNIA INTELLIGENCE COMPANY","timing":{"pack":0,"tagline":24,"cta":56,"site":76}}
+{
+  "version": 1,
+  "tagline": {
+    "lead": "Calm ",
+    "accent": "by design"
+  },
+  "timing": {
+    "pack": 0,
+    "tagline": 22
+  }
+}

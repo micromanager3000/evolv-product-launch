@@ -350,10 +350,10 @@
       "layer": 2,
       "layout": {
         "rect": [
-          96,
-          206,
-          640,
-          149
+          720,
+          54,
+          480,
+          112
         ],
         "fit": "contain",
         "cornerRadius": 0,
