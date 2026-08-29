@@ -4,5 +4,6 @@ build/
 .framediff/
 .framediff-cache/
 framediff-cache/
+assets/.framediff-media-diag.ndjson
 out/
 .DS_Store

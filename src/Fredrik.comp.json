@@ -49206,7 +49206,64 @@
         421.212,
         426.778667
       ],
-      "mediaMode": "audio"
+      "mediaMode": "av"
+    },
+    {
+      "id": "clip-its-not-just-that-i",
+      "name": "it's not just that I",
+      "compositionKey": "fredrik-its-not-just-that-i",
+      "placementId": "source",
+      "selectedWordIds": [
+        "word-02501",
+        "word-02503",
+        "word-02505",
+        "word-02507",
+        "word-02509",
+        "word-02511",
+        "word-02513",
+        "word-02515",
+        "word-02517",
+        "word-02519",
+        "word-02521",
+        "word-02523",
+        "word-02525",
+        "word-02527",
+        "word-02529",
+        "word-02531",
+        "word-02533",
+        "word-02535",
+        "word-02537",
+        "word-02539",
+        "word-02541",
+        "word-02543",
+        "word-02545",
+        "word-02547",
+        "word-02549",
+        "word-02551",
+        "word-02553",
+        "word-02555",
+        "word-02557",
+        "word-02559",
+        "word-02561",
+        "word-02563",
+        "word-02565"
+      ],
+      "transcriptTakeId": "transcript-take-1",
+      "originalRange": [
+        489.952,
+        506.632
+      ],
+      "workingRange": [
+        489.952,
+        506.632
+      ],
+      "desiredBake": {
+        "version": 1,
+        "fingerprint": "clip-v1:004b2e65-a165-4d9e-a51b-e6f41a7ed5a1:489.952:506.632:30:1920:1080",
+        "fps": 30,
+        "width": 1920,
+        "height": 1080
+      }
     }
   ],
   "transcriptTakes": [

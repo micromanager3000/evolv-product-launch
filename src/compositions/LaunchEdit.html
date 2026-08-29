@@ -26,25 +26,16 @@
  .step{display:flex;align-items:center;gap:16px;min-width:330px;box-sizing:border-box;background:linear-gradient(135deg,rgba(7,20,31,.94),rgba(13,27,42,.82));border:1px solid rgba(121,231,227,.28);border-radius:17px;padding:17px 22px;font-size:25px;font-weight:740;box-shadow:0 16px 40px rgba(0,0,0,.3);backdrop-filter:blur(14px);opacity:0}
  .step i{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:rgba(121,231,227,.14);font:850 14px ui-monospace;color:#79E7E3;font-style:normal}
  /* --- S6 testimonial cards ----------------------------------------------------------- */
- .quote{position:absolute;left:1036px;top:220px;width:788px;height:560px;box-sizing:border-box;padding:40px 42px;background:linear-gradient(145deg,rgba(6,20,33,.98),rgba(11,35,48,.94));border:1px solid rgba(121,231,227,.24);border-radius:28px;box-shadow:0 28px 96px rgba(0,0,0,.42);backdrop-filter:blur(18px)}
- .quote .proof{font:850 20px ui-monospace;letter-spacing:1.8px;color:#79E7E3;text-transform:uppercase}
- .quote .who{margin-top:14px;font-size:40px;line-height:1.05;font-weight:780;letter-spacing:-.03em;color:#F7FAFC}
- .quote .role{display:inline-flex;margin-top:11px;padding:9px 14px;border-radius:999px;background:rgba(121,231,227,.09);border:1px solid rgba(121,231,227,.22);font:780 18px ui-monospace;line-height:1.25;letter-spacing:.45px;color:#D7FAF7;text-transform:uppercase}
- .quote .spoken{max-width:650px;margin:19px 0 0;padding:0;border:0;font:600 27px/1.24 Georgia,"Times New Roman",serif;letter-spacing:-.012em;color:#F7FAFC}
- .quote .spoken em{font-style:normal;color:#79E7E3}
- .sleep-label{margin-top:23px;font:820 18px ui-monospace;letter-spacing:1.2px;color:#C6D0D8;text-transform:uppercase}
- .quote.fredrik .sleep-label{margin-top:20px}
- .sleep-change{display:grid;grid-template-columns:1fr 54px 1fr;align-items:center;gap:10px;margin-top:12px}
- .sleep-point{min-height:126px;box-sizing:border-box;padding:20px;border-radius:18px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.09)}
+ .quote{position:absolute;left:1036px;top:220px;width:788px;height:560px;box-sizing:border-box;padding:54px 50px;background:linear-gradient(145deg,rgba(6,20,33,.98),rgba(11,35,48,.94));border:1px solid rgba(121,231,227,.28);border-radius:28px;box-shadow:0 28px 96px rgba(0,0,0,.42);backdrop-filter:blur(18px)}
+ .quote .who{font-size:52px;line-height:1;font-weight:790;letter-spacing:-.04em;color:#F7FAFC}
+ .quote .role{display:block;margin-top:18px;font:760 21px/1.35 ui-monospace;letter-spacing:.25px;color:#BFEDEA}
+ .sleep-change{display:grid;grid-template-columns:1fr 54px 1fr;align-items:center;gap:12px;margin-top:44px}
+ .sleep-point{min-height:168px;box-sizing:border-box;padding:24px;border-radius:20px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.1)}
  .sleep-point.after{background:linear-gradient(145deg,rgba(0,180,180,.18),rgba(121,231,227,.055));border-color:rgba(121,231,227,.3)}
- .sleep-point span{display:block;font:800 17px ui-monospace;letter-spacing:.9px;color:#B9C5CF;text-transform:uppercase}
- .sleep-point strong{display:block;margin-top:10px;font-size:38px;line-height:1;font-weight:790;letter-spacing:-.045em;color:#F7FAFC}
+ .sleep-point span{display:block;font:820 18px ui-monospace;letter-spacing:1.2px;color:#B9C5CF;text-transform:uppercase}
+ .sleep-point strong{display:block;margin-top:18px;font-size:52px;line-height:1;font-weight:790;letter-spacing:-.05em;color:#F7FAFC}
  .sleep-point.after strong{color:#79E7E3}
- .sleep-point small{display:block;margin-top:8px;font-size:18px;color:#C5D0D8}
- .sleep-arrow{font-size:34px;text-align:center;color:#79E7E3}
- .milestones{display:flex;gap:9px;margin-top:18px}
- .milestones span{padding:9px 12px;border-radius:11px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.08);font:750 16px ui-monospace;letter-spacing:.3px;color:#D3DCE3;text-transform:uppercase}
- .quote .source-note{display:none}
+ .sleep-arrow{font-size:42px;text-align:center;color:#79E7E3}
 </style></head><body>
 <!-- The film itself: every visual is a timeline item (nested gen clips, authored overlay
      comps, real testimonial videos, the wordmark). This HTML carries only the in-film
@@ -71,24 +62,15 @@
 
 
  <div class="quote" data-fd-clip data-fd-id="quote-valerie" data-fd-name="Sleep progress · Valerie" data-fd-type="layers">
-  <div class="proof">Real sleep progress</div>
   <div class="who">Valerie Cartonio</div>
-  <div class="role">Lifelong insomnia · symptoms since age 7</div>
-  <div class="sleep-label">Average nightly sleep</div>
-  <div class="sleep-change"><div class="sleep-point"><span>Before</span><strong>4h 27m</strong><small>17-week average</small></div><div class="sleep-arrow">→</div><div class="sleep-point after"><span>Now</span><strong>7+ hrs</strong><small>sometimes 8 hours</small></div></div>
-  <div class="milestones"><span>6 hours by night 3</span><span>progressively better</span></div>
-  <div class="source-note">Transcript-grounded testimonial · exact interview audio</div>
+  <div class="role">Lifelong insomnia since age 7</div>
+  <div class="sleep-change"><div class="sleep-point"><span>Before</span><strong>4h 27m</strong></div><div class="sleep-arrow">→</div><div class="sleep-point after"><span>After</span><strong>7+ hrs</strong></div></div>
  </div>
 
  <div class="quote fredrik" data-fd-clip data-fd-id="quote-fredrik" data-fd-name="Sleep progress · Fredrik" data-fd-type="layers">
-  <div class="proof">Real sleep progress</div>
   <div class="who">Fredrik Regnell</div>
-  <div class="role">Chronic insomnia · 2 years</div>
-  <blockquote class="spoken">“After four weeks, I sleep <em>eight hours.</em>”</blockquote>
-  <div class="sleep-label">Continuous nightly sleep</div>
-  <div class="sleep-change"><div class="sleep-point"><span>Before</span><strong>~4 hrs</strong><small>woke and could not return</small></div><div class="sleep-arrow">→</div><div class="sleep-point after"><span>Week 4</span><strong>8 hrs</strong><small>full-night sleep</small></div></div>
-  <div class="milestones"><span>6 hours at week 3</span><span>8 hours at week 4</span></div>
-  <div class="source-note">Transcript-grounded testimonial · exact interview audio</div>
+  <div class="role">Chronic insomnia for 2 years</div>
+  <div class="sleep-change"><div class="sleep-point"><span>Before</span><strong>~4 hrs</strong></div><div class="sleep-arrow">→</div><div class="sleep-point after"><span>After</span><strong>8 hrs</strong></div></div>
  </div>
 
  <script>
