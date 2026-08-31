@@ -676,7 +676,7 @@
       "volume": 0.16,
       "content": {
         "type": "audio",
-        "src": "asset://music-violins"
+        "src": "asset://music-violins-clean-tail"
       },
       "layout": {
         "rect": [

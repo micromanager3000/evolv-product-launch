@@ -2780,6 +2780,15 @@
         "/__framediff-cache/sha256%3A093c2a9275c901c9e0506ed914679b23cf1aec8bdfaa16fa600c9e22ff5e0685"
       ]
     },
+    "music-violins-clean-tail": {
+      "name": "music-violins-clean-tail.wav",
+      "contentHash": "sha256:fffb1afe59352dc677210c83ea9b8f2daf4ede73c7f74569c0dd2c6a35ff72e5",
+      "mime": "audio/wav",
+      "bytes": 10848740,
+      "sources": [
+        "/__framediff-cache/sha256%3Afffb1afe59352dc677210c83ea9b8f2daf4ede73c7f74569c0dd2c6a35ff72e5"
+      ]
+    },
     "sfx-slack": {
       "name": "sfx-slack.wav",
       "contentHash": "sha256:329994073cbeda456a4ed530e98e06b43452bdb1fcaa6ee28086f1ac3f193852",
