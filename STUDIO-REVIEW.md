@@ -1,7 +1,7 @@
 # Studio responsiveness and Hyperframes review
 
-This review branch pins public FrameDiff to
-`2526b39c27c5e6126f88bc3e09b4cbde9fe38835`.
+This project pins public FrameDiff to
+`02823d2f703d68b7cb4ea707e936bfd8cd58c6c7`.
 The existing LaunchEdit film is unchanged. Two independent compositions provide
 a small place to try the candidate.
 
@@ -65,4 +65,5 @@ npm run build
 npm run check:bundles
 ```
 
-The engine and consumer pull requests remain unmerged for prototype review.
+The prototype review is approved. The pin includes the current recording
+composition support and regression coverage for Inspector timing synchronization.
