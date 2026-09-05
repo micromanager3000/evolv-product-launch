@@ -5,6 +5,7 @@ export default {
   kit: {
     adapter: adapter({ fallback: "index.html" }),
     alias: {
+      "@framediff/hyperframes": "node_modules/framediff-monorepo/packages/hyperframes/src/index.ts",
       "framediff/three": "node_modules/framediff-monorepo/packages/framediff/src/three/index.ts",
       "framediff/studio-runtime": "node_modules/framediff-monorepo/packages/framediff/src/studio-runtime/runtime.ts",
       "@framediff/studio-model": "node_modules/framediff-monorepo/packages/studio-model/src/index.ts",

@@ -1,0 +1,12 @@
+{
+  "title": {
+    "text": "Drag this shape. Trim its clip.",
+    "color": "#f7f3e8",
+    "x": 160,
+    "y": 860,
+    "width": 1600,
+    "fontSize": 64,
+    "textAlign": "left",
+    "opacity": 1
+  }
+}

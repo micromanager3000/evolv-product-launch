@@ -6,6 +6,7 @@ import { fileURLToPath, URL } from "node:url";
 // dependency on the public monorepo (package.json → framediff-monorepo), so the plugin
 // and every alias below reach into node_modules/framediff-monorepo.
 import { framediffDev } from "./node_modules/framediff-monorepo/packages/framediff/vite-plugin.ts";
+import { hyperframes } from "./node_modules/framediff-monorepo/packages/hyperframes/src/vite.ts";
 
 const pkg = (path: string) => fileURLToPath(new URL(`./node_modules/framediff-monorepo/packages/${path}`, import.meta.url));
 
@@ -13,11 +14,12 @@ const pkg = (path: string) => fileURLToPath(new URL(`./node_modules/framediff-mo
 // of this app's module graph. Exact-match aliases (regex) so subpaths like "framediff/three"
 // resolve independently instead of being prefix-rewritten under src/index.ts.
 export default defineConfig({
-  plugins: [sveltekit(), framediffDev()],
+  plugins: [sveltekit(), framediffDev(), hyperframes()],
   server: { watch: { ignored: ["**/.svelte-kit/**", "**/build/**"] } },
   resolve: {
     dedupe: ["svelte"],
     alias: [
+      { find: /^@framediff\/hyperframes$/, replacement: pkg("hyperframes/src/index.ts") },
       { find: /^framediff$/, replacement: pkg("framediff/src/index.ts") },
       { find: /^framediff\/three$/, replacement: pkg("framediff/src/three/index.ts") },
       { find: /^framediff\/studio-runtime$/, replacement: pkg("framediff/src/studio-runtime/runtime.ts") },
