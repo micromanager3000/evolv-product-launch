@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "title",
+      "from": 0,
+      "durationInFrames": 150,
+      "layer": 0
+    },
+    {
+      "id": "nested-studio-motion-lab",
+      "name": "StudioMotionLab",
+      "from": 0,
+      "durationInFrames": 150,
+      "layer": 1,
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "shape": "rect",
+        "fit": "cover",
+        "cornerRadius": 0,
+        "opacity": 1
+      },
+      "content": {
+        "type": "nested",
+        "composition": "studio-motion-lab"
+      }
+    },
+    {
+      "id": "rectangle-shape",
+      "name": "Rectangle shape",
+      "from": 15,
+      "durationInFrames": 135,
+      "layer": 2,
+      "layout": {
+        "rect": [
+          557,
+          335,
+          806,
+          410
+        ],
+        "fit": "fill",
+        "cornerRadius": 20,
+        "opacity": 1
+      },
+      "content": {
+        "type": "shape",
+        "shape": "rect",
+        "fill": "#f0b969",
+        "stroke": "#f0b969",
+        "strokeWidth": 2
+      }
+    }
+  ]
+}

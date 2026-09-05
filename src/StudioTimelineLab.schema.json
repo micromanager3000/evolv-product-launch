@@ -1,0 +1,57 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "object",
+      "title": "Title",
+      "properties": {
+        "text": {
+          "type": "string",
+          "title": "Text"
+        },
+        "x": {
+          "type": "number",
+          "title": "X"
+        },
+        "y": {
+          "type": "number",
+          "title": "Y"
+        },
+        "width": {
+          "type": "number",
+          "title": "Width",
+          "minimum": 80
+        },
+        "fontSize": {
+          "type": "number",
+          "title": "Font size",
+          "minimum": 8,
+          "maximum": 240,
+          "x-ui": "slider"
+        },
+        "color": {
+          "type": "string",
+          "title": "Color",
+          "format": "color"
+        },
+        "textAlign": {
+          "type": "string",
+          "title": "Align",
+          "enum": [
+            "left",
+            "center",
+            "right"
+          ]
+        },
+        "opacity": {
+          "type": "number",
+          "title": "Opacity",
+          "minimum": 0,
+          "maximum": 1,
+          "step": 0.01,
+          "x-ui": "slider"
+        }
+      }
+    }
+  }
+}
