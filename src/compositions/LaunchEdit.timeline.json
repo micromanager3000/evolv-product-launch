@@ -166,8 +166,8 @@
     {
       "id": "vcmf-chip",
       "name": "Technology and clinical evidence rail",
-      "from": 1050,
-      "durationInFrames": 360,
+      "from": 1026,
+      "durationInFrames": 384,
       "layer": 3,
       "layout": {
         "rect": [
